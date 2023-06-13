@@ -15,6 +15,12 @@
     visibility: hidden;
   }
   
+  /* Header */
+  /* Hide right side of header buttons */
+  #head div.r {
+    display: none;
+  }
+  
   /* All pages */
   /* Hide delete button */
   .cp__all_pages .actions .actions-wrap {
