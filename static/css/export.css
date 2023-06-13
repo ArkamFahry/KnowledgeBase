@@ -1,0 +1,69 @@
+/* Import custom theme */
+/* Dracula theme import  */
+@import url('https://cdn.jsdelivr.net/gh/dracula/logseq@master/custom.css');
+
+/* Hide things that aren't very useful for a read-only view */
+
+/* Title */
+/* Make title non-editable */
+#main-container .page-title {
+    pointer-events: none;
+  }
+  /* hide warnings */
+  .warning {
+    display: none;
+    visibility: hidden;
+  }
+  
+  /* Header */
+  /* Hide right side of header buttons */
+  #head div.r {
+    display: none;
+  }
+  
+  /* All pages */
+  /* Hide delete button */
+  .cp__all_pages .actions .actions-wrap {
+    display: none;
+  }
+
+  /* Fix search bar spacing */
+  .cp__all_pages .actions .search-wrap {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  /* Image */
+  /* Remove delete button */
+  a.delete {
+    display: none;
+  }
+  /* Disable resizing */
+  .resize {
+    resize: none;
+  }
+  
+  /* Hide graph settings */
+  .graph-filters {
+    display: none;
+  }
+  
+  /* Hide recent pages */
+  .nav-content-item.recent {
+    display: none;
+  }
+  
+  /* Hide context menu (mostly ineffective) */
+  #custom-context-menu {
+    display: none;
+  }
+  
+  /* Disable dragging of blocks */
+  .ls-block > div > div > a:not(.block-control) {
+    pointer-events: none;
+  }
+  
+  /* Remove superfluous spacing on block embeds in Firefox */
+  .block-content.inline {
+    white-space: revert;
+  }
