@@ -10,6 +10,7 @@
 		- Zettelkasten means "Slip Box" method.
 		- This highly effective knowledge management methodology originated from [Conrad Gessner](https://en.wikipedia.org/wiki/Conrad_Gessner) a Swiss scientist from 1500s.
 		- Modern researchers like [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann) who wrote [400 research articles and over 70 books](https://scholar.google.com/scholar?start=0&q=author:Niklas+author:Luhmann), continues to prove the viability and efficiency of this methodology. His Zettelkasten had a mindboggling 90,000 index cards which were built up over 40 years. This is just one such example of Zettelkasten, or Second Brain which has given near superhuman capability to researchers.
+		  id:: 64892712-6b5a-4775-869f-011609fe9031
 		- ### The philosophy behind the Zettelkasten
 			- The method involves building a set of networked and connected notes, linking ideas, thoughts, and information, which tries to mimic how the human brain functions.
 			- At the core of the Zettelkasten philosophy assumes better organization, better note recall, and improved processes for idea generation help drive productivity.

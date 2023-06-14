@@ -413,5 +413,5 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :feature/enable-journals? true
- :default-home {:page "Home" :sidebar "contents"}
+ :default-home {:page "Home"}
  :publishing/all-pages-public? true}

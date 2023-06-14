@@ -2,4 +2,4 @@
 	- I am Arkam and welcome to my knowledge base
 -
 - # Feed
-	- {{embed [[Zettelkasten]]}}
+	- {{embed ((648852a0-d63b-4064-a8e5-20d8ee1acf7c))}}
