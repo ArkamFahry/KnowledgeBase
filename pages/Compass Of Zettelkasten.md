@@ -1,6 +1,6 @@
 - # The Compass Of Zettelkasten: Effective Way To Navigate The Sea Of Connection
 	- ## Let's Plot the Sea of Connections
-		- The Compass Of Zettelkasten is a basic idea. Let's take some [[Atomic Notes]] and take one idea from the middle and we have to think is four directions
+		- The Compass Of Zettelkasten is a basic idea. Take some [[Atomic Notes]] and take one idea from the middle and have to think in four directions
 			- **North**
 				- Where does the idea come from
 			- **West**
