@@ -1,0 +1,20 @@
+- # Atomic Notes: The Fix For Illusion Of Competence
+	- ## What is Illusion Of Competence
+		- We read a cool book underline key points and highlight the important parts. Then an hour or two later we try to explain it to someone but then there will be a long pause. Then it will be like I don't remember what I studied. This can be called the illusion of competence. This means it gives us the illusion of we are learning something but our brain is just relaxing and wandering around.
+		- I personally have this problem. So this is my journey to fix that problem.
+	- ### What are Atomic Notes (Smart Notes)
+		- Let's put it simply these notes are Smart. The simple cure for the Illusion Of Competence
+		- People like [[Leonardo da Vinci]], Niklas Luhmann and other smart people in history have used these types of notes in there research.
+		- ### What makes these Notes Smart
+			- **These notes are active**
+				- These notes are not like highlights or underline which I would like to categorize as passive techniques. In a smart note you will be actively restructuring other peoples thoughts into our own structure.
+					- If you don't have your own structure you can use the [[QEC Method]]
+			- **Smart notes are ATOMIC**
+				- Let's get the problem you face when you write a huge note like point by point in order. The note is structured chronologically which means they will be in order if you forget one point in that order everything falls apart.
+				- The ATOMIC note leaves the long standing dogma of large notes and makes each idea into a single note. Because of this separation of concern's you can think up, down and diagonally in any way possible because there is no order.
+				- If you are using the [[QEC Method]] create a note for each Question, Evidence and Conlusion
+			- **Smart notes are Connected**
+				- Now we have already connected our ideas with the [[QEC Method]]. Now will be connecting these new ideas with our existing ideas this will combat the Illusion Of Competence by latching the new idea with the existing idea.
+					- But how to connect these ideas you can use the [[Compass Of Zettelkasten]]
+	- ## Word of advice
+		- There are no hard and fast rule for smart note taking. So the best method is the one that suits you well

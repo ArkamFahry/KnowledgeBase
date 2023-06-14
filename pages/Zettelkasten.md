@@ -16,7 +16,7 @@
 			  a Zettelkasten which will negate all the complexity of a physical system.
 	- ### Foundational concepts of Zettelkasten
 		- **Notes contain discrete pieces of information**
-			- One note per topic or thought. This structure the note cleanly and limits the information to a few sentence or paragraph.
+			- One note per topic or thought. This structure the note cleanly and limits the information to a few sentence or paragraph. The notes should be a [[Atomic Notes]].
 		- **Notes are organized by location and there are no categories**
 			- This is quite nuanced. With a physical Zettelkasten, categorizing a topic is a nightmare, because a single note could belong to multiple categories. Let's say "Toyota Supra 2JZ 1998" This can belong to Sports cars and Toyota cars this would be a pain to categorize in a physical Zettelkasten, But in modern Zettelkasten they can be arranged with tags and links to multiple categorize at once.
 		- **Notes have clear, unique titles**

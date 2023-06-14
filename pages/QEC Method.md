@@ -1,0 +1,11 @@
+- # Question, Evidence And Conclusion Method For Note Taking
+	- This is method coined by PROF. Cal Newport
+	- ## How does QEC work
+		- When your reading you need to look for three things Question, Evidence and Conclusion.
+		- No matter what your reading or what form the author puts there idea in you can find the above three things and link them together.
+		- According to PROF. Cal Newport there is a way to identify the above three
+			- Evidence
+				- For Evidence and Examples you put a ``-`` next to it.
+			- Conclusion
+				- For Conclusion you put a dot  ``.``  next to it.
+		- You do the above marking for a the notes then you note down them
