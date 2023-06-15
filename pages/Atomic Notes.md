@@ -16,5 +16,4 @@
 			- **Smart notes are Connected**
 				- Now we have already connected our ideas with the [[QEC Method]]. Now will be connecting these new ideas with our existing ideas this will combat the Illusion Of Competence by latching the new idea with the existing idea.
 					- But how to connect these ideas you can use the [[Compass Of Zettelkasten]]
-	- ## Word of advice
-		- There are no hard and fast rule for smart note taking. So the best method is the one that suits you well
+	- There are no hard and fast rule for smart note taking. So the best method is the one that suits you well
