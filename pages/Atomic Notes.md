@@ -4,7 +4,7 @@
 		- I personally have this problem. So this is my journey to fix that problem.
 	- ### What are Atomic Notes (Smart Notes)
 		- Let's put it simply these notes are Smart. The simple cure for the Illusion Of Competence
-		- People like [[Leonardo da Vinci]], Niklas Luhmann and other smart people in history have used these types of notes in there research.
+		- People like [Leonardo da Vinci](https://en.wikipedia.org/wiki/Leonardo_da_Vinci), [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann) and other smart people in history have used these types of notes in there research.
 		- ### What makes these Notes Smart
 			- **These notes are active**
 				- These notes are not like highlights or underline which I would like to categorize as passive techniques. In a smart note you will be actively restructuring other peoples thoughts into our own structure.
