@@ -1,0 +1,4 @@
+- # PocketBase: Open Source backend in 1 file
+	- ![pocketbase.png](../assets/pocketbase_1687608138747_0.png)
+	- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
+	- [GitHub - pocketbase/pocketbase: Open Source realtime backend in 1 file](https://github.com/pocketbase/pocketbase)
