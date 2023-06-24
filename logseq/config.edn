@@ -414,4 +414,6 @@
  :file/name-format :triple-lowbar
  :feature/enable-journals? true
  :publishing/all-pages-public? true
- :graph/settings {:journal? true}}
+ :graph/settings {:journal? true}
+ :default-home {}
+ :editor/logical-outdenting? false}
