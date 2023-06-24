@@ -14,7 +14,7 @@
 		- ### Versatility across domains
 			- SQLite finds application in various domains. It serves as a local database solution for desktop software, web browsers, office suites, and media players, efficiently managing structured data. Additionally, SQLite is widely used in data analysis tools and research applications, thanks to its efficiency and simplicity. It also serves as a valuable educational tool for teaching database concepts and SQL programming.
 	- ## SQLite is also well suited for small to medium size web projects
-		- SQLite is thought of as a small embedded database but in WAL mode SQLite is faster in reads than PostgreSQL or other relational databases so we can use it for some read heavy work loads like a web application. Some BASS projects like [[PocketBase]] use SQLite as the primary database.
+		- SQLite is thought of as a small embedded database but in WAL mode SQLite is faster in reads than PostgreSQL or other relational databases so we can use it for some read heavy work loads like a web application. Some BAAS projects like [[PocketBase]] use SQLite as the primary database.
 		- SQLite is not scalable as other database but it can be used to run a moderate web project
 			- There are a few projects which are built to scale SQLite to web scale with distributed consensus and stuff like
 				- [[Dqlite]]
