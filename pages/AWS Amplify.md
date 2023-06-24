@@ -1,0 +1,2 @@
+- ![aws amplify.png](../assets/aws_amplify_1687622275923_0.png){:height 134, :width 784}
+- [Full Stack Development - Web and Mobile Apps - AWS Amplify](https://aws.amazon.com/amplify/)

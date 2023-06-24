@@ -1,4 +1,6 @@
 - # PocketBase: Open Source backend in 1 file
-	- ![pocketbase.png](../assets/pocketbase_1687608138747_0.png)
+	- ![pocketbase.png](../assets/pocketbase_1687623360847_0.png){:height 309, :width 726}
+	- PocketBase is a the alternative to [[Supabase]] which is the open source alternative to [[Firebase]]
+	- PocketBase is categorized as  a [[BaaS]]
 	- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
 	- [GitHub - pocketbase/pocketbase: Open Source realtime backend in 1 file](https://github.com/pocketbase/pocketbase)
