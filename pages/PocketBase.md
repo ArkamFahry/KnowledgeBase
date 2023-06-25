@@ -9,7 +9,7 @@
 			- The database also has good to have features like relations, native [[JSON]] support and also array relationships.
 			- The database also runs on WAL mode to increase performance making it blazingly fast.
 			- ### View collections
-				- **View collection** is a read-only collection type where the data is populated from a plain SQL `SELECT` statement, allowing users to perform aggregations or any other custom queries in general.
+				- **View collection** is a read-only collection type where the data is populated from a plain [[SQL]] `SELECT` statement, allowing users to perform aggregations or any other custom queries in general.
 				- This makes it easy to get an aggregate view of the data without weird client-side hacks.
 		- Authentication
 			- There is built in email and password auth and Single Sign-On auth with token management.
@@ -28,7 +28,7 @@
 			- The files also have references stored to them in the database making sure there are no orphan files.
 			- The files also get Authorization rules that can be defined making them secure by default.
 		- SQL generation
-			- Every API request is compiled to a SQL query using pocketbase/dbx making the resolution of every single request as efficient as possible. The auth rules are also compiled to SQL using the same technic which makes request resolution extremely efficient.
+			- Every API request is compiled to a [[SQL]] query using PocketBase/dbx making the resolution of every single request as efficient as possible. The auth rules are also compiled to [[SQL]] using the same technic which makes request resolution extremely efficient.
 		- SDKs
 			- There are two SDKs a JavaScript SDK and a Dart SDK which rap the PocketBase API giving a great developer experience.
 		- Extensibility

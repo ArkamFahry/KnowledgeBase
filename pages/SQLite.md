@@ -32,6 +32,10 @@
 			- Unlike some other database systems, SQLite does not offer built-in features for replication or clustering. If you need to replicate or distribute your data across multiple nodes, you would need to implement custom solutions.
 		- Limited query optimization
 			- SQLite does not have sophisticated query optimization techniques compared to enterprise-level databases. While it performs well for many use cases, complex queries or large datasets may not benefit from advanced optimization strategies.
+		- The SQLite code base is Open Source not Open Contribution
+			- This means you can make much copies as you want or modify it but you can't directly contribute to it.
+			- This is done in order to keep SQLite in public domain and to ensure that the code doesn't get contaminated with proprietary or licensed content.
+			- To fix this issue a fork was created called [[libSQL]] which is both Open Source and Open Contribution.
 	- ## SQLite is also well suited for small to medium size web projects
 		- SQLite is thought of as a small embedded database but in WAL mode SQLite is faster in reads than PostgreSQL or other relational databases so we can use it for some read heavy work loads like a web application. Some scalable backend projects like [[PocketBase]] use SQLite as the primary database.
 		- SQLite is not scalable as other database but it can be used to run a moderate web project

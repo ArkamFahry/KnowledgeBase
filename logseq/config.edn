@@ -416,4 +416,5 @@
  :publishing/all-pages-public? true
  :graph/settings {:journal? true}
  :default-home {}
- :editor/logical-outdenting? false}
+ :editor/logical-outdenting? false
+ :ui/show-brackets? false}
