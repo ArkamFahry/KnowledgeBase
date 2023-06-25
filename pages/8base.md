@@ -1,2 +1,3 @@
-- ![8base.png](../assets/8base_1687622521719_0.png){:height 371, :width 789}
-- [8base | Low-Code Platform for Web and Mobile Apps](https://www.8base.com/)
+- ![8base.png](../assets/8base_1687622521719_0.png){:height 370, :width 789}
+- ## 8base resources
+	- [8base | Low-Code Platform for Web and Mobile Apps](https://www.8base.com/)

@@ -1,2 +1,3 @@
 - ![firebase.png](../assets/firebase_1687621659584_0.png){:height 217, :width 780}
-- [Firebase](https://firebase.google.com/)
+- ## Firebase resources
+	- [Firebase](https://firebase.google.com/)
