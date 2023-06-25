@@ -1,6 +1,54 @@
 - # PocketBase: Open Source backend in 1 file
 	- ![pocketbase.png](../assets/pocketbase_1687623360847_0.png){:height 309, :width 726}
-	- PocketBase is a the alternative to [[Supabase]] which is the open source alternative to [[Firebase]]
-	- PocketBase is categorized as  a [[BaaS]]
-	- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
-	- [GitHub - pocketbase/pocketbase: Open Source realtime backend in 1 file](https://github.com/pocketbase/pocketbase)
+	- ## What is PocketBase
+		- PocketBase is a the alternative to [[Supabase]] which is the open source alternative to [[Firebase]]
+		- PocketBase is a [[BaaS]] but this is a odd one rather than running in several services its single Go binary which has an embedded [[SQLite]] database running in WAL mode. Putting the database directly next to the Binary gives a performance gain in data fetching speed while sacrificing [[Horizontal Scalability]] but this is not a problem as of PocketBase can handle 10,000 concurrent connection. So this will be more than enough for most projects.
+	- ## Features of PocketBase
+		- Database
+			- The king of the hill is the [[SQLite]] database which is the backbone of the system and it has a phenomenal admin UI to manage all accepts of the database.
+			- The database also has good to have features like relations, native [[JSON]] support and also array relationships.
+			- The database also runs on WAL mode to increase performance making it blazingly fast.
+			- ### View collections
+				- **View collection** is a read-only collection type where the data is populated from a plain SQL `SELECT` statement, allowing users to perform aggregations or any other custom queries in general.
+				- This makes it easy to get an aggregate view of the data without weird client-side hacks.
+		- Authentication
+			- There is built in email and password auth and Single Sign-On auth with token management.
+			- The auth user model can be customized to have extra fields like user roles and other information which is not common in [[BaaS]] providers.
+		- Authorization
+			- PocketBase has built in Authorization powered by a auth rules which are written for API endpoints these auth rules are push down based this means they are compiled into SQL when a request happens making the auth rules performant and giving access to the data in a granular fashion.
+		- API generation
+			- The PocketBase server has the ability to generate ready-to-use crud apis for the tables created.
+			- These APIs have built-in Authorization making them a breeze to work with.
+			- The APIs don't strictly follow rest standards so they have the ability to expand on database relations and embed that in the response to create a more concise data payload like [[GraphQL]] making it a joy to work with.
+		- Real-time
+			- PocketBase has [[SSE]] based real-time making it so clients can subscribe to data changes in the database. This can be collection level changes or single record level changes. The use of [[SSE]] means all of this is stateless making it easier than [[WebSockets]]
+			- The Authorization rules defined for the Viewing of data are also inherited by the real-time system making it secure by default.
+		- File storage
+			- The system implements two file storage systems file-based file storage making use of the system file system or a [[AWS S3]] and S3 compatible object storage file system connecting to an S3 compatible server.
+			- The files also have references stored to them in the database making sure there are no orphan files.
+			- The files also get Authorization rules that can be defined making them secure by default.
+		- SQL generation
+			- Every API request is compiled to a SQL query using pocketbase/dbx making the resolution of every single request as efficient as possible. The auth rules are also compiled to SQL using the same technic which makes request resolution extremely efficient.
+		- SDKs
+			- There are two SDKs a JavaScript SDK and a Dart SDK which rap the PocketBase API giving a great developer experience.
+		- Extensibility
+			- The Go binary can be used as a framework and can be extended with extra features.
+	- ## Problems with PocketBase
+		- No foreign keys
+			- The relations and resolved on the application level so there are no foreign keys in the database making it hard to migrate away from. There can be some consistency issues.
+			- This is done to support array relationships.
+			- But joins are done at the database level using JSON functions so there is no performance penalty.
+		- Scaling issues
+			- Because it is tightly coupled the only way is [[Vertical Scalability]].
+		- Real-time
+			- Cannot scale
+				- The real-time system is coupled as an inbuilt event system making it almost impossible scale.
+			- Detect external data modification to the database
+				- The system fires [[SSE]] events for API request not database changes so this could be an issue in the long run.
+			- Doesn't guarantee Event delivery
+				- Sometimes a data change event can be lost.
+			- Doesn't guarantee Event delivery order
+				- The events will be delivered not in the order that they happened.
+	- ## PocketBase resources
+		- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
+		- [GitHub - pocketbase/pocketbase: Open Source realtime backend in 1 file](https://github.com/pocketbase/pocketbase)

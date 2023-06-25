@@ -5,7 +5,7 @@
 		- Building a backend which doesn't get obliterated when it goes live to prod is kind of a hard thing.  So we can outsource some of these burdens to a backend to a BaaS provider.
 		- A BaaS will be a comprehensive suite of tools like Authentication, Authorization, Database, Real-Time, API, and other required application development
 		- BaaS providers empower developers to focus more on front-end development and user experience, as they can rely on the pre-existing backend infrastructure and services the BaaS platform provides.
-	- ## Notable features of a BaaS
+	- ## Features of a BaaS
 		- Authentication and Authorization
 			- Building auth is a pain and making it secure is like mission impossible so most of the BaaS providers give the ability to do Authentications and Authorization which will always be better than what I build. So most BaaS provides have built-in user authentication and authorization mechanisms, allowing developers to manage user registration, login, and access control for their applications.
 		- Database Management
