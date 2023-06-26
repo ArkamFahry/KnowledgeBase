@@ -40,8 +40,8 @@
 			  PRAGMA journal_mode=WAL;
 			  ```
 		- If the conversion to WAL mode is successful, the pragma command will return the string "wal". However, if the conversion cannot be completed due to certain limitations in the underlying system, the journaling mode will remain unchanged, and the returned string will represent the previous journaling mode (e.g., "delete").
-		- If needed WAL mode can be activated using the SQLite Connection string
-			- ```code
+		- If needed WAL mode can be activated using the SQLite Connection string and appending **journal_mode=WAL** to the end like shown below
+			- ```sql
 			  sqlite3 mydatabase.db?journal_mode=WAL
 			  ```
 		- ### WAL with Extra Configuration
