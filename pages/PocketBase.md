@@ -49,6 +49,13 @@
 				- Sometimes a data change event can be lost.
 			- Doesn't guarantee Event delivery order
 				- The events will be delivered not in the order that they happened.
+	- ## Deployment
+		- PocketBase binary install
+			- [Basics - Introduction - Docs - PocketBase](https://pocketbase.io/docs/)
+		- PocketBase docker install
+			- [[PocketBase Docker]]
+		- PocketHost  deployment
+			- [Home - PocketHost](https://pockethost.io/)
 	- ## PocketBase resources
 		- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
 		- [GitHub - pocketbase/pocketbase: Open Source realtime backend in 1 file](https://github.com/pocketbase/pocketbase)
