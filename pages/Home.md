@@ -1,0 +1,2 @@
+- # Welcome My Knowledge Base
+- ![galaxy man.jpg](../assets/galaxy_man_1687788373777_0.jpg)

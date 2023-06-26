@@ -1,6 +1,6 @@
 /* Import custom theme */
-/* Dracula theme import  */
-@import url('https://cdn.jsdelivr.net/gh/dracula/logseq@master/custom.css');
+/* Dev theme import  */
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
 
 /* Hide things that aren't very useful for a read-only view */
 
