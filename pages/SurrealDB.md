@@ -1,0 +1,7 @@
+- # SurrealDB: The ultimate Multi-Model Database for tomorrow's applications
+	- ![surrealdb.png](../assets/surrealdb_1687968200911_0.png)
+	- ## SurrealDB Resources
+		- [SurrealDB | The ultimate database for tomorrow's applications](https://surrealdb.com/)
+		- [GitHub - surrealdb/surrealdb: A scalable, distributed, collaborative, document-graph database, for the realtime web](https://github.com/surrealdb/surrealdb)
+		- [SurrealDB | Documentation](https://surrealdb.com/docs)
+		- [SurrealDB - YouTube](https://www.youtube.com/channel/UCjf2teVEuYVvvVC-gFZNq6w)

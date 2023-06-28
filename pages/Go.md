@@ -1,0 +1,8 @@
+- # Go: C of 21st century
+	- ![go.png](../assets/go_1687967894127_0.png){:height 270, :width 753}
+	- ## Go Resources
+		- [The Go Programming Language](https://go.dev/)
+		- [GitHub - golang/go: The Go programming language](https://github.com/golang/go)
+		- [Documentation - The Go Programming Language](https://go.dev/doc/)
+		- [Go Packages - Go Packages](https://pkg.go.dev/)
+-
