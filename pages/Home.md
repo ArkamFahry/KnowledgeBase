@@ -1,2 +1,2 @@
 - # Welcome My Knowledge Base
-- ![galaxy man.jpg](../assets/galaxy_man_1687788373777_0.jpg)
+- ![galaxy man.jpg](../assets/galaxy_man_1687788373777_0.jpg){:height 447, :width 780}

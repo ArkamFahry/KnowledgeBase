@@ -1,0 +1,39 @@
+- # PlanetScale: The world's most advanced database platform
+	- ![planetscale.png](../assets/planetscale_1687868894764_0.png)
+	- ## PlanetScale
+		- PlanetScale is a Serverless, MySQL-compatible database that offers scale, performance, and reliability without sacrificing developer experience. It is built on top of [[Vitess]], a scalable and fault-tolerant distributed database system.
+	- ## PlanetScale Features
+		- Unlimited connections
+			- Unlimited connections feature, which means that you can have as many concurrent connections to the database as needed. This is a major advantage over traditional MySQL databases, which typically have a limit of 16,000 connections.
+				- The unlimited connections feature is made possible by PlanetScale's use of Vitess, a scalable and fault-tolerant distributed database system. Vitess automatically shards your database across multiple servers, which allows you to scale your database horizontally without having to worry about connection limits.
+			- The unlimited connections feature is especially valuable for applications that need to handle a high volume of concurrent connections. Like Serverless applications which would create a new connection for each request handled by the application.
+		- HTTP endpoint
+			- HTTP endpoint for serverless environments, allowing you to connect to your database over HTTP. This can be useful if your serverless environment does not allow outbound TCP connections.
+				- The HTTP endpoint uses the plain old Fetch API, which is a standard way to make HTTP requests in JavaScript. This means that you can use the PlanetScale HTTP endpoint with any JavaScript framework, such as Node.js, React.js,  Next.js, Vue, Nuxt.js, Svelte, SvelteKit or Angular.
+		- Database branching
+			- Database branching is a feature that allows the creation of isolated copies of the database schema, which can then be used to test changes or experiment with new features without affecting the production database. Then when the changes are finalized they can merge back into the main database just like [[Git]].
+		- No downtime schema changes
+			- No downtime schema changes uses a technique called "non-blocking schema changes" to make schema changes without downtime. This means that the schema changes are applied to a copy of the production database, and then the changes are propagated to the live database without any disruption to your application.
+		- Developer experience
+			- Easy to use, with a familiar MySQL interface. This means getting started with PlanetScale is quick and easy, without having to learn a new database system.
+		- Scale
+			- Scale horizontally to handle any amount of traffic. This means the database can easily add more capacity as the growth needs increase, without having to worry about performance or reliability.
+		- Performance
+			- Designed for high performance, with low latency and high throughput. This means that your applications will be able to access your data quickly and efficiently, even under heavy load.
+		- Reliability
+			- Highly reliable, with automatic failover and disaster recovery. This means that your data will always be available, even if there is a problem with one of your servers.
+		- Cost-effectiveness
+			- Cost-effective solution for high-traffic applications. You only pay for the resources you use, so you can save money on your database costs. also, the free tier is a total steal.
+	- ## PlanetScale Problems
+		- No foreign keys
+			- One of the limitations of PlanetScale is that it does not support [[Foreign Keys]].
+				- There are two main reasons why PlanetScale does not support foreign keys.
+					- Foreign Keys can interfere with online DDL operations. Online DDL operations are changes to the database schema that are made while the database is still running. Foreign keys can make these changes more difficult and time-consuming.
+					- Foreign Keys can be difficult to manage in a distributed database system. In a distributed database system, data is spread across multiple servers. This can make it difficult to enforce referential integrity across all of the servers.
+			- The lack of foreign keys is a limitation of PlanetScale, but it is not a deal-breaker for everyone. If there are no foreign keys being used in the database, then the migration will not be affected by this limitation. However, if foreign keys are being used, then a different way is needed to enforce referential integrity.
+			- This would not be an issue if it's a new project where the data model and schema can be designed with this restriction in mind. [[PlanetScale Operating Without Foreign Keys]] has a schema adapted to this restriction and how to run operations on the specified schema.
+		- No triggers and stored procedures
+			- Triggers and Stored Procedures are not available in PlanetScale. This is because PlanetScale is a serverless database, and triggers and stored procedures are not compatible with serverless architecture.
+			- If an application depends on triggers and stored procedures this could be a deal-breaker.
+	- ## PlanetScale Resources
+		- [PlanetScale: The world’s most advanced database platform](https://planetscale.com/)

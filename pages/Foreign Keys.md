@@ -1,0 +1,6 @@
+- # Foreign Keys: A logical association of rows between two tables
+	- ## Foreign Key
+		- A **Foreign Key** is a logical association of rows between two tables.
+		- A row in a "parent" table may be referenced by one or more rows in a "child" table. A foreign key typically suggests how you should `JOIN` tables in most queries. A table can also refer to itself, as a special case.
+	- ## Foreign Keys implementation
+		- A **`FOREIGN KEY` *constraint* is a database construct**, an implementation that *forces* the foreign key relationship's integrity (referential integrity). Namely, it ensures that a child table can only reference a parent table when the appropriate row *exists* in the parent table. A constraint also prevents the existence of "orphaned rows" in different methods.

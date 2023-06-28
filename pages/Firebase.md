@@ -1,3 +1,4 @@
-- ![firebase.png](../assets/firebase_1687621659584_0.png){:height 217, :width 780}
-- ## Firebase resources
-	- [Firebase](https://firebase.google.com/)
+- # FIrebase: The Godfather of BaaS platforms
+	- ![firebase.png](../assets/firebase_1687621659584_0.png){:height 217, :width 780}
+	- ## Resources
+		- [Firebase](https://firebase.google.com/)
