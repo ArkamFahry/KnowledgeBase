@@ -1,4 +1,5 @@
 - # DBaaS: Database as a Service
+	- ![dbaas.png](../assets/dbaas_1687969274321_0.png){:height 237, :width 745}
 	- ## DBaaS
 		- DBaaS stands for Database as a Service. It is a cloud computing model in which a third-party provider manages and maintains a database for customers. In a DBaaS model, users do not have to worry about the underlying infrastructure, such as hardware or software installation, configuration, and maintenance. Instead, they can focus on using the database for storing, retrieving, and managing their data.
 	- ## DBaaS Features
@@ -39,3 +40,4 @@
 			- If the application hits an exponential growth curve the database prices could go through the roof. This is also dependent on the provider. Some providers are hard to outgrow.
 	- ## DBaaS Providers
 		- [[PlanetScale]]
+	-
