@@ -1,5 +1,51 @@
 - # Go: C of 21st century
 	- ![go.png](../assets/go_1687967894127_0.png){:height 270, :width 753}
+	- ## Go
+		- Golang, also known as Go, is a programming language developed at Google in 2007 by legends who really know their stuff like [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) and Version 1.0 was released as open-source software in 2012. Go was designed for simplicity and efficiency that why it's called Go and not Goalng. It is described as [[C]] for the 21st century. It is a popular choice for high-performance Server-side applications. This is the language which builds tools like [[Docker]], [[CockroachDB]], [[Dgraph]] and many more tools.
+	- ## Go Features
+		- Speed
+			- Runtime speed
+				- Go is compiled programming this means it generally out preforms interpreted languages meaning it is no slouch in the performance department.
+			- Compile time speed
+				- Go is famous for it's extremely fast compile time made possible by innovations to dependency analysis. Which gives Go lang a great developer experience because there are no long wait times when compiling the program making go a joy to work with.
+		- Simplicity
+			- Relatively small syntax is used by Go, making it easy to learn and use. The language is also designed to be expressive and concise, which can help to write more efficient code.
+		- Concurrency
+			- Built-in support for concurrency, which allows the development of programs that can run multiple tasks at the same time. This can be very helpful for applications that need to handle a lot of concurrent requests.
+				- Go's concurrency system is based on goroutines and channels. [[Goroutines]] are lightweight threads that are managed by the [[Go runtime]]. They are cheap to create and can be easily spawned from other goroutines.
+					- {{embed ((649eeca9-8c24-4598-ba0d-06561a9a64c2))}}
+		- Robust standard library
+			- Has a comprehensive standard library that includes a wide range of modules for common tasks such as networking, I/O, and cryptography. This can help to get started with a projects quickly and easily.
+				- Go even has a built is SQL package called `database/sql` in the standard library.
+		- Tooling
+			- There are a number of great tools that can help you write, debug, and test your code. These tools include a compiler, a debugger, and a testing framework.
+				- Tools such as the `go build` and `go run` commands, that make it easy to develop and deploy Go applications.
+		- Garbage collection
+			- The built-in garbage collection, which eliminates the need for manual memory management. This makes Go a safer and more reliable language. Which also makes Go easier to pick up and understand.
+		- Type safety
+			- Strongly typed language, which means that the types of variables and expressions are checked at compile time. This helps to prevent errors and makes Go a more reliable language.
+		- Package management
+			- The built-in package management system, which makes it easy to install and manage third-party libraries.
+		- Community support
+			- Go has a large and active community of developers who are constantly contributing to the language and its ecosystem. This makes it a good choice for developers who want to be part of a vibrant and supportive community.
+				- There are community forums, slack and discord servers which helps all the gophers.
+				- There are lot of community packages which make application development faster and easier.
+		-
+	- ## Go Problems
+		- Lack of generics
+			- Go did not have generics until Go 1.18, which was released in March 2022. This meant that developers had to write a lot of boilerplate code to handle different types of data.
+		- Error handling
+			- Error handling system of Go is often criticized for being difficult to understand and use. Errors are represented by the `error` interface, which can be implemented by any type. This can make it difficult to track down the source of an error.
+		- Dependency management can be cumbersome
+			- Go's dependency management system, `go get`, is often criticized for being difficult to use and for not being very flexible.
+		- Concurrency can be a bit complex
+			- Go's Concurrency model is based on [[Goroutines]] and channels. This model can be difficult to understand and use, especially for beginners.
+		- Performance is good but not the same as other compiled languages
+			- It is not always the fastest programming language. For some tasks, other languages, such as [[Rust]] or C++ can be faster.
+		- The difficulty of learning best practices for Go programming
+			- There is no single authoritative source for Go best practices, so developers often have to rely on their own experience or the advice of others. This means there is some what of a large learning curve in understanding an structuring scalable Go projects.
+		- Lack of function overloading and default values for arguments this can make the code more verbose and difficult to read.
+		- There is a lack of a strong type system this can lead to errors that are difficult to track down.
 	- ## Go Resources
 		- [The Go Programming Language](https://go.dev/)
 		- [GitHub - golang/go: The Go programming language](https://github.com/golang/go)

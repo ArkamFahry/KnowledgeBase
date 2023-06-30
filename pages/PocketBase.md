@@ -3,7 +3,7 @@
 	  id:: 649acbb1-f873-4376-85e9-f5fd41480917
 	- ## PocketBase
 		- PocketBase is a the alternative to [[Supabase]] which is the open source alternative to [[Firebase]]
-		- PocketBase is a [[BaaS]] but this is a odd one rather than running in several services its single Go binary which has an embedded [[SQLite]] database running in WAL mode. Putting the database directly next to the Binary gives a performance gain in data fetching speed while sacrificing [[Horizontal Scalability]] but this is not a problem as of PocketBase can handle 10,000 concurrent connection. So this will be more than enough for most projects.
+		- PocketBase is a [[BaaS]] written in [[Go]] but this is an odd one rather than running in several services its a single [[Go binary]] which has an embedded [[SQLite]] database running in WAL mode. Putting the database directly next to the Binary gives a performance gain in data fetching speed while sacrificing [[Horizontal Scalability]]. However, this is not a problem as PocketBase can handle 10,000 concurrent connections. So this will be more than enough for most projects.
 	- ## PocketBase Features
 		- Admin UI
 			-
