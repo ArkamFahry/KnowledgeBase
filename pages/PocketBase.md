@@ -2,11 +2,11 @@
 	- ![pocketbase.png](../assets/pocketbase_1687623360847_0.png){:height 309, :width 726}
 	  id:: 649acbb1-f873-4376-85e9-f5fd41480917
 	- ## PocketBase
-		- PocketBase is a the alternative to [[Supabase]] which is the open source alternative to [[Firebase]]
+		- PocketBase is the little brother to [[Supabase]] which is the open source alternative to [[Firebase]].
 		- PocketBase is a [[BaaS]] written in [[Go]] but this is an odd one rather than running in several services its a single [[Go binary]] which has an embedded [[SQLite]] database running in WAL mode. Putting the database directly next to the Binary gives a performance gain in data fetching speed while sacrificing [[Horizontal Scalability]]. However, this is not a problem as PocketBase can handle 10,000 concurrent connections. So this will be more than enough for most projects.
 	- ## PocketBase Features
-		- Admin UI
-			-
+		- Admin Dashboard
+			- PocketBase has a killer admin dashboard which  helps to manage all aspects of the PocketBase instance with a developer friendly UI.
 		- Database
 			- The king of the hill is the [[SQLite]] database which is the backbone of the system and it has a phenomenal admin UI to manage all accepts of the database.
 			- The database also has good to have features like relations, native [[JSON]] support and also array relationships.

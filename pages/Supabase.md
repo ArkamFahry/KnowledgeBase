@@ -1,7 +1,39 @@
 - # Supabase: The Open Source Firebase Alternative
 	- ![supabase.png](../assets/supabase_1687622345462_0.png)
 	- ## Supabase
-		- Put it simply an opensource alternative to [[Firebase]] built with free and [[Open Source]] software.
+		- Supabase is a [[BaaS]] platform which radically simplify the process on back end development without the fear of [[Vendor lock-in]] because Supabase is completely base on [[Open Source]] software.
+		- Put it simply Supabase is an opensource alternative to [[Firebase]] built with free and [[Open Source]] software.
+	- ## Supabase Features
+		- Admin Dashboard.
+			- Supabase has a best in class admin dashboard called [[Supabase Studio]] which gives the user a clean and easy to use UI to interact with all the services in Supabase.
+		- Full Managed Database.
+			- There is fully managed [[PostgreSQL]] database loaded with a lot of  [[PostgreSQL Extensions]].
+			- The database has full [[PostgreSQL Functions]] Support.
+			- Complete support for [[PostgreSQL Triggers]].
+			- Database [[Webhooks]] support built into the database.
+			- Complete support for [[PostgreSQL FTS]] search.
+			- Databse level secrets data encryption using extension [Supabase Vault](https://supabase.com/blog/supabase-vault).
+			- Database migrations.
+				- Develop locally and push your changes to your production database using migrations.
+			- Managed daily database backups with option to upgrade to Point in Time recovery.
+		- Multiple auth methods
+			- Email & Password Logins
+			- Magic Links
+			- Social Logins
+			- Phone Logins
+		- Authorization using [[PostgreSQL RLS]]
+			- Control the data each user can access with [[PostgreSQL Policies]].
+		- APIs & Client libraries for many different languages and enviroments.
+		- Auto generated [[REST]], [[GraphQL]] API's.
+		- Realtime
+		- Storage
+		- Edge Functions
+		- Project Management
+			- CLI
+				- CLI to develop your project locally and deploy to the Supabase Platform.
+			- Management API
+				- API to manage projects programmatically
 	- ## Resources
 		- [The Open Source Firebase Alternative | Supabase](https://supabase.com/)
 		- [GitHub - supabase/supabase: The open source Firebase alternative. Follow to stay updated about our public Beta.](https://github.com/supabase/supabase)
+		- [Supabase Docs](https://supabase.com/docs)
