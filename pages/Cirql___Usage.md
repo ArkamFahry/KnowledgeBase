@@ -1,6 +1,7 @@
 - ## Cirql Usage
+  title:: Cirql/Usage
 	- ## Basic
-		- Once [[Cirql Installation]] is completed and connected to SurrealDB, sending queries to the database can begin.
+		- Once [[Cirql/Installation]] is completed and connected to SurrealDB, sending queries to the database can begin.
 			- A simple `SELECT` statement raw query
 				- ```typescript
 				  import { query } from 'cirql';
@@ -31,7 +32,7 @@
 		  });
 		  ```
 			- In the above example  `select` function is used to create the query writer. Any number of functions can chain to build up the required query. Cirql provides query writer functions for most common [[SurrealQL]] statements, likes of which are `update`, `delete`, `relate`, and many more.
-			- The above example also makes use of a  [[Zod Schema]] to validate the query result. This schema is used to infer the TypeScript typing of the result. This means that the result is returned as if it was typed as `Organisation[]`. The schema property is required for all queries, however it can be set to `z.any()` to disable validation.
+			- The above example also makes use of a  [[Zod/Schema]] to validate the query result. This schema is used to infer the TypeScript typing of the result. This means that the result is returned as if it was typed as `Organisation[]`. The schema property is required for all queries, however it can be set to `z.any()` to disable validation.
 		- ### Available Query Writers
 			- Currently provided Query Writers
 				- `select()`
@@ -51,7 +52,7 @@
 				- `letValue()`
 				- `query()`
 	- ## Raw query values & operators
-		- While the Query Writer API provides a safe way to write queries, it is still possible to insert raw values into the queries. This can be useful for inserting [[SurrealDB Functions]], operators or parameter names into `WHERE` clauses and `SET` expressions. By default values will use an equals sign (`=`) the `eq` expression.
+		- While the Query Writer API provides a safe way to write queries, it is still possible to insert raw values into the queries. This can be useful for inserting [[SurrealDB/Functions]], operators or parameter names into `WHERE` clauses and `SET` expressions. By default values will use an equals sign (`=`) the `eq` expression.
 		- In the belove example on creation of a new organization, and setting the `createdAt` field to the current time using the Surreal `time::now()` function.
 			- ```typescript
 			  import { time } from 'cirql'

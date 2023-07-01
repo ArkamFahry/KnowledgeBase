@@ -1,4 +1,5 @@
 - # SQLite Data Types: The weird world of Data Types in SQLite
+  title:: SQLite/Data Types
 	- ## Data Types in SQLite
 		- Most [[SQL]] database engines have static rigid type system where the data type of a value is determined by its container which means the particular column in which the value is stored while [[SQLite]] type system is flexible.
 		- [[SQLite]] uses a more general dynamic type system. In SQLite, the datatype of a value is associated with the value itself, not with its container. The dynamic type system  is backwards compatible with the more common static type systems of other database engines in the sense that SQL statements that work on statically typed databases work the same way in SQLite.

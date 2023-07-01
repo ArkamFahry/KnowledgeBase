@@ -250,7 +250,7 @@
 
 [pREST | Instant RESTFul APIs for your data | Join data across databases, REST services to build powerful modern applications](https://prestd.com/)
 
-[PostgREST Documentation — PostgREST 9.0.0 documentation](https://postgrest.org/en/stable/index.html#)
+[PostgREST Documentation — PostgREST 11.1.0 documentation](https://postgrest.org/en/stable/)
 
 [Prostgles - Isomorphic TypeScript library for PostgreSQL](https://prostgles.com/)
 
@@ -1862,7 +1862,7 @@
 
 [Home | Task](https://taskfile.dev/)
 
-[fzyzcjy/flutter\_rust\_bridge: High-level memory-safe binding generator for Flutter/Dart <-> Rust](https://github.com/fzyzcjy/flutter_rust_bridge)
+[fzyzcjy/flutter\_rust\_bridge: High-level memory-safe binding generator for Flutter/Dart &lt;-&gt; Rust](https://github.com/fzyzcjy/flutter_rust_bridge)
 
 [Spree Commerce - a headless open-source ecommerce platform](https://spreecommerce.org/)
 

@@ -1,0 +1,6 @@
+- # Phoenix Framework: A web framework for the [[Elixir]] that gives a Peace of mind from prototype to production
+	- ![phoenix framework.png](../assets/phoenix_framework_1688224359512_0.png)
+	- ## Phoenix Framework Resources
+		- [Phoenix Framework](https://www.phoenixframework.org/)
+		- [GitHub - phoenixframework/phoenix: Peace of mind from prototype to production](https://github.com/phoenixframework/phoenix)
+		- [Phoenix — Phoenix v1.7.6](https://hexdocs.pm/phoenix/Phoenix.html)

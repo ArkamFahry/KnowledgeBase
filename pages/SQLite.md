@@ -37,7 +37,7 @@
 			- This is done in order to keep SQLite in public domain and to ensure that the code doesn't get contaminated with proprietary or licensed content.
 			- To fix this issue a fork was created called [[libSQL]] which is both Open Source and Open Contribution.
 	- ## SQLite is also well suited for small to medium size web projects
-		- SQLite is thought of as a small embedded database but in [[SQLite WAL]] mode SQLite is faster in reads than PostgreSQL or other relational databases so we can use it for some read-heavy work loads like a web applications. Some scalable backend projects like [[PocketBase]] use SQLite as the primary database.
+		- SQLite is thought of as a small embedded database but in [[SQLite/WAL]] mode SQLite is faster in reads than PostgreSQL or other relational databases so we can use it for some read-heavy work loads like a web applications. Some scalable backend projects like [[PocketBase]] use SQLite as the primary database.
 		- SQLite is not scalable as other database but it can be used to run a moderate web project
 			- There are a few projects which are built to scale SQLite to web scale with distributed consensus and stuff like
 				- [[Dqlite]]

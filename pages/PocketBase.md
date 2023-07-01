@@ -58,7 +58,7 @@
 			- Doesn't guarantee Event delivery order
 				- The events will be delivered not in the order that they happened.
 	- ## PocketBase Deployment
-		- [[Pocketbase Deployment]] methods.
+		- [[PocketBase/Deployment]] methods.
 	- ## PocketBase Resources
 		- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
 		- [GitHub - pocketbase/pocketbase: Open Source realtime backend in 1 file](https://github.com/pocketbase/pocketbase)

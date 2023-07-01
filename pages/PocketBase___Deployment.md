@@ -1,4 +1,5 @@
 - # PocketBase Deployment Methods
+  title:: PocketBase/Deployment
 	- ## PocketBase Binary
 		- Download the PocketBase binary for the specific platform
 			- [Basics - Introduction - Docs - PocketBase](https://pocketbase.io/docs/)

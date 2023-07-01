@@ -1,0 +1,6 @@
+- # Deno: A modern runtime for JavaScript and TypeScript
+	- ![deno.png](../assets/deno_1688179689228_0.png){:height 258, :width 752}
+	- ## Deno Resources
+		- [Deno — A modern runtime for JavaScript and TypeScript](https://deno.land/)
+		- [GitHub - denoland/deno: A modern runtime for JavaScript and TypeScript.](https://github.com/denoland/deno)
+		- [Deno Doc](https://doc.deno.land/)

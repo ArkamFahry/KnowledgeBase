@@ -1,4 +1,5 @@
 - # Cirql Installation
+  title:: Cirql/Installation
 	- ## Cirql Install
 	  id:: 649c425a-3f87-4002-81f6-6acdd51f00c8
 		- Cirql package can be installed from npm, together with a supported version of [[Zod]].
@@ -9,7 +10,7 @@
 	- ## Cirql Connection Setup
 		- There are two types of available connections  stateful and stateless
 		- ### Stateful Connection Setup
-			- This will create a high performance Stateful WebSocket connection to [[SurrealDB WebSocket]] which will allows for easy bi-directional communication.
+			- This will create a high performance Stateful WebSocket connection to [[SurrealDB/WebSocket]] which will allows for easy bi-directional communication.
 			- This allows you to maintain a single connection for all queries making it efficient but not suitable for Serverless environments.
 			- ```typescript
 			  import { Cirql } from 'cirql';
@@ -44,7 +45,7 @@
 					  ```
 		- ### Stateless Connection Setup
 			- The default connection method to [[SurrealDB]] using [[Cirql]] is [[WebSockets]] which are extremally performant. This allows the application to send queries to the database and receive the results in real-time. However, this means that the connection needs to be kept open. If the application is intended to run on a Serverless environment this will no be ideal.
-			- In this scenario [[Cirql]] will use the [[HTTP]] to communicate with the [[SurrealDB HTTP]] endpoint which is stateless and doesn't need an open connection all the time. Connection's can be created and disposed for each request.
+			- In this scenario [[Cirql]] will use the [[HTTP]] to communicate with the [[SurrealDB/HTTP]] endpoint which is stateless and doesn't need an open connection all the time. Connection's can be created and disposed for each request.
 			- ```typescript
 			  import { CirqlStateless, select } from 'cirql';
 			  
