@@ -1,11 +1,11 @@
 - # Supabase Realtime: Send ephemeral messages, track and synchronize shared state, and listen to Postgres changes all over WebSockets
 	- ## Supabase Realtime
 		- Simply put this is Server built built with [[Elixir]] using the [[Phoenix Framework]] that enables the following functionality.
-			- ((64a032e1-1085-4f45-b7fd-c080f7e848ae))
+			- [[Supabase/Realtime/Broadcast]]
 				- Send ephemeral messages from client to clients with low latency.
-			- ((64a03c07-0ec8-4792-a6bb-354b43173185))
+			- [[Supabase/Realtime/Presence]]
 				- Track and synchronize shared state between clients.
-			- ((64a03ba8-0162-4f7c-ba47-32bdf716f93f))
+			- [[Supabase/Realtime/Postgres Changes]]
 				- Listen to Postgres database changes and send them to authorized clients.
 		- The server does not guarantee that every message will be delivered to clients so keep this in mind when using Realtime.
 	- ## Channel
