@@ -1,0 +1,24 @@
+- # NP-complete
+	- NP-complete is a class of decision problems that are believed to be as hard as any other problem in NP. A decision problem is a problem that can be answered with a yes or no answer. NP stands for nondeterministic polynomial time, which means that a problem can be solved in polynomial time if a nondeterministic Turing machine is allowed to guess the correct answer and then verify that the answer is correct.
+	- ## How does a Problem become NP-complete
+		- A problem is NP-complete if it satisfies the following two conditions.
+			- The problem is in NP, meaning that there is a [[Polynomial-Time Algorithm]] that can verify a solution.
+			- Every problem in NP can be reduced to a problem in polynomial time.
+		- In simple terms, if there is a polynomial-time algorithm for solving an NP-complete problem, then there is a polynomial-time algorithm for solving every problem in NP.
+	- ## Well known NP-complete problems
+		- The travelling salesman problem
+			- Given a list of cities and the distances between them, find the shortest possible route that visits all of the cities.
+		- The Boolean satisfiability problem
+			- Given a Boolean formula, determine if there is an assignment of truth values to the variables that makes the formula true.
+		- The knapsack problem
+			- Given a set of items with weights and values, and a knapsack with a limited capacity, find the subset of items that has the highest value and that fits in the knapsack.
+	- ## Approaches for solving NP-complete problems
+		- Greedy algorithms:
+			- These algorithms find a solution that is good enough, but not necessarily optimal.
+		- Heuristic algorithms
+			- These algorithms use heuristics to search for a good solution.
+		- Randomized algorithms
+			- These algorithms use randomness to search for a good solution.
+	- ## NP-complete Resources
+		- [NP-completeness - Wikipedia](https://en.wikipedia.org/wiki/NP-completeness)
+		- [Introduction to NP-Completeness - GeeksforGeeks](https://www.geeksforgeeks.org/introduction-to-np-completeness/)

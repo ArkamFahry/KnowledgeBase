@@ -1,0 +1,21 @@
+- # Graph Coloring Algorithms: Art of Graph Coloring
+	- A graph colouring algorithm is a method for assigning colours to the vertices of a graph such that no two adjacent vertices have the same colour.
+	- ## Many different graph colouring algorithms.
+		- Greedy algorithm
+			- This algorithm starts by assigning a random colour to each vertex. Then, it repeatedly iterates through the vertices, and if a vertex is adjacent to a vertex of the same colour, then it assigns the vertex a new colour. This process continues until all of the vertices have been assigned a colour.
+		- Backtracking algorithm
+			- This algorithm starts by assigning a colour to the first vertex. Then, it recursively assigns colours to the remaining vertices, making sure that no two adjacent vertices have the same colour. If the algorithm reaches a vertex that it cannot assign a colour to, then it backtracks and tries a different assignment.
+		- Genetic algorithm
+			- This algorithm uses a technique called genetic programming to search for a good colouring of the graph. The algorithm starts with a population of random colourings, and then it repeatedly applies genetic operators to the population, such as mutation and crossover. This process continues until the algorithm finds a colouring that satisfies the constraints.
+	- ## The Graph Coloring Problem is [[NP-complete]]
+		- This means that there is no known [[Polynomial-Time Algorithm]] that can solve it for all graphs. However, there are many efficient algorithms that can solve the problem for many practical graphs.
+	- ## Graph Coloring Algorithm Use cases
+		- Scheduling
+			- Graph colouring can be used to schedule tasks on a number of machines, such that no two tasks that share resources are scheduled on the same machine.
+		- Load balancing
+			- Graph colouring can be used to balance the load on a number of servers, such that no two servers have too much work.
+		- Circuit design
+			- Graph colouring can be used to design circuits that are resistant to errors.
+	- ## Graph Coloring Algorithm Resources
+		- [Graph coloring - Wikipedia](https://en.wikipedia.org/wiki/Graph_coloring)
+		- [The art of graph coloring - DEV Community](https://dev.to/capnspek/the-art-of-graph-coloring-5bkc)

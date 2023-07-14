@@ -1,4 +1,5 @@
 - # Go Modules: A module is a collection of Go packages
+  title:: Go/Modules
 	- ## Go Modules
 		- Go modules are a way to manage and organize the external packages or modules that your [[Go]] programs depend on. They help you keep track of which versions of packages that are being used. They simplify the process of managing dependencies, ensuring that your program can be built and run consistently across different environments.
 	- ## Go Module Timeline

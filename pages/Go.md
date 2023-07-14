@@ -12,7 +12,7 @@
 			- Relatively small syntax is used by Go, making it easy to learn and use. The language is also designed to be expressive and concise, which can help to write more efficient code.
 		- Concurrency
 			- Built-in support for concurrency, which allows the development of programs that can run multiple tasks at the same time. This can be very helpful for applications that need to handle a lot of concurrent requests.
-				- Go's concurrency system is based on goroutines and channels. [[Goroutines]] are lightweight threads that are managed by the [[Go runtime]]. They are cheap to create and can be easily spawned from other goroutines.
+				- Go's concurrency system is based on goroutines and channels. [[Goroutines]] are lightweight threads that are managed by the [[Go/Runtime]]. They are cheap to create and can be easily spawned from other goroutines.
 					- {{embed ((649eeca9-8c24-4598-ba0d-06561a9a64c2))}}
 		- Robust standard library
 			- Has a comprehensive standard library that includes a wide range of modules for common tasks such as networking, I/O, and cryptography. This can help to get started with a projects quickly and easily.
