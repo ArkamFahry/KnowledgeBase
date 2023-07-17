@@ -1,0 +1,1 @@
+- A database is a collection of data that is organized so that it can be easily accessed, managed, and updated. Databases are used to store all sorts of information, including customer records, product inventory, financial data, and scientific research

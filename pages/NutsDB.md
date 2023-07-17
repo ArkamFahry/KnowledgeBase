@@ -1,0 +1,24 @@
+- # NutsDB: The simple, fast, embeddable and persistent key/value store written in pure [[Go]].
+	- ![nutsdb.png](../assets/nutsdb_1689606981293_0.png)
+	- ## What is NutsDB
+		- NutsDB is a simple, fast, embeddable and persistent key/value store written in pure Go.
+		- It supports fully serializable transactions and many data structures such as lists, sets, and sorted sets. All operations happen inside a Tx. Tx represents a transaction, which can be read-only or read-write. Read-only transactions can read values for a given bucket and a given key or iterate over a set of key-value pairs. Read-write transactions can read, update and delete keys from the DB.
+		- The code base of NutsDB is understandable so this can be used as starting point for understanding database design.
+	- ## Features of NutsDB
+		- Simple
+			- It is a simple and easy-to-use key/value store. It has a straightforward API that makes it easy to get started.
+		- Fast
+			- NutsDB is a fast key/value store. It can handle a high volume of transactions with low latency.
+		- Embeddable
+			- It is an embeddable key/value store. This means that you can easily embed it in your own Go applications.
+		- Persistent
+			- It is a persistent key/value store. This means that your data will be saved even if your application crashes.
+		- Transactional
+			- NutsDB supports fully serializable transactions. This means that you can be sure that your transactions will be executed as expected, even if there are concurrent modifications to the data.
+		- Data structures
+			- NutsDB supports a variety of data structures, including lists, sets, and sorted sets. This makes it a versatile key/value store that can be used for a variety of applications.
+		- Understandable
+			- The code base is readable and understandable. So this is a good study material.
+	- ## NutsDB Resources
+		- [nutsdb | A simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as list, set, sorted set.](https://nutsdb.github.io/nutsdb/)
+		- [GitHub - nutsdb/nutsdb: A simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as  list, set, sorted set.](https://github.com/nutsdb/nutsdb)
