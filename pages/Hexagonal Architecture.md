@@ -1,0 +1,26 @@
+- # Hexagonal Architecture: Onion🧅 Architecture
+	- ## Hexagonal Architecture, also known as Ports and Adapters Architecture or Onion Architecture
+		- This is a design pattern used in software development to create modular, flexible, and maintainable applications. It was first introduced by Alistair Cockburn, a software engineer, in 2005.
+		- The core idea behind Hexagonal Architecture is to decouple the core business logic of an application from external concerns such as databases, user interfaces, or external services. This decoupling is achieved by dividing the application into distinct layers, each with its specific responsibilities and boundaries.
+	- ## Here are the main components of the Hexagonal Architecture
+		- Domain Layer
+			- This layer represents the core business logic of the application. It contains the domain model, business rules, and application-specific logic. The domain layer is completely independent of any external systems and should not have any dependencies on them.
+		- Application Layer
+			- The application layer serves as the mediator between the domain layer and the external interfaces. It contains the application-specific use cases and orchestrates the flow of data and interactions between the domain layer and external interfaces. It is responsible for handling application-specific business logic.
+		- Adapters
+			- Adapters are interfaces that allow the application to communicate with external systems or frameworks. They act as bridges between the application layer and external resources. There are two types of adapters:
+				- Inbound Adapters (Primary Adapters)
+					- These adapters handle the communication from external sources into the application. They convert external requests and data into a format that the application can understand. Examples of inbound adapters include REST APIs, CLI interfaces, and GUI interfaces.
+				- Outbound Adapters (Secondary Adapters)
+					- These adapters handle the communication from the application to external systems. They encapsulate the interactions with databases, external services, or message queues. The outbound adapters convert data from the application's internal format to the format required by the external systems.
+		- The hexagonal shape of this architecture comes from the idea that the core domain (business logic) is at the center, surrounded by layers of adapters. This design enables the core domain to remain isolated and independent, making it easier to test and modify without affecting external systems or interfaces.
+	- ## Advantages of Hexagonal Architecture
+		- Flexibility
+			- It allows for easier changes to the application's external interfaces without impacting the core business logic.
+		- Testability
+			- The isolation of the core domain makes it simpler to unit test the critical parts of the application without dealing with external complexities.
+		- Modularity
+			- The clear separation of concerns and dependencies between layers promotes code modularity and maintainability.
+		- Scalability
+			- The architecture can accommodate changes in external systems or handle additional interfaces without major modifications to the core domain.
+- In summary, Hexagonal Architecture is a powerful pattern that emphasizes the separation of concerns and promotes a flexible, maintainable, and testable design for software applications. It's particularly useful when dealing with complex systems that need to interact with various external components.

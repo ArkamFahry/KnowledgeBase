@@ -1,0 +1,13 @@
+- # CRUD: Create, Read, Update, and Delete
+	- ## CRUD is an acronym that stands for Create, Read, Update, and Delete.
+		- It represents the four basic operations that can be performed on data in a persistent storage system, such as a database. These operations are fundamental to most data-driven applications and serve as the basis for interacting with and managing data.
+	- ## The brief explanation of each operation
+	- Create (C)
+		- The "Create" operation involves adding new data to the system. It allows users or applications to insert new records or entities into the database. For example, in a simple user management system, the Create operation would be used to add a new user with details like username, email, and password.
+	- Read (R)
+		- The "Read" operation involves retrieving data from the system. It allows users or applications to query and fetch information from the database. The Read operation can involve various types of queries, such as retrieving a single record by its unique identifier, searching for specific records based on certain criteria, or fetching all records from a particular table. For example, in the user management system, the Read operation would be used to fetch a user's details based on their username or email.
+	- Update (U)
+		- The "Update" operation involves modifying existing data in the system. It allows users or applications to change the values of one or more fields in a record. For example, in the user management system, the Update operation could be used to change a user's email address or update their profile information.
+	- Delete (D)
+		- The "Delete" operation involves removing data from the system. It allows users or applications to delete records or entities from the database. For example, in the user management system, the Delete operation would be used to remove a user's account from the system.
+- CRUD operations form the basis of basic data manipulation in many applications, from simple to complex. They are commonly exposed through [[API]]s (Application Programming Interfaces) or user interfaces to allow users and applications to interact with the underlying data storage system. Additionally, many web frameworks and database management systems provide built-in support for handling CRUD operations to simplify the development of data-driven applications.
