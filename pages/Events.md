@@ -1,0 +1,17 @@
+- # Events
+- Events refer to occurrences or happenings within a program that triggers specific actions or reactions. These events are typically used to enable communication between different components or modules of the software, allowing them to respond to changes or external stimuli. Events play a crucial role in event-driven programming and are commonly found in various software applications, libraries, and frameworks.
+	- ## Here are some common examples of events in software:
+		- User Interface (UI) Events: Events triggered by user interactions with the graphical user interface of an application. Examples include button clicks, mouse movements, keypresses, form submissions, and menu selections.
+		- Timer Events
+			- Events that are generated based on time intervals. These events are useful for scheduling tasks to occur at specific times or after a set period.
+		- Network Events
+			- Events that occur when data is sent or received over a network. This includes events like data arrival, connection establishment, or disconnection.
+		- File System Events
+			- Events related to changes in the file system, such as file creation, modification, deletion, or renaming.
+		- Database Events
+			- Events that occur in a database, such as record updates, insertions, or deletions.
+		- Exception Events
+			- Events triggered when an exceptional situation or error occurs during the program's execution.
+		- Custom Events
+			- Events that are specific to the application or framework being used. Developers can define and trigger custom events to enable communication between different parts of their software.
+- Event-Driven Programming is a paradigm where the flow of the program is determined by events and their handlers rather than a predefined sequence of instructions. This approach is commonly used in graphical user interfaces, web development (e.g., JavaScript), and asynchronous programming environments to create responsive and interactive applications.

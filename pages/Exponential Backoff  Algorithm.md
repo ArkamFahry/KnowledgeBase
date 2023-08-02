@@ -1,0 +1,14 @@
+- # Exponential Backoff  Algorithm
+	- An exponential backoff algorithm is a strategy used in computer networks and distributed systems to handle congestion or resource contention more efficiently. It is particularly common in network communication protocols and systems that involve repeated attempts at some operation, like retries for failed requests.
+	- The basic idea behind the exponential backoff algorithm is to increase the time between successive retries exponentially, giving the system or network more time to recover from congestion or failures before retrying the operation. This helps to reduce the overall load on the system and can prevent further exacerbating the problem.
+	- ## Here's how the exponential backoff algorithm typically works
+		- Initial Retry
+			- When a request or operation fails, the system initiates the first retry immediately or after a short delay.
+		- Exponential Increase
+			- If the first retry also fails, the algorithm increases the delay before the next retry exponentially. For example, it may start with a small delay, then double the delay each time.
+		- Maximum Limit
+			- To avoid waiting indefinitely, the algorithm usually sets a maximum limit for the delay between retries. Once the delay reaches this limit, subsequent retries will use the maximum delay.
+		- Subsequent Retries
+			- The process continues with subsequent retries, each time increasing the delay exponentially or using the maximum delay until the operation is successful, or a maximum number of retries is reached.
+	- By employing exponential backoff, the algorithm allows the system to be more conservative when resources are scarce or when there's a temporary issue, preventing excessive load and reducing the chances of creating more problems in an already congested or faulty system.
+	- Exponential backoff algorithms are widely used in various network protocols such as TCP (Transmission Control Protocol) and in systems that interact with cloud services, [[API]]s, or distributed databases, [[Webhooks]]. They are essential for achieving resilience and efficiency in such systems.
