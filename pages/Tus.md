@@ -1,5 +1,18 @@
-- # Tus: Open Protocol for Resumable  File Uploads
+# Tus: Open Protocol for Resumable  File Uploads
 	- ![tus.png](../assets/tus_1688179375359_0.png)
+	- ## Tus
+		- Tus is an open-source protocol  for resumable and resilient file uploads.
+		- The protocol is completely built on top of [[HTTP]].
+		- It offers simple, cheap, and reusable stacks for clients and servers. It supports any language, any platform, and any network.
+	- ## Tus Features
+		- HTTP-Based
+			- Built as a layer on top of the popular HTTP protocol, Tus can easily be integrated into applications using existing libraries, proxies, and firewalls, and can be used directly from any website.
+		- Minimalistic
+			- The specification only requires a very small set of features to be implemented by clients and servers. tus embraces simplicity, fast development and iteration speed for everyone.
+		- Extensible
+			- Tus nevertheless features a sizable list of extensions that introduce additional functionality, such as parallel uploading or checksums and expiration. All of these may be implemented according to your preferences.
+		- Open source
+			- source code to all of the implementations, and even the protocol itself is accessible to everyone under MIT license, directly from Git Hub.
 	- ## Tus Resources
 		- [tus - resumable file uploads](https://tus.io/)
 		- [tus - Resumable File Uploads · GitHub](https://github.com/tus)
