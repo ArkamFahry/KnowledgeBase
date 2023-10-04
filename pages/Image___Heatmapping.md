@@ -1,0 +1,14 @@
+# Image Heatmapping
+	- The process of marking heat map points on a image is called image heatmapping which can be done using libraries like [[NumPy]] , [[TensorFlow]] or [[OpenCV]] these libraries have efficient algorithms to do this.
+	- The heatmapping process can e complex or easy as we wish.
+	- The basic heatmapping process is done in a simple manner.
+		- The requirements are simple
+			- A image
+			- A set of points on the images X, Y axis.
+	- Steps  to heatmap an image
+		- Get the original image Height and Width and Create a  empty gray scale image with max luminance.
+		- Then take the given points using a gradient black circle mark the given points in the gray scale image.
+		- Then take the gray heatmap and and measure each pixels packed value and according to it get the specific colors from a color map and color those grey pixels.
+		- Then take the newly colored image and overlay it on the original image with a reasonable opacity not to make the original image unclear  then that's it we have a heatmap on a image.
+	- Sample Implementation
+		- [GitHub - ArkamFahry/HeatmapSharp: A dotnet based image heat mapping helper built on ImageSharp](https://github.com/ArkamFahry/HeatmapSharp)
