@@ -1,4 +1,4 @@
-- # BaaS: Backend as a Service
+# BaaS: Backend as a Service
 	- ![baas.png](../assets/baas_1687619641744_0.png)
 	- ## BaaS
 		- A Backend as a Service is a way to outsource the majority of the behind the scenes aspects of an application to prebuilt backend infrastructure.
@@ -11,7 +11,7 @@
 		- Database Management
 			- Most of the BaaS's come with a built in database which may include both SQL and NoSQL databases and these have an easy to use API to interact with the database and most if these databases have extra features like Real-Time (Implementing Real-time is almost impossible), Authorization and many more good to have features which will take ages to implement.
 		- File Storage
-			- File storage. Just trying to use the [[AWS S3]] is a pain and holding references to those files in Database and adding Authorization and securing those files are a whole other game. So BaaS providers often include file storage capabilities, enabling developers to store and manage files such as images, documents, and media assets associated with their applications.
+			- File storage. Just trying to use the [[AWS /S3]] is a pain and holding references to those files in Database and adding Authorization and securing those files are a whole other game. So BaaS providers often include file storage capabilities, enabling developers to store and manage files such as images, documents, and media assets associated with their applications.
 		- Real-time Functionality
 			- Real-time the on enemy to rule them all. Building and scaling Real-time systems are a almost hard as naming things. We have to build services which implement [[CDC]] and send those changes to [[Redis]] Pub/Sub or a Message Broker like [[Apache Kafka]] the we have to push those through [[WebSockets]] to the client. Then we have to scale this stateful service.
 			- So most BaaS platforms often provide real-time communication features, such as chat, push notifications, and live updates. These features allow developers to incorporate real-time interactions into their applications. We can add Real-time with just a single line of code.
@@ -47,7 +47,7 @@
 		- Despite these challenges, BaaS can still be a valuable solution for many development projects. It is crucial to weigh the advantages and disadvantages, consider your application's specific requirements, and select a BaaS provider that aligns well with your needs. Nothing is rainbows and butterflies. So choose wisely.
 	- ## BaaS Providers
 		- [[Firebase]]
-		- [[AWS Amplify]]
+		- [[AWS/Amplify]]
 		- [[Supabase]]
 		- [[Nhost]]
 		- [[Appwrite]]

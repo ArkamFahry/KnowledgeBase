@@ -1,0 +1,25 @@
+# SurrealDB Data Model
+	- ## SurrealDB data model looks like a combination of Relational, Document and Graph
+		- Multi-model flexibility
+			- SurrealDB supports three data models – tables, documents, and graphs – allowing  to choose the most suitable approach for the use case.
+		- Tables
+			- Store unstructured data in `SCHEMALESS` or  structured data `SCHEMAFULL` mode .
+		- Documents
+			- Store unstructured data with flexible nested fields and arrays, ideal for dynamic data with varying structures.
+			- Store structured  documents if the table which the document belongs to is `SCHEMAFULL`.
+		- Graphs
+			- Model complex relationships and interconnected entities, enabling efficient navigation and exploration of data relationships.
+		- Record IDs
+			- Each record or document in SurrealDB is uniquely identified by a system, facilitating efficient retrieval and manipulation. These ids can be complex objects.
+		- Simple types
+			- SurrealDB supports basic data types like Boolean, empty values, null values, strings, numbers, datetimes, and UUIDs.
+		- Arrays
+			- Store collections of homogeneous data elements within a single record or document.
+		- Geometries
+			- Represent spatial data using geometries like points, lines, and polygons.
+		- Record links
+			- Establish relationships between records or documents across different data models, enabling efficient data navigation.
+		- Futures
+			- Represent asynchronous operations that will eventually produce a result, allowing for non-blocking queries.
+		- Casting:
+			- Convert data from one type to another using explicit casting syntax, ensuring data integrity and type compatibility.
