@@ -16,3 +16,28 @@
 		- For the above-mentioned example, we can represent the cost of the PC and the cost of the PS5 in terms of function, and for a given function ignore the low order terms that are relatively insignificant (for large value of input size, $$n$$). As an example, in the case below, $$n^4$$, $$2n^2$$, $$100n$$ and $$500$$ are the individual costs of some function and approximate to $$n^4$$ since $$n^4$$ is the highest rate of growth.
 			- $$n^4 + 2n^2 + 100n + 500 = n^4$$
 		- ### Commonly Used Rates of Growth
+			- logseq.order-list-type:: number
+			  $$2^{2^n}$$
+			- logseq.order-list-type:: number
+			  $$n!$$
+			- logseq.order-list-type:: number
+			  $$2^n$$
+			- logseq.order-list-type:: number
+			  $$n^2$$
+			- logseq.order-list-type:: number
+			  $$n \log n$$
+			- logseq.order-list-type:: number
+			  $$log(n!)$$
+			- logseq.order-list-type:: number
+			  $$n$$
+			- logseq.order-list-type:: number
+			  $$2^{\log n}$$
+			- logseq.order-list-type:: number
+			  $$log^2n$$
+			- logseq.order-list-type:: number
+			  $$\sqrt{\log n}$$
+			- logseq.order-list-type:: number
+			  $$log\ log\ n$$
+			- logseq.order-list-type:: number
+			  $$1$$
+		-
