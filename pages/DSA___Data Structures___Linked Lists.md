@@ -1,1 +1,19 @@
 # Linked Lists
+	- A linked list is a data structure used for storing collections of data.
+	- There are many types of linked lists
+		- Singly Linked List
+			- Nodes contain data and a pointer to the next node.
+			- Unidirectional traversal.
+		- Doubly Linked List
+			- Nodes have references to both next and previous nodes.
+			- Allows bidirectional traversal.
+		- Circular Linked List
+			- Forms a loop; last node points to the first (or the previous node of the first in doubly circular lists).
+		- Sorted Linked List
+			- Nodes arranged in a specific order (e.g., ascending or descending).
+		- Hash Linked List
+			- Used in hash table implementations to handle collisions.
+			- Each hash index contains a linked list.
+		- XOR Linked List
+			- Employs XOR of addresses of adjacent nodes for memory efficiency.
+			- Pointer contains the XOR of previous and next node addresses.
