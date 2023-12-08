@@ -1,4 +1,4 @@
-- # PostgreSQL: The world's most advanced open source database
+# PostgreSQL: The world's most advanced open source database
 	- ![postgresql.png](../assets/postgresql_1688042265287_0.png){:height 476, :width 749}
 	- ## PostgreSQL: The Jack of All Trades and the Master of All
 		- In the vast realm of relational database management systems (RDBMS), PostgreSQL stands tall as the undisputed "Jack of All Trades" and, indeed, the "Master of All." With a rich history spanning over three decades and a thriving open-source community, PostgreSQL has continually evolved into a versatile and powerful database solution, catering to a wide range of applications and industries.
@@ -28,3 +28,4 @@
 		- [PostgreSQL: The world's most advanced open source database](https://www.postgresql.org/)
 		- [GitHub - postgres/postgres: Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch](https://github.com/postgres/postgres)
 		- [PostgreSQL: Documentation](https://www.postgresql.org/docs/)
+	- {{video https://www.youtube.com/watch?v=n2Fluyr3lbc}}
