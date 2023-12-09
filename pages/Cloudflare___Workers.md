@@ -1,4 +1,5 @@
 # Cloudflare Workers
+	- ![cloud_flare_workers.png](../assets/cloud_flare_workers_1702103635109_0.png){:height 205, :width 585}
 	- Cloudflare Workers, an innovative serverless computing platform offered by Cloudflare, represents a paradigm shift in web application development. By enabling the execution of JavaScript code at the edge of its extensive global network, Workers fundamentally alter the traditional model of centralized server processing. This paper aims to provide a detailed exploration of Cloudflare Workers, encompassing its underlying architecture, functionality, use cases, limitations, and implications for web application development.
 	- A set of [[V8 Isolate]] running on the cloud flare edge network with the ability to run any application which fits the requirements of the cloud flare runtime globally.
 	- ## Underlying Architecture
