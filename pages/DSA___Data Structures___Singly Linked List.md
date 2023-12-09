@@ -201,6 +201,53 @@
 			- ```shell
 			  Linked List: 10 -> 5 -> 15 -> NULL
 			  ```
+		- ```rust
+		  struct Node {
+		      data: i32,
+		      next: Option<Box<Node>>,
+		  }
+		  
+		  struct LinkedList {
+		      head: Option<Box<Node>>,
+		  }
+		  
+		  impl LinkedList {
+		      fn new() -> Self {
+		          LinkedList { head: None }
+		      }
+		  
+		      fn insert(&mut self, data: i32) {
+		          let new_node = Node {
+		              data: data,
+		              next: self.head.take(),
+		          };
+		          self.head = Some(Box::new(new_node));
+		      }
+		  
+		      fn display(&self) {
+		          let mut current = &self.head;
+		          print!("Linked List: ");
+		          while let Some(node) = current {
+		              print!("{} -> ", node.data);
+		              current = &node.next;
+		          }
+		          println!("NULL");
+		      }
+		  }
+		  
+		  fn main() {
+		      let mut list = LinkedList::new();
+		  
+		      list.insert(15);
+		      list.insert(5);
+		      list.insert(10);
+		  
+		      list.display();
+		  }
+		  ```
+			- ```shell
+			  Linked List: 10 -> 5 -> 15 -> NULL
+			  ```
 		- ```c#
 		  using System;
 		  
