@@ -21,7 +21,7 @@
 		- #### Inserting a Node in Singly Linked List at the Beginning
 			- In this case, a new node is inserted before the current head node. Only one next pointer needs to be modified (new node’s next pointer) and it can be done in two steps.
 				- Update the next pointer of new node, to point to the current head
-	- ## Implement of singly linked list
+	- ## Implementations of singly linked list
 		- ```c
 		  #include <stdio.h>
 		  #include <stdlib.h>
@@ -317,4 +317,4 @@
 			- ```shell
 			  Linked List: 10 -> 5 -> 15 -> NULL
 			  ```
-		- Singly Linked List can be the easiest linked list and
+		- Singly Linked List can be the easiest linked list and simplest linked list in the wild
