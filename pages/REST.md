@@ -1,0 +1,19 @@
+# REST: Representational State Transfer
+	- ![rest.png](../assets/rest_1702477706396_0.png)
+	- **REST (Representational State Transfer)** is an architectural style for designing networked applications. A **REST API (Application Programming Interface)** is a set of rules and conventions for building and interacting with web services.
+	- The primary purpose of REST is to provide a stateless, client-server, cacheable communications protocol that uses standard HTTP protocols. It is designed to return API responses in a standard HTTP response format, typically JSON or XML.
+	- ## Here’s how REST API typically works
+		- **Resource-Based**
+			- In REST, everything is a resource. These resources are accessed via a common interface based on standard HTTP methods like GET, POST, PUT, DELETE, etc.
+		- **Stateless**
+			- Each request from a client to a server must contain all the information needed to understand and process the request. The server should not store anything about the latest HTTP request the client made.
+		- **Client-Server Architecture**
+			- The client and the server are independent of each other. They can evolve separately as long as the interface between them is not altered.
+		- **Cacheable**
+			- Because a REST API is stateless, responses from the server can be cached by the client. This can improve performance by reducing the load on the server and the network.
+		- **Uniform Interface**
+			- The method of communication between a client and a server must be uniform and consistent, making the whole system easier to understand and use.
+		- **Layered System**
+			- The architecture allows for layers, where each layer has specific functionality and can be decoupled from the rest. This provides flexibility in developing and scaling the application.
+	- By employing REST, clients can interact with the server using standard HTTP protocols. This efficiency leads to faster and more stable applications.
+	- REST APIs are used in all kinds of applications and are widely adopted in the web development community due to their simplicity and ease of integration. However, it also has its own set of challenges such as over-fetching and under-fetching, and the need for versioning when the data structure changes. The choice between REST and other API design styles depends on the specific needs and constraints of your project. I hope this gives you a more comprehensive understanding of REST API! 😊
