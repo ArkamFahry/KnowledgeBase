@@ -1,0 +1,15 @@
+# Skia: Open-source 2D graphics library
+	- Skia is an open-source 2D graphics library developed by Google. It provides common APIs that work across a variety of hardware and software platforms.
+	- ## Key features of Skia
+		- **Cross-Platform**
+			- Skia is used as the graphics engine for many products, including Google Chrome, ChromeOS, Android, and Flutter.
+		- **Vector and Bitmap Rendering**
+			- Skia is a very reliable vector and bitmap rendering engine widely used in the software industry.
+		- **Common APIs**
+			- Skia provides common APIs that work across a variety of hardware and software platforms.
+		- **Shaders Support**
+			- Skia supports shaders, which are applied to different objects, shapes, or text.
+	- Skia was originally developed by Skia Inc. and was acquired by Google in 2005. It's now open-source and continues to be actively maintained and used in a variety of applications.
+	- ## Skia Resources
+		- [Skia](https://skia.org/)
+		- [GitHub - google/skia: Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.](https://github.com/google/skia)

@@ -1,0 +1,62 @@
+# Flutter
+	- ![flutter.png](../assets/flutter_1702478785710_0.png)
+	- **Flutter** is an open-source UI toolkit developed by Google. It was first released in 2017 and has been actively maintained by Google since then.
+	- The primary purpose of Flutter is to enable developers to build beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. It’s not tied to any specific platform and is instead designed to work with existing code written in Dart.
+	- ## Here’s how Flutter typically works
+		- **Single Codebase**
+			- Unlike traditional development frameworks that require separate codebases for different platforms, Flutter allows developers to write code once and run it on multiple platforms.
+		- **Customizable Widgets**
+			- In Flutter, everything is a widget. Widgets are the basic building blocks of a Flutter app’s user interface. They allow developers to create complex and custom UI designs with ease.
+		- **Hot Reload**
+			- Flutter’s hot reload feature allows developers to experiment, build UIs, add features, and fix bugs faster by injecting source code files into the Dart Virtual Machine during development.
+		- **Native Performance**
+			- Flutter compiles to native ARM machine code, which ensures fast startup times and performance on mobile devices.
+		- **Dart Programming Language**
+			- Flutter uses the Dart programming language, which is easy to learn, especially for developers familiar with object-oriented languages like Java or JavaScript.
+			- By employing Flutter, developers can create beautiful and performant applications with less effort, less code, and less resources. This efficiency leads to faster development cycles and more stable applications.
+			- Flutter is widely used in various systems that require cross-platform development. It’s been adopted by many companies, from small startups to large enterprises, and a robust ecosystem of tools and libraries has been developed around it.
+	- ## Advantages of Flutter over other frameworks:
+		- **Cross-platform Development**
+			- With Flutter, developers can use one programming language and one codebase to create applications for iOS, Android, and the web.
+		- **Fast Development**
+			- Thanks to Flutter’s hot reload feature, developers can make changes to the code and see the results in real-time without losing the current application state.
+		- **Customizable UI**
+			- Flutter provides a rich set of widgets and extensive capabilities for creating complex custom UIs.
+		- **Strong Community Support**
+			- Flutter has a large and active community that contributes to its development and provides support through various forums and platforms.
+	- ## Downsides of Flutter
+		- **Large App Size**
+			- Applications built with Flutter tend to be larger in size compared to those built with native technologies.
+		- **Limited Libraries**
+			- While Flutter’s ecosystem is growing, it still lacks some of the libraries and tools available for native development.
+		- **Learning Curve**
+			- Developers need to learn Dart, which is less commonly used compared to languages like JavaScript.
+		- **Limited Support for Web and Desktop**
+			- While Flutter does support web and desktop applications, these areas are not as mature as its mobile platform support. Some features and libraries may not work as expected on web and desktop platforms.
+	- ## Power of the custom rendering engine
+		- **Custom Rendering Engine**
+			- Flutter uses Skia, a 2D rendering engine, to create visuals. The engine is designed to work across multiple platforms offering a plethora of capabilities. This means that every single pixel drawn on a Flutter app is a result of graphics rendering directly controlled by Flutter.
+		- **Unparalleled Flexibility**
+			- The direct control over the rendering pipeline gives developers unparalleled flexibility when it comes to designing their UI. Developers can create custom layouts, animations, transitions, and essentially any visual effect imaginable. This is a significant advantage over many other frameworks that rely on native controls provided by the operating system.
+		- **Animations**
+			- Flutter provides a rich set of pre-designed widgets that handle all sorts of animations. However, if developers want to create custom animations, they have full control over the animation API. This allows for the creation of complex, high-performance, and beautiful custom animations.
+		- **Games**
+			- The same rendering and animation capabilities that make Flutter great for apps also make it powerful for game development. While Flutter is not a traditional game development framework, developers have used Flutter to build everything from simple 2D games to more complex ones. The ability to directly control every pixel on the screen means developers can create custom game graphics and animations.
+		- In summary, Flutter’s custom rendering engine provides developers with the tools and flexibility to build beautiful, high-performance applications and games. It’s one of the reasons why Flutter is increasingly becoming a popular choice among developers.
+	- ## Flutter’s architecture
+		- Flutter is designed as an extensible, layered system. It exists as a series of independent libraries that each depend on the underlying layer. The architecture of a Flutter app generally consists of a combination of small and larger widgets interacting in conjunction to build the application.
+		- **Layers in Flutter’s architecture**
+			- **Embedder Layer (lowest layer)**
+				- An entry point is provided by a platform-specific embedder, which coordinates with the underlying operating system to access services such as accessibility, rendering surfaces, and input. The embedder is written in a platform-specific language, such as Java and C++ for Android, Objective-C/Objective-C++ for iOS and macOS, and C++ for Windows and Linux.
+			- **Engine Layer**
+				- The engine layer is written in C/C++, and it takes care of the input, output, network requests, and handles the difficult translation of rendering whenever a frame needs to be painted. Flutter uses [[Skia]] or [[Impeller]] as its rendering engine and it is revealed to the Flutter framework through the dart: ui, which wraps the principal C++ code in Dart classes.
+			- **Framework Layer (highest layer)**
+				- The framework layer is the part where most developers interact with Flutter. It’s built with Dart and includes libraries for widgets, animations, and gestures.
+		- By understanding the architecture of Flutter, developers can structure their applications effectively, making them easy to maintain and efficient in performance.
+	- ## Key Concepts
+		- **Widgets**
+			- Widgets are the basic building blocks of a Flutter app’s user interface. They allow developers to create complex and custom UI designs with ease.
+		- **Reactive Programming**
+			- Flutter uses a reactive programming model, meaning the UI can update in response to changes in the app’s state.
+		- **Hot Reload**
+			- Flutter’s hot reload feature allows developers to experiment, build UIs, add features, and fix bugs faster by injecting source code files into the Dart Virtual Machine during development.
