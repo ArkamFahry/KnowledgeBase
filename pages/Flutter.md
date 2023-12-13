@@ -60,3 +60,7 @@
 			- Flutter uses a reactive programming model, meaning the UI can update in response to changes in the app’s state.
 		- **Hot Reload**
 			- Flutter’s hot reload feature allows developers to experiment, build UIs, add features, and fix bugs faster by injecting source code files into the Dart Virtual Machine during development.
+	- {{video https://www.youtube.com/watch?v=fq4N0hgOWzU}}
+	- {{video https://www.youtube.com/watch?v=UDHROiqYI5o}}
+	- {{video https://www.youtube.com/watch?v=lHhRhPV--G0}}
+	- {{video https://www.youtube.com/watch?v=1xipg02Wu8s}}

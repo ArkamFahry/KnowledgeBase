@@ -34,3 +34,7 @@
 		- **Error Handling**
 			- Error handling in GraphQL can be more complex compared to REST. In REST, we have standard HTTP status codes to represent different types of errors. In GraphQL, the server always responds with a 200 OK status code and the errors are included in the response body.
 	- In conclusion, while GraphQL has many advantages over REST, it also has its own set of challenges. The choice between GraphQL and REST depends on the specific needs and constraints of your project. I hope this gives you a more comprehensive understanding of GraphQL! 😊
+	- {{video https://www.youtube.com/watch?v=urmi2wbEpGk}}
+	- {{video https://www.youtube.com/watch?v=783ccP__No8}}
+	- {{video https://www.youtube.com/watch?v=eIQh02xuVw4}}
+	- {{video https://www.youtube.com/watch?v=7wzR4Ig5pTI}}

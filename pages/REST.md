@@ -17,3 +17,4 @@
 			- The architecture allows for layers, where each layer has specific functionality and can be decoupled from the rest. This provides flexibility in developing and scaling the application.
 	- By employing REST, clients can interact with the server using standard HTTP protocols. This efficiency leads to faster and more stable applications.
 	- REST APIs are used in all kinds of applications and are widely adopted in the web development community due to their simplicity and ease of integration. However, it also has its own set of challenges such as over-fetching and under-fetching, and the need for versioning when the data structure changes. The choice between REST and other API design styles depends on the specific needs and constraints of your project. I hope this gives you a more comprehensive understanding of REST API! 😊
+	- {{video https://www.youtube.com/watch?v=-MTSQjw5DrM}}
