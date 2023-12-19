@@ -1,0 +1,32 @@
+# AWS S3 Event Notifications
+	- AWS S3 (Amazon Simple Storage Service) Event Notifications are a feature that enables we to monitor and respond to events that occur within wer S3 buckets. These events can trigger actions, such as invoking AWS Lambda functions, sending notifications via Amazon Simple Notification Service (SNS), or publishing messages to an Amazon Simple Queue Service (SQS) queue.
+		- ## Key points to understand about AWS S3 Event Notifications
+			- Event Types
+				- S3 Event Notifications can be configured for various event types, including object creation, deletion, and restoration, as well as bucket-level events like bucket creation and deletion.
+			- Event Sources
+				- Event Notifications can be set up at the bucket level or at the object level. For bucket-level events, the notification applies to all objects within the bucket. Object-level events are specific to individual objects or object prefixes within the bucket.
+			- Event Triggers
+				- When an event occurs, S3 generates an event notification and invokes the configured targets based on the event configuration. This can be used to trigger serverless functions, send notifications, or enqueue messages for further processing.
+			- Supported Targets
+				- AWS S3 Event Notifications support several targets, including AWS Lambda, SNS topics, SQS queues, and AWS Step Functions. we can choose one or more targets to act upon the event.
+			- AWS Lambda Integration
+				- By configuring an AWS Lambda function as a target, we can execute custom code in response to S3 events. This allows we to perform a wide range of automated actions, such as image resizing, data processing, database updates, or triggering other AWS services.
+			- SNS Integration
+				- S3 Event Notifications can send event messages to an SNS topic. This enables we to distribute notifications to multiple subscribers, such as email recipients, SMS recipients, or other AWS services.
+			- SQS Integration
+				- With SQS integration, S3 Event Notifications can enqueue event messages onto an SQS queue. This allows we to decouple event processing and build scalable, fault-tolerant architectures.
+			- Filtering Events
+				- Event notifications can be filtered based on specific criteria, such as object key prefixes or suffixes. This allows we to selectively trigger actions based on the properties of the objects involved in the event.
+			- Eventual Consistency
+				- It's important to note that S3 event notifications are delivered with eventual consistency. This means there might be a slight delay between the time an event occurs and when it is delivered and processed by the target.
+			- Use Cases
+				- S3 Event Notifications are useful in various scenarios, such as triggering real-time processing of uploaded files, updating search indexes, replicating data to other systems, generating thumbnail images, or performing data analysis.
+					- Invoke AWS Lambda Functions
+						- We can configure an AWS Lambda function as a target for an event. This allows we to execute custom code and perform actions based on the event. For example, we can process the uploaded object, generate thumbnails, extract metadata, or trigger other AWS services.
+					- Send Notifications via SNS
+						- S3 Event Notifications can send event messages to an Amazon SNS topic. This enables we to distribute notifications to multiple subscribers, such as email recipients, SMS recipients, or other AWS services. For instance, we can notify stakeholders or trigger downstream processes based on the events.
+					- Enqueue Messages with SQS
+						- By integrating with Amazon SQS (Simple Queue Service), we can enqueue event messages onto an SQS queue. This allows we to decouple event processing and build scalable, fault-tolerant architectures. we can later retrieve and process these messages asynchronously.
+					- Send Webhooks
+						- S3 Event Notifications also support sending webhooks as a target for events. We can configure a webhook URL as a target, and when an event occurs, S3 will send an HTTP POST request to that URL. The receiving application or service at the webhook endpoint can process the request and take the necessary actions. This allows we to integrate S3 events with external systems or services that can handle webhook notifications.
+				- In summary, AWS S3 Event Notifications provide a way to monitor and respond to events occurring within wer S3 buckets. Events can be triggered by specific actions or changes, and we can configure targets such as AWS Lambda functions, SNS topics, or SQS queues to perform automated actions, send notifications, or enqueue messages for further processing. This flexibility enables we to build event-driven architectures and streamline workflows based on the activities happening in wer S3 storage.

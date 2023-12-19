@@ -40,3 +40,6 @@
 			- Connecting and managing IoT devices using [[AWS/IoT Core]] .
 	- ## Significance of AWS
 		- AWS has revolutionized the way businesses operate and compete in the digital era. Its comprehensive suite of services, coupled with its scalability, reliability, and cost-effectiveness, has made it the preferred cloud computing platform for many organizations. Understanding AWS concepts and services is essential for aspiring IT professionals and businesses looking to leverage the power of cloud computing.
+	- {{video https://www.youtube.com/watch?v=a9__D53WsUs}}
+	- {{video https://www.youtube.com/watch?v=JIbIYCM48to}}
+	- {{video https://www.youtube.com/watch?v=ZzI9JE0i6Lc}}
