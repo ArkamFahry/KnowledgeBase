@@ -1,0 +1,14 @@
+# ULID's (Universally Unique Lexicographically Sortable Identifiers)
+	- ULID stands for Universally Unique Lexicographically Sortable Identifier. It's a type of identifier that combines the properties of being both unique across distributed systems and sortable by time.
+	- ULIDs are 128-bit identifiers represented using 26 alphanumeric characters plus hyphens, structured as follows: `01AN4Z07BY79KA1307SR9X4MV3`.
+	- ## The structure of a ULID consists of
+		- **Time-based component**
+			- The first 48 bits represent a Unix timestamp, specifically the number of milliseconds since the UNIX epoch (January 1, 1970).
+		- **Randomness component**
+			- The remaining 80 bits are generated using a secure random number generator.
+	- ## The combination of time and randomness in ULIDs allows for the following advantages
+		- **Uniqueness**
+			- ULIDs generated in different locations at the same instant are extremely unlikely to collide due to the random component.
+		- **Sortability**
+			- Because the timestamp is the most significant part of a ULID, sorting ULIDs by their string representation also orders them by their time of creation.
+	- ULIDs find applications in distributed systems, databases, and scenarios where both uniqueness and chronological sorting are valuable, such as log entries, database keys, or any situation requiring globally unique identifiers that can be sorted by creation time.

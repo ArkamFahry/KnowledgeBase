@@ -1,0 +1,16 @@
+# KSUID's (K-Sortable Unique Identifiers)
+	- KSUID stands for K-Sortable Unique Identifier. It's another type of identifier similar to ULID but with a different structure and method of generation.
+	- KSUIDs are designed to be 32-byte identifiers (256 bits) that are globally unique, sortable by creation time, and resistant to collision.
+	- ## KSUID consists of
+		- **Timestamp**
+			- The first 4 bytes represent a timestamp, specifically the number of seconds since the UNIX epoch (January 1, 1970). Unlike ULIDs, KSUIDs use seconds instead of milliseconds for the timestamp.
+		- **Payload**
+			- The next 16 bytes are used for a random payload.
+		- **Suffix**
+			- The last 12 bytes are used for a user-specified payload.
+	- ## The advantages KSUID's offers
+		- **Uniqueness**
+			- KSUIDs generated in different locations at the same second are highly unlikely to collide due to the random payload and the inclusion of the timestamp.
+		- **Sortability**
+			- By having the timestamp as the most significant part of the identifier, KSUIDs can be sorted chronologically based on their creation time.
+	- KSUIDs are suitable for scenarios requiring identifiers that are both unique across distributed systems and sortable by creation time. They can be used in databases, log entries, distributed systems, or any application where time-ordered uniqueness is crucial.
