@@ -1,7 +1,7 @@
 # Flutter
 	- ![flutter.png](../assets/flutter_1702478785710_0.png)
 	- **Flutter** is an open-source UI toolkit developed by Google. It was first released in 2017 and has been actively maintained by Google since then.
-	- The primary purpose of Flutter is to enable developers to build beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. It’s not tied to any specific platform and is instead designed to work with existing code written in Dart.
+	- The primary purpose of Flutter is to enable developers to build beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. It’s not tied to any specific platform and is instead designed to work with existing code written in [[Dart]].
 	- ## Here’s how Flutter typically works
 		- **Single Codebase**
 			- Unlike traditional development frameworks that require separate codebases for different platforms, Flutter allows developers to write code once and run it on multiple platforms.
