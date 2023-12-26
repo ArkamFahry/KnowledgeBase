@@ -1,0 +1,50 @@
+# CDC: Change Data Capture
+	- CDC stands for Change Data Capture. It's a technique used to track and capture changes made to a database. CDC identifies and captures these modifications, allowing systems to stay synchronized and updated with the most recent data changes.
+	- ## How CDC  works
+		- **Capture**
+			- CDC identifies changes made to the database since the last check. This could include insertions, updates, or deletions of records.
+		- **Log or Record**
+			- The changes are logged or recorded in a specific format (such as a log file or table) that can be easily consumed by other systems or applications.
+		- **Propagation**
+			- The captured changes are propagated to other systems or data warehouses that need this updated information. This ensures that multiple systems are in sync without directly querying the main database.
+	- CDC is especially useful in scenarios where multiple applications or systems rely on the same database but don't directly interact with each other. By capturing changes and propagating them accordingly, it helps maintain data consistency across various systems and enables real-time or near-real-time data replication without putting too much strain on the primary database.
+	- For example, in a scenario where an e-commerce platform updates inventory levels in a database, CDC can capture these changes and propagate them to the inventory management system, order processing system, and reporting tools, ensuring all systems have the most recent inventory data without directly querying the main database every time.
+	- ## Advantages of using CDC
+		- **Real-Time Data Synchronization**
+			- CDC allows systems to stay synchronized in near real-time. By capturing and propagating changes as they occur, it ensures that various systems accessing the same data stay up-to-date without delays, reducing the risk of working with outdated information.
+		- **Reduced Load on Source Systems**
+			- Instead of continuously querying the main database for updates, CDC captures changes efficiently. This reduces the load on the source system, preventing excessive resource consumption and potential performance issues.
+		- **Improved Data Consistency**
+			- With CDC, multiple systems or applications working with the same dataset maintain data consistency. All systems accessing the data receive the same updates, minimizing discrepancies that could arise from using outdated information.
+		- **Minimized Latency**
+			- By capturing changes in near real-time, CDC minimizes the latency between data updates and their availability in other systems. This is crucial for scenarios where immediate access to updated information is necessary.
+		- **Support for Data Warehousing and Analytics**
+			- CDC is valuable for feeding data warehouses and analytics platforms. It ensures that these systems have the most recent data available for analysis, enabling businesses to make informed decisions based on up-to-date information.
+		- **Incremental Data Processing**
+			- CDC enables processing only the changed data, reducing the amount of data processed during synchronization. This can significantly improve efficiency, especially in scenarios dealing with large datasets.
+		- **Minimized Risk of Data Loss**
+			- By capturing changes as they occur, CDC reduces the risk of data loss compared to traditional methods where periodic data syncing might miss interim changes.
+		- **Compliance and Auditing**
+			- CDC provides a trail of changes made to the data, which is beneficial for compliance purposes and auditing. It helps track who made changes, what changes were made, and when they occurred.
+	- ## How implement CDC
+		- **Database Log Reading**
+			- **Transactional Logs**
+				- Many databases maintain transaction logs that record all changes made to the database. CDC implementations often involve reading these logs.
+			- **Polling or Trigger-Based Approach**
+				- Some systems use polling mechanisms or database triggers to detect changes. This involves periodically checking for new or updated records since the last check.
+		- **CDC Tools or Frameworks**
+			- **Using Specialized Tools**
+				- There are specialized CDC tools or frameworks like [[Debezium]], Oracle GoldenGate, AWS DMS (Database Migration Service), and others. These tools provide connectors or plugins tailored for different databases and streamline the process of capturing and propagating changes.
+		- **Event-Driven Architectures**
+			- **Integration with Messaging Systems**
+				- CDC often integrates with messaging systems like [[Apache Kafka]]. Changes captured from the database are converted into messages and pushed to a message broker, allowing downstream systems to subscribe and consume these changes in real-time.
+		- **Replication or Mirror Databases**
+			- **Replication Setup**
+				- Some databases offer built-in replication features that allow changes from one database to be replicated to another. This can be a form of CDC where changes from the source database are mirrored in a target database.
+		- **Custom Implementations**
+			- **Building Custom Solutions**
+				- In some cases, custom CDC solutions are developed. This involves writing code or scripts that directly interact with the database logs or use database APIs to capture changes and propagate them to the desired destinations.
+		- **Streaming and Batch Processing**
+			- **Streaming Pipelines**
+				- Streaming platforms or pipelines can be set up to process CDC events. These platforms continuously ingest and process streaming data, allowing for real-time analysis or propagation of changes.
+		- Implementing CDC involves understanding the database's capabilities, choosing the right method or tool, configuring connectors or plugins, handling the captured data, and ensuring that downstream systems can consume and utilize the changes effectively. Each approach has its strengths and considerations based on factors like data volume, latency requirements, system complexity, and the need for real-time synchronization.
