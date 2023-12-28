@@ -1,4 +1,4 @@
-# Singly Linked List
+# Linked List
 	- Generally “linked list” means a singly linked list. This list consists of a number of nodes in which
 	  each node has a next pointer to the following element. The link of the last node in the list is
 	  NULL, which indicates the end of the list.
@@ -318,3 +318,5 @@
 			  Linked List: 10 -> 5 -> 15 -> NULL
 			  ```
 		- Singly Linked List can be the easiest linked list and simplest linked list in the wild
+	- ## Singly Linked List Resources
+		- [Linked list - Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
