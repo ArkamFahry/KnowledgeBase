@@ -1,4 +1,4 @@
-- # Supabase: The Open Source Firebase Alternative
+# Supabase: The Open Source Firebase Alternative
 	- ![supabase.png](../assets/supabase_1687622345462_0.png)
 	- ## Supabase
 		- Supabase is a [[BaaS]] platform which radically simplify the process on back end development without the fear of [[Vendor lock-in]] because Supabase is completely base on [[Open Source]] software.
@@ -62,3 +62,6 @@
 		- [The Open Source Firebase Alternative | Supabase](https://supabase.com/)
 		- [GitHub - supabase/supabase: The open source Firebase alternative. Follow to stay updated about our public Beta.](https://github.com/supabase/supabase)
 		- [Supabase Docs](https://supabase.com/docs)
+	- {{video https://www.youtube.com/watch?v=zBZgdTb-dns}}
+	- {{video https://www.youtube.com/watch?v=WiwfiVdfRIc}}
+	- {{video https://www.youtube.com/watch?v=VZUmIMBLV4I}}

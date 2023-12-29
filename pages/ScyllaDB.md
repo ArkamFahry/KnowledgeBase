@@ -1,0 +1,22 @@
+# ScyllaDB: Monstrously Fast & Scalable [[NoSQL]]
+	- ![scylladb.png](../assets/scylladb_1703861511641_0.png)
+	- ScyllaDB is a high-performance, distributed NoSQL database built as a drop-in replacement for [[Apache Cassandra]] . It's designed to deliver low-latency, high-throughput, and scalability while maintaining compatibility with Cassandra's data model and query language (CQL). ScyllaDB is written in [[C++]] and uses the [[Seastar]] framework, aiming to leverage modern hardware capabilities effectively.
+	- Advantages offered by ScyllaDB
+		- **Performance**
+			- ScyllaDB is known for its superior performance, often achieving significantly higher throughput and lower latencies compared to Cassandra. It's optimized to make the most of modern hardware, utilizing multiple CPU cores efficiently.
+		- **Scalability**
+			- It inherits Cassandra's distributed architecture, allowing seamless scaling by adding nodes to the cluster, enabling it to handle larger volumes of data and increased traffic.
+		- **Reduced Hardware Footprint**
+			- ScyllaDB's efficiency can result in lower hardware requirements compared to Cassandra for similar workloads, potentially reducing operational costs.
+		- **CQL Compatibility**
+			- It supports Cassandra Query Language ([[CQL]]), making it easier for Cassandra users to migrate to ScyllaDB without significant changes to their applications.
+		- **Ecosystem Compatibility**
+			- ScyllaDB maintains compatibility with Cassandra's ecosystem, allowing users to use existing drivers, connectors, and tools developed for Cassandra.
+	- However, while ScyllaDB offers these advantages, it's important to note that each database solution has its strengths and limitations. The choice between ScyllaDB and Cassandra (or any other database) depends on specific use cases, existing infrastructure, performance requirements, and expertise within an organization.
+	- ## ScyllaDB Resources
+		- [ScyllaDB | Monstrously Fast + Scalable NoSQL](https://www.scylladb.com/)
+		- [GitHub - scylladb/scylladb: NoSQL data store using the seastar framework, compatible with Apache Cassandra](https://github.com/scylladb/scylladb)
+		- [ScyllaDB University | NoSQL Courses](https://university.scylladb.com/)
+		- [Welcome to ScyllaDB Documentation | ScyllaDB Docs](https://docs.scylladb.com/stable/)
+	- {{video https://www.youtube.com/watch?v=MWFWM_LcouY}}
+	- {{video https://www.youtube.com/watch?v=3Mslo3zBFQM}}

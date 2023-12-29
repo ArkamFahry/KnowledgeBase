@@ -1,4 +1,4 @@
-- # Key Value Databases
+# Key Value Databases
 	- ## What are Key-Value Databases
 		- A Key-Value Database is a type of NoSQL (Not Only SQL) database that stores data in a simple key-value pair format. In this type of database, data is organized into collections of key-value pairs, where each key is unique and corresponds to a value, similar to how you might use a dictionary or a hash map in programming.
 	- ## The basic structure of a key-value database is as follows
