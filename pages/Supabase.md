@@ -5,13 +5,13 @@
 		- Put it simply Supabase is an opensource alternative to [[Firebase]] built with free and [[Open Source]] software.
 	- ## Supabase Features
 		- Admin Dashboard.
-			- Supabase has a best in class admin dashboard called [[Supabase/Studio]] which gives the user a clean and easy to use UI to interact with all the services in Supabase.
+			- Supabase has a best in class admin dashboard called [[Supabase Studio]] which gives the user a clean and easy to use UI to interact with all the services in Supabase.
 		- Full Managed Database.
-			- There is fully managed [[PostgreSQL]] database loaded with a lot of  [[PostgreSQL/Extensions]].
-			- The database has full [[PostgreSQL/Functions]] Support.
-			- Complete support for [[PostgreSQL/Triggers]].
+			- There is fully managed [[PostgreSQL]] database loaded with a lot of  [[PostgreSQL Extensions]].
+			- The database has full [[PostgreSQL Functions]] Support.
+			- Complete support for [[PostgreSQL Triggers]].
 			- Database [[Webhooks]] support built into the database.
-			- Complete support for [[PostgreSQL/FTS]] search.
+			- Complete support for [[PostgreSQL FTS]] search.
 			- Databse level secrets data encryption using extension [Supabase Vault](https://supabase.com/blog/supabase-vault).
 			- Database migrations.
 				- Develop locally and push your changes to your production database using migrations.
@@ -21,15 +21,15 @@
 			- Magic Links.
 			- Social Logins with multiple OAuth providers.
 			- Phone Logins.
-		- Authorization using [[PostgreSQL/RLS]].
-			- Control the data each user can access with [[PostgreSQL/Policies]].
+		- Authorization using [[PostgreSQL RLS]].
+			- Control the data each user can access with [[PostgreSQL Policies]].
 		- APIs & Client libraries for many different languages and environments.
 		- Auto generated API's.
 			- [[REST]]
 				- Supabase automatically generates a REST API for the database using [[PostgREST]].
 			- [[GraphQL]]
 				- The GraphQL API implemented by Supabase runs and resolves its queries and mutations in the database layer using the extension [pg_graphql](https://supabase.github.io/pg_graphql/). This makes the GraphQL API extremely efficient and fast. In the meantime, this approach removes the dreaded [[GraphQL N + 1 Problem]].
-		- [[Supabase/Realtime]] which is cool
+		- [[Supabase Realtime]] which is cool
 			- Supabase Realtime Database Changes will be pushed to the client via [[WebSockets]] in Realtime.
 			  id:: 649f8cb9-6b54-4d1c-9481-9da89c4242e3
 			- Supabase Broadcasting can be used to send messages between users through [[WebSockets]]. In this process, the database is bypassed and the messages are directly sent between clients, making Broadcasting much faster.
@@ -56,7 +56,7 @@
 		- Self Hosting Supabase can be a challenge because the multiple services required by Supabase to function are hard to deploy and manage.
 		- The client SDKs are hard to migrate away from. Though Supabase uses standard [[PostgreSQL]] under the hood the Supabase clients are built to interact with the API which runs on top of the Database so migration would be a chalange.
 		- If [[SQL]] is not the preferred way of data modelling  then Supabase is out the window.
-		- The Authorization system is different. There needs to be a good level of understanding on [[PostgreSQL/RLS]] to implement robust auth rules.
+		- The Authorization system is different. There needs to be a good level of understanding on [[PostgreSQL RLS]] to implement robust auth rules.
 		- There is no offline data persistence in the SDKs.
 	- ## Supabase Resources
 		- [The Open Source Firebase Alternative | Supabase](https://supabase.com/)

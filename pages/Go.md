@@ -1,4 +1,4 @@
-- # Go: C of 21st century
+# Go: C of 21st century
 	- ![go.png](../assets/go_1687967894127_0.png){:height 270, :width 753}
 	- ## Go
 		- Golang, also known as Go, is a programming language developed at Google in 2007 by legends who really know their stuff like [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) and Version 1.0 was released as open-source software in 2012. Go was designed for simplicity and efficiency that why it's called Go and not Goalng. It is described as [[C]] for the 21st century. It is a popular choice for high-performance Server-side applications. This is the language which builds tools like [[Docker]], [[CockroachDB]], [[Dgraph]] and many more tools.
@@ -12,7 +12,7 @@
 			- Relatively small syntax is used by Go, making it easy to learn and use. The language is also designed to be expressive and concise, which can help to write more efficient code.
 		- Concurrency
 			- Built-in support for concurrency, which allows the development of programs that can run multiple tasks at the same time. This can be very helpful for applications that need to handle a lot of concurrent requests.
-				- Go's concurrency system is based on goroutines and channels. [[Goroutines]] are lightweight threads that are managed by the [[Go/Runtime]]. They are cheap to create and can be easily spawned from other goroutines.
+				- Go's concurrency system is based on goroutines and channels. [[Goroutine]] are lightweight threads that are managed by the [[Go Runtime]]. They are cheap to create and can be easily spawned from other goroutines.
 					- {{embed ((649eeca9-8c24-4598-ba0d-06561a9a64c2))}}
 		- Robust standard library
 			- Has a comprehensive standard library that includes a wide range of modules for common tasks such as networking, I/O, and cryptography. This can help to get started with a projects quickly and easily.
@@ -39,7 +39,7 @@
 		- Dependency management can be cumbersome
 			- Go's dependency management system, `go get`, is often criticized for being difficult to use and for not being very flexible.
 		- Concurrency can be a bit complex
-			- Go's Concurrency model is based on [[Goroutines]] and channels. This model can be difficult to understand and use, especially for beginners.
+			- Go's Concurrency model is based on [[Goroutine]] and channels. This model can be difficult to understand and use, especially for beginners.
 		- Performance is good but not the same as other compiled languages
 			- It is not always the fastest programming language. For some tasks, other languages, such as [[Rust]] or C++ can be faster.
 		- The difficulty of learning best practices for Go programming

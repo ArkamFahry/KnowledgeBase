@@ -1,21 +1,21 @@
 # Amazon Web Services
 	- Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon. It offers a wide range of services, including compute, storage, networking, database, analytics, machine learning, and internet of things (IoT), that allow businesses to build, deploy, and manage applications on a global scale.
 	- ## Core Services of AWS
-		- Elastic Compute Cloud ([[AWS/EC2]])
+		- Elastic Compute Cloud ([[AWS EC2]])
 			- Provides on-demand virtual servers for running applications. The heavy weight of AWS most other services are built on top of this.
-		- Simple Storage Service ([[AWS/S3]])
+		- Simple Storage Service ([[AWS S3]])
 			- Offers object storage for storing and retrieving data of any size, from anywhere.
-		- Virtual Private Cloud ([[AWS/VPC]])
+		- Virtual Private Cloud ([[AWS VPC]])
 			- Enables businesses to create a private network within the AWS cloud.
-		- Amazon Relational Database Service ([[AWS/RDS]])
-			- Provides managed relational database services, such as MySQL, PostgreSQL, and Oracle.
-		- Amazon Simple Notification Service ([[AWS/SNS]])
+		- Amazon Relational Database Service ([[AWS RDS]])
+			- Provides managed relational database services, such as [[MySQL]], [[PostgreSQL]], and Oracle.
+		- Amazon Simple Notification Service ([[AWS SNS]])
 			- Delivers real-time notifications to applications or subscribers.
-		- Amazon Functions As A Service ([[AWS/Lambda]])
+		- Amazon Functions As A Service ([[AWS Lambda]])
 			- Enables businesses to run code without managing servers.
-		- [[AWS/SageMaker]]
+		- [[AWS SageMaker]]
 			- Provides a fully managed platform for machine learning development and deployment.
-		- [[AWS/IoT Core]]
+		- [[AWS IoT Core]]
 			- Facilitates secure communication between IoT devices and the AWS cloud.
 		- There are 💩 tone of more services. These are some of the well known ones.
 	- ## Benefits of Using AWS
@@ -26,18 +26,18 @@
 		- Reliability
 			- High availability and disaster recovery capabilities to ensure business continuity.
 		- Innovation
-			- Access to a wide range of cutting-edge technologies, such as machine learning and IoT. They even have Quantum computers with [[AWS/Braket]]
+			- Access to a wide range of cutting-edge technologies, such as machine learning and IoT. They even have Quantum computers with [[AWS Braket]]
 	- ## Applications of AWS
 		- Web applications
 			- Building and hosting web applications with high scalability and availability.
 		- Mobile applications
-			- Developing and deploying mobile backends with AWS services like [[AWS/Amplify]] .
+			- Developing and deploying mobile backends with AWS services like [[AWS Amplify]] .
 		- Data analytics
-			- Analyzing large datasets using AWS services like [[AWS/Redshift]] and [[AWS/EMR]].
+			- Analyzing large datasets using AWS services like [[AWS Redshift]] and [[AWS EMR]].
 		- Machine learning
-			- Building and deploying machine learning models using AWS services like [[AWS/SageMaker]] .
+			- Building and deploying machine learning models using AWS services like [[AWS SageMaker]] .
 		- IoT
-			- Connecting and managing IoT devices using [[AWS/IoT Core]] .
+			- Connecting and managing IoT devices using [[AWS IoT Core]] .
 	- ## Significance of AWS
 		- AWS has revolutionized the way businesses operate and compete in the digital era. Its comprehensive suite of services, coupled with its scalability, reliability, and cost-effectiveness, has made it the preferred cloud computing platform for many organizations. Understanding AWS concepts and services is essential for aspiring IT professionals and businesses looking to leverage the power of cloud computing.
 	- {{video https://www.youtube.com/watch?v=a9__D53WsUs}}

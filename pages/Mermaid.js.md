@@ -1,4 +1,4 @@
-- # Mermaid.js: [[JavaScript]] based Diagramming and Charting tool
+# Mermaid.js: [[JavaScript]] based Diagramming and Charting tool
 	- ![mermaid.js.png](../assets/mermaid.js_1688306819859_0.png)
 	- ## Mermaid.js
 		- It is a diagramming and charting tool based on JavaScript which can render its diagrams into a Markdown-inspired text definition.
@@ -12,17 +12,17 @@
 			- Like all the major git hosting providers like [[GitHub]],  [[GitLab]] and other have native support for mermaid.
 			- There is a live editor for mermaid.
 			- A VS Code extension is also available this enables [[VS Code]] to render mermaid.js  diagrams. So there is need to even leave the dev environments to create diagrams or document stuff.
-			- All of the [[JetBrains/IDEs]] also have support for mermaid.
+			- All of the [[JetBrains IDE]] also have support for mermaid.
 			- Atlassians software suite also has integrations for mermaid.
 		- The diversity of available diagram types
-			- [[Mermaid.js/Flowcharts]]
-			- [[Mermaid.js/Sequence Diagrams]]
-			- [[Mermaid.js/Gantt Diagrams]]
-			- [[Mermaid.js/Class Diagrams]]
-			- [[Mermaid.js/Git Graphs]]
-			- [[Mermaid.js/ER Diagrams]]
-			- [[Mermaid.js/User Journey Diagrams]]
-			- [[Mermaid.js/Quadrant Charts]]
+			- [[Mermaid.js Flowchart]]
+			- [[Mermaid.js Sequence Diagrams]]
+			- [[Mermaid.js Gantt Diagram]]
+			- [[Mermaid.js Class Diagram]]
+			- [[Mermaid.js Git Graph]]
+			- [[Mermaid.js ER Diagram]]
+			- [[Mermaid.js User Journey Diagrams]]
+			- [[Mermaid.js Quadrant Chart]]
 	- ## Mermaid.js Problems
 		- There are some diagrams still missing.
 		- Some diagram features are missing.

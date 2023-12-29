@@ -1,4 +1,4 @@
-- # PlanetScale: The world's most advanced database platform
+# PlanetScale: The world's most advanced database platform
 	- ![planetscale.png](../assets/planetscale_1687868894764_0.png)
 	- ## PlanetScale
 		- PlanetScale is a Serverless, MySQL-compatible database that offers scale, performance, and reliability without sacrificing developer experience. It is built on top of [[Vitess]], a scalable and fault-tolerant distributed database system.
@@ -31,9 +31,10 @@
 					- Foreign Keys can interfere with online DDL operations. Online DDL operations are changes to the database schema that are made while the database is still running. Foreign keys can make these changes more difficult and time-consuming.
 					- Foreign Keys can be difficult to manage in a distributed database system. In a distributed database system, data is spread across multiple servers. This can make it difficult to enforce referential integrity across all of the servers.
 			- The lack of foreign keys is a limitation of PlanetScale, but it is not a deal-breaker for everyone. If there are no foreign keys being used in the database, then the migration will not be affected by this limitation. However, if foreign keys are being used, then a different way is needed to enforce referential integrity.
-			- This would not be an issue if it's a new project where the data model and schema can be designed with this restriction in mind. [[PlanetScale/Operating Without Foreign Keys]] has a schema adapted to this restriction and how to run operations on the specified schema.
+			- This would not be an issue if it's a new project where the data model and schema can be designed with this restriction in mind. [[PlanetScale Operating Without Foreign Keys]] has a schema adapted to this restriction and how to run operations on the specified schema.
 		- No triggers and stored procedures
 			- Triggers and Stored Procedures are not available in PlanetScale. This is because PlanetScale is a serverless database, and triggers and stored procedures are not compatible with serverless architecture.
 			- If an application depends on triggers and stored procedures this could be a deal-breaker.
 	- ## PlanetScale Resources
 		- [PlanetScale: The world’s most advanced database platform](https://planetscale.com/)
+		- [PlanetScale Documentation — PlanetScale Documentation](https://planetscale.com/docs)

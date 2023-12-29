@@ -1,0 +1,30 @@
+# Media-Kit Package
+	- The `media-kit` package is a cross-platform video player and audio player for [[Flutter]] and [[Dart]]. It provides a unified API to access various media capabilities on different platforms.
+	- ## Key Features of media-kit
+		- **Video and Audio Playback**
+			- Supports video and audio playback across multiple platforms from various sources, including network, file system, and assets.
+		- **Wide Format/Codec Support**
+			- Supports a wide range of media formats and codecs.
+		- **Hardware/GPU Acceleration**
+			- Leverages hardware and GPU acceleration for efficient and high-performance media playback.
+		- **Playlist Support**
+			- Allows creation of playlists with support for next/previous/jump/shuffle operations.
+		- **Volume/Rate/Pitch Change**
+			- Controls for the volume, rate, and pitch of the media playback.
+		- **Track Selection**
+			- Provides the ability to select video, audio, and subtitle tracks.
+		- **External Track Selection**
+			- Supports the selection of external audio and subtitle tracks.
+		- **HTTP Headers**
+			- Allows specification of HTTP headers for network media sources.
+		- **Video Controls**
+			- Includes built-in video controls for user interaction.
+		- **Subtitle Styling**
+			- Provides options for styling subtitles.
+		- **Screenshot Support**
+			- Allows taking screenshots of the video playback.
+		- The `media-kit` package is modular and split into multiple packages to improve modularity and reduce bundle size. Depending on your needs, you can choose to include only the packages necessary for your application.
+		- Remember to add the necessary permissions in your app to use these features, such as internet access for network media, or storage access for local media files. Also, consider the user's privacy and only access media files that your app has permission to use.
+	- ## Media-Kit Resources
+		- [media_kit | Dart Package](https://pub.dev/packages/media_kit)
+		- [GitHub - media-kit/media-kit: A cross-platform video player & audio player for Flutter & Dart.](https://github.com/media-kit/media-kit)

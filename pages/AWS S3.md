@@ -1,0 +1,38 @@
+# AWS S3 (Amazon Simple Storage Service)
+	- AWS S3, or Amazon Simple Storage Service, is a highly scalable and durable cloud storage service provided by Amazon Web Services (AWS). It is designed to store and retrieve any amount of data from anywhere on the web. S3 offers a simple and secure way to store objects, such as files or documents, and provides various features for managing and organizing wer data.
+	- ## Key features and concepts of AWS S3
+		- **Buckets**
+			- S3 stores data in containers called buckets A bucket acts as a logical unit to organize and manage wer objects. we can create multiple buckets and store different types of data in each one.
+		- **Objects**
+			- Objects are the individual files or data stored in S3. Each object consists of data and metadata. The data can be anything from text files, images, videos to database backups. Metadata includes information like object name, size, creation date, and custom tags.
+		- **Durability and Availability**
+			- S3 is designed to provide high durability and availability of objects. It automatically replicates data across multiple servers within a chosen AWS region. This redundancy ensures that wer data is protected against hardware failures or natural disasters.
+		- **Security and Access Control**
+			- S3 provides various security mechanisms to protect wer data. we can control access to S3 buckets and objects using bucket policies and Access Control Lists (ACLs). Additionally, AWS Identity and Access Management ([[AWS IAM]]) can be used to manage user-level access and permissions.
+		- **Scalability and Performance**
+			- S3 is highly scalable, allowing we to store and retrieve any amount of data. It automatically scales to handle large workloads and concurrent access. S3 also offers features like multi-part upload for large files and transfer acceleration to speed up data transfers.
+		- **Data Management**
+			- S3 provides features for managing and organizing wer data. we can set lifecycle policies to automatically move or delete objects based on their age. Versioning allows we to maintain multiple versions of an object, enabling easy recovery or rollbacks. S3 also supports event notifications, enabling we to trigger actions or workflows when certain events occur.
+		- **Integration and Services**
+			- S3 integrates with other AWS services, making it a fundamental building block for many cloud-based architectures. For example, we can use S3 to host static websites, store data for analytics and big data processing using services like Amazon Athena or Amazon Redshift, Sending S3 events for [[AWS MSK]], [[AWS Kinesis]], [[AWS EventBridge]] or directly access S3 data from AWS Lambda functions.
+	- Overall, AWS S3 provides a reliable, scalable, and cost-effective solution for storing and managing data in the cloud. It is widely used by individuals, businesses, and organizations of all sizes to store, backup, and share various types of data and content.
+	- ## How objects are stored in S3
+		- In AWS S3, objects are stored in a flat structure within buckets. Each object within a bucket is identified by a unique key, which is essentially the object's address or identifier. The key is used to retrieve, update, or delete the object.
+		- When we upload an object to S3, we specify the bucket name and the key for the object. The key can be thought of as the full path or file name of the object within the bucket. For example, if we upload a file named "myphoto.jpg" to a bucket named "mybucket", the key for that object would be something like "myphoto.jpg".
+		- S3 does not impose any limitations on the number of objects we can store in a bucket or the size of the objects. However, there are some guidelines to consider for optimal performance and scalability.
+		- ### Here are a few key points for optimal object storage
+			- **Flat Namespace**
+				- S3 uses a flat namespace, which means that all objects within a bucket share the same namespace. The key of an object must be unique within the bucket, but there are no restrictions on the naming structure or hierarchy of keys.
+			- **Performance Considerations**
+				- S3 is designed for high scalability and performance. However, the performance can be affected by the naming scheme of the keys. S3 uses a key-based indexing system, and objects with similar prefixes (e.g., keys that have the same prefix) are stored together. If we have a large number of objects with a common prefix, it can impact performance as S3 needs to manage and distribute the load across its infrastructure.
+			- **Object Metadata**
+				- Along with the object data, we can also associate metadata with each object. Metadata is a set of key-value pairs that provide additional information about the object. For example, we can store information such as the content type, creation date, or custom tags. Metadata is useful for organizing and categorizing objects.
+			- **Versioning and Lifecycle Management**
+				- S3 provides versioning and lifecycle management features. Versioning allows we to keep multiple versions of an object, enabling we to recover previous versions or track changes over time. Lifecycle management allows we to define rules to automatically transition objects to different storage classes or delete them after a certain period. These features help we effectively manage the lifecycle of wer objects.
+			- **Access Control**
+				- S3 provides fine-grained access control mechanisms to secure wer objects. we can define bucket policies and Access Control Lists (ACLs) to manage access at the bucket or object level. Access can be granted to [[AWS IAM]] users, AWS accounts, or even to the general public for publicly accessible objects.
+		- The key-based system in AWS S3 allows for efficient storage and retrieval of objects within the buckets. By using unique keys, we can easily organize and manage wer objects in a flat structure. The flexibility of the key system enables we to design wer own naming conventions and hierarchies to suit wer application's needs.
+	- ## AWS S3 Resources
+		- [Cloud Object Storage - Amazon S3  - AWS](https://aws.amazon.com/s3/)
+		- https://docs.aws.amazon.com/s3/
+	- {{video https://www.youtube.com/watch?v=77lMCiiMilo}}

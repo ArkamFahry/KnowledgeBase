@@ -33,6 +33,8 @@
 			- GraphQL has a steeper learning curve than REST. Developers need to understand the type system, queries, mutations, and resolvers, among other things.
 		- **Error Handling**
 			- Error handling in GraphQL can be more complex compared to REST. In REST, we have standard HTTP status codes to represent different types of errors. In GraphQL, the server always responds with a 200 OK status code and the errors are included in the response body.
+		- **Server Side Over Fetching**
+			- [[GraphQL N + 1 Problem]] means the server over fetches data.
 	- In conclusion, while GraphQL has many advantages over REST, it also has its own set of challenges. The choice between GraphQL and REST depends on the specific needs and constraints of your project. I hope this gives you a more comprehensive understanding of GraphQL! 😊
 	- {{video https://www.youtube.com/watch?v=urmi2wbEpGk}}
 	- {{video https://www.youtube.com/watch?v=783ccP__No8}}

@@ -4,14 +4,14 @@
 		- SurrealDB is a [[NewSQL]] [[Multi-Model Database]] written in [[Rust]].
 		- With an SQL-style query language, real-time queries with highly-efficient related data retrieval, advanced security permissions for multi-tenant access, and support for performant analytical workloads, SurrealDB is the next generation serverless database. It literally has a features set that is surreal.
 		- SurrealDB combines the best of [[Relational Databases]], [[Document Databases]], [[Key Value Databases]] and [[Graph Database]] in to a single light weight and preferment package which is [[ACID]] compliant and can  be queried with a SQL like syntax.
-		- The magic behind SurrealDB is the [[SurrealDB/Record IDs]].
+		- The magic behind SurrealDB is the [[SurrealDB Record IDs]].
 	- ## SurrealDB Features
 		- It is Easy to pickup
 			- There is no need to learn a new complicated database languages [[SurrealQL]] is SQL with some good to have syntactic sugar.
 		- Support for multiple ways to query the database
-			- Supports [[SurrealQL]] querying from client devices or servers, GraphQL querying, WebSocket querying, and HTTP querying. This gives great flexibility on how to query the database.
+			- Supports [[SurrealQL]] querying from client devices or servers, GraphQL querying, [[SurrealDB WebSocket]] querying, and [[SurrealDB HTTP]] querying. This gives great flexibility on how to query the database.
 		- Granular access control
-			- Provides row-level permissions-based access control, giving you the ability to manage data access with precision. This is important for ensuring that the data is secure and that only authorized users can access it.
+			- Provides row-level permissions-based access control with [[SurrealDB Permissions]] , giving you the ability to manage data access with precision. This is important for ensuring that the data is secure and that only authorized users can access it.
 		- Scalability and performance
 			- Scalable and performant database that can handle high volumes of traffic. It is also designed to be fault-tolerant, so the data is always safe even if there is a problem with the database server.
 			- It uses [[TiKV]] to run in a distributed scalable system that can handle [[Terabytes]]'s of data.
@@ -23,10 +23,14 @@
 			- Support for geospatial querying, which makes it ideal for applications that need to work with spatial data.
 		- Full-text indexing
 			- Supports full-text indexing, which makes it easy to search your data for specific keywords or phrases.
+		- Built in functions
+			- offers a wide range of built-in [[SurrealDB Functions]] to manipulate, analyze, and transform data within your database.
 		- Embedded mode
 			- Can be embedded in your application, which gives you more control over how your data is stored and accessed.
 		- Schema Full or Schema Less mode
 			- This means the data can be defined with a strict schema like in [[PostgreSQL]] or can be stored without a schema like in [[MongoDB]].
+		- Realtime capabilities
+			- [[SurrealDB Live Queries]] are a powerful feature that allows you to monitor changes in your data **in real-time**. Instead of polling the database for updates, you establish a **continuous connection** that pushes any data modifications directly to your application as they happen.
 	- ## SurrealDB Problems
 		- Has a learning curve to the new way of data modeling.
 		- Still a new product and not mature as other databases.

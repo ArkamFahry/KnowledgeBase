@@ -1,0 +1,35 @@
+# Skip List
+	- A skip list is a [[Data Structure]] which allows for efficient searching, insertion, and deletion of elements in a sorted sequence, somewhat similar to a Linked List but with additional layers of pointers or "skips" that provide quicker access to elements.
+	- ## Workings of a skip list
+		- **Basic Structure**
+			- At its core, a skip list is made up of linked lists. The lowest level represents a sorted linked list containing all the elements. Each node in this base level contains the element itself and a pointer to the next node.
+		- **Multiple Levels**
+			- What makes a skip list different from a simple linked list is that it has multiple levels of pointers. Some nodes in the list have additional pointers that allow "skipping" some elements when traversing the list. These additional pointers form higher levels of the skip list.
+		- **Higher Levels**
+			- The higher levels contain fewer elements by skipping over some at the lower levels. For instance, the second level might contain nodes that point to every second or third node in the base list. Similarly, higher levels skip even more elements.
+		- **Search Efficiency**
+			- When searching for an element, the skip list takes advantage of these skip pointers to quickly narrow down the search space. Starting from the top level, it checks for skips that might bring it closer to the target element. As it moves down levels, the search area decreases until it finds the desired element or determines its position in the list.
+		- **Insertion and Deletion**
+			- Insertion and deletion in skip lists involve adjusting the pointers at different levels to maintain the skip list's structure while preserving its sorted order.
+	- Skip lists offer a compromise between the complexity of more intricate data structures like balanced trees (such as red-black trees) and the simplicity of linked lists. They provide faster search times compared to traditional linked lists, especially for larger collections, while still being relatively easy to implement and maintain.
+	- The efficiency of skip lists largely depends on the probability distribution used to decide when to add elements to higher levels. When balanced correctly, skip lists offer average-case logarithmic time complexity for search, insertion, and deletion operations.
+	- ## Some common use cases of skip lists
+		- **In-memory Databases and Caches**
+			- Skip lists can be used in in-memory databases and caching systems where quick access to sorted data is crucial. Their efficient search and insertion make them suitable for maintaining sorted data structures in memory.
+		- **Concurrency Control**
+			- Skip lists can be adapted for concurrent data structures, allowing for efficient concurrent access and modification of sorted data without heavy locking mechanisms. They are used in some concurrent programming scenarios to manage shared sorted data.
+		- **Priority Queues**
+			- Skip lists can serve as the basis for priority queues, where elements are sorted by priority. Their ability to efficiently search and insert elements based on priority levels makes them suitable for managing queues efficiently.
+		- **Range Queries**
+			- Skip lists support range queries effectively. They enable efficient traversal across elements in a sorted order, making them useful in scenarios where range-based searches are frequent.
+		- **Log-Structured Data Stores**
+			- In some cases, skip lists are utilized in log-structured data stores or as an indexing mechanism within such stores. Log-structured data stores often require efficient indexing of data for fast retrieval, and skip lists provide this capability.
+		- **File Systems and Databases**
+			- Some file systems and databases use skip lists as part of their indexing structures, especially when managing sorted indexes for faster data retrieval.
+		- **Network Routing Algorithms**
+			- In certain networking applications and algorithms, skip lists can be employed for efficiently managing routing tables or for organizing routing information.
+	- ## Real world use cases of skip lists
+		- [[Discord]] use advance version of SkipList to keep track of large number of users in a [[Discord]] server.
+			- https://discord.com/blog/using-rust-to-scale-elixir-for-11-million-concurrent-users
+	- ## Skip List Resources
+		- [Skip list - Wikipedia](https://en.wikipedia.org/wiki/Skip_list)

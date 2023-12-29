@@ -1,4 +1,4 @@
-- # Cirql: SurrealDB ORM & Query Builder
+# Cirql: SurrealDB ORM & Query Builder
 	- ![cirql.png](../assets/cirql_1687967645732_0.png)
 	- ## Cirql
 		- Cirql (pronounced Circle) is a lightweight and simpe [[ORM]] and [[Query Builder]] for [[SurrealDB]] providing fully type-safe queries and [[Zod]] powered parsing & validation.
@@ -12,10 +12,10 @@
 		- Write flexible queries using the Query Writer API
 		- Support for raw query strings and native Surreal functions
 		- Works both in browser and backend environments
-	- ## [[Cirql/Installation]]
+	- ## [[Cirql Installation]]
 		- {{embed ((649c425a-3f87-4002-81f6-6acdd51f00c8))}}
-	- ## [[Cirql/Usage]]
-		- Following query fetches up to 5 organisations that are enabled and have the given user as a member. The result is parsed and validated using the provided [[Zod/Schema]]
+	- ## [[Cirql Usage]]
+		- Following query fetches up to 5 organisations that are enabled and have the given user as a member. The result is parsed and validated using the provided [[Zod Schema]]
 			- ```typescript
 			  import { RecordSchema, select } from 'cirql';
 			  import { z } from 'zod';

@@ -3,7 +3,7 @@
 	  id:: 649acbb1-f873-4376-85e9-f5fd41480917
 	- ## PocketBase
 		- PocketBase is the little brother to [[Supabase]] which is the open source alternative to [[Firebase]].
-		- PocketBase is a [[BaaS]] written in [[Go]] but this is an odd one rather than running in several services its a single [[Go/Binary]] which has an embedded [[SQLite]] database running in WAL mode. Putting the database directly next to the Binary gives a performance gain in data fetching speed while sacrificing [[Horizontal Scalability]]. However, this is not a problem as PocketBase can handle 10,000 concurrent connections. So this will be more than enough for most projects.
+		- PocketBase is a [[BaaS]] written in [[Go]] but this is an odd one rather than running in several services its a single [[Go Binary]] which has an embedded [[SQLite]] database running in WAL mode. Putting the database directly next to the Binary gives a performance gain in data fetching speed while sacrificing [[Horizontal Scalability]]. However, this is not a problem as PocketBase can handle 10,000 concurrent connections. So this will be more than enough for most projects.
 	- ## PocketBase Features
 		- Admin Dashboard
 			- PocketBase has a killer admin dashboard which  helps to manage all aspects of the PocketBase instance with a developer friendly UI.
@@ -29,7 +29,7 @@
 			- PocketBase has [[SSE]] based real-time making it so clients can subscribe to data changes in the database. This can be collection level changes or single record level changes. The use of [[SSE]] means all of this is stateless making it easier than [[WebSockets]]
 			- The Authorization rules defined for the Viewing of data are also inherited by the real-time system making it secure by default.
 		- File storage
-			- The system implements two file storage systems file-based file storage making use of the system file system or a [[AWS/S3]] and S3 compatible object storage file system connecting to an S3 compatible server.
+			- The system implements two file storage systems file-based file storage making use of the system file system or a [[AWS S3]] and S3 compatible object storage file system connecting to an S3 compatible server.
 			- The files also have references stored to them in the database making sure there are no orphan files.
 			- The files also get Authorization rules that can be defined making them secure by default.
 		- SQL generation
@@ -58,7 +58,7 @@
 			- Doesn't guarantee Event delivery order
 				- The events will be delivered not in the order that they happened.
 	- ## PocketBase Deployment
-		- [[PocketBase/Deployment]] methods.
+		- [[PocketBase Deployment]] methods.
 	- ## PocketBase Resources
 		- [PocketBase - Open Source backend in 1 file](https://pocketbase.io/)
 		- [GitHub - pocketbase/pocketbase: Open Source realtime backend in 1 file](https://github.com/pocketbase/pocketbase)
