@@ -414,9 +414,7 @@
  :file/name-format :triple-lowbar
  :feature/enable-journals? true
  :publishing/all-pages-public? true
- :graph/settings {:journal? false
- :excluded-pages? false
- :orphan-pages? true}
+ :graph/settings {:journal? false, :excluded-pages? true, :orphan-pages? true}
  :default-home {}
  :editor/logical-outdenting? false
  :ui/show-brackets? false

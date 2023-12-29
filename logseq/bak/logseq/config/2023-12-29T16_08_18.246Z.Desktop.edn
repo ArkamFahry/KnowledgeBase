@@ -415,8 +415,8 @@
  :feature/enable-journals? true
  :publishing/all-pages-public? true
  :graph/settings {:journal? false
- :excluded-pages? false
- :orphan-pages? true}
+ :excluded-pages? true
+ :orphan-pages? false}
  :default-home {}
  :editor/logical-outdenting? false
  :ui/show-brackets? false
