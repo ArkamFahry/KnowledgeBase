@@ -1,4 +1,6 @@
-# Cirql Installation
+tags:: [[Cirql]]
+
+- # Cirql Installation
 	- ## Cirql Install
 	  id:: 649c425a-3f87-4002-81f6-6acdd51f00c8
 		- [[Cirql]] query builder package can be installed from npm, together with a supported version of [[Zod]].

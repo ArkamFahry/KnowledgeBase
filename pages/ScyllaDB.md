@@ -1,4 +1,6 @@
-# ScyllaDB: Monstrously Fast & Scalable [[NoSQL]]
+tags:: [[Apache Cassandra]] , [[C++]], [[Seastar]]
+
+- # ScyllaDB: Monstrously Fast & Scalable [[NoSQL]]
 	- ![scylladb.png](../assets/scylladb_1703861511641_0.png)
 	- ScyllaDB is a high-performance, distributed NoSQL database built as a drop-in replacement for [[Apache Cassandra]] . It's designed to deliver low-latency, high-throughput, and scalability while maintaining compatibility with Cassandra's data model and query language (CQL). ScyllaDB is written in [[C++]] and uses the [[Seastar]] framework, aiming to leverage modern hardware capabilities effectively.
 	- Advantages offered by ScyllaDB

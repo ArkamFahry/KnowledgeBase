@@ -1,4 +1,6 @@
-# Sequence Diagrams
+tags:: [[Mermaid.js]]
+
+- # Sequence Diagrams
 	- ```mermaid
 	  sequenceDiagram
 	      participant Alice

@@ -1,4 +1,6 @@
-# Git Graph
+tags:: [[Mermaid.js]]
+
+- # Git Graph
 	- ```mermaid
 	  gitGraph
 	         commit

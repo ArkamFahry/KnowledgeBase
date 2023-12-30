@@ -1,3 +1,5 @@
+tags:: [[BaaS]], [[GCP]]
+
 - # FIrebase: The Godfather of BaaS platforms
 	- ![firebase.png](../assets/firebase_1687621659584_0.png){:height 217, :width 780}
 	- ## FIrebase Resources

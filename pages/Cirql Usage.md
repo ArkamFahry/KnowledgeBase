@@ -1,4 +1,6 @@
-## Cirql Usage
+tags:: [[Cirql]]
+
+- ## Cirql Usage
 	- ## Basic
 		- Once [[Cirql Installation]] is completed and connected to SurrealDB, sending queries to the database can begin.
 			- A simple `SELECT` statement raw query

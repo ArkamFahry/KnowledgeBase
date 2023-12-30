@@ -1,3 +1,5 @@
+tags:: [[BaaS]], [[GraphQL]], [[REST]] , [[MongoDB]], [[PostgreSQL]]
+
 - # Parse: The Complete Application Stack
 	- ![parse.png](../assets/parse_1687622474413_0.png){:height 159, :width 788}
 	- ## Parse Resources

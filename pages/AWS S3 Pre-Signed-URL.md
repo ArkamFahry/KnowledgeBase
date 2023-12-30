@@ -1,4 +1,6 @@
-# AWS S3 Pre-Signed-URL
+tags:: [[AWS]], [[AWS S3]]
+
+- # AWS S3 Pre-Signed-URL
 	- A pre-signed URL in [[AWS S3]] is a way to grant temporary access to objects stored in an S3 bucket. Normally, accessing objects in an S3 bucket requires appropriate permissions set either through bucket policies or access control lists (ACLs). However, there are situations where you might want to provide time-limited access to a specific object without changing its permissions permanently.
 	- This is where pre-signed URLs come in handy. They are URLs that grant limited permission to perform specific actions on an object in S3 for a predetermined period of time. These URLs are generated using your AWS credentials (access key and secret key) and are signed using cryptographic signatures.
 	- ## How pre-signed URL's work

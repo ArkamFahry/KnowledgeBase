@@ -1,4 +1,6 @@
-# AWS S3 (Amazon Simple Storage Service)
+tags:: [[AWS]]
+
+- # AWS S3 (Amazon Simple Storage Service)
 	- AWS S3, or Amazon Simple Storage Service, is a highly scalable and durable cloud storage service provided by Amazon Web Services (AWS). It is designed to store and retrieve any amount of data from anywhere on the web. S3 offers a simple and secure way to store objects, such as files or documents, and provides various features for managing and organizing wer data.
 	- ## Key features and concepts of AWS S3
 		- **Buckets**

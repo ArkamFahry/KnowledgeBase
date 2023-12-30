@@ -1,4 +1,6 @@
-# SurrealDB Data Model
+tags:: [[SurrealDB]]
+
+- # SurrealDB Data Model
 	- ## SurrealDB data model looks like a combination of Relational, Document and Graph
 		- Multi-model flexibility
 			- SurrealDB supports three data models – tables, documents, and graphs – allowing  to choose the most suitable approach for the use case.

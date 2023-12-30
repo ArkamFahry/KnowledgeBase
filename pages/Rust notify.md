@@ -1,4 +1,6 @@
-# notify-rs
+tags:: [[Rust]]
+
+- # notify-rs
 	- notify-rs is a cross platform file system API abstraction for [[Rust]] applications.
 	- ## notify-rs Resources
 		- [notify - Rust](https://docs.rs/notify/latest/notify/)

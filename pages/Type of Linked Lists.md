@@ -1,4 +1,6 @@
-# Linked Lists
+tags:: [[DSA]], [[Data Structure]]
+
+- # Linked Lists
 	- A linked list is a data structure used for storing collections of data.
 	- There are many types of linked lists
 		- [[Linked List]] (Singly Linked List)

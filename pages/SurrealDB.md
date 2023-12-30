@@ -1,4 +1,6 @@
-# SurrealDB: The ultimate Multi-Model Database for tomorrow's applications
+tags:: [[NewSQL]], [[Multi-Model Database]]
+
+- # SurrealDB: The ultimate Multi-Model Database for tomorrow's applications
 	- ![surrealdb.png](../assets/surrealdb_1687968200911_0.png)
 	- ## SurrealDB
 		- SurrealDB is a [[NewSQL]] [[Multi-Model Database]] written in [[Rust]].

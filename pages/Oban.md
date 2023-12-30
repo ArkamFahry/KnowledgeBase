@@ -1,4 +1,6 @@
-# Oban: Robust job processing for Elixir
+tags:: [[Elixir]]
+
+- # Oban: Robust job processing for Elixir
 	- ![oban.png](../assets/oban_1702105408254_0.png)
 	- Oban's primary goals are **reliability**, **consistency** and **observability**.
 	- Oban is a powerful and flexible library that can handle a wide range of background job use cases, and it is well-suited for systems of any size. It provides a simple and consistent API for scheduling and performing jobs, and it is built to be fault-tolerant and easy to monitor.

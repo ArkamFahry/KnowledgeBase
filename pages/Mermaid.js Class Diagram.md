@@ -1,4 +1,6 @@
-# Class Diagrams
+tags:: [[Mermaid.js]]
+
+- # Class Diagrams
 	- ```mermaid
 	  classDiagram
 	  Class01 <|-- AveryLongClass : Cool

@@ -1,4 +1,6 @@
-# Not Empty String Check
+tags:: [[PostgreSQL]]
+
+- # Not Empty String Check PostgreSQL
 	- It's a pian when debugging if it's `null` or `""` empty string.
 	- So this function can preform the check in [[PostgreSQL]] DB level and not let the insertion of an empty string.
 		- ```sql

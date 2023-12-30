@@ -1,4 +1,6 @@
-# Flutter Widget Hierarchy
+tags:: [[Flutter]]
+
+- # Flutter Widget Hierarchy
 	- **Widget Tree**
 		- In [[Flutter]], the user interface is represented as a tree of widgets, commonly known as the widget tree. Each widget in the tree corresponds to a specific UI component, and the arrangement of these widgets defines the layout and appearance of the app.
 	- **Immutable Description**

@@ -1,4 +1,6 @@
-# Hash Map
+tags:: [[DSA]], [[Data Structure]]
+
+- # Hash Map
 	- A hash map is a [[Data Structure]] used for storing key-value pairs. It's designed to provide rapid insertion, deletion, and lookup of values based on a unique key. The core idea behind a hash map is the use of a technique called hashing, where keys are converted into unique addresses, allowing for quick retrieval of the associated values.
 	- ## Breakdown of how a hash map works
 		- **Hashing Function**

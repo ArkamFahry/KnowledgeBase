@@ -1,4 +1,6 @@
-# PlanetScale: The world's most advanced database platform
+tags:: [[Vitess]], [[MySQL]]
+
+- # PlanetScale: The world's most advanced database platform
 	- ![planetscale.png](../assets/planetscale_1687868894764_0.png)
 	- ## PlanetScale
 		- PlanetScale is a Serverless, MySQL-compatible database that offers scale, performance, and reliability without sacrificing developer experience. It is built on top of [[Vitess]], a scalable and fault-tolerant distributed database system.

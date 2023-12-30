@@ -1,5 +1,6 @@
-# Drift: Persistence library for [[Dart]]
-title:: Drift
+tags:: [[Flutter]], [[Dart]], [[SQLite]]
+
+- # Drift: Persistence library for [[Dart]]
 	- ## Drift Resources
 		- [Drift](https://drift.simonbinder.eu/)
 		- [drift | Dart Package](https://pub.dev/packages/drift)

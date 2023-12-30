@@ -1,4 +1,6 @@
-# Gantt Diagram
+tags:: [[Mermaid.js]]
+
+- # Gantt Diagram
 	- ```mermaid
 	  gantt
 	  dateFormat  YYYY-MM-DD

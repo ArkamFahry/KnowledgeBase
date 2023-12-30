@@ -1,4 +1,6 @@
-# CockroachDB: The Hard to Kill Database
+tags:: [[NewSQL]], [[PostgreSQL]], [[Go]]
+
+- # CockroachDB: The Hard to Kill Database
 	- ![cockroachdb.png](../assets/cockroachdb_1688133341028_0.png)
 	- ## CockroachDB Resources
 		- [Cockroach Labs, the company building CockroachDB](https://www.cockroachlabs.com/)

@@ -1,4 +1,6 @@
-# PostgreSQL RLS: PostgreSQL Row-Level Security
+tags:: [[PostgreSQL]]
+
+- # PostgreSQL RLS: PostgreSQL Row-Level Security
 	- Row-Level Security (RLS) is a powerful feature in [[PostgreSQL]] that allows database administrators and developers to enforce access controls at the row level within a table. RLS provides a fine-grained security mechanism, enabling different users to have different levels of access to specific rows in a table based on their role or attributes. This ensures that only authorized users can view, modify, or delete certain rows of data, while restricting access to others.
 	- ## The key components of Row-Level Security in PostgreSQL are
 		- Security Policies

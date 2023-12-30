@@ -1,4 +1,6 @@
-# Air: live-reloading for [[Go]]
+tags:: [[Go]]
+
+- # Air: live-reloading for [[Go]]
 	- ![air.png](../assets/air_1690519098596_0.png)
 	- ## [[Go]] Air
 		- Go air is a CLI to watch your go project and live reload on changes.

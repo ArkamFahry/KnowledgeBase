@@ -1,3 +1,5 @@
+tags:: [[Graph Database]], [[GraphQL]], [[Go]]
+
 - # Dgraph: The [[Graph Database]] which Speaks [[GraphQL]]
 	- ![dgraph.png](../assets/dgraph_1688133406514_0.png)
 	- ## Dgraph Resources

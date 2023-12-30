@@ -1,3 +1,5 @@
+tags:: [[NoSQL]]
+
 - # MongoDB: The world’s most popular document database
 	- ![mongodb.png](../assets/mongodb_1688042051069_0.png)
 	-

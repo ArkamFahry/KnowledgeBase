@@ -1,4 +1,6 @@
-# Redpanda: The streaming data platform for developers
+tags:: [[Apache Kafka]], [[C++]], [[Seastar]]
+
+- # Redpanda: The streaming data platform for developers
 	- ![red_panda.png](../assets/red_panda_1700993020143_0.png)
 	- Redpanda simply put it is [[Apache Kafka]] on steroids.
 	- ## Redpanda resources

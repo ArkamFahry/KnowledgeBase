@@ -1,4 +1,6 @@
-# Array
+tags:: [[DSA]], [[Data Structure]]
+
+- # Array
 	- ![array.png](../assets/array_1701054427268_0.png)
 	- Array the simplest [[Data Structure]]
 	- One memory block is allocated for the entire array to hold the elements of the array. The array elements can be accessed in constant time by using the index of the particular element as the subscript.

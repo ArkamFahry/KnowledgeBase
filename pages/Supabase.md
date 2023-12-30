@@ -1,4 +1,6 @@
-# Supabase: The Open Source Firebase Alternative
+tags:: [[BaaS]], [[GraphQL]], [[REST]], [[PostgREST]], [[PostgreSQL]]
+
+- # Supabase: The Open Source Firebase Alternative
 	- ![supabase.png](../assets/supabase_1687622345462_0.png)
 	- ## Supabase
 		- Supabase is a [[BaaS]] platform which radically simplify the process on back end development without the fear of [[Vendor lock-in]] because Supabase is completely base on [[Open Source]] software.

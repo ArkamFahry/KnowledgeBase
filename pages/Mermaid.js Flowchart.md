@@ -1,4 +1,6 @@
-# Flowcharts
+tags:: [[Mermaid.js]]
+
+- # Flowcharts
 	- ```mermaid
 	  graph TD;
 	      A-->B;

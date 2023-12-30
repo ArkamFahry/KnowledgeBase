@@ -1,4 +1,6 @@
-# User Journey Diagrams
+tags:: [[Mermaid.js]]
+
+- # User Journey Diagrams
 	- ```mermaid
 	  journey
 	      title My working day

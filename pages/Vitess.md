@@ -1,4 +1,6 @@
-# Vitess
+tags:: [[MySQL]]
+
+- # Vitess
 	- ![vitess.png](../assets/vitess_1703865270532_0.png){:height 419, :width 753}
 	- ## Vitess Resources
 		- [Vitess | Scalable. Reliable. MySQL-compatible. Cloud-native. Database.](https://vitess.io/)

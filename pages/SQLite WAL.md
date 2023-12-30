@@ -1,5 +1,7 @@
-# SQLite WAL: SQLite Write-Ahead Logging
-id:: 64998001-0aeb-458e-a5fc-d2d3dc7ae5d2
+tags:: [[SQLite]]
+
+- # SQLite WAL: SQLite Write-Ahead Logging
+  id:: 64998001-0aeb-458e-a5fc-d2d3dc7ae5d2
 	- ## What is WAL
 	  id:: 64998134-b26a-4380-b9ef-d4cb44f8bb63
 		- SQLite WAL mode stands for Write-Ahead Logging mode. It is a journaling mode in SQLite that improves the concurrency and performance of database operations. In WAL mode, SQLite writes transactions to a separate log file, known as the write-ahead log (WAL), instead of modifying the original database file directly. Then the transactions that are appended in the WAL file are sent back into the original database

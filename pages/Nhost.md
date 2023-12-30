@@ -1,3 +1,5 @@
+tags:: [[BaaS]], [[GraphQL]], [[PostgreSQL]]
+
 - # Nhost: The Open Source Firebase Alternative with GraphQL
 	- ![nhost.png](../assets/nhost_1687622373050_0.png){:height 255, :width 735}
 	- ## Nhost Resources

@@ -1,4 +1,6 @@
-# SurrealDB Record IDs: The Magic behind [[SurrealDB]]
+tags:: [[SurrealDB]]
+
+- # SurrealDB Record IDs: The Magic behind [[SurrealDB]]
 	- ## SurrealDB Record IDs
 		- SurrealDB Record IDs are represented as `table:id` making them efficient query directly and these IDs can range from simple to complex. These IDs make it possible to Fetch relations without joins.
 		- ### Text Record IDs

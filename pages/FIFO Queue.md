@@ -1,4 +1,6 @@
-# FIFO Queue (First-In, First-Out Queue)
+tags:: [[DSA]], [[Data Structure]]
+
+- # FIFO Queue (First-In, First-Out Queue)
 	- A FIFO queue stands for "First-In, First-Out" queue. It's a [[Data Structure]] in which the first element added to the queue will be the first one to be removed. It operates on the principle that the element that is inserted first will be the one to be taken out first. Think of it like a queue at a ticket counter or a line at a grocery store—the first person to join the line will be the first person to get serviced.
 	- In programming, a FIFO queue is often implemented using arrays, linked lists, or other data structures. It supports two main operations:
 		- Enqueue

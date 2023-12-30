@@ -1,4 +1,7 @@
-# Algorithms
+id:: 658fb34a-aa7d-44f3-a62c-0a25ab383566
+tags:: [[DSA]]
+
+- # Algorithms
 	- ### What is algorithm in [[DSA]]
 		- Let's say your going to play a game. What steps do you follow
 			- On the PC -> Check if game is installed -> if yes start the game -> if no do we want to pirate the game -> if yes pirate -> if no just don't play

@@ -1,4 +1,6 @@
-# SurrealDB Live Queries
+tags:: [[SurrealDB]]
+
+- # SurrealDB Live Queries
 	- ## SurrealDB Live Queries push data changes to the client's in realtime
 		- In simple terms its just like [[Firebase Realtime Database]] or [[Supabase Realtime]] but with sql like syntax with more capability than any of them.
 		- Live queries are so good any `select` statement can be turned into a live query by just making it a `live select`

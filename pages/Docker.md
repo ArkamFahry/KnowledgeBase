@@ -1,3 +1,5 @@
+tags:: [[Go]]
+
 - # Docker: A way to perform operating-system-level virtualization of processes
 	- ![docker.png](../assets/docker_1687968802223_0.png){:height 344, :width 749}
 	- ## Docker Resources

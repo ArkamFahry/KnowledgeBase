@@ -1,4 +1,6 @@
-# Quadrant Chart
+tags:: [[Mermaid.js]]
+
+- # Quadrant Chart
 	- ```mermaid
 	  quadrantChart
 	      title Reach and engagement of campaigns

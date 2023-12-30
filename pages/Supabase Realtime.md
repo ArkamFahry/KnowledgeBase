@@ -1,4 +1,6 @@
-# Supabase Realtime: Send ephemeral messages, track and synchronize shared state, and listen to Postgres changes all over WebSockets
+tags:: [[Supabase]], [[Elixir]]
+
+- # Supabase Realtime: Send ephemeral messages, track and synchronize shared state, and listen to Postgres changes all over WebSockets
 	- ## Supabase Realtime
 		- Simply put this is Server built built with [[Elixir]] using the [[Phoenix Framework]] that enables the following functionality.
 			- [[Supabase Realtime Broadcast]]

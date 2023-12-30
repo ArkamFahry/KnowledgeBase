@@ -1,4 +1,6 @@
-# DigitalOcean Spaces
+tags:: [[AWS S3]]
+
+- # DigitalOcean Spaces
 	- ## DigitalOcean Spaces Resources
 		- [DigitalOcean Spaces | S3-Compatible Object Storage](https://www.digitalocean.com/products/spaces)
 		- [Spaces Object Storage :: DigitalOcean Documentation](https://docs.digitalocean.com/products/spaces/)

@@ -1,4 +1,6 @@
-# AWS EventBridge
+tags:: [[AWS]]
+
+- # AWS EventBridge
 	- ## AWS EventBridge Resources
 		- [Event Listener - Amazon EventBridge - AWS](https://aws.amazon.com/eventbridge/)
 		- https://docs.aws.amazon.com/eventbridge/

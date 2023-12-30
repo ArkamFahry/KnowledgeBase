@@ -1,4 +1,6 @@
-# Impeller: Flutter's New Rendering Engine
+tags:: [[Flutter]]
+
+- # Impeller: Flutter's New Rendering Engine
 	- Impeller is a new rendering runtime for [[Flutter]]. It provides a solution to Flutter’s early-onset jank issue. Impeller precompiles a smaller, simpler set of shaders at Engine build time so they don’t compile at runtime. This leads to improved performance and smoother user experience.
 	- ## Key features of Impeller
 		- **Predictable Performance**

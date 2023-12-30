@@ -1,4 +1,6 @@
-# Expr
+tags:: [[Go]]
+
+- # Expr
 	- Expr is a [[Go]] centric expression language designed to deliver dynamic configurations with unparalleled accuracy, safety, and speed.
 	- ## Expr Resources
 		- [Expr | Expression language](https://expr-lang.org/)

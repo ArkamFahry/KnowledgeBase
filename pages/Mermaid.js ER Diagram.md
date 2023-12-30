@@ -1,4 +1,6 @@
-# ER Diagrams
+tags:: [[Mermaid.js]]
+
+- # ER Diagrams
 	- ```mermaid
 	  erDiagram
 	      CUSTOMER ||--o{ ORDER : places

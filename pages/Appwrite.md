@@ -1,3 +1,5 @@
+tags:: [[BaaS]], [[GraphQL]]
+
 - # Appwrite: Open-Source End-to-End Backend Server
 	- ![appwrite.png](../assets/appwrite_1687622412527_0.png)
 	- ## Appwrite Resources

@@ -1,4 +1,6 @@
-# Isar: Super Fast Cross-Platform Database for [[Flutter]]
+tags:: [[Flutter]], [[Dart]]
+
+- # Isar: Super Fast Cross-Platform Database for [[Flutter]]
 	- ![isar.png](../assets/isar_1703133698735_0.png)
 	- ## Isar Resources
 		- [Home | Isar Database](https://isar.dev/)

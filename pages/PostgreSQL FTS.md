@@ -1,4 +1,6 @@
-# PostgreSQL FTS: PostgreSQL Full-Text Search
+tags:: [[PostgreSQL]]
+
+- # PostgreSQL FTS: PostgreSQL Full-Text Search
 	- PostgreSQL Full Text Search (FTS) is a powerful feature that allows you to perform text-based searching in a [[PostgreSQL]] database efficiently. It enables complex text searching operations by creating indexes on text data, making the searches faster and more effective than traditional `LIKE` or `ILIKE` queries.
 	- ## Key features of PostgreSQL Full Text Search include
 		- Text Search Configurations

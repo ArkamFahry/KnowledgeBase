@@ -1,4 +1,6 @@
-# MySQL
+tags:: [[SQL]]
+
+- # MySQL
 	- ![mysql.png](../assets/mysql_1703860378481_0.png){:height 508, :width 753}
 	- ## MySQL Resources
 		- [MySQL](https://www.mysql.com/)

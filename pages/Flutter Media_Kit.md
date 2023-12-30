@@ -1,4 +1,6 @@
-# Media-Kit Package
+tags:: [[Flutter]]
+
+- # Media-Kit Package
 	- The `media-kit` package is a cross-platform video player and audio player for [[Flutter]] and [[Dart]]. It provides a unified API to access various media capabilities on different platforms.
 	- ## Key Features of media-kit
 		- **Video and Audio Playback**

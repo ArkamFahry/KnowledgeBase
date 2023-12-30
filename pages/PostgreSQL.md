@@ -1,4 +1,6 @@
-# PostgreSQL: The world's most advanced open source database
+tags:: [[SQL]]
+
+- # PostgreSQL: The world's most advanced open source database
 	- ![postgresql.png](../assets/postgresql_1688042265287_0.png){:height 476, :width 749}
 	- ## PostgreSQL: The Jack of All Trades and the Master of All
 		- In the vast realm of relational database management systems (RDBMS), PostgreSQL stands tall as the undisputed "Jack of All Trades" and, indeed, the "Master of All." With a rich history spanning over three decades and a thriving open-source community, PostgreSQL has continually evolved into a versatile and powerful database solution, catering to a wide range of applications and industries.

@@ -1,4 +1,6 @@
-# AWS MSK (Amazon Managed Streaming for Apache Kafka)
+tags:: [[AWS]]
+
+- # AWS MSK (Amazon Managed Streaming for Apache Kafka)
 	- ## AWS MSK Resources
 		- [Managed Kafka - Amazon Managed Streaming for Apache Kafka (MSK) - AWS](https://aws.amazon.com/msk/)
 		- https://docs.aws.amazon.com/msk/

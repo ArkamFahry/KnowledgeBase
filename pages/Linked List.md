@@ -1,4 +1,7 @@
-# Linked List
+tags:: [[DSA]], [[Data Structure]]
+id:: 658fb3e9-df12-4093-a832-590f50ad7e1e
+
+- # Linked List
 	- Generally “linked list” means a singly linked list is a [[Data Structure]] which consists of a number of nodes in which
 	  each node has a next pointer to the following element. The link of the last node in the list is
 	  NULL, which indicates the end of the list.
