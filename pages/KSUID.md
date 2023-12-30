@@ -1,5 +1,5 @@
-# KSUID's (K-Sortable Unique Identifiers)
-	- KSUID stands for K-Sortable Unique Identifier. It's another type of identifier similar to ULID but with a different structure and method of generation.
+# KSUID (K-Sortable Unique Identifier)
+	- KSUID stands for K-Sortable Unique Identifier. It's another type of identifier similar to [[ULID]] but with a different structure and method of generation. KSUID is like a sortable [[UUID]].
 	- KSUIDs are designed to be 32-byte identifiers (256 bits) that are globally unique, sortable by creation time, and resistant to collision.
 	- ## KSUID consists of
 		- **Timestamp**

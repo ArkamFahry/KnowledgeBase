@@ -1,5 +1,5 @@
-# ULID's (Universally Unique Lexicographically Sortable Identifiers)
-	- ULID stands for Universally Unique Lexicographically Sortable Identifier. It's a type of identifier that combines the properties of being both unique across distributed systems and sortable by time.
+# ULID (Universally Unique Lexicographically Sortable Identifier)
+	- ULID stands for Universally Unique Lexicographically Sortable Identifier. It's a type of identifier that combines the properties of being both unique across distributed systems and sortable by time. Simply a sortable version of [[UUID]].
 	- ULIDs are 128-bit identifiers represented using 26 alphanumeric characters plus hyphens, structured as follows: `01AN4Z07BY79KA1307SR9X4MV3`.
 	- ## The structure of a ULID consists of
 		- **Time-based component**

@@ -1,5 +1,5 @@
-# Snowflake ID's
-	- Snowflake IDs, in general terms, refer to a type of unique identifier designed for distributed systems. They are structured 64-bit unsigned integers used to generate unique IDs across multiple machines or nodes without requiring centralized coordination.
+# Snowflake ID
+	- Snowflake IDs, in general terms, refer to a type of unique identifier designed for distributed systems. They are structured 64-bit unsigned integers used to generate unique IDs across multiple machines or nodes without requiring centralized coordination. Snowflake IDs can be a remedy for the dreaded randomness of [[UUID]] by giving distributed IDs support to being sorted. This makes them efficient store and retrieve will being random.
 	- ## The typical components of a Snowflake-like ID include
 		- **Timestamp**
 			- Usually a portion of the bits used to represent a timestamp. It signifies the time of ID generation, allowing for chronological ordering of IDs.

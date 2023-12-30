@@ -1,4 +1,4 @@
-# UUID's (Universally Unique Identifiers)
+# UUID (Universally Unique Identifier)
 	- UUID stands for Universally Unique Identifier. It's a 128-bit identifier that is globally unique and standardized by the Open Software Foundation (OSF) as part of the Distributed Computing Environment (DCE). UUIDs are used to uniquely identify information without a centralized authority assigning them.
 	- UUIDs are represented by 32 hexadecimal digits displayed in five groups separated by hyphens, like this: `123e4567-e89b-12d3-a456-426655440000`.
 	- They're generated using various algorithms, taking into account time, location, and other factors to ensure uniqueness. One commonly used method is Version 4 UUIDs, which are generated using random or pseudo-random numbers.
