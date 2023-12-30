@@ -1,0 +1,13 @@
+# SSE: Server-Sent Events
+	- SSE stands for Server-Sent Events. It's a unidirectional communication technology that allows a server to push updates to a web client over a single, long-lived [[HTTP]] connection. SSE is specifically designed for scenarios where the server needs to continuously send new data or updates to a client in real-time.
+	- ## Key features of SSE
+		- **Unidirectional flow**
+			- SSE enables the server to send data to the client without the client needing to request it. This makes it suitable for scenarios where the server has information that needs to be constantly updated on the client side.
+		- **Simple to use**
+			- SSE is relatively easy to implement on both the server and client sides. On the client side, JavaScript APIs are used to handle incoming events, making it accessible for web developers.
+		- **Text-based messaging**
+			- SSE sends data as text. It uses a simple format that includes event types and data, allowing for straightforward parsing on the client side.
+		- **Automatic reconnection**
+			- SSE connections automatically attempt to reconnect if they're interrupted, making it a robust choice for maintaining a persistent connection between the server and the client.
+	- SSE is commonly used for applications that require continuous updates or streaming data, such as live feeds, real-time notifications, stock market updates, or any scenario where the server needs to push data to the client as it becomes available.
+	- However, it's important to note that SSE supports only one-way communication from the server to the client. If bidirectional communication or more complex interactions are required, WebSockets, which support full duplex communication, might be a better choice.

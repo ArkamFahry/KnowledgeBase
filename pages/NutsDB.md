@@ -1,3 +1,5 @@
+tags:: [[Go]]
+
 - # NutsDB: The simple, fast, embeddable and persistent key/value store written in pure [[Go]].
 	- ![nutsdb.png](../assets/nutsdb_1689606981293_0.png)
 	- ## What is NutsDB

@@ -1,4 +1,6 @@
-# Mercure: Real-time Made Easy
+tags:: [[SSE]]
+
+- # Mercure: Real-time Made Easy
 	- ![mercure.png](../assets/mercure_1700994110958_0.png)
 	- A scalable real-time communication server without the use of [[WebSockets]] so it's battery efficient and good for mobile devices.
 	- It uses [[SSE]] for efficient real-time communication.

@@ -1,0 +1,11 @@
+# Rust
+	- ![rust.png](../assets/rust_1703919384072_0.png){:height 366, :width 758}
+	- ## Rust Resources
+		- [Rust Programming Language](https://www.rust-lang.org/)
+		- [GitHub - rust-lang/rust: Empowering everyone to build reliable and efficient software.](https://github.com/rust-lang/rust)
+		- [GitHub - rust-lang/cargo: The Rust package manager](https://github.com/rust-lang/cargo)
+		- [The Rust Programming Language - The Rust Programming Language](https://doc.rust-lang.org/book/)
+		- [Learn Rust - Rust Programming Language](https://www.rust-lang.org/learn)
+		- [GitHub - rust-lang/rustlings: :crab: Small exercises to get you used to reading and writing Rust code!](https://github.com/rust-lang/rustlings/)
+		- [Rust Adventure](https://www.rustadventure.dev/)
+	- {{video https://www.youtube.com/watch?v=5C_HPTJg5ek}}

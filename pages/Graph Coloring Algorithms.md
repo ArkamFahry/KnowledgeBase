@@ -1,3 +1,5 @@
+tags:: [[Algorithms]]
+
 - # Graph Coloring Algorithms: Art of Graph Coloring
 	- A graph colouring algorithm is a method for assigning colours to the vertices of a graph such that no two adjacent vertices have the same colour.
 	- ## Many different graph colouring algorithms.

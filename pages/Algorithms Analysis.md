@@ -1,5 +1,7 @@
-# Algorithm analysis
-	- [[Algorithm]] analysis is the process of determining how processing time increases as the size of the problem (input size) increases. Input size is the number of elements in the input, and depending on the problem type, the input may be of different types. The following are the common types of inputs.
+tags:: [[Algorithms]]
+
+- # Algorithm analysis
+	- [[Algorithms]] analysis is the process of determining how processing time increases as the size of the problem (input size) increases. Input size is the number of elements in the input, and depending on the problem type, the input may be of different types. The following are the common types of inputs.
 		- Size of an array
 		- Polynomial degree
 		- Number of elements in a matrix

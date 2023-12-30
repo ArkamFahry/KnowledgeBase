@@ -1,0 +1,14 @@
+# WebSockets
+	- WebSockets are a communication protocol that allows for real-time, bidirectional communication between a client (like a web browser) and a server over a single, long-lived connection. Unlike traditional web protocols like [[HTTP]], which follow a request-response model (client sends a request, server responds), WebSockets enable ongoing data exchange without the need for continuous requests from the client.
+	- ## Key features of WebSockets
+		- **Bidirectional communication**
+			- WebSockets facilitate both the server and the client to initiate communication and exchange data at any time once the connection is established. This enables real-time updates and interaction between the two.
+		- **Persistent connection**
+			- Unlike [[HTTP]] , where each request establishes a new connection, WebSockets maintain a single, persistent connection between the client and server. This persistent connection allows for lower latency and reduced overhead compared to traditional HTTP.
+		- **Low overhead**
+			- WebSockets use a lightweight protocol, which minimizes the amount of data exchanged during the initial handshake and helps in reducing unnecessary header information during ongoing communication.
+		- **Real-time capabilities**
+			- They are widely used in applications that require real-time data updates, such as chat applications, online gaming, financial dashboards, live sports scores, etc., where immediate updates are crucial.
+		- **Compatibility**
+			- WebSockets are supported by most modern web browsers and can also be implemented on the server-side using various programming languages.
+	- Overall, WebSockets offer a more efficient and responsive way to establish and maintain a connection between a client and a server, making them a preferred choice for applications that demand real-time, interactive data exchange.

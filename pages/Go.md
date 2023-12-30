@@ -51,3 +51,4 @@
 		- [GitHub - golang/go: The Go programming language](https://github.com/golang/go)
 		- [Documentation - The Go Programming Language](https://go.dev/doc/)
 		- [Go Packages - Go Packages](https://pkg.go.dev/)
+	- {{video https://www.youtube.com/watch?v=446E-r0rXHI}}

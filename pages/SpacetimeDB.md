@@ -1,4 +1,6 @@
-# SpacetimeDB: The Database which breaks spacetime
+tags:: [[Rust]]
+
+- # SpacetimeDB: The Database which breaks spacetime
 	- ![spacetime_db.png](../assets/spacetime_db_1702103312881_0.png){:height 210, :width 587}
 		- SpacetimeDB is both a relational database and a server combined into one. Instead of deploying a web or game server that sits in between your clients and your database, clients connect directly to the database and execute your logic inside the database itself. No more Docker, Kubernetes, VMs, microservices or extensive ops infrastructure.
 	- ## SpacetimeDB Resources

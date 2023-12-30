@@ -1,4 +1,4 @@
-tags:: [[Apache Cassandra]] , [[C++]], [[Seastar]]
+tags:: [[Apache Cassandra]], [[AWS DynamoDB]] , [[C++]], [[Seastar]]
 
 - # ScyllaDB: Monstrously Fast & Scalable [[NoSQL]]
 	- ![scylladb.png](../assets/scylladb_1703861511641_0.png)

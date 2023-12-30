@@ -1,0 +1,16 @@
+# NewSQL
+	- NewSQL is a term used to describe a class of modern relational database management systems (RDBMS) that aim to combine the benefits of traditional SQL databases with scalability, high availability, and distributed computing capabilities. NewSQL databases strive to overcome some limitations of traditional SQL databases, particularly in handling large volumes of data and providing better scalability while maintaining ACID (Atomicity, Consistency, Isolation, Durability) properties.
+	- These databases are designed to handle massive workloads and large datasets while still maintaining the transactional consistency and reliability of traditional SQL databases.
+	- ## Key points on NewSQL systems
+		- **Scaling-Out**
+			- NewSQL databases can distribute data across multiple nodes or servers, allowing them to scale horizontally. This means they can handle increased workloads by adding more servers to the system.
+		- **Sharding**
+			- Data sharding involves partitioning data horizontally across multiple servers. Each shard is responsible for a specific subset of the data, enabling better distribution and parallel processing.
+		- **In-Memory Processing**
+			- Some NewSQL databases leverage in-memory processing for faster data access and computation, improving overall performance.
+		- **Optimized Query Processing**
+			- They often employ optimizations in query processing and execution to enhance performance and reduce response times.
+		- **Strong Consistency**
+			- NewSQL databases aim to maintain strong consistency across distributed systems, ensuring that transactions are executed reliably across multiple nodes.
+	- Examples of NewSQL databases include Google Spanner, [[CockroachDB]] , [[TiDB]], and [[VoltDB]]. These databases are often used in applications where high scalability, strong consistency, and high availability are essential, such as in real-time analytics, financial systems, and large-scale web applications.
+	- Overall, NewSQL databases represent a modern approach to handling vast amounts of data while still providing the familiar [[SQL]] querying interface and transactional capabilities of traditional SQL databases.

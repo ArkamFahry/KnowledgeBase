@@ -1,4 +1,6 @@
-# [[CRDT]] Data Type
+tags:: [[CRDT]]
+
+- # [[CRDT]] Data Type
 	- Counter CRDT
 		- Increment-Only Counter
 			- This CRDT type only allows incrementing the counter. It ensures that each replica can independently increment its counter, and all replicas eventually converge to the same value, regardless of the order of increments.

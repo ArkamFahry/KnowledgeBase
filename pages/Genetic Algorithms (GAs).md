@@ -1,3 +1,5 @@
+tags:: [[Algorithms]]
+
 - # Genetic Algorithms (GAs): Search based algorithms based on the concepts of natural selection and genetics
 	- A genetic algorithm is a search-based [[Heuristic]] algorithm based on [Charles Darwin - Wikipedia](https://en.wikipedia.org/wiki/Charles_Darwin) theory of natural evolution ([Darwinism - Wikipedia](https://en.wikipedia.org/wiki/Darwinism)).
 	- The algorithm reflects the process of natural selection where the fittest individuals are selected for reproduction in order to produce offspring of the next generation.

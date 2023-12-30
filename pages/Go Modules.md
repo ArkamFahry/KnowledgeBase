@@ -1,4 +1,6 @@
-# Go Modules
+tags:: [[Go]]
+
+- # Go Modules
 	- Go modules are a way to manage and organize the external packages or modules that your [[Go]] programs depend on. They help you keep track of which versions of packages that are being used. They simplify the process of managing dependencies, ensuring that your program can be built and run consistently across different environments.
 	- ## Go Module Timeline
 		- Go module's preliminary support was introduced in Go versions 1.11 and 1.12 as the new [new dependency management system](https://blog.golang.org/versioning-proposal) for Go to simplify dependency management in Go projects. They provide a way to define, version, and manage external packages or modules used in Go programs.

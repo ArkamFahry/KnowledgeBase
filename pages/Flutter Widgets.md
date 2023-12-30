@@ -1,4 +1,6 @@
-# Flutter Widgets
+tags:: [[Flutter]]
+
+- # Flutter Widgets
 	- In [[Flutter]], widgets are the basic building blocks used to create user interfaces. They are essentially reusable components that can be combined to create complex UI layouts. Widgets describe how their visual elements should be rendered on the screen, and they can represent anything from a simple button to an entire screen layout.
 	- Two types of Flutter Widgets
 		- **Stateless Widgets**

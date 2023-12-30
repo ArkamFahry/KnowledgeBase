@@ -1,0 +1,16 @@
+# HTTP: Hypertext Transfer Protocol
+	- HTTP stands for Hypertext Transfer Protocol. It's the foundation of communication for the World Wide Web, serving as a protocol that allows clients (such as web browsers) to request web pages or any other resources from web servers.
+	- # Key points on HTTP
+		- **Client-Server Protocol**
+			- HTTP is a protocol that defines how requests and responses should be formatted and transmitted between clients (e.g., browsers) and servers (where web pages and resources are hosted).
+		- **Request-Response Cycle**
+			- It follows a request-response model. A client sends an HTTP request to a server to retrieve a resource (like a webpage or an image). The server then processes the request and sends back an HTTP response containing the requested resource (or an error message).
+		- **Stateless Protocol**
+			- HTTP is stateless, meaning each request from a client to a server is independent. The server doesn’t retain information about previous requests. This characteristic simplifies implementation but can create challenges when maintaining session-related information.
+		- **Text-Based**
+			- HTTP messages are primarily text-based, consisting of headers and an optional body that carries information. These messages are easily readable by developers and are sent over TCP/IP connections.
+		- **Standardized Methods**
+			- HTTP defines various methods (like GET, POST, PUT, DELETE) that specify the type of action to be performed for a given resource. For instance, GET is used to retrieve data, POST to submit data to the server, PUT to update resources, and DELETE to remove them.
+		- **Versions**
+			- HTTP has gone through several versions, with HTTP/1.1 being widely used for many years. HTTP/2 and HTTP/3 were developed to enhance performance, security, and efficiency in handling web requests and responses.
+	- HTTP forms the backbone of data communication on the web, allowing for the retrieval and display of web pages, images, videos, documents, and other resources. It's the fundamental protocol that enables the interaction between clients and servers on the internet.

@@ -1,4 +1,6 @@
-# AWS S3 Event Notifications
+tags:: [[AWS S3]]
+
+- # AWS S3 Event Notifications
 	- [[AWS S3]] (Amazon Simple Storage Service) Event Notifications are a feature that enables we to monitor and respond to events that occur within wer S3 buckets. These events can trigger actions, such as invoking AWS Lambda functions, sending notifications via Amazon Simple Notification Service (SNS), or publishing messages to an Amazon Simple Queue Service (SQS) queue.
 		- ## Key points to understand about AWS S3 Event Notifications
 			- Event Types

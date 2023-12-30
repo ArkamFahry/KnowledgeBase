@@ -1,4 +1,7 @@
-# PocketBase Deployment Methods
+tags:: [[PocketBase]]
+
+- # PocketBase Deployment Methods
+  id:: 658eef0f-4087-4940-9ccc-95ab560f7334
 	- ## PocketBase Binary
 		- Download the PocketBase binary for the specific platform
 			- [Basics - Introduction - Docs - PocketBase](https://pocketbase.io/docs/)

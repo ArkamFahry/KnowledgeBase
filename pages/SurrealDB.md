@@ -1,4 +1,4 @@
-tags:: [[NewSQL]], [[Multi-Model Database]]
+tags:: [[NewSQL]], [[Multi-Model Database]], [[Rust]], [[TiKV]]
 
 - # SurrealDB: The ultimate Multi-Model Database for tomorrow's applications
 	- ![surrealdb.png](../assets/surrealdb_1687968200911_0.png)

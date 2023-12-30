@@ -1,4 +1,6 @@
-# How to structure a [[Go]] project
+tags:: [[Go]]
+
+- # How to structure a [[Go]] project
 	- The structure your Go applications should follow is a somewhat contentious subject. Some people are adamant that everyone should follow the well known [golang-standards/project-layout](https://github.com/golang-standards/project-layout) structure for absolutely every project.
 	- With the introduction of [[Go Modules]] as the standard going forward for handling dependencies, this structure starts to present challenges. Going with the traditional structure, you will find that some folders within your structure will not have access to folders such as `internal` or `pkg` and you will have to implement somewhat hacky solutions in order for these to work as-is.
 	- ## Small Project: Flat File Structure

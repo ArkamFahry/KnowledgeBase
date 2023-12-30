@@ -1,4 +1,4 @@
-tags:: [[BaaS]], [[SQLite]], [[Go]]
+tags:: [[BaaS]], [[SQLite]], [[Go]], [[SSE]]
 
 - # PocketBase: Open Source backend in 1 file
 	- ![pocketbase.png](../assets/pocketbase_1687623360847_0.png){:height 309, :width 726}

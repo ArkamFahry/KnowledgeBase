@@ -1,3 +1,5 @@
+tags:: [[Go]]
+
 - # How To Develop Packages In Go: Building and Consuming Custom Packages
 	- ## Package Development Prerequisites
 		- [[Go]] needs to bee installed in the system.
