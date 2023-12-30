@@ -1,6 +1,4 @@
-# Bookmarks 
-
-[Home | Microsoft 365](https://www.office.com/?auth=2)
+# Bookmarks
 
 [WhatsApp](https://web.whatsapp.com/)
 
@@ -17,6 +15,8 @@
 [chat.openai.com](https://chat.openai.com/)
 
 [Bing AI - Search](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
+
+[Assistant - Poe](https://poe.com/)
 
 [Hashnode](https://hashnode.com/)
 
@@ -637,8 +637,6 @@
 [Flowchart Fun — Fast, Free Online Flowchart Maker](https://flowchart.fun/)
 
 [The Wails Project | Wails](https://wails.io/)
-
-[Rome — Unified developer tools for JavaScript, TypeScript, and the web](https://rome.tools/)
 
 [HackerNoon - read, write and learn about any technology](https://hackernoon.com/)
 
@@ -1700,8 +1698,6 @@
 
 [GraphQL CMS, Headless Content Management | Slicknode](https://slicknode.com/)
 
-[FluentHub](https://fluenthub.andrexial.uk/)
-
 [Uno Platform - Build Pixel Perfect Applications](https://platform.uno/)
 
 [Home | Isar Database](https://isar.dev/)
@@ -2328,7 +2324,7 @@
 
 [typst/typst: A new markup-based typesetting system that is powerful and easy to learn.](https://github.com/typst/typst)
 
-[Fermyon • Experience the next wave of cloud computing. | Fermyon • Experience the next wave of cloud computing.](https://www.fermyon.com/#)
+[Fermyon • Experience the next wave of cloud computing. | Fermyon • Experience the next wave of cloud computing.](https://www.fermyon.com/)
 
 [Bright Data - The World's #1 Web Data Platform](https://brightdata.com/)
 
@@ -2413,8 +2409,6 @@
 [Create mock APIs in seconds with Mockoon](https://mockoon.com/)
 
 [Coherence — The First Developer Experience Platform](https://www.withcoherence.com/)
-
-[WAPM - WebAssembly Package Manager](https://wapm.io/)
 
 [extrawurst/gitui: Blazing 💥 fast terminal-ui for git written in rust 🦀](https://github.com/extrawurst/gitui)
 
@@ -2800,8 +2794,6 @@
 
 [Wonder Unit](https://wonderunit.com/)
 
-[\[OFFICIAL\] WPS Office-Free Office Download for PC & Mobile, Alternative to MS Office](https://www.wps.com/)
-
 [Zoho | Cloud Software Suite for Businesses](https://www.zoho.com/)
 
 [Welcome to Undb.](https://www.undb.xyz/)
@@ -2863,8 +2855,6 @@
 [Drift](https://drift.simonbinder.eu/)
 
 [Antidote DB](https://www.antidotedb.eu/)
-
-[DiaChat - Diagrams through language](https://diachat.inmytree.co.za/)
 
 [Home | Lando](https://lando.dev/)
 
@@ -2928,8 +2918,6 @@
 
 [Iris Web Framework](https://www.iris-go.com/)
 
-[Assistant - Poe](https://poe.com/)
-
 [Sentio](https://www.sentio.xyz/)
 
 [zCloud - Cloud. Made easy.](https://zcloud.ws/)
@@ -2989,3 +2977,703 @@
 [XORM - Simple and Powerful ORM for Go](https://xorm.io/)
 
 [K3s](https://k3s.io/)
+
+[Unified Team Collaboration Tool - Spike](https://www.spikenow.com/)
+
+[eM Client | The Best Email Client for Windows and Mac](https://www.emclient.com/)
+
+[Thunderbird — Free Your Inbox. — Thunderbird](https://www.thunderbird.net/en-US/)
+
+[Transloadit: File uploading & processing API](https://transloadit.com/)
+
+[Data Grid: AG Grid: High-Performance React Grid, Angular Grid, JavaScript Grid](https://www.ag-grid.com/)
+
+[MUI: The React component library you always wanted](https://mui.com/)
+
+[Nokori - The Universal Backend Platform for Every Project](https://nokori.com/)
+
+[{{ mustache }}](https://mustache.github.io/)
+
+[Create beautiful images of your code](https://ray.so/)
+
+[Uppy](https://uppy.io/)
+
+[Open Source Cloud Computing Infrastructure - OpenStack](https://www.openstack.org/)
+
+[Bleve -- Bleve](https://blevesearch.com/)
+
+[Watermill](https://watermill.io/)
+
+[Go kit - A toolkit for microservices](https://gokit.io/)
+
+[Next-Generation Event Streaming Platform | Memphis.dev](https://memphis.dev/)
+
+[Perplexity AI](https://www.perplexity.ai/)
+
+[ChatPDF - Chat with any PDF!](https://www.chatpdf.com/)
+
+[tawk.to – "100% FREE live chat software for your website!"](https://www.tawk.to/)
+
+[Rambox | Workspace Simplifier to Boost your Productivity](https://rambox.app/)
+
+[Station • One app to rule them all](https://getstation.com/)
+
+[kamranahmedse/design-patterns-for-humans: An ultra-simplified explanation to design patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
+
+[The New Stack | DevOps, Open Source, and Cloud Native News](https://thenewstack.io/)
+
+[EbookFoundation/free-programming-books: :books: Freely available programming books](https://github.com/EbookFoundation/free-programming-books)
+
+[List of Free Learning Resources In Many Languages | free-programming-books](https://ebookfoundation.github.io/free-programming-books/)
+
+[donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.](https://github.com/donnemartin/system-design-primer)
+
+[Pinterest](https://www.pinterest.com/)
+
+[Sym: Secure Your Production Infrastructure](https://symops.com/)
+
+[Clojure](https://clojure.org/)
+
+[The Elixir programming language](https://elixir-lang.org/)
+
+[Learn to Code Online | Treehouse](https://teamtreehouse.com/)
+
+[Meetup | Find Local Groups, Events, and Activities Near You](https://www.meetup.com/)
+
+[Haskell Language](https://www.haskell.org/)
+
+[Home | Adoptium](https://adoptium.net/)
+
+[Svelte DevTools+](https://www.sveltedevtools.com/)
+
+[Home | Vulkan | Cross platform 3D Graphics](https://www.vulkan.org/)
+
+[LottieFiles: Download Free lightweight animations for website & apps.](https://lottiefiles.com/)
+
+[Windmill | Open source platform to build internal tools with scripts](https://www.windmill.dev/)
+
+[Cascadeur - the easiest way to animate AI-assisted keyframe animation software](https://cascadeur.com/)
+
+[OfferZen – The developer job marketplace](https://www.offerzen.com/)
+
+[Home | Vue Devtools](https://devtools.vuejs.org/)
+
+[getonboard.dev](https://www.getonboard.dev/)
+
+[the next-generation, cross‐platform package manager](https://tea.xyz/)
+
+[SpacetimeDB](https://spacetimedb.com/)
+
+[NucliaDB, the vector database for HuggingFace users](https://nucliadb.com/)
+
+[Sourcegraph](https://sourcegraph.com/search)
+
+[Wondershare Filmora - Easy-to-Use Video Editing Software](https://filmora.wondershare.com/)
+
+[Android Emulator on the Cloud and cross-platform - Genymotion](https://www.genymotion.com/)
+
+[Continuous Integration and Delivery (CI/CD) Platform | Bitrise](https://bitrise.io/)
+
+[Square | Solutions For Your Small, Medium & Large Business](https://squareup.com/us/en?v=all)
+
+[Project IDX](https://idx.dev/)
+
+[Streamlit • A faster way to build and share data apps](https://streamlit.io/)
+
+[Home | GraphQL AI Model for text inputs & AI Art prompts](https://graphqlai.com/)
+
+[Graphene-Python](https://graphene-python.org/)
+
+[Pterodactyl](https://pterodactyl.io/)
+
+[Learn to Code for Free Online - App Academy Open](https://www.appacademy.io/course/app-academy-open)
+
+[Elixir news and status updates from the community for Elixir and Phoenix](https://elixirstatus.com/)
+
+[Digma Runtime Linter](https://digma.ai/)
+
+[Shorebird](https://shorebird.dev/)
+
+[Courses crafted for the real world - Dometrain](https://dometrain.com/)
+
+[Firecamp - Get instant API playgrounds to test Rest, GraphQL, WebSocket and SocketIO APIs](https://firecamp.io/)
+
+[GraphQL Voyager](https://graphql-kit.com/graphql-voyager/)
+
+[Cachier](https://cachierql.com/)
+
+[Snowplow: Create first-party customer data in real time.](https://snowplow.io/)
+
+[Monorepo Explained](https://monorepo.tools/)
+
+[Zag - Rapidly build UI components without sweating over the logic. - Zag](https://zagjs.com/)
+
+[EVE Online | The #1 Free Space MMORPG | Play here now!](https://www.eveonline.com/)
+
+[seaborn.heatmap — seaborn 0.12.2 documentation](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
+
+[Six Labors : Six Labors](https://sixlabors.com/)
+
+[Cloud Monitoring as a Service | Datadog](https://www.datadoghq.com/)
+
+[Insights Capture — recording software for gaming 💥](https://insights.gg/)
+
+[nodb.sh](https://nodb.sh/)
+
+[UBER ADDRESS](https://uberaddress.io/)
+
+[Matplotlib — Visualization with Python](https://matplotlib.org/)
+
+[Goo Engine — DillonGoo Studios](https://www.dillongoostudios.com/gooengine)
+
+[IBM/fp-go: functional programming library for golang](https://github.com/IBM/fp-go)
+
+[FileGator - Free, Multi-User PHP File Manager](https://filegator.io/)
+
+[Descope | Authentication and user management platform](https://www.descope.com/)
+
+[Skich | New way to discover mobile games](https://skich.app/)
+
+[Stability AI](https://stability.ai/)
+
+[Modal](https://modal.com/)
+
+[Starlane Studios](https://starlane.studio/)
+
+[The No Infrastructure Platform as a Service | Aptible](https://www.aptible.com/)
+
+[The doc for everyone, replace dozens of apps - Coda](https://coda.io/)
+
+[Resilio File Sync Software | Unify, Control, and Accelerate Global Enterprise File Workflows](https://www.resilio.com/)
+
+[Home | Monero - secure, private, untraceable](https://www.getmonero.org/)
+
+[pythonnet/pythonnet: Python for .NET is a package that gives Python programmers nearly seamless integration with the .NET Common Language Runtime (CLR) and provides a powerful application scripting tool for .NET developers.](https://github.com/pythonnet/pythonnet)
+
+[Rspack](https://www.rspack.dev/)
+
+[MJML - The Responsive Email Framework](https://mjml.io/)
+
+[NuGet Gallery | Home](https://www.nuget.org/)
+
+[Apache APISIX® -- Cloud-Native API Gateway](https://apisix.apache.org/)
+
+[Real-time ETL | Estuary](https://estuary.dev/)
+
+[Zap](https://www.zapzsh.org/)
+
+[Laragon - portable, isolated, fast & powerful universal development environment for PHP, Node.js, Python.](https://laragon.org/)
+
+[Fast, disk space efficient package manager | pnpm](https://pnpm.io/)
+
+[Home page | Yarn](https://yarnpkg.com/)
+
+[Bit. Composable software.](https://bit.dev/)
+
+[devowl.io: Quality WordPress Plugins & Developer Tools](https://devowl.io/)
+
+[ElevenLabs - Generative AI Text to Speech & Voice Cloning](https://elevenlabs.io/)
+
+[Draftbit - Visually build native mobile apps](https://draftbit.com/)
+
+[carbondesignsystem.com](https://carbondesignsystem.com/)
+
+[The World’s Weather Intelligence Platform](https://www.tomorrow.io/)
+
+[Email testing and debugging has never been easier – HELO](https://usehelo.com/)
+
+[The code runner for PHP 💫 - Tinkerwell](https://tinkerwell.app/)
+
+[shadcn-svelte](https://www.shadcn-svelte.com/)
+
+[Superforms for SvelteKit](https://superforms.rocks/)
+
+[Laravel App Builder](https://laravelappbuilder.com/)
+
+[Valibot: The modular and type safe schema library](https://valibot.dev/)
+
+[BioDrop - connect to your audience with a single link](https://www.biodrop.io/)
+
+[TailPress - Rapidly build your WordPress theme with Tailwind CSS](https://tailpress.io/)
+
+[A Simple and Safer Way to Pay and Get Paid | PayPal LK](https://www.paypal.com/lk/home)
+
+[Homepage | Net Ninja](https://netninja.dev/)
+
+[Home ⋆ Asterisk](https://www.asterisk.org/)
+
+[caisy - content made easy](https://caisy.io/)
+
+[Wasmer - Run, Publish & Deploy any code, anywhere](https://wasmer.io/)
+
+[DiceBear | Open Source Avatar Library](https://www.dicebear.com/)
+
+[Learn Ruby on Rails | GoRails](https://gorails.com/)
+
+[Introduction · 💾 Unstorage](https://unstorage.unjs.io/)
+
+[CodeEdit](https://www.codeedit.app/)
+
+[aria2](https://aria2.github.io/)
+
+[Mend.io (formerly WhiteSource) | Improving AppSec Outcomes](https://www.mend.io/)
+
+[Judge0 - Where code happens.](https://judge0.com/)
+
+[Outerbase | The interface for your database](https://outerbase.com/)
+
+[OpenCopilot - AI Copilot for your SaaS product](https://opencopilot.so/)
+
+[Rig.dev | The open-source application platform for Kubernetes](https://rig.dev/)
+
+[Faust.js™](https://faustjs.org/)
+
+[Stack Sorted.](https://stacksorted.com/buttons)
+
+[Start and grow your e-commerce business - 3-Day Free Trial - Shopify USA](https://www.shopify.com/)
+
+[Spline - 3D Design tool in the browser with real-time collaboration](https://spline.design/)
+
+[Elysia - Fast, and friendly Bun web frameworks | ElysiaJS](https://elysiajs.com/)
+
+[JangaFX - Real-Time VFX Software For Real-Time VFX Artists](https://jangafx.com/)
+
+[KitBash3D - Premium 3D Assets for Video Games, Film, and Television](https://kitbash3d.com/)
+
+[Tekton](https://tekton.dev/)
+
+[Flux](https://fluxcd.io/)
+
+[LanceDB - developer friendly, serverless vector database](https://lancedb.com/)
+
+[Compile SQL to type-safe code | sqlc.dev](https://sqlc.dev/)
+
+[volatiletech/sqlboiler: Generate a Go ORM tailored to your database schema.](https://github.com/volatiletech/sqlboiler)
+
+[DevGPT - Start Developing The Easy Way with AI-Generated Code](https://www.devgpt.com/)
+
+[Intuitive and affordable motion capture tools for character animation](https://www.rokoko.com/)
+
+[appium/appium: Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol](https://github.com/appium/appium)
+
+[PlayCSS - Daily challenges to test and improve your skills with fun](https://playcss.app/)
+
+[Cirrus CSS 💎](https://www.cirrus-ui.com/)
+
+[Liquid template language](https://shopify.github.io/liquid/?shpxid=885a9c93-97D8-4595-204C-8BB697C88D09)
+
+[Open Source Software Projects - Shopify](https://shopify.github.io/)
+
+[Shopify Developers Platform—Build. Innovate. Get paid.](https://shopify.dev/)
+
+[CasaOS - A simple, easy-to-use, elegant open-source personal cloud system](https://casaos.io/)
+
+[Npgsql - .NET Access to PostgreSQL | Npgsql Documentation](https://www.npgsql.org/)
+
+[OctoBase - Local-first, yet collaborative database](https://octobase.pro/)
+
+[BlockSuite | Collaborative Editing Toolkit](https://blocksuite.affine.pro/)
+
+[Novel – Notion-style WYSIWYG editor with AI-powered autocompletions](https://novel.sh/)
+
+[Introduction - Slate](https://docs.slatejs.org/)
+
+[About - Puro](https://puro.dev/)
+
+[CodeCrafters | Advanced programming challenges](https://codecrafters.io/)
+
+[The all-in-one platform as a service (PaaS) | Platform.sh](https://platform.sh/)
+
+[Code Push - Over the air updates for Flutter Apps](https://codepush.dev/)
+
+[Nue / Frontend troublesolver](https://nuejs.org/)
+
+[Nebula](https://nebula.tv/)
+
+[lotusdblabs/lotusdb: Most advanced key-value store written in Go, extremely fast, compatible with LSM tree and B+ tree, optimization of badger and bbolt.](https://github.com/lotusdblabs/lotusdb)
+
+[Tabler Icons: over 4650 vector icons for web design](https://tabler-icons.io/)
+
+[contrib.rocks](https://contrib.rocks/preview?repo=angular%2Fangular-ja)
+
+[Kickstarter](https://www.kickstarter.com/)
+
+[Uizard | App, Web, & UI Design Made Easy | Powered By AI](https://uizard.io/)
+
+[Rust Adventure](https://www.rustadventure.dev/)
+
+[Home - MEGA](https://mega.io/)
+
+[Scala CLI | Scala CLI](https://scala-cli.virtuslab.org/)
+
+[Home Page](https://www.crossplane.io/)
+
+[ElectricSQL - Sync for modern apps](https://electric-sql.com/)
+
+[Actual](https://actualbudget.com/)
+
+[PowerSync: SQL data sync for offline-first apps](https://www.powersync.co/)
+
+[DriftDB | DriftDB](https://driftdb.com/)
+
+[OpenTofu](https://opentofu.org/)
+
+[OAuth Tools](https://oauth.tools/)
+
+[Hello from Hydro-SDK | Hydro-SDK](https://hydro-sdk.io/)
+
+[Databases, SQL Server, and Data Models Examples](https://datamodels.databases.biz/)
+
+[Tembo](https://tembo.io/)
+
+[Rogue Engine](https://rogueengine.io/)
+
+[Kamal — Deploy web apps anywhere](https://kamal-deploy.org/)
+
+[ABP Framework - Open Source Web Application Framework](https://abp.io/)
+
+[Free Online Form Builder | Tally](https://tally.so/)
+
+[Fleet](https://fleet.rs/)
+
+[Diversion - Cloud-Native Version Control](https://www.diversion.dev/)
+
+[Prismane / Make great React apps, ultra fast](https://www.prismane.io/)
+
+[Graphite - How the fastest developers ship code](https://graphite.dev/)
+
+[Introduction - FastGQL](https://www.fastgql.io/)
+
+[Mailtrap: Email Delivery Platform](https://mailtrap.io/)
+
+[Transactional Email API Service For Developers | Mailgun](https://www.mailgun.com/)
+
+[EmailEngine Email API](https://emailengine.app/)
+
+[Ethereal Email](https://ethereal.email/)
+
+[Home ⚡ Zig Programming Language](https://ziglang.org/)
+
+[sonner.emilkowal.ski](https://sonner.emilkowal.ski/)
+
+[react-hot-toast - The Best React Notifications in Town](https://react-hot-toast.com/)
+
+[AWESOME-APP - Rust Blueprint for Building Awesome Applications (Tauri, SurrealDB, Axum, SQLx, Postgresql, Kubernetes)](https://awesomeapp.dev/)
+
+[InversifyJS a powerful IoC container for JavaScript apps powered by TypeScript](https://inversify.io/)
+
+[Ferrous Systems](https://ferrous-systems.com/)
+
+[Overview - Crux: Cross-platform app development in Rust](https://redbadger.github.io/crux/)
+
+[Rid | Rust Integrated Dart](https://thlorenz.com/rid-site/)
+
+[Unkey](https://unkey.dev/)
+
+[XState - JavaScript State Machines and Statecharts](https://xstate.js.org/)
+
+[Redux - A predictable state container for JavaScript apps. | Redux](https://redux.js.org/)
+
+[Next.Nav](https://www.next-nav.com/?ref=dailydev)
+
+[upper/db · A productive data access layer for Go](https://upper.io/v4/)
+
+[jmoiron/sqlx: general purpose extensions to golang's database/sql](https://github.com/jmoiron/sqlx)
+
+[scylladb/gocqlx: All-In-One: CQL query builder, ORM and migration tool](https://github.com/scylladb/gocqlx)
+
+[doug-martin/goqu: SQL builder and query library for golang](https://github.com/doug-martin/goqu)
+
+[Masterminds/squirrel: Fluent SQL generation for golang](https://github.com/Masterminds/squirrel)
+
+[FL0 - backend engineering, supercharged](https://www.fl0.com/)
+
+[HTTPie – API testing client that flows with you](https://httpie.io/)
+
+[bruno](https://www.usebruno.com/)
+
+[Restfox](https://restfox.dev/)
+
+[Contentlayer makes content easy for developers](https://contentlayer.dev/)
+
+[muse.ai | The power of video made simple for you.](https://muse.ai/)
+
+[GitHub - httptoolkit/react-reverse-portal: Build an element once, move it anywhere](https://github.com/httptoolkit/react-reverse-portal)
+
+[Home - @use-gesture documentation](https://use-gesture.netlify.app/)
+
+[Poimandres · GitHub](https://github.com/pmndrs)
+
+[Dracula — Dark theme for 300+ apps](https://draculatheme.com/)
+
+[FFmpeg.guide - One stop solution to all things FFmpeg](https://ffmpeg.guide/)
+
+[Kysely | Kysely](https://kysely.dev/)
+
+[Home | Twind](https://twind.dev/)
+
+[Hono - Ultrafast web framework for the Edges](https://hono.dev/)
+
+[Ree.js | Ree.js](https://ree.js.org/)
+
+[restQL - microservice query language](http://restql.b2w.io/)
+
+[About](https://docs.restql.b2w.io/#/)
+
+[PDFgear - Bring Accessible PDF Software to the Masses](https://www.pdfgear.com/)
+
+[A Go package for building Progressive Web Apps](https://go-app.dev/)
+
+[2:10:59 PM](https://www.sqlchat.ai/)
+
+[Overview - pressly/goose](https://pressly.github.io/goose/)
+
+[Meaningful Code Tests for Busy Devs | CodiumAI](https://www.codium.ai/)
+
+[SingleAPI - Convert any website to an API in seconds.](https://singleapi.co/#pricing)
+
+[Kinsta® Cloud Hosting - All Your Projects in One Platform](https://kinsta.com/)
+
+[Open-source authentication platform - Fief](https://www.fief.dev/)
+
+[kapa.ai - ChatGPT for your developer-facing product](https://www.kapa.ai/)
+
+[Continuous delivery & deployment automation tool for DevOps teams | Octopus Deploy - Octopus Deploy](https://octopus.com/)
+
+[ClamAVNet](https://www.clamav.net/)
+
+[Open Swoole: PHP Server with Async IO, Coroutines and Fibers (previously Swoole) | Open Swoole PHP](https://openswoole.com/)
+
+[Webhooks As A Service - HostedHooks](https://www.hostedhooks.com/)
+
+[OpenFunction](https://openfunction.dev/)
+
+[A Python library for GraphQL | 🍓 Strawberry GraphQL](https://strawberry.rocks/)
+
+[Home](https://omnigres.com/)
+
+[Orchid ORM | Orchid ORM](https://orchid-orm.netlify.app/)
+
+[open-runtimes/open-runtimes: Open runtime environments for serverless cloud computing ⚡️](https://github.com/open-runtimes/open-runtimes)
+
+[Epsio | Instant query results, effortlessly](https://www.epsio.io/)
+
+[Bob - Lightning fast build platform](https://bob.build/)
+
+[WebSocket King client: A testing and debugging tool for WebSockets](https://websocketking.com/)
+
+[Home - ID-2Sbo](https://ssdb.io/)
+
+[Wolverine | Next Generation .NET Mediator and Message Bus](https://wolverine.netlify.app/)
+
+[Mock Service Worker - API mocking library for browser and Node.js](https://mswjs.io/)
+
+[surreal-search.vercel.app](https://surreal-search.vercel.app/)
+
+[Surrealist Query](https://surrealist.app/query)
+
+[Robusta](https://home.robusta.dev/)
+
+[OpenTelemetry](https://opentelemetry.io/)
+
+[The Node-Based UI for Svelte – Svelte Flow](https://svelteflow.dev/)
+
+[JSON Web Tokens - jwt.io](https://jwt.io/)
+
+[Gravatar - Globally Recognized Avatars](https://gravatar.com/)
+
+[RoboHash](https://robohash.org/)
+
+[Hyperaide](https://hyperaide.com/)
+
+[Hookdoo Homepage](https://hookdoo.com/index.html)
+
+[PeerDB](https://www.peerdb.io/)
+
+[Nango - Open Unified API](https://www.nango.dev/)
+
+[Angular](https://angular.dev/)
+
+[packagecloud.io](https://packagecloud.io/)
+
+[Tarantool middleware for data](https://www.tarantool.io/en/)
+
+[Home - Playground AI](https://playground.ai/)
+
+[Pixlr: Free Online Photo Editor, AI image Generator & Design tool](https://pixlr.com/)
+
+[Leonardo.Ai](https://leonardo.ai/)
+
+[Helping people become more creative.](https://ideogram.ai/)
+
+[Adobe Firefly](https://firefly.adobe.com/)
+
+[Rinf Docs](https://rinf-docs.cunarist.com/)
+
+[Acorn](https://www.acorn.io/)
+
+[Deuxfleurs: let’s build a user-friendly internet](https://deuxfleurs.fr/)
+
+[Next-Generation Intelligent Assistant - Safyrus](https://www.safyrus.codes/)
+
+[Atuin - Magical Shell History](https://atuin.sh/)
+
+[Ollama](https://ollama.ai/)
+
+[The Valley of Code](https://thevalleyofcode.com/)
+
+[Float UI - Free open source Tailwind UI components & Templates](https://www.floatui.com/)
+
+[iLoveIMG | The fastest free web app for easy image modification.](https://www.iloveimg.com/)
+
+[Xano - The Scalable No-Code Backend](https://www.xano.com/)
+
+[Robust Job Processing · Oban Pro](https://getoban.pro/)
+
+[Programiz: Learn to Code for Free](https://www.programiz.com/)
+
+[About CRDTs • Conflict-free Replicated Data Types](https://crdt.tech/)
+
+[ob1.outerbase.com/?ref=producthunt](https://ob1.outerbase.com/)
+
+[AuthKit by WorkOS](https://www.authkit.com/)
+
+[Holochain | Distributed app framework with P2P networking](https://www.holochain.org/)
+
+[API Dash - Test, Visualize & Integrate APIs in a Dash ⚡️](https://apidash.dev/)
+
+[Advent of Code 2023](https://adventofcode.com/)
+
+[TallStackUI](https://tallstackui.com/)
+
+[Livepeer - Home](https://livepeer.org/)
+
+[pgxman](https://pgxman.com/)
+
+[NotebookLM](https://notebooklm.google.com/)
+
+[Hathora | Server Orchestration for Multiplayer Games](https://hathora.dev/)
+
+[GPUX](https://gpux.ai/)
+
+[flethy | time to speed up](https://flethy.com/)
+
+[CrabNebula – Home](https://crabnebula.dev/)
+
+[Capacities – A studio for your mind](https://capacities.io/)
+
+[NSQ Docs 1.2.1 - A realtime distributed messaging platform](https://nsq.io/)
+
+[The AT Protocol](https://atproto.com/)
+
+[Space and Time | Verifiable Compute Layer for Web3](https://www.spaceandtime.io/)
+
+[Data DX: A manifesto for effortlessly building data-driven applications](https://www.datadx.io/)
+
+[Fluvio - The programmable data streaming platform](https://fluvio.io/)
+
+[TypeHero](https://typehero.dev/)
+
+[Interview Pen | Software Engineering Interviews, Data Structures & Algorithms ++ System Design](https://interviewpen.com/)
+
+[Mapbox | Maps, Navigation, Search, and Data](https://www.mapbox.com/)
+
+[Loco | Loco](https://loco.rs/)
+
+[Graph Analytics Platform | Graph Database | TigerGraph](https://www.tigergraph.com/)
+
+[MemCachier |](https://www.memcachier.com/)
+
+[HarperDB | Enterprise Application Platform](https://www.harperdb.io/)
+
+[CrateDB – The Hyper-Fast Database that Truly Scales](https://cratedb.com/)
+
+[Playground - free-to-use online AI image creator](https://playgroundai.com/)
+
+[LABS.GOOGLE](https://labs.google/)
+
+[Luma AI](https://lumalabs.ai/)
+
+[AI Chat for scientific PDFs | SciSpace](https://typeset.io/)
+
+[Upscayl - AI Image Upscaler](https://www.upscayl.org/)
+
+[GitHub - localtunnel/localtunnel: expose yourself](https://github.com/localtunnel/localtunnel)
+
+[Open source Supabase SaaS starter - Basejump](https://usebasejump.com/)
+
+[Auth UI | Universal Auth Service](https://www.authui.site/)
+
+[StyleX](https://stylexjs.com/)
+
+[Iroh](https://iroh.computer/)
+
+[Eraser – Docs and Diagrams for Engineering Teams](https://www.eraser.io/)
+
+[TS Docs | Reference docs for npm packages](https://tsdocs.dev/)
+
+[GPTRouter - The Ultimate Model Router for GPT and AI Models | Writesonic](https://gpt-router.writesonic.com/)
+
+[GameDev.tv Courses - Learn to Code Games -Blender, Unreal, C#, C++](https://www.gamedev.tv/)
+
+[Ubicloud - Open and portable cloud](https://www.ubicloud.com/)
+
+[Serverpod – The Flutter Backend](https://serverpod.dev/)
+
+[Waves.js](https://wavesjs.github.io/)
+
+[Arc from The Browser Company](https://arc.net/)
+
+[Caravaggio | Caravaggio](https://caravaggio.ramielcreations.com/)
+
+[Bytescale: Image, Video & Audio APIs for Developers](https://www.bytescale.com/)
+
+[Mighty Image - Get your images in all shapes and sizes on demand](https://mightyimage.io/)
+
+[Essential products for developers | Voidr](https://voidr.co/)
+
+[River - Fast, reliable background jobs in Go](https://riverqueue.com/)
+
+[MassTransit · MassTransit](https://masstransit.io/)
+
+[Upbound - The Universal Cloud-Native Platform](https://www.upbound.io/)
+
+[Eden AI | AI made easy for all Product Builders](https://www.edenai.co/)
+
+[Vald](https://vald.vdaas.org/)
+
+[Suno AI](https://www.suno.ai/)
+
+[Expr | Expression language](https://expr-lang.org/)
+
+[Rhai – Embedded Scripting for Rust](https://rhai.rs/)
+
+[Genql - SDK client for any GraphQL API](https://genql.dev/)
+
+[pest. The Elegant Parser](https://pest.rs/)
+
+[Tornado Web Server — Tornado 6.4 documentation](https://www.tornadoweb.org/en/stable/#)
+
+[Scaledrone Realtime Messaging Service](https://www.scaledrone.com/)
+
+[Wasp](https://wasp-lang.dev/)
+
+[A lightweight carousel library with fluid motion and great swipe precision | Embla Carousel](https://www.embla-carousel.com/)
+
+[Conduktor | Universal Tooling for Apache Kafka](https://www.conduktor.io/)
+
+[News API – Search News and Blog Articles on the Web](https://newsapi.org/)
+
+[NewsData - News API to Search & Collect Worldwide News](https://newsdata.io/)
+
+[The Local AI Playground](https://www.localai.app/)
+
+[Cron Atlas - modern cron job scheduler for serverless apps](https://cronatlas.com/)
+
+[GNews API: Your gateway to the power of news APIs](https://gnews.io/)
+
+[Submit JSON](https://www.submitjson.com/)
+
+[dyrector.io @ platform](https://dyrectorio.com/)
+
+[OpenStatus](https://www.openstatus.dev/)
