@@ -1,4 +1,4 @@
-tags:: [[SQL]]
+tags:: [[Relational Database]], [[SQL]]
 
 - # SQLite: The Underappreciated Database
 	- ![sqlite.png](../assets/sqlite_1687606248242_0.png)

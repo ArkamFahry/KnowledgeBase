@@ -1,4 +1,4 @@
-tags:: [[NoSQL]]
+tags:: [[NoSQL]], [[Database]]
 
 - # Document Database
 	- Document databases are a type of [[NoSQL]] database that store and organize data in a format similar to [[JSON]] (JavaScript Object Notation) documents. They are designed to store, retrieve, and manage semi-structured or unstructured data. Instead of using tables and rows like traditional relational databases, document databases store data in flexible, self-describing documents.

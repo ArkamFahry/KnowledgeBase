@@ -1,4 +1,6 @@
-# Data Structure
+tags:: [[DSA]]
+
+- # Data Structure
 	- Based on the discussion on [[Data Type]] once we have data in variables. We need a way to manipulating that data to solve problems. This is where **Data Structures** come in. **Data Structures** is a particular way of storing and organizing data in a computer so that it can be used efficiently. A data structure is a special format for organizing and storing data. General data structure types include arrays, files, linked
 	  lists, stacks, queues, trees, graphs and so on.
 	- Depending on the organization of the elements, data structures are classified into two types

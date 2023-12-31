@@ -1,4 +1,6 @@
-# Graph Database
+tags:: [[NoSQL]] , [[Database]]
+
+- # Graph Database
 	- Graph databases are a type of database that use graph structures for data storage. They're designed to represent and store data in terms of entities (nodes) and the relationships (edges) between them.
 	- ## Concepts In a graph database
 		- Nodes represent entities like people, places, things, or concepts.

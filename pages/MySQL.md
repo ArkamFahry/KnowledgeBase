@@ -1,4 +1,4 @@
-tags:: [[SQL]]
+tags:: [[Relational Database]], [[SQL]]
 
 - # MySQL
 	- ![mysql.png](../assets/mysql_1703860378481_0.png){:height 508, :width 753}
