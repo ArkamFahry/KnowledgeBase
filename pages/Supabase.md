@@ -12,7 +12,7 @@ tags:: [[BaaS]], [[GraphQL]], [[REST]], [[PostgREST]], [[PostgreSQL]]
 			- There is fully managed [[PostgreSQL]] database loaded with a lot of  [[PostgreSQL Extensions]].
 			- The database has full [[PostgreSQL Functions]] Support.
 			- Complete support for [[PostgreSQL Triggers]].
-			- Database [[Webhooks]] support built into the database.
+			- Database [[Webhook]] support built into the database.
 			- Complete support for [[PostgreSQL FTS]] search.
 			- Databse level secrets data encryption using extension [Supabase Vault](https://supabase.com/blog/supabase-vault).
 			- Database migrations.

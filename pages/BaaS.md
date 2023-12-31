@@ -25,7 +25,7 @@
 			- Many BaaS providers offer integrations with popular social media platforms, allowing developers to leverage social login, sharing, and other social features within their applications. With social login features the user will be able to do Single Sign-On which is more convenient.
 		- Backend Customization
 			- While BaaS focuses on providing prebuilt backend functionalities, it often allows developers to customize certain aspects of the backend infrastructure to meet specific application requirements.
-			- We could use feature like [[Serverless Functions]] and [[Webhooks]] to implement custom business logic in the backend.
+			- We could use feature like [[Serverless Functions]] and [[Webhook]] to implement custom business logic in the backend.
 		- Security and Compliance
 			- BaaS platforms prioritize security and data protection, implementing measures such as encryption, secure API access, and compliance with industry regulations to safeguard user data and ensure application security.
 	- ## BaaS Problems
