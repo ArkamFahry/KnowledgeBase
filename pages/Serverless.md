@@ -1,0 +1,19 @@
+# Serverless
+	- Serverless computing, despite its name, still involves servers; however, it abstracts away the need for developers to manage those servers directly. It's a cloud computing model where cloud providers manage the infrastructure and dynamically allocate resources as needed, allowing developers to focus solely on writing and deploying code.
+	- ## Breakdown of Serverless
+		- **Abstraction of Infrastructure**
+			- Serverless computing abstracts the underlying infrastructure, including servers, operating systems, and maintenance tasks. Developers don't need to provision or manage servers.
+		- **Event-Driven Model**
+			- Applications built with serverless architectures respond to events. These events can be HTTP requests, database modifications, file uploads, timers, or other triggers that invoke functions.
+		- **Scaling**
+			- Serverless platforms automatically scale resources up or down based on demand. This scaling happens dynamically, ensuring that applications can handle varying workloads without manual intervention.
+		- **Billing Model**
+			- Instead of paying for a fixed amount of server resources, users are billed based on the actual resources consumed by their functions. This pay-per-use model can be more cost-effective, especially for applications with variable workloads.
+		- **Microservices Architecture**
+			- Serverless often encourages a microservices approach where applications are composed of small, independent functions or services that interact through APIs. Each function focuses on a specific task.
+		- **Statelessness**
+			- Functions in a serverless environment are generally stateless. They don't retain data between invocations. Any required data persistence usually involves external services like databases or storage.
+		- **Ease of Deployment**
+			- Deploying code in a serverless environment is often straightforward. Developers can upload their functions to the cloud provider's platform or use command-line tools for seamless deployment.
+	- Serverless computing doesn't eliminate servers; rather, it abstracts their management away from developers, enabling them to focus on writing code, building applications, and delivering value without worrying about the underlying infrastructure's provisioning, scaling, or maintenance. This model can be highly beneficial for certain types of applications due to its scalability, cost-efficiency, and ease of development and deployment.
+	- {{video https://www.youtube.com/watch?v=W_VV2Fx32_Y}}

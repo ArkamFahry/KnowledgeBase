@@ -1,4 +1,4 @@
-tags:: [[Vitess]], [[MySQL]]
+tags:: [[Vitess]], [[MySQL]], [[Serverless Database]]
 
 - # PlanetScale: The world's most advanced database platform
 	- ![planetscale.png](../assets/planetscale_1687868894764_0.png)
@@ -40,3 +40,5 @@ tags:: [[Vitess]], [[MySQL]]
 	- ## PlanetScale Resources
 		- [PlanetScale: The world’s most advanced database platform](https://planetscale.com/)
 		- [PlanetScale Documentation — PlanetScale Documentation](https://planetscale.com/docs)
+		- [PlanetScale - YouTube](https://www.youtube.com/@PlanetScale)
+	- {{video https://www.youtube.com/watch?v=lZ7IIljALm0}}

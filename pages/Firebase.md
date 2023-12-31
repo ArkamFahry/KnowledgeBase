@@ -5,3 +5,4 @@ tags:: [[BaaS]], [[GCP]]
 	- ## FIrebase Resources
 		- [Firebase](https://firebase.google.com/)
 		- [Firebase Documentation](https://firebase.google.com/docs)
+	- {{video https://www.youtube.com/watch?v=vAoB4VbhRzM}}

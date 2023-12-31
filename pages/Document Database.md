@@ -1,0 +1,21 @@
+tags:: [[NoSQL]]
+
+- # Document Database
+	- Document databases are a type of [[NoSQL]] database that store and organize data in a format similar to [[JSON]] (JavaScript Object Notation) documents. They are designed to store, retrieve, and manage semi-structured or unstructured data. Instead of using tables and rows like traditional relational databases, document databases store data in flexible, self-describing documents.
+	- ## Some key points about document databases
+		- **Flexible Schema**
+			- Document databases don't require a predefined schema for the data they store. Each document can have its own structure, and fields can vary from one document to another within the same collection (similar to rows in a table in a relational database).
+		- **Documents**
+			- Data is stored as documents, typically in formats like JSON, [[BSON]] (binary-encoded JSON), or XML. These documents can contain key-value pairs, arrays, nested documents, or a combination thereof.
+		- **Collections**
+			- Documents are grouped into collections (analogous to tables in relational databases), but unlike tables, collections don't enforce a schema across all documents.
+		- **Scalability**
+			- Document databases are designed for horizontal scalability, allowing them to distribute data across multiple servers or nodes to handle large volumes of data and high traffic.
+		- **Querying**
+			- They often provide powerful querying capabilities, allowing for complex queries, indexing, and search functionalities. Queries can target specific fields within documents, and some databases offer specialized query languages.
+		- **Performance**
+			- Document databases can offer high performance, especially for use cases where data retrieval involves retrieving entire documents or querying based on document content.
+		- **Use Cases**
+			- They are suitable for various applications, such as content management systems, real-time analytics, e-commerce, mobile app development, and situations where data structures are evolving or semi-structured.
+	- Popular document databases include [[MongoDB]], [[Couchbase]], [[CouchDB]], and [[AWS DocumentDB]] (compatible with MongoDB).
+	- Overall, document databases offer flexibility, scalability, and efficient handling of unstructured or semi-structured data, making them a valuable choice for many modern applications.

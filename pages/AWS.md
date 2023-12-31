@@ -1,4 +1,5 @@
-# Amazon Web Services
+# AWS
+	- ![aws.png](../assets/aws_1704000199268_0.png){:height 394, :width 758}
 	- Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon. It offers a wide range of services, including compute, storage, networking, database, analytics, machine learning, and internet of things (IoT), that allow businesses to build, deploy, and manage applications on a global scale.
 	- ## Core Services of AWS
 		- Elastic Compute Cloud ([[AWS EC2]])
@@ -40,6 +41,11 @@
 			- Connecting and managing IoT devices using [[AWS IoT Core]] .
 	- ## Significance of AWS
 		- AWS has revolutionized the way businesses operate and compete in the digital era. Its comprehensive suite of services, coupled with its scalability, reliability, and cost-effectiveness, has made it the preferred cloud computing platform for many organizations. Understanding AWS concepts and services is essential for aspiring IT professionals and businesses looking to leverage the power of cloud computing.
+	- ## AWS Resources
+		- [Cloud Computing Services - Amazon Web Services (AWS)](https://aws.amazon.com/)
+		- [Getting Started - Cloud Computing Tutorials for Building on AWS](https://aws.amazon.com/getting-started/)
+		- https://docs.aws.amazon.com/
+		- [Amazon Web Services - YouTube](https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg)
 	- {{video https://www.youtube.com/watch?v=a9__D53WsUs}}
 	- {{video https://www.youtube.com/watch?v=JIbIYCM48to}}
 	- {{video https://www.youtube.com/watch?v=ZzI9JE0i6Lc}}

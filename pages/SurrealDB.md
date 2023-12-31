@@ -5,7 +5,7 @@ tags:: [[NewSQL]], [[Multi-Model Database]], [[Rust]], [[TiKV]]
 	- ## SurrealDB
 		- SurrealDB is a [[NewSQL]] [[Multi-Model Database]] written in [[Rust]].
 		- With an SQL-style query language, real-time queries with highly-efficient related data retrieval, advanced security permissions for multi-tenant access, and support for performant analytical workloads, SurrealDB is the next generation serverless database. It literally has a features set that is surreal.
-		- SurrealDB combines the best of [[Relational Databases]], [[Document Databases]], [[Key Value Databases]] and [[Graph Database]] in to a single light weight and preferment package which is [[ACID]] compliant and can  be queried with a SQL like syntax.
+		- SurrealDB combines the best of [[Relational Databases]], [[Document Database]], [[Key Value Databases]] and [[Graph Database]] in to a single light weight and preferment package which is [[ACID]] compliant and can  be queried with a SQL like syntax.
 		- The magic behind SurrealDB is the [[SurrealDB Record IDs]].
 	- ## SurrealDB Features
 		- It is Easy to pickup
@@ -46,7 +46,7 @@ tags:: [[NewSQL]], [[Multi-Model Database]], [[Rust]], [[TiKV]]
 	- ## SurrealDB Resources
 		- [SurrealDB | The ultimate database for tomorrow's applications](https://surrealdb.com/)
 		- [GitHub - surrealdb/surrealdb: A scalable, distributed, collaborative, document-graph database, for the realtime web](https://github.com/surrealdb/surrealdb)
-		- [SurrealDB | Documentation](https://surrealdb.com/docs)
+		- [Overview | SurrealDB Docs](https://docs.surrealdb.com/docs/intro)
 		- [SurrealDB Query Explorer | Surrealist](https://surrealist.starlane.studio/)
 		- [SurrealDB - YouTube](https://www.youtube.com/channel/UCjf2teVEuYVvvVC-gFZNq6w)
 	- {{video https://www.youtube.com/watch?v=C7WFwgDRStM}}

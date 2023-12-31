@@ -20,7 +20,7 @@ tags:: [[Cloudflare]]
 		- Scalability
 			- Cloudflare Workers possess inherent scalability, seamlessly adjusting to fluctuations in traffic volume across Cloudflare’s expansive network.
 		- Fast startup times
-			- Cloudflare workers don't have a full runtime to bootup a complete instance so it is fast on startup and cold starts are near zero that means no cold starts where [[AWS Lambda]], [[GCP Cloud Functions]] or [[Azure Functions]] can take a few millisecond startup time for cold starts.
+			- Cloudflare workers don't have a full runtime to bootup a complete instance so it is fast on startup and cold starts are near zero that means no cold starts where [[AWS Lambda]], [[GCP Cloud Function]] or [[Azure Function]] can take a few millisecond startup time for cold starts.
 	- ## Downside Of Workers
 		- Execution Limits
 			- Workers operate within defined execution time and memory constraints, potentially limiting complex processing or long-running tasks.

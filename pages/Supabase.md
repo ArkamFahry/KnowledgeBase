@@ -64,6 +64,7 @@ tags:: [[BaaS]], [[GraphQL]], [[REST]], [[PostgREST]], [[PostgreSQL]]
 		- [The Open Source Firebase Alternative | Supabase](https://supabase.com/)
 		- [GitHub - supabase/supabase: The open source Firebase alternative. Follow to stay updated about our public Beta.](https://github.com/supabase/supabase)
 		- [Supabase Docs](https://supabase.com/docs)
+		- [Supabase - YouTube](https://www.youtube.com/c/supabase)
 	- {{video https://www.youtube.com/watch?v=zBZgdTb-dns}}
 	- {{video https://www.youtube.com/watch?v=WiwfiVdfRIc}}
 	- {{video https://www.youtube.com/watch?v=VZUmIMBLV4I}}
