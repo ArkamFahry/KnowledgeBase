@@ -1,4 +1,4 @@
-# Bookmarks
+# Bookmarks bar
 
 [WhatsApp](https://web.whatsapp.com/)
 
@@ -14,9 +14,13 @@
 
 [chat.openai.com](https://chat.openai.com/)
 
+[Copilot](https://copilot.microsoft.com/)
+
 [Bing AI - Search](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx)
 
 [Assistant - Poe](https://poe.com/)
+
+[Claude](https://claude.ai/chats)
 
 [Hashnode](https://hashnode.com/)
 
@@ -2166,7 +2170,7 @@
 
 [SqlKata the dotnet SQL query builder](https://sqlkata.com/)
 
-[Anytype.io](https://anytype.io/en)
+[Anytype.io](https://anytype.io/)
 
 [Qatalog | Your Bespoke Operating System for Work](https://qatalog.com/)
 
@@ -3677,3 +3681,19 @@
 [dyrector.io @ platform](https://dyrectorio.com/)
 
 [OpenStatus](https://www.openstatus.dev/)
+
+[Mistral AI | Open-weight models](https://mistral.ai/)
+
+[Anthropic \\ Home](https://www.anthropic.com/)
+
+[Fast & Free AI & GPTs Bots store | FlowGPT](https://flowgpt.com/)
+
+[Massed Compute](https://shop.massedcompute.com/)
+
+[Graphweaver - Data Everywhere, Instant GraphQL](https://graphweaver.com/)
+
+[Gravitee.io - API Management Platform](https://www.gravitee.io/)
+
+[uploadstuff.dev](https://uploadstuff.dev/)
+
+[Inngest - Build reliable products - Durable workflow engine](https://www.inngest.com/)
