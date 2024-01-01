@@ -417,7 +417,7 @@
  :graph/settings {:journal? false
  :excluded-pages? false
  :orphan-pages? true}
- :default-home {}
+ :default-home {:page "Home"}
  :editor/logical-outdenting? false
  :ui/show-brackets? false
  :editor/preferred-pasting-file? true}
