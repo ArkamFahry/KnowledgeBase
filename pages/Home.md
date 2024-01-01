@@ -8,6 +8,6 @@
 - ## 🐙 My Github
 	- [ArkamFahry · GitHub](https://github.com/ArkamFahry)
 - ## ✍️ Random Dev Quote
-	- ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical){:height 135, :width 750}
+	- ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical){:height 131, :width 592}
 - ## 😂 Random Dev Meme
 	- <img src='https://randommeme-five.vercel.app/' style="height: 400px; width: 750px"/>

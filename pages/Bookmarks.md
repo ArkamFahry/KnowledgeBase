@@ -3697,3 +3697,5 @@
 [uploadstuff.dev](https://uploadstuff.dev/)
 
 [Inngest - Build reliable products - Durable workflow engine](https://www.inngest.com/)
+
+[SuperDuperDB: Bring AI to your favorite database!](https://www.superduperdb.com/)
