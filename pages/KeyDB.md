@@ -1,4 +1,4 @@
-tags:: [[Redis]], [[K/V Database]]
+tags:: [[Redis]], [[KV Database]]
 
 - # KeyDB
 	- ![keydb.png](../assets/keydb_1704015426389_0.png)

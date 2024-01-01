@@ -34,7 +34,7 @@
 		- Mobile applications
 			- Developing and deploying mobile backends with AWS services like [[AWS Amplify]] .
 		- Data analytics
-			- Analyzing large datasets using AWS services like [[AWS Redshift]] and [[AWS EMR]].
+			- Analyzing large datasets using AWS services like [[Amazon Redshift]] and [[AWS EMR]].
 		- Machine learning
 			- Building and deploying machine learning models using AWS services like [[AWS SageMaker]] .
 		- IoT

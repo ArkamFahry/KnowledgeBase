@@ -1,4 +1,6 @@
-# State Machine
+tags:: [[CS]]
+
+- # State Machine
 	- A state machine is a conceptual model used in computer science and various fields to represent the behavior of systems. It's designed to capture the different states that a system can be in, the transitions between these states, and the events that cause these transitions.
 	- ## Understanding State Machines
 		- States

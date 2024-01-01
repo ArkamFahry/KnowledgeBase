@@ -1,4 +1,6 @@
-# Nuget Package: Simplified .NET Dependency Management
+tags:: [[.NET]]
+
+- # Nuget Package: Simplified .NET Dependency Management
 	- In the ever-evolving world of .NET development, managing libraries and dependencies has always been a challenge. Enter NuGet, your trusty sidekick in the quest for smoother, more efficient development. In this blog post, we'll take a deep dive into NuGet packages, breaking down what they are, why they matter, and how they can make your life as a .NET developer a whole lot easier.
 	- **NuGet Packages Unveiled**
 		- So, what exactly is a NuGet package? Think of it as a neatly wrapped gift containing all the essential ingredients for a specific piece of functionality or a library that your .NET application needs. These packages come in a tidy little compressed file with a `.nupkg` extension, and they're here to simplify your development journey.

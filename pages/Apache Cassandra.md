@@ -1,4 +1,6 @@
-# Apache Cassandra
+tags:: [[Columnar Database]] , [[NoSQL]]
+
+- # Apache Cassandra
 	- ![cassandra_logo.png](../assets/cassandra_logo_1703860415091_0.png){:height 588, :width 753}
 	- ## Apache Cassandra Resources
 		- [Apache Cassandra | Apache Cassandra Documentation](https://cassandra.apache.org/_/index.html)

@@ -1,4 +1,4 @@
-tags:: [[Redis]], [[C++]], [[K/V Database]]
+tags:: [[Redis]], [[C++]], [[KV Database]]
 
 - # Dragonfly: The Fastest In-Memory Data Store
 	- ![dragonfly_db.png](../assets/dragonfly_db_1704014901921_0.png){:height 297, :width 754}

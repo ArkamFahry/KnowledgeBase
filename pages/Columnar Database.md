@@ -1,0 +1,15 @@
+# Columnar Database
+	- A columnar database is a type of database management system (DBMS) that stores data tables by column rather than by row. In a traditional row-oriented database, data for each record is stored sequentially in rows. In contrast, in a columnar database, data from each column is stored together.
+	- ## Concepts In a columnar database
+		- **Data Storage**
+			- Columns are stored contiguously, allowing for more efficient data retrieval and storage. This structure is particularly advantageous when queries or analyses require access to specific columns of data, as only the necessary columns need to be accessed, improving query performance.
+		- **Data Compression**
+			- Columnar databases often employ compression techniques optimized for columns, reducing storage requirements and enhancing query performance. Since similar data types are stored together, compression algorithms can be more effective.
+		- **Query Performance**
+			- Analytical queries that involve aggregations, analytics, or reporting tend to perform better in columnar databases because these operations often involve scanning or aggregating data within columns. The data organization facilitates faster query execution as it only accesses the necessary columns, minimizing disk I/O and improving overall speed.
+		- **Analytics and Data Warehousing**
+			- Columnar databases are commonly used in analytics, data warehousing, and business intelligence applications where complex queries across large datasets are frequent. These databases excel in handling analytical workloads due to their efficient column-wise storage and retrieval.
+		- **Concurrency and Parallel Processing**
+			- Many columnar databases are designed to take advantage of parallel processing and can handle multiple queries simultaneously, improving scalability and performance in multi-user environments.
+	- Popular columnar databases include [[Apache Cassandra]], [[Amazon Redshift]], [[Google BigQuery]], and [[ClickHouse]], each offering different features and optimizations for various use cases.
+	- However, while columnar databases excel in analytical workloads, they might not be as efficient for transactional or OLTP (Online Transaction Processing) tasks where frequent updates or insertions are required, as these operations often involve multiple columns and rows. Hence, the choice of database type depends on the specific requirements and nature of the data workload.

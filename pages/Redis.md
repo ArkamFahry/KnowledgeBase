@@ -1,4 +1,4 @@
-tags:: [[K/V Database]], [[C]]
+tags:: [[KV Database]], [[C]]
 
 - # Redis: The Super Fast K/V Store
 	- ![redis.png](../assets/redis_1687702953442_0.png)

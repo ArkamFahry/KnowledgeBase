@@ -1,4 +1,6 @@
-# Data Structures and Algorithms
+tags:: [[CS]]
+
+- # Data Structures and Algorithms
 	- Data structures and algorithms (DSA) is a fundamental area of computer science that deals with the efficient organization and manipulation of data. It encompasses the study of various data structures, such as arrays, linked lists, trees, and graphs, along with the algorithms that operate on these structures. DSA plays a crucial role in designing and implementing efficient software solutions for a wide range of applications.
 	- ## Core Concepts in DSA
 		- [[Data Structure]]

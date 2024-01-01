@@ -1,4 +1,4 @@
-tags:: [[Flutter]], [[Dart]]
+tags:: [[Flutter]], [[Dart]], [[Rust]]
 
 - # Isar: Super Fast Cross-Platform Database for [[Flutter]]
 	- ![isar.png](../assets/isar_1703133698735_0.png)
