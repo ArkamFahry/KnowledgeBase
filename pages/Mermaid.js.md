@@ -1,5 +1,7 @@
-# Mermaid.js: [[JavaScript]] based Diagramming and Charting tool
-	- ![mermaid.js.png](../assets/mermaid.js_1688306819859_0.png)
+tags:: [[JavaScript]]
+
+- # Mermaid.js: [[JavaScript]] based Diagramming and Charting tool
+	- ![mermaid.js.png](../assets/mermaid.js_1688306819859_0.png){:height 803, :width 758}
 	- ## Mermaid.js
 		- It is a diagramming and charting tool based on JavaScript which can render its diagrams into a Markdown-inspired text definition.
 	- ## Mermaid.js Features

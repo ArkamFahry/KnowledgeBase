@@ -1,0 +1,14 @@
+# OS
+	- An operating system (OS) is the primary software that manages a computer's hardware resources and provides services to software applications. It acts as an intermediary between the hardware components of a computer (like the processor, memory, storage devices, etc.) and the software applications users interact with.
+	- ## Key functions of a OS
+		- **Resource Management**
+			- It allocates and manages hardware resources like CPU time, memory space, peripheral devices (such as printers or scanners), and network connections among various applications.
+		- **Process Management**
+			- It handles processes (tasks or programs) running on the system, managing their execution, scheduling, and termination.
+		- **Memory Management**
+			- It oversees the system's memory usage, allocating space to programs and data, and ensuring efficient use of available memory.
+		- **File System Management**
+			- It organizes and manages files on storage devices, allowing users to create, access, and modify files.
+		- **User Interface**
+			- It provides a user interface through which users interact with the computer, which can be a graphical user interface (GUI) or a command-line interface (CLI).
+	- Examples of operating systems include [[Windows]], [[macOS]], [[Linux]], and various versions of [[Unix]]. Each OS has its own features, user interface, and functionalities, but they all serve the fundamental purpose of managing a computer's resources and enabling the execution of software applications.
