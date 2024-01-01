@@ -1,4 +1,4 @@
-tags:: [[AWS S3]]
+tags:: [[Amazon S3]]
 
 - # Akamai Object Storage
 	- ## Akamai Object Storage Resources

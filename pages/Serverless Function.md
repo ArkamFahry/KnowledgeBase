@@ -15,5 +15,5 @@ tags:: [[Serverless]]
 			- Developers can easily deploy functions through the cloud provider's interface or via command-line tools. This rapid deployment facilitates quick iteration and updates.
 		- **Supported Languages*
 			- * Most serverless platforms support multiple programming languages, allowing developers to use their preferred language for writing functions.
-	- Popular serverless platforms include [[AWS Lambda]] , [[Azure Function]], [[GCP Cloud Function]], and more. These services offer a wide range of triggers and integrations, enabling developers to build highly scalable and event-driven applications without worrying about the underlying infrastructure's management.
+	- Popular serverless platforms include [[AWS Lambda]] , [[Azure Function]], [[Google Cloud Function]], and more. These services offer a wide range of triggers and integrations, enabling developers to build highly scalable and event-driven applications without worrying about the underlying infrastructure's management.
 	- Serverless doesn't mean "no servers"; rather, it abstracts the server management from developers, allowing them to focus on writing code and delivering value while the cloud provider takes care of the underlying infrastructure.

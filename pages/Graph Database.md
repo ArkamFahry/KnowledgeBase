@@ -13,4 +13,4 @@ tags:: [[NoSQL]] , [[Database]]
 			- They can adapt well to evolving schemas and easily accommodate changes in data structures.
 		- **Efficient Queries for Connected Data**
 			- Traversing relationships in graph databases is typically faster and more efficient than in traditional relational databases for certain types of queries, especially those involving complex connections.
-	- Popular graph databases include [[Neo4j]] , [[AWS Neptune]], and [[Azure Cosmos DB]]. They're chosen based on the specific requirements of the application, scalability needs, and integration capabilities with other systems.
+	- Popular graph databases include [[Neo4j]] , [[Amazon Neptune]], and [[Azure Cosmos DB]]. They're chosen based on the specific requirements of the application, scalability needs, and integration capabilities with other systems.

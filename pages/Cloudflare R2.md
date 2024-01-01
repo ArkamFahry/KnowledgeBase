@@ -1,4 +1,4 @@
-tags:: [[Cloudflare]], [[AWS S3]]
+tags:: [[Cloudflare]], [[Amazon S3]]
 
 - # Cloudflare R2
 	- # Cloudflare R2 Resources

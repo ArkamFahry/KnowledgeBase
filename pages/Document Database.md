@@ -17,5 +17,5 @@ tags:: [[NoSQL]], [[Database]]
 			- Document databases can offer high performance, especially for use cases where data retrieval involves retrieving entire documents or querying based on document content.
 		- **Use Cases**
 			- They are suitable for various applications, such as content management systems, real-time analytics, e-commerce, mobile app development, and situations where data structures are evolving or semi-structured.
-	- Popular document databases include [[MongoDB]], [[Couchbase]], [[CouchDB]], and [[AWS DocumentDB]] (compatible with MongoDB).
+	- Popular document databases include [[MongoDB]], [[Couchbase]], [[CouchDB]], and [[Amazon DocumentDB]] (compatible with MongoDB).
 	- Overall, document databases offer flexibility, scalability, and efficient handling of unstructured or semi-structured data, making them a valuable choice for many modern applications.

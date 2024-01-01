@@ -1,4 +1,4 @@
-tags:: [[AWS S3]]
+tags:: [[Amazon S3]]
 
 - # Backblaze B2
 	- ![backblaze_b2.png](../assets/backblaze_b2_1703907657792_0.png){:height 435, :width 748}

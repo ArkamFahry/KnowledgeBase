@@ -1,4 +1,4 @@
-tags:: [[AWS S3]], [[Rust]]
+tags:: [[Amazon S3]], [[Rust]]
 
 - # Deuxfleurs Garage
 	- ![deuxfleurs_garage.png](../assets/deuxfleurs_garage_1704001833596_0.png){:height 280, :width 299}

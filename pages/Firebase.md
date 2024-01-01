@@ -6,3 +6,4 @@ tags:: [[BaaS]], [[GCP]]
 		- [Firebase](https://firebase.google.com/)
 		- [Firebase Documentation](https://firebase.google.com/docs)
 	- {{video https://www.youtube.com/watch?v=vAoB4VbhRzM}}
+	- {{video https://www.youtube.com/watch?v=ucmbO2lWC2A}}

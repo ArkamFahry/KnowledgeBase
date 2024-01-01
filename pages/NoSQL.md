@@ -8,11 +8,11 @@
 	- ## Types of NoSQL Databases
 		- **Document-based**: Stores data in documents (like JSON or XML) and provides flexibility in data structures within each document. Examples include MongoDB and Couchbase.
 		- **Key-Value Stores**
-			- Store data in a schema-less way using a key-value pair. Examples include [[Redis]] and [[AWS DynamoDB]] .
+			- Store data in a schema-less way using a key-value pair. Examples include [[Redis]] and [[Amazon DynamoDB]] .
 		- **Column Family Stores**
 			- Organize data into columns instead of rows, suitable for analytical workloads. Examples include [[Apache Cassandra]] and [[HBase]].
 		- **Graph Databases**
-			- Designed for storing and querying graph data, ideal for applications with complex relationships. Examples include [[Neo4j]] and [[AWS Neptune]].
+			- Designed for storing and querying graph data, ideal for applications with complex relationships. Examples include [[Neo4j]] and [[Amazon Neptune]].
 	- ## Use Cases for NoSQL
 		- NoSQL databases are often used in applications involving large-scale data storage and real-time analytics, such as social media platforms, IoT (Internet of Things) applications, gaming, and e-commerce.
 			- They excel in scenarios where data structure is evolving, and the scale of data is too massive or dynamic for traditional relational databases to handle efficiently.

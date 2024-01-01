@@ -1,4 +1,4 @@
-tags:: [[AWS S3]]
+tags:: [[Amazon S3]]
 
 - # Wasabi
 	- ![wasabi.png](../assets/wasabi_1703908769250_0.png){:height 278, :width 751}

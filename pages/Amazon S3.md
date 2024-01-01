@@ -1,7 +1,7 @@
 tags:: [[AWS]]
 
-- # AWS S3 (Amazon Simple Storage Service)
-	- AWS S3, or Amazon Simple Storage Service, is a highly scalable and durable cloud storage service provided by Amazon Web Services (AWS). It is designed to store and retrieve any amount of data from anywhere on the web. S3 offers a simple and secure way to store objects, such as files or documents, and provides various features for managing and organizing wer data.
+- # Amazon S3 (Amazon Simple Storage Service)
+	- Amazon S3, or Amazon Simple Storage Service, is a highly scalable and durable cloud storage service provided by Amazon Web Services (AWS). It is designed to store and retrieve any amount of data from anywhere on the web. S3 offers a simple and secure way to store objects, such as files or documents, and provides various features for managing and organizing wer data.
 	- ## Key features and concepts of AWS S3
 		- **Buckets**
 			- S3 stores data in containers called buckets A bucket acts as a logical unit to organize and manage wer objects. we can create multiple buckets and store different types of data in each one.
@@ -16,7 +16,7 @@ tags:: [[AWS]]
 		- **Data Management**
 			- S3 provides features for managing and organizing wer data. we can set lifecycle policies to automatically move or delete objects based on their age. Versioning allows we to maintain multiple versions of an object, enabling easy recovery or rollbacks. S3 also supports event notifications, enabling we to trigger actions or workflows when certain events occur.
 		- **Integration and Services**
-			- S3 integrates with other AWS services, making it a fundamental building block for many cloud-based architectures. For example, we can use S3 to host static websites, store data for analytics and big data processing using services like Amazon Athena or Amazon Redshift, Sending S3 events for [[AWS MSK]], [[AWS Kinesis]], [[AWS EventBridge]] or directly access S3 data from AWS Lambda functions.
+			- S3 integrates with other AWS services, making it a fundamental building block for many cloud-based architectures. For example, we can use S3 to host static websites, store data for analytics and big data processing using services like Amazon Athena or Amazon Redshift, Sending S3 events for [[Amazon MSK]], [[Amazon Kinesis]], [[Amazon EventBridge]] or directly access S3 data from AWS Lambda functions.
 	- Overall, AWS S3 provides a reliable, scalable, and cost-effective solution for storing and managing data in the cloud. It is widely used by individuals, businesses, and organizations of all sizes to store, backup, and share various types of data and content.
 	- ## How objects are stored in S3
 		- In AWS S3, objects are stored in a flat structure within buckets. Each object within a bucket is identified by a unique key, which is essentially the object's address or identifier. The key is used to retrieve, update, or delete the object.

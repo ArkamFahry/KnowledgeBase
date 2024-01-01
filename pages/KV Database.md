@@ -24,4 +24,4 @@ tags:: [[NoSQL]] , [[Database]]
 		- Use Cases
 			- Key-value databases are commonly used in various scenarios, including caching, real-time analytics, recommendation engines, gaming leaderboards, user sessions, and more.
 	- ## Some Example for K/V Databases
-		- Popular examples of key-value databases include [[Redis]], [[Memcached]] , [[AWS DynamoDB]], [[Riak]], and [[Apache Cassandra]] (which is a hybrid between a key-value and a [[Columnar Database]]). These databases are widely used in modern web applications and distributed systems to manage high-velocity data with low-latency access requirements.
+		- Popular examples of key-value databases include [[Redis]], [[Memcached]] , [[Amazon DynamoDB]], [[Riak]], and [[Apache Cassandra]] (which is a hybrid between a key-value and a [[Columnar Database]]). These databases are widely used in modern web applications and distributed systems to manage high-velocity data with low-latency access requirements.
