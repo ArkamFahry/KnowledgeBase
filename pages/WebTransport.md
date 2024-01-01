@@ -1,0 +1,12 @@
+# WebTransport
+	- WebTransport is an evolving web standard designed to provide a high-level API for establishing multiplexed connections between web clients (like browsers) and servers. It aims to offer a flexible and efficient way for web applications to exchange data, enabling various communication patterns beyond what's possible with existing web APIs.
+	- ## Key aspects of WebTransport
+		- **Multiplexed Connections**
+			- WebTransport allows multiple logical streams of data to be sent and received over a single connection. This multiplexing capability is useful for scenarios where applications need to manage different types of communication simultaneously, such as real-time media, file transfers, or gaming interactions.
+		- **Pluggable Transports**
+			- It's designed to support various transport protocols, allowing developers to choose the most suitable transport mechanism for their needs. This flexibility enables the use of different underlying protocols while providing a consistent API surface for web applications.
+		- **Low-Latency Communication**
+			- WebTransport is designed with an emphasis on reducing latency. By enabling direct communication between clients and servers in a way that's more efficient than traditional HTTP-based approaches, it aims to enhance real-time interactivity for web applications.
+		- **Security and Privacy Considerations**
+			- Similar to other web standards, WebTransport prioritizes security and privacy. It's designed to work within the same-origin policy and ensures that the communication between client and server is secure by default.
+	- WebTransport is still in the early stages of development and standardization. Its goal is to provide a more performant and versatile alternative to existing web communication APIs like [[WebSocket]] and [[WebRTC]]. As it matures and gains wider support, it's expected to enable more sophisticated and responsive web applications that require efficient, multiplexed, and low-latency communication channels.

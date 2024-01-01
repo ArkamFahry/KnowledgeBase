@@ -32,9 +32,9 @@ tags:: [[BaaS]], [[GraphQL]], [[REST]], [[PostgREST]], [[PostgreSQL]]
 			- [[GraphQL]]
 				- The GraphQL API implemented by Supabase runs and resolves its queries and mutations in the database layer using the extension [pg_graphql](https://supabase.github.io/pg_graphql/). This makes the GraphQL API extremely efficient and fast. In the meantime, this approach removes the dreaded [[GraphQL N + 1 Problem]].
 		- [[Supabase Realtime]] which is cool
-			- Supabase Realtime Database Changes will be pushed to the client via [[WebSockets]] in Realtime.
+			- Supabase Realtime Database Changes will be pushed to the client via [[WebSocket]] in Realtime.
 			  id:: 649f8cb9-6b54-4d1c-9481-9da89c4242e3
-			- Supabase Broadcasting can be used to send messages between users through [[WebSockets]]. In this process, the database is bypassed and the messages are directly sent between clients, making Broadcasting much faster.
+			- Supabase Broadcasting can be used to send messages between users through [[WebSocket]]. In this process, the database is bypassed and the messages are directly sent between clients, making Broadcasting much faster.
 			- Supabase Presence Support.
 				- Presence can be used to share the state between clients. Each client maintains their own piece of the state within the shared state. This is an extremely hard and complex thing to achieve which is a breeze to use in Supabase.
 		- Storage with all the cool stuff

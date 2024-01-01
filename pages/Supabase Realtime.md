@@ -1,4 +1,4 @@
-tags:: [[Supabase]], [[Elixir]], [[WebSockets]]
+tags:: [[Supabase]], [[Elixir]], [[WebSocket]]
 
 - # Supabase Realtime: Send ephemeral messages, track and synchronize shared state, and listen to Postgres changes all over WebSockets
 	- ## Supabase Realtime

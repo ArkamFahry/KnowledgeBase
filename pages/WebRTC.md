@@ -1,0 +1,19 @@
+# WebRTC
+	- WebRTC stands for Web Real-Time Communication. It's an open-source project that enables web browsers and mobile applications to communicate in real-time via simple APIs. WebRTC allows for peer-to-peer communication for voice calling, video chat, and file sharing without the need for plugins or third-party software.
+	- ## Key components of WebRTC
+		- **MediaStream (getUserMedia)**
+			- This API allows access to a user's camera and microphone, enabling the capture of audio and video streams directly from the browser or device.
+		- **RTCPeerConnection**
+			- This API manages the communication between peers, facilitating the establishment of a direct connection for transmitting audio, video, and data. It handles tasks like encoding, encryption, and packetization for secure and efficient data transfer.
+		- **RTCDataChannel**
+			- Apart from audio and video, WebRTC provides a data channel for peer-to-peer communication of arbitrary data types. It allows applications to exchange text messages, files, or any other data directly between browsers without intermediaries.
+		- **Signaling**
+			- WebRTC does not define signaling protocols for establishing a connection; it leaves that up to the developers. Signaling involves exchanging metadata (such as session initiation, network information, and encryption keys) between peers to establish the communication session.
+	- ## Common use cases of WebRTC
+		- **Video Conferencing**
+			- Platforms like Zoom, Google Meet, and Microsoft Teams utilize WebRTC to enable real-time video conferencing in web browsers.
+		- **Voice Calling**
+			- Applications like WhatsApp, Discord, and Facebook Messenger leverage WebRTC for voice calls within their web interfaces.
+		- **File Sharing**
+			- WebRTC's data channel allows for efficient and secure peer-to-peer file sharing between browsers.
+	- It's important to note that while WebRTC facilitates direct peer-to-peer communication, it may require server-based infrastructure for tasks like signaling, NAT traversal, and relay when direct peer-to-peer connections cannot be established due to network configurations.

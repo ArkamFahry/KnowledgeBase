@@ -1,4 +1,4 @@
-# WebSockets
+# WebSocket
 	- WebSockets are a communication protocol that allows for real-time, bidirectional communication between a client (like a web browser) and a server over a single, long-lived connection. Unlike traditional web protocols like [[HTTP]], which follow a request-response model (client sends a request, server responds), WebSockets enable ongoing data exchange without the need for continuous requests from the client.
 	- ## Key features of WebSockets
 		- **Bidirectional communication**

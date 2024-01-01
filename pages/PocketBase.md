@@ -28,7 +28,7 @@ tags:: [[BaaS]], [[SQLite]], [[Go]], [[SSE]]
 			- These APIs have built-in Authorization making them a breeze to work with.
 			- The APIs don't strictly follow rest standards so they have the ability to expand on database relations and embed that in the response to create a more concise data payload like [[GraphQL]] making it a joy to work with.
 		- Real-time
-			- PocketBase has [[SSE]] based real-time making it so clients can subscribe to data changes in the database. This can be collection level changes or single record level changes. The use of [[SSE]] means all of this is stateless making it easier than [[WebSockets]]
+			- PocketBase has [[SSE]] based real-time making it so clients can subscribe to data changes in the database. This can be collection level changes or single record level changes. The use of [[SSE]] means all of this is stateless making it easier than [[WebSocket]]
 			- The Authorization rules defined for the Viewing of data are also inherited by the real-time system making it secure by default.
 		- File storage
 			- The system implements two file storage systems file-based file storage making use of the system file system or a [[AWS S3]] and S3 compatible object storage file system connecting to an S3 compatible server.
