@@ -12,5 +12,5 @@
 			- They often employ optimizations in query processing and execution to enhance performance and reduce response times.
 		- **Strong Consistency**
 			- NewSQL databases aim to maintain strong consistency across distributed systems, ensuring that transactions are executed reliably across multiple nodes.
-	- Examples of NewSQL databases include Google Spanner, [[CockroachDB]] , [[TiDB]], and [[VoltDB]]. These databases are often used in applications where high scalability, strong consistency, and high availability are essential, such as in real-time analytics, financial systems, and large-scale web applications.
+	- Examples of NewSQL databases include [[Google Spanner]], [[CockroachDB]] , [[TiDB]], and [[VoltDB]]. These databases are often used in applications where high scalability, strong consistency, and high availability are essential, such as in real-time analytics, financial systems, and large-scale web applications.
 	- Overall, NewSQL databases represent a modern approach to handling vast amounts of data while still providing the familiar [[SQL]] querying interface and transactional capabilities of traditional SQL databases.
