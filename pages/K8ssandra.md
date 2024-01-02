@@ -1,4 +1,4 @@
-tags:: [[Apache Cassandra]]
+tags:: [[Apache Cassandra]], [[Kubernetes]]
 
 - # K8ssandra
 	- ![k8ssandra.png](../assets/k8ssandra_1704208374629_0.png)
