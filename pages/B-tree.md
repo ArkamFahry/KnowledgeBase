@@ -1,6 +1,6 @@
 tags:: [[DSA]], [[Data Structure]]
 
-- # B-Tree
+- # B-tree
 	- A B-tree is a specialized data structure used for organizing and storing data in a sorted manner to allow for efficient insertion, deletion, and searching operations. It's particularly useful in scenarios where large amounts of data need to be stored and accessed quickly, commonly used in databases and file systems.
 	- ## Characteristics of a B-tree
 		- **Balanced Tree**
