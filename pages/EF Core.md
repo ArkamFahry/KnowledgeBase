@@ -1,4 +1,4 @@
-tags:: [[.NET]], [[C#]]
+tags:: [[.NET]], [[C#]], [[LINQ]]
 
 - # EF Core: The modern object-database mapper for [[.NET]]
 	- ![ef core.png](../assets/ef_core_1696434561057_0.png){:height 345, :width 578}

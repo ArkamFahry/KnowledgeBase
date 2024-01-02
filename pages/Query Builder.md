@@ -1,0 +1,14 @@
+# Query Builder
+	- A Query Builder is a programming interface or tool that facilitates the construction of database queries using a more intuitive and often visual approach, instead of directly writing SQL statements.
+	- It offers a way to build [[SQL]] queries programmatically through method calls or a graphical user interface (GUI). Rather than manually crafting SQL queries, developers use the Query Builder's methods or graphical components to create queries by chaining methods or dragging and dropping elements.
+	- ## Advantages provided by Query Builders
+		- **Abstraction of SQL**
+			- Developers who might not be well-versed in SQL syntax can use Query Builders to create complex queries without needing detailed knowledge of SQL commands.
+		- **Dynamic query creation**
+			- Query Builders enable the dynamic construction of queries based on various conditions and parameters, allowing for more flexible and adaptable query generation.
+		- **Prevention of SQL injection**
+			- By handling query construction, Query Builders can help prevent SQL injection attacks by automatically sanitizing inputs and parameters.
+		- **Platform independence**
+			- Query Builders abstract the underlying database structure, allowing developers to work with different database systems without needing to write queries specific to each database dialect.
+	- Some popular programming languages and frameworks have their own Query Builders or libraries, such as SQLAlchemy's query builder in Python, Laravel's query builder in PHP, [[LINQ]] in .NET languages, and many more.
+	- While Query Builders provide convenience and abstraction, they might have a learning curve associated with understanding their specific methods or interfaces. Additionally, there could be limitations in expressing complex queries compared to direct SQL, and there might be a slight performance overhead due to the abstraction layer between the code and the database.
