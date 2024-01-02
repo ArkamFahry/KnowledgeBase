@@ -1,0 +1,23 @@
+# Metrics
+	- Metrics in software refer to quantifiable measurements or data points that provide insights into the performance, behavior, or health of a system, application, or process. These measurements are collected over time and help in monitoring, analyzing, and optimizing various aspects of software systems.
+	- ## Typically types of Metrics
+		- **Performance Metrics**
+			- These indicate how well a system is performing in terms of response times, throughput, latency, or resource utilization (CPU, memory, disk usage).
+		- **User Experience Metrics**
+			- Data related to user interactions, such as page load times, error rates, or user activity patterns, which reflect the quality of user experience.
+		- **Health and Availability Metrics**
+			- Information on the uptime, availability, and reliability of services, including error rates, downtime incidents, or service disruptions.
+		- **Business Metrics**
+			- Key performance indicators (KPIs) that measure the business impact of software, such as conversion rates, revenue, user retention, or any other metrics tied to business goals.
+	- Metrics are typically collected continuously or at regular intervals using monitoring tools and platforms. These tools aggregate, store, and visualize the data in dashboards or reports, allowing developers, system administrators, and business stakeholders.
+	- ## Metrics are crucial for
+		- **Monitor Performance**
+			- Keep track of system health and performance in real-time or over specific periods.
+		- **Detect Anomalies**
+			- Identify deviations from expected behavior or performance thresholds.
+		- **Troubleshoot Issues**
+			- Use metrics to pinpoint and diagnose performance bottlenecks or failures.
+		- **Optimize Systems**
+			- Analyze metrics to make informed decisions about system improvements or optimizations.
+	- Common tools used for collecting and visualizing metrics include Prometheus, Grafana, Datadog, and others, which can gather data from various sources, such as application logs, system resources, APIs, or custom instrumentation added to the code.
+	- Metrics play a vital role in maintaining the reliability, performance, and efficiency of software systems by providing actionable insights into system behavior, allowing teams to proactively address issues and optimize performance based on real data.

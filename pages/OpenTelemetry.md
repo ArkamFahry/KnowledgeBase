@@ -1,0 +1,25 @@
+tags:: [[Traces]], [[Metrics]], [[Logs]]
+
+- # OpenTelemetry
+	- ![opentelemetry.png](../assets/opentelemetry_1704189791238_0.png)
+	- OpenTelemetry is an open-source project that aims to standardize and simplify the collection of observability data—traces, metrics, and logs—from software applications and systems. It provides a set of APIs, libraries, and instrumentation tools that developers can use to automatically generate and collect telemetry data, allowing for better visibility into the behavior and performance of distributed systems.
+	- ## Main components of OpenTelemetry
+		- **Tracing**
+			- OpenTelemetry allows developers to instrument their code to generate traces, which are detailed records of the flow of requests through various components of an application or system. These traces help visualize the paths and interactions of requests as they move through different services or microservices.
+		- **Metrics**
+			- It provides tools to collect and export metrics that measure various aspects of system performance, resource utilization, and other quantifiable data points over time. This data helps in understanding the overall health and efficiency of the system.
+		- **Logs**
+			- While initially focused on tracing and metrics, OpenTelemetry is also expanding to include log data, enabling standardized collection and management of logs from distributed systems.
+	- OpenTelemetry offers a vendor-agnostic approach, allowing users to gather telemetry data from different languages, frameworks, and libraries without being tied to specific monitoring or observability platforms. It provides a standardized way to capture telemetry data regardless of the underlying infrastructure or services used.
+	- ## Advantages of adopting OpenTelemetry
+		- **Consistency**
+			- A unified approach to collecting telemetry data across diverse systems and languages.
+		- **Interoperability**
+			- Compatibility with various observability platforms, making it easier to switch or combine monitoring solutions.
+		- **Standardization**
+			- Promoting a common set of practices and standards for observability within the software development community.
+	- OpenTelemetry has gained significant traction in the industry as a powerful tool for improving observability in complex, distributed systems. It continues to evolve through community contributions and has become a crucial part of modern software development for achieving better insights into system behavior and performance.
+	- ## OpenTelemetry Resources
+		- [OpenTelemetry](https://opentelemetry.io/)
+		- [OpenTelemetry - CNCF · GitHub](https://github.com/open-telemetry)
+		- [Documentation | OpenTelemetry](https://opentelemetry.io/docs/)
