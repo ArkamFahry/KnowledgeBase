@@ -9,7 +9,7 @@
 			- Information on the time taken by each step or component to execute.
 		- **Contextual Data**
 			- Additional contextual information related to the transaction, such as input parameters, user IDs, or any other relevant metadata.
-	- Traces are especially valuable in distributed systems, where a single request might trigger multiple microservices or components. Understanding the flow of these interactions becomes crucial for diagnosing performance issues, identifying bottlenecks, and optimizing system performance.
+	- Traces are especially valuable in distributed systems and [[Microservices]] systems, where a single request might trigger multiple microservices or components. Understanding the flow of these interactions becomes crucial for diagnosing performance issues, identifying bottlenecks, and optimizing system performance.
 	- Tracing tools, often part of observability or performance monitoring suites, help visualize these traces, showing the flow of requests through the system and enabling developers and operators.
 	- ## Tracing is crucial for
 		- **Identify Performance Issues**
