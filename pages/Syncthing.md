@@ -1,4 +1,6 @@
-# Syncthing
+tags:: [[Go]], [[LevelDB]]
+
+- # Syncthing
 	- ![syncthing.png](../assets/syncthing_1704204843947_0.png)
 	- ## Syncthing Resources
 		- [Syncthing](https://syncthing.net/)
