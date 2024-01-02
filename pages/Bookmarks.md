@@ -1,4 +1,4 @@
-# Bookmarks
+# Bookmarks bar
 
 [WhatsApp](https://web.whatsapp.com/)
 
@@ -3713,3 +3713,11 @@
 [TensorFlow](https://www.tensorflow.org/)
 
 [ONNX | Home](https://onnx.ai/)
+
+[Introduction - Bits UI](https://www.bits-ui.com/docs/introduction)
+
+[Melt UI](https://melt-ui.com/)
+
+[80 Level](https://80.lv/)
+
+[atomic-server | An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.](https://atomicserver.eu/)
