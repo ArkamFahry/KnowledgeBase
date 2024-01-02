@@ -5,7 +5,7 @@ tags:: [[DSA]], [[Data Structure]]
 	- ## Components of an LSM tree
 		- **[[Memtable]]**
 			- This is an in-memory data structure where incoming writes are initially stored. It acts as a buffer for new data before it's flushed to disk.
-		- **[[SSTables]] (Sorted String Tables)**
+		- **[[SSTable]] (Sorted String Tables)**
 			- When the memtable reaches a certain size, it's flushed to disk as an immutable sorted table called an SSTable. These SSTables are sorted by keys to allow for efficient retrieval.
 	- ## How data is written to a LSM-tree
 		- **Incoming writes**
