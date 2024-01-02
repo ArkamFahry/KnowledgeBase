@@ -1,6 +1,6 @@
 tags:: [[Docker]]
 
-- # Kubernetes
+- # Kubernetes (K8s)
 	- ![kubernetes.png](../assets/kubernetes_1704208626240_0.png)
 	- ## Kubernetes Resources
 		- [Kubernetes](https://kubernetes.io/)
