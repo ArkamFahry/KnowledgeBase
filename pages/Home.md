@@ -3,6 +3,7 @@
 - ## 🤓 About Me
 	- Hi There. I Am Arkam Fahry 🤓.
 	- I am total nerd and a geek who loves computers and computer science.
+	- Wannabe computer science guy.
 	- I love to work with other people and collaborate on cool projects.
 	- Advocate for opensource software.
 - ## 🐙 My Github
