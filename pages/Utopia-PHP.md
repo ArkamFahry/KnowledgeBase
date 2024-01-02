@@ -1,4 +1,6 @@
-# Utopia: Lite & fast micro PHP framework and libraries that are easy to learn and use
+tags:: [[PHP]]
+
+- # Utopia: Lite & fast micro PHP framework and libraries that are easy to learn and use
 	- ![utopia php.png](../assets/utopia_php_1693307368771_0.png)
 	- ## Utopia resources
 		- [Utopia · GitHub](https://github.com/utopia-php)
