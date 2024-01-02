@@ -1,4 +1,4 @@
-# Bookmarks bar
+# Bookmarks
 
 [WhatsApp](https://web.whatsapp.com/)
 
@@ -11,6 +11,8 @@
 [daily.dev | The Homepage Developers Deserve](https://app.daily.dev/?utm_source=extension&utm_medium=cta&utm_campaign=welcomeback&utm_id=uninstall)
 
 [Bard](https://bard.google.com/)
+
+[Settings | Google AI Studio](https://makersuite.google.com/app/settings)
 
 [chat.openai.com](https://chat.openai.com/)
 
@@ -3512,7 +3514,7 @@
 
 [Adobe Firefly](https://firefly.adobe.com/)
 
-[Rinf Docs](https://rinf-docs.cunarist.com/)
+[Rinf](https://rinf.cunarist.com/)
 
 [Acorn](https://www.acorn.io/)
 
@@ -3688,7 +3690,7 @@
 
 [Fast & Free AI & GPTs Bots store | FlowGPT](https://flowgpt.com/)
 
-[Massed Compute](https://shop.massedcompute.com/)
+[Massed Compute](https://massedcompute.com/)
 
 [Graphweaver - Data Everywhere, Instant GraphQL](https://graphweaver.com/)
 
@@ -3699,3 +3701,15 @@
 [Inngest - Build reliable products - Durable workflow engine](https://www.inngest.com/)
 
 [SuperDuperDB: Bring AI to your favorite database!](https://www.superduperdb.com/)
+
+[FireDBG - 🔥 Time Travel Visual Debugger for Rust](https://firedbg.sea-ql.org/)
+
+[WarpStream - Stream More, Manage Less](https://www.warpstream.com/)
+
+[Kestra, Open Source Declarative Data Orchestration](https://kestra.io/)
+
+[PyTorch](https://pytorch.org/)
+
+[TensorFlow](https://www.tensorflow.org/)
+
+[ONNX | Home](https://onnx.ai/)
