@@ -1,0 +1,14 @@
+# ORM
+	- ORM stands for Object-Relational Mapping. It's a programming technique that allows developers to efficiently work with relational databases using an object-oriented approach.
+	- In traditional relational databases, data is stored in tables with rows and columns. However, in object-oriented programming, data is represented as objects with attributes and methods. ORM bridges this gap by providing a way to map data from database tables to objects in code and vice versa.
+	- It simplifies the interaction between the application and the database by eliminating the need to write complex [[SQL]] queries manually. Instead, developers can use high-level programming languages and methods provided by the ORM framework to perform database operations like querying, inserting, updating, and deleting data.
+	- ORM frameworks handle the conversion of data between the relational database and the programming language's objects.
+	- ## Features provided by a ORM
+		- **Object-oriented query language**
+			- Enables developers to query the database using object-oriented syntax, abstracting the underlying SQL.
+		- **Automatic mapping**
+			- Automatically maps database tables to classes and their relationships to object associations.
+		- **Data manipulation**
+			- Facilitates CRUD operations (Create, Read, Update, Delete) on objects, simplifying database interactions.
+	- Popular ORM frameworks include SQLAlchemy (for Python), Hibernate (for Java), [[EF Core]] (for .NET), Django ORM (for Python's Django framework), and Sequelize (for Node.js).
+	- ORMs can improve development speed, maintainability, and readability of code. However, they might introduce some performance overhead and may require understanding the underlying database structure to optimize performance effectively.
