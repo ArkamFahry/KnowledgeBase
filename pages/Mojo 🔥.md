@@ -1,4 +1,4 @@
-tags:: [[Python]]
+tags:: [[Python]], [[AI]], [[ML]]
 
 - # Mojo 🔥
 	- ![mojo.png](../assets/mojo_1704171846847_0.png)

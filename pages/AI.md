@@ -1,0 +1,44 @@
+tags:: [[ML]], [[NLP]]
+
+- # AI
+	- Artificial Intelligence (AI) refers to the simulation of human intelligence in machines, allowing them to perform tasks that typically require human intelligence. It's a broad field that aims to create systems or machines capable of learning, reasoning, problem-solving, understanding natural language, and perceiving the environment.
+	- ## Types of AI
+		- **Narrow/Weak AI**
+			- This AI is designed for specific tasks and operates within a limited context. Examples include virtual assistants, recommendation systems, and AI in games.
+		- **General AI (AGI)**
+			- This type of AI would have human-like abilities, capable of understanding, learning, reasoning, and problem-solving across diverse tasks—similar to human intelligence.
+		- **Superintelligent AI**
+			- This hypothetical AI would surpass human intelligence and capabilities across all domains, often depicted in futuristic scenarios.
+	- ## Approaches in AI
+		- **Symbolic/Classical AI**
+			- This approach involves using predefined rules and symbols to represent knowledge and perform reasoning. It operates based on explicit programming and logical rules.
+		- **Machine Learning (ML)**
+			- [[ML]] enables systems to learn from data. It includes techniques such as neural networks, decision trees, and clustering algorithms, allowing machines to improve performance and make predictions without explicit programming.
+	- ## AI Techniques:
+		- **Natural Language Processing ([[NLP]])**
+			- AI techniques for understanding, interpreting, and generating human language, enabling interactions between computers and humans through language.
+		- **Computer Vision**
+			- It involves enabling computers to interpret and understand visual information from images or videos. Object recognition, image classification, and image generation are part of this domain.
+		- **Robotics**
+			- Integrating AI into robots to perform tasks in various industries, ranging from manufacturing to healthcare and space exploration.
+	- ## Applications of AI
+		- **Healthcare**
+			- Assisting in diagnostics, drug discovery, personalized medicine.
+		- **Finance**
+			- Fraud detection, algorithmic trading, risk assessment.
+		- **Autonomous Vehicles**
+			- Developing self-driving cars and drones.
+		- **Education**
+			- Personalized learning, intelligent tutoring systems.
+		- **Entertainment**
+			- Recommendation systems, game AI.
+	- ## Ethical and Societal Considerations
+		- AI raises ethical concerns regarding privacy, bias in algorithms, job displacement due to automation, and the potential misuse of AI-powered technologies.
+	- ## Limitations of AI
+		- **Data Dependence**
+			- AI systems heavily rely on data availability and quality.
+		- **Interpretability**
+			- Some AI models lack transparency, making it challenging to understand their decision-making process (e.g., complex neural networks).
+		- **Ethical Concerns**
+			- Ensuring AI is developed and used ethically and responsibly.
+	- In summary, AI encompasses a wide range of technologies and approaches aimed at creating intelligent machines capable of performing tasks that typically require human intelligence, revolutionizing various industries and aspects of human life.

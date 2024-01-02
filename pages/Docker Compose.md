@@ -1,2 +1,8 @@
-- # Docker Compose: Define and run multi-container applications with Docker
-	-
+tags:: [[Docker]], [[YAML]]
+
+- # Docker Compose
+	- Docker Compose is a tool that simplifies the process of defining and running multi-container Docker applications. It allows you to describe the services, networks, and volumes for a multi-container Docker application in a single file, typically named `docker-compose.yml`.
+	- With Docker Compose, you can define the configuration of all the services that make up your application, specifying details such as which Docker images to use, how containers should communicate with each other, any environment variables, ports to expose, volumes to mount, and more.
+	- The `docker-compose.yml` file uses a [[YAML]] syntax and consists of sections defining services, networks, volumes, and other configurations. Each service is a containerized component of your application, and you can define dependencies and relationships between them.
+	- Once you've created the `docker-compose.yml` file, you can use the `docker-compose` command-line tool to start, stop, and manage your entire application with a single command. Docker Compose reads this file and creates or manages the necessary containers based on the defined configuration.
+	- This tool simplifies the orchestration of multi-container Docker environments, making it easier to manage complex applications that consist of several interconnected services. It's widely used in development, testing, and even in some production environments to streamline the deployment and management of containerized applications.

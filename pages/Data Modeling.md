@@ -1,4 +1,6 @@
-# Data Modeling
+tags:: [[Database]]
+
+- # Data Modeling
 	- Data modeling is a process used in designing databases or structuring data systems to organize and understand information effectively. It involves creating a conceptual representation of how data should be structured, stored, and accessed within an organization or system.
 	- ## Types of data models
 		- **Conceptual Model**

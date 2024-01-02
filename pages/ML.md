@@ -1,0 +1,12 @@
+# ML
+	- ML (Machine learning) is a subset of [[AI]] (artificial intelligence) that involves the development of algorithms and models that enable computers to learn and make predictions or decisions based on data, without explicit programming for every task.
+	- At its core, ML allows computers to identify patterns and relationships within datasets, and then use those patterns to make predictions or take actions on new, unseen data. Instead of following specific instructions, the ML algorithms learn from experience (data) and improve their performance over time.
+	- ## Machine learning approaches
+		- **Supervised Learning**
+			- It involves training a model on a labeled dataset, where the algorithm learns from input-output pairs. For instance, it can be trained to recognize objects in images by learning from labeled images.
+		- **Unsupervised Learning**
+			- Here, the model deals with unlabeled data, finding patterns or structures within the data on its own. Clustering algorithms are a common example where the model identifies inherent groupings within the data.
+		- **Reinforcement Learning**
+			- This approach involves an agent learning to make decisions by interacting with an environment. The agent learns by receiving feedback in the form of rewards or penalties for its actions.
+	- These approaches utilize various algorithms like decision trees, neural networks, support vector machines, and more. They find applications in diverse fields such as image and speech recognition, recommendation systems, natural language processing, healthcare, finance, and many others.
+	- In essence, machine learning enables computers to learn from data, improve their performance over time, and make predictions or take actions without explicit programming for every scenario.

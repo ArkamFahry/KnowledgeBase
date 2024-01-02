@@ -1,4 +1,4 @@
-tags:: [[SQLite]]
+tags:: [[SQLite]], [[WAL]]
 
 - # SQLite WAL: SQLite Write-Ahead Logging
   id:: 64998001-0aeb-458e-a5fc-d2d3dc7ae5d2
