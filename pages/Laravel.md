@@ -1,4 +1,6 @@
-# Laravel
+tags:: [[PHP]]
+
+- # Laravel
 	- ![laravel.png](../assets/laravel_1704254511538_0.png)
 	- ## Laravel Resources
 		- [Laravel - The PHP Framework For Web Artisans](https://laravel.com/)
