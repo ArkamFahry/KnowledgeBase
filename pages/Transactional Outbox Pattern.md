@@ -65,5 +65,5 @@
 			  |2|UpdateInventory|{ product_id: 456, quantity: 2 }|Pending|2024-01-03 08:00:05|
 			  |3|SendConfirmationEmail|{ order_id: 123, email: 'customer@example.com' }|Pending|2024-01-03 08:00:10|
 		- Once the order is successfully placed, the system starts transactions to update the Order table and the Outbox table. It updates the Order table with the 'Processing' status and populates the Outbox table with entries corresponding to the actions needed.
-		- Another process (e.g., a background worker) periodically checks the Outbox Table for entries with a 'Pending' status, processes them by executing the intended actions, and updates their status to 'Processed' upon successful completion. If an action fails, the status might be set to 'Failed' for later retry or manual intervention.
+		- Another process (e.g., a background worker or [[CDC]]) periodically checks the Outbox Table for entries with a 'Pending' status, processes them by executing the intended actions, and updates their status to 'Processed' upon successful completion. If an action fails, the status might be set to 'Failed' for later retry or manual intervention.
 		- This Outbox Table allows the system to maintain a record of pending actions that need to be executed, even in the face of potential failures or inconsistencies across different parts of the system, ensuring eventual consistency.
