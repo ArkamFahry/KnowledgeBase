@@ -1,6 +1,6 @@
 tags:: [[PlanetScale]], [[Vitess]], [[MySQL]]
 
-- # PlanetScale Operating Without Foreign Keys
+- # Operating Without Foreign Keys
 	- ## Why No Foreign Key Support
 		- There are two major technical reasons
 			- The way `FOREIGN KEY` constraints are implemented in MySQL (or, rather, in the InnoDB storage engine) interferes with Online DDL operations. Learn more in [this Vitess blog post](https://vitess.io/blog/2021-06-15-online-ddl-why-no-fk/).
