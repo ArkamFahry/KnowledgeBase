@@ -1,0 +1,11 @@
+# Cardinality
+	- Cardinality refers to the count of elements in a set. It's a fundamental concept in mathematics, especially in set theory, that helps measure the size or quantity of a set. Essentially, it answers the question "How many elements are there in a set?".
+	- ## Various types of cardinalities
+	- **Finite Sets**
+		- These sets have a countable number of elements. For example, if you have a set $$A = {1, 2, 3, 4}$$, the cardinality of set A, denoted as $$|A|$$ or sometimes "card(A)," is 4 because it contains four elements.
+	- **Infinite Sets**
+		- These sets have an unlimited number of elements. For instance, the set of natural numbers (1, 2, 3, ...) has an infinite cardinality. Such sets cannot be counted in a traditional manner due to their unlimited nature.
+	- **Countable and Uncountable Sets**
+		- Countable sets have cardinalities that correspond to the natural numbers (finite or infinite). Uncountable sets, such as the set of real numbers between 0 and 1, have cardinalities greater than the countable sets and cannot be put into a one-to-one correspondence with the natural numbers.
+	- Cardinality is a way to compare sets by their sizes without necessarily enumerating each element. Sets with the same cardinality have a one-to-one correspondence between their elements. For example, the sets {apple, orange, banana} and {dog, cat, bird} both have cardinality 3, even though the elements are different.
+	- In formal mathematics, mathematicians use set theory and various tools to understand and work with cardinalities, including functions and mappings that establish correspondences between different sets. The concept of cardinality is crucial in various branches of mathematics, including calculus, algebra, and discrete mathematics.
