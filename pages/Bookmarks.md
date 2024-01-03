@@ -3731,3 +3731,5 @@
 [AITable.ai | Organize Any Data with AI](https://aitable.ai/)
 
 [Datami | Homepage](https://datami.multi.coop/?locale=en&datami_tab=2&datami_view=map)
+
+[EvaDB 0.3.9](https://evadb.readthedocs.io/en/stable/)
