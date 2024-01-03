@@ -3721,3 +3721,13 @@
 [80 Level](https://80.lv/)
 
 [atomic-server | An open source headless CMS / real-time database. Powerful table editor, full-text search, and SDKs for JS / React / Svelte.](https://atomicserver.eu/)
+
+[Pika](https://pika.art/)
+
+[Keen - Event Streaming Platform](https://keen.io/)
+
+[Heritrix 3 Documentation — Heritrix 3 documentation](https://heritrix.readthedocs.io/en/latest/)
+
+[AITable.ai | Organize Any Data with AI](https://aitable.ai/)
+
+[Datami | Homepage](https://datami.multi.coop/?locale=en&datami_tab=2&datami_view=map)
