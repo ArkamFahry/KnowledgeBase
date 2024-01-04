@@ -1,4 +1,4 @@
-# Bookmarks bar
+# Bookmarks
 
 [WhatsApp](https://web.whatsapp.com/)
 
@@ -3733,3 +3733,17 @@
 [Datami | Homepage](https://datami.multi.coop/?locale=en&datami_tab=2&datami_view=map)
 
 [EvaDB 0.3.9](https://evadb.readthedocs.io/en/stable/)
+
+[A cloud platform to enrich services made with Ergo Framework.](https://cloud.ergo.services/)
+
+[Transport - The event bus you have been looking for.](https://transport-bus.io/)
+
+[quobix: code is art](https://quobix.com/)
+
+[The Holy Quran Translation by Abdullah Yusuf Ali, 2022](https://quranyusufali.com/)
+
+[Flystorage | Flystorage](https://flystorage.dev/)
+
+[Real-time data integration and streaming platform](https://www.striim.com/)
+
+[commitlint - Lint commit messages](https://commitlint.js.org/#/)
