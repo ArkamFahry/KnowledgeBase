@@ -1,4 +1,6 @@
-# Github Actions: Harnessing the Power of GitHub Actions: Streamline Your Workflow Efficiently
+tags:: [[GitHub]]
+
+- # Github Actions: Harnessing the Power of GitHub Actions: Streamline Your Workflow Efficiently
 - ## Once a wizard 🧙‍♂️ said why do it manually in 5 minutes when you can try to automate it for 5 hours and fail.
 	- In the fast-paced world of software development, time is of the essence, and efficiency is paramount. Enter GitHub Actions—a versatile automation tool that can be your secret weapon for optimizing your development workflow. Let's dive into why GitHub Actions are so cool and why you should consider integrating them into your projects.
 	- ### The Automation Advantage
