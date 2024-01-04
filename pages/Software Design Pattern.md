@@ -1,4 +1,4 @@
-# Software Design Patterns
+# Software Design Pattern
 	- Software Design Patterns are reusable solutions to commonly occurring problems in software design. They provide templates or blueprints for solving specific design problems in a way that promotes reusability, flexibility, and maintainability in software development.
 	- These patterns are not specific implementations or code but rather general guidelines or templates that can be applied to solve particular design issues. They help developers solve problems they commonly encounter by offering proven solutions.
 	- ## Types of design patterns

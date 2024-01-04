@@ -1,0 +1,22 @@
+tags:: [[Software Design Pattern]]
+
+- # Structural Pattern
+	- Structural design patterns in software engineering focus on organizing different components of a system in a way that promotes flexibility, reusability, and efficiency. These patterns deal with how classes and objects are composed to form larger structures.
+	- ## Structural design patterns include
+		- **Adapter Pattern**
+			- This pattern allows the interface of an existing class to be used as another interface. It often involves creating a wrapper class that implements the new interface while delegating the calls to the existing class.
+		- **Bridge Pattern**
+			- It decouples an abstraction from its implementation so that the two can vary independently. It involves creating separate abstraction and implementation hierarchies and allowing them to work together.
+		- **Composite Pattern**
+			- This pattern composes objects into tree structures to represent part-whole hierarchies. Clients can treat individual objects and compositions of objects uniformly.
+		- **Decorator Pattern**
+			- It attaches additional responsibilities to objects dynamically. This pattern is used to add new functionality to an object without altering its structure.
+		- **Facade Pattern**
+			- It provides a simplified interface to a larger body of code, such as a complex subsystem. It hides the complexities of the system and provides a simpler interface for the client to interact with.
+		- **Flyweight Pattern**
+			- It minimizes memory usage by sharing data between similar objects. This pattern is useful when a large number of similar objects need to be created.
+		- **Proxy Pattern**
+			- It provides a placeholder or surrogate for another object to control access to it. This pattern can be used to add a level of indirection to support controlled or intelligent access to the original object.
+		- **MVC (Model-View-Controller) Pattern**
+			- While often associated with architectural patterns, it also contains structural elements. It separates an application into three interconnected components: the model (data and business logic), the view (presentation layer), and the controller (handles user input).
+	- Each of these structural patterns addresses different aspects of how classes and objects are composed or structured in a system, aiming to enhance maintainability, scalability, and flexibility in software design.

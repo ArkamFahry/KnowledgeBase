@@ -1,4 +1,6 @@
-# Behavioral Pattern
+tags:: [[Software Design Pattern]]
+
+- # Behavioral Pattern
 	- Behavioral patterns in software design refer to patterns that focus on how objects and classes interact and communicate with each other. These patterns are concerned with the assignment of responsibilities between objects, defining how they communicate, and managing their behaviors.
 	- ## Behavioral design patterns include
 		- **Observer Pattern**
