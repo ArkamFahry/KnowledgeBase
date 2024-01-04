@@ -1,4 +1,6 @@
-# Low Cardinality
+tags:: [[Cardinality]]
+
+- # Low Cardinality
 	- Low cardinality refers to a situation where a dataset or a specific column within a dataset contains a relatively small number of unique values compared to the total number of rows.
 	- In simpler terms, a dataset with low cardinality has limited diversity or variation in its values. For instance, if you have a column representing "gender" in a dataset and it only contains two unique values, such as "male" and "female," it has low cardinality.
 	- Low cardinality is often encountered in categorical or qualitative data where there are only a few distinct categories or classes. This can also be seen in columns like "day of the week," "country names," or "yes/no" type columns, where the number of unique values is limited.

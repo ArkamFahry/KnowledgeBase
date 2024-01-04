@@ -1,4 +1,4 @@
-tags:: [[Git]]
+tags:: [[Git]], [[Git Commit]]
 
 - # commitlint
 	- ![commitlint.png](../assets/commitlint_1704342598774_0.png)

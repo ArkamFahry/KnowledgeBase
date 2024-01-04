@@ -1,4 +1,6 @@
-# SOLID: An acronym that represents a set of five design principles to make software designs more understandable, flexible, and maintainable
+tags:: [[Software Architecture]]
+
+- # SOLID: An acronym that represents a set of five design principles to make software designs more understandable, flexible, and maintainable
 	- ## SOLID is split into five core principals
 		- ### S : Single Responsibility Principle (SRP)
 			- A class should have only one reason to change. In other words, it should have only one job or responsibility within the software system.

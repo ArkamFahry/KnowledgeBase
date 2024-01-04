@@ -1,3 +1,5 @@
+tags:: [[Software Architecture]]
+
 - # Hexagonal Architecture: Onion🧅 Architecture
 	- ## Hexagonal Architecture, also known as Ports and Adapters Architecture or Onion Architecture
 		- This is a design pattern used in software development to create modular, flexible, and maintainable applications. It was first introduced by Alistair Cockburn, a software engineer, in 2005.

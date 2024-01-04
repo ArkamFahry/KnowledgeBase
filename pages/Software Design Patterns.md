@@ -1,0 +1,13 @@
+# Software Design Patterns
+	- Software Design Patterns are reusable solutions to commonly occurring problems in software design. They provide templates or blueprints for solving specific design problems in a way that promotes reusability, flexibility, and maintainability in software development.
+	- These patterns are not specific implementations or code but rather general guidelines or templates that can be applied to solve particular design issues. They help developers solve problems they commonly encounter by offering proven solutions.
+	- ## Types of design patterns
+		- **[[Creational Pattern]]**
+			- Focus on object creation mechanisms, abstracting the instantiation process. Examples include Singleton, Factory Method, Abstract Factory, Builder, etc.
+		- **[[Structural Pattern]]**
+			- Deal with class and object composition, emphasizing how classes and objects are connected to form larger structures. Examples include Adapter, Decorator, Bridge, Facade, Composite, etc.
+		- **[[Behavioral Pattern]]**
+			- Address communication between objects, how they interact, and distribute responsibilities. Examples include Observer, Strategy, Command, Iterator, State, etc.
+	- By using these patterns, developers can communicate more effectively about design problems and their solutions, enabling a common language and understanding among the development team. This also leads to more maintainable and scalable software systems, as these patterns often encapsulate best practices and proven solutions to recurring problems.
+	- {{video https://www.youtube.com/watch?v=tv-_1er1mWI}}
+	- {{video https://www.youtube.com/watch?v=tAuRQs_d9F8}}
