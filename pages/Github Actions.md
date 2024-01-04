@@ -29,3 +29,4 @@ tags:: [[GitHub]]
 		- In a competitive development landscape where every second counts, GitHub Actions empowers you to work smarter, not harder. By automating time-consuming tasks, you can focus on what truly matters—delivering high-quality software to your users.
 		- Embrace GitHub Actions, and you'll wonder how you ever managed without them. They're the key to streamlining your workflow, reducing human error, and ultimately, delivering better software faster.
 - So, whether you're a seasoned developer or just starting on your coding journey, consider incorporating GitHub Actions into your toolkit. It's the professional's choice for efficient, reliable, and scalable automation. Your code—and your team—will thank you for it.
+	- {{video https://www.youtube.com/watch?v=yfBtjLxn_6k}}
