@@ -3755,3 +3755,21 @@
 [AI-Powered CG Animation Online - Revolutionize VFX with Wonder Studio](https://wonderdynamics.com/#null)
 
 [Iggy.rs message streaming platform](https://iggy.rs/)
+
+[Play ev.io - the play to earn blockchain FPS](https://ev.io/)
+
+[Crunchyroll: Watch Popular Anime, Play Games & Shop Online](https://www.crunchyroll.com/)
+
+[Enterprise NoSQL Database | Scalable Database Solutions | Riak](https://riak.com/index.html)
+
+[Gazette Documentation — Gazette master documentation](https://gazette.readthedocs.io/en/latest/table-of-contents.html)
+
+[Nitro - Create web servers that run anywhere.](https://nitro.unjs.io/)
+
+[A curated list of awesome Go frameworks, libraries and software - Awesome Go / Golang](https://awesome-go.com/)
+
+[Awesome Rank for sindresorhus/awesome](https://awesomerank.github.io/)
+
+[MotherDuck: Serverless Data Analytics with DuckDB](https://motherduck.com/)
+
+[Graphile Worker | Graphile Worker](https://worker.graphile.org/)
