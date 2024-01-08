@@ -1,4 +1,4 @@
-tags:: [[Elixir]]
+tags:: [[Elixir]], [[PostgreSQL]]
 
 - # Oban: Robust job processing for Elixir
 	- ![oban.png](../assets/oban_1702105408254_0.png)
