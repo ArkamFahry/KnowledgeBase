@@ -31,4 +31,5 @@ tags:: [[Relational Database]], [[SQL]]
 		- [GitHub - postgres/postgres: Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch](https://github.com/postgres/postgres)
 		- [PostgreSQL: Documentation](https://www.postgresql.org/docs/)
 	- {{video https://www.youtube.com/watch?v=n2Fluyr3lbc}}
+	- In PostgreSQL we trust.
 	- No matter what you say PostgreSQL is the king 👑 of databases. It's like a jack of all trades master of all.
