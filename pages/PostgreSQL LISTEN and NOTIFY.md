@@ -1,4 +1,6 @@
-# PostgreSQL LISTEN and NOTIFY
+tags:: [[PostgreSQL]]
+
+- # PostgreSQL LISTEN and NOTIFY
 	- PostgreSQL, `LISTEN` and `NOTIFY` are features used for asynchronous communication between database sessions, allowing real-time notification of events occurring within the database.
 	- **LISTEN**
 		- This command allows a database session to subscribe to notifications. When a session issues a `LISTEN` command for a particular channel, it waits for notifications on that channel.
