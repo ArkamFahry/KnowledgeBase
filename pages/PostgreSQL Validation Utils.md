@@ -1,7 +1,7 @@
 tags:: [[PostgreSQL]]
 
 - ## PostgreSQL Validation Utils
-	- Non empty trimmed string check
+	- Empty trimmed string check
 		- ```sql
 		  CREATE OR REPLACE FUNCTION util_is_empty_trimmed_text(val TEXT) RETURNS BOOLEAN AS
 		  $$
@@ -10,7 +10,7 @@ tags:: [[PostgreSQL]]
 		  END;
 		  $$ LANGUAGE plpgsql;
 		  ```
-	- Null or non empty trimmed string check
+	- Null or empty trimmed string check
 		- ```sql
 		  CREATE OR REPLACE FUNCTION util_is_null_or_empty_trimmed_text(val TEXT) RETURNS BOOLEAN AS
 		  $$
