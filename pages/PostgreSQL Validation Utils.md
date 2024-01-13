@@ -3,7 +3,7 @@ tags:: [[PostgreSQL]]
 - ## PostgreSQL Validation Utils
 	- Non empty trimmed string check
 		- ```sql
-		  CREATE OR REPLACE FUNCTION util_non_empty_trimmed_string(val TEXT) RETURNS BOOLEAN AS
+		  CREATE OR REPLACE FUNCTION util_non_empty_trimmed_text(val TEXT) RETURNS BOOLEAN AS
 		  $$
 		  BEGIN
 		      RETURN TRIM(val) <> '';
@@ -12,7 +12,7 @@ tags:: [[PostgreSQL]]
 		  ```
 	- Null or non empty trimmed string check
 		- ```sql
-		  CREATE OR REPLACE FUNCTION util_null_or_non_empty_trimmed_string(val TEXT) RETURNS BOOLEAN AS
+		  CREATE OR REPLACE FUNCTION util_null_or_non_empty_trimmed_text(val TEXT) RETURNS BOOLEAN AS
 		  $$
 		  BEGIN
 		      RETURN val IS NOT NULL AND TRIM(val) <> '';
@@ -21,7 +21,7 @@ tags:: [[PostgreSQL]]
 		  ```
 	- Array contains empty trimmed string check
 		- ```sql
-		  CREATE OR REPLACE FUNCTION util_array_contains_empty_trimmed_string(val TEXT[]) RETURNS BOOLEAN AS
+		  CREATE OR REPLACE FUNCTION util_text_array_contains_empty_trimmed_text(val TEXT[]) RETURNS BOOLEAN AS
 		  $$
 		  DECLARE
 		      i INT;
@@ -38,7 +38,7 @@ tags:: [[PostgreSQL]]
 		  ```
 	- Null or array contains empty trimmed string check
 		- ```sql
-		  CREATE OR REPLACE FUNCTION util_null_or_array_contains_empty_trimmed_string(val TEXT[]) RETURNS BOOLEAN AS
+		  CREATE OR REPLACE FUNCTION util_null_or_text_array_contains_empty_trimmed_text(val TEXT[]) RETURNS BOOLEAN AS
 		  $$
 		  DECLARE
 		      i INT;
@@ -59,11 +59,11 @@ tags:: [[PostgreSQL]]
 		  ```
 	- Array contains duplicate value check
 		- ```sql
-		  CREATE OR REPLACE FUNCTION storage.array_values_are_unique(arr TEXT[])
+		  CREATE OR REPLACE FUNCTION util_text_array_values_unique(val TEXT[])
 		      RETURNS BOOLEAN AS
 		  $$
 		  BEGIN
-		      RETURN array_length(arr, 1) = array_length(array(SELECT DISTINCT unnest(arr)), 1);
+		      RETURN array_length(val, 1) = array_length(array(SELECT DISTINCT unnest(val)), 1);
 		  END;
 		  $$ LANGUAGE plpgsql;
 		  ```
