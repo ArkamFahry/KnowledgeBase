@@ -57,3 +57,13 @@ tags:: [[PostgreSQL]]
 		  END;
 		  $$ LANGUAGE plpgsql;
 		  ```
+	- Array contains duplicate value check
+		- ```sql
+		  CREATE OR REPLACE FUNCTION storage.array_values_are_unique(arr TEXT[])
+		      RETURNS BOOLEAN AS
+		  $$
+		  BEGIN
+		      RETURN array_length(arr, 1) = array_length(array(SELECT DISTINCT unnest(arr)), 1);
+		  END;
+		  $$ LANGUAGE plpgsql;
+		  ```
