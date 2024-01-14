@@ -85,9 +85,4 @@ tags:: [[PostgreSQL]], [[PostgreSQL Functions]], [[PostgreSQL Triggers]]
 	  $$ LANGUAGE plpgsql;
 	  
 	  COMMENT ON FUNCTION util.set_updated_at(val TEXT) IS 'sets the updated_at timestamp on a table on update';
-	  
-	  CREATE TRIGGER trigger_table_updated_at
-	  BEFORE UPDATE ON schema.table
-	  FOR EACH ROW
-	  EXECUTE FUNCTION util.set_updated_at();
 	  ```
