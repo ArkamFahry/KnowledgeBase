@@ -1,6 +1,6 @@
-tags:: [[PostgreSQL]]
+tags:: [[PostgreSQL]], [[PostgreSQL Functions]]
 
-- ## PostgreSQL Validation Utils
+- ## PostgreSQL Utils
 	- ```sql
 	  CREATE SCHEMA util;
 	  ```
@@ -64,4 +64,19 @@ tags:: [[PostgreSQL]]
 	      RETURN array_length(val, 1) = array_length(array(SELECT DISTINCT unnest(val)), 1);
 	  END;
 	  $$ LANGUAGE plpgsql;
+	  ```
+	- ```sql
+	  CREATE OR REPLACE FUNCTION util.set_updated_at()
+	  RETURNS TRIGGER AS $$
+	  BEGIN
+	      new.updated_at = now();
+	      RETURN new;
+	  END;
+	  $$ LANGUAGE plpgsql;
+	  
+	  
+	  CREATE TRIGGER trigger_table_updated_at
+	  BEFORE UPDATE ON schema.table
+	  FOR EACH ROW
+	  EXECUTE FUNCTION util.set_updated_at();
 	  ```
