@@ -1,7 +1,7 @@
 tags:: [[PostgreSQL]]
 
 - # PostgreSQL Policies
-	- In PostgreSQL, policies are used to control access to database objects, such as tables and views. Policies are defined on a per-table or per-view basis and allow you to specify rules that determine which rows or columns users are allowed to access, update, insert, or delete. Policies are a part of the row-level security (RLS) feature in PostgreSQL.
+	- PostgreSQL policies are used to control access to database objects, such as tables and views. Policies are defined on a per-table or per-view basis and allow you to specify rules that determine which rows or columns users are allowed to access, update, insert, or delete. Policies are a part of the row-level security (RLS) feature in PostgreSQL.
 	- ## key concepts related to PostgreSQL policies
 		- **Row-Level Security (RLS)**
 			- [[PostgreSQL RLS]] is a feature that enables you to control access to rows in database tables based on the characteristics of the user executing a query. It allows you to define policies that determine which rows a user can access.
@@ -23,5 +23,5 @@ tags:: [[PostgreSQL]]
 		  -- Apply the policy to the table
 		  ALTER TABLE your_table_name FORCE ROW LEVEL SECURITY;
 		  ```
-		- In this example, the policy named `select_policy` allows users with the specified role (`your_role`) to select only those rows where the `user_id` column matches their own user ID.
+			- In this example, the policy named `select_policy` allows users with the specified role (`your_role`) to select only those rows where the `user_id` column matches their own user ID.
 	- Policies provide a powerful mechanism for implementing row-level security in PostgreSQL, allowing you to enforce access control based on specific conditions and user attributes.

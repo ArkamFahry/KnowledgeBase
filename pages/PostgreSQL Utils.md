@@ -1,4 +1,4 @@
-tags:: [[PostgreSQL]], [[PostgreSQL Functions]]
+tags:: [[PostgreSQL]], [[PostgreSQL Functions]], [[PostgreSQL Triggers]]
 
 - ## PostgreSQL Utils
 	- ```sql
