@@ -1,4 +1,6 @@
-# PostgreSQL Extensions
+tags:: [[PostgreSQL]]
+
+- # PostgreSQL Extensions
 	- PostgreSQL extensions are additional functionalities or features that can be added to the core PostgreSQL database system. These extensions enhance the capabilities of PostgreSQL by providing specialized functions, data types, operators, and other features that cater to specific requirements or use cases. Extensions allow users to extend the functionality of their PostgreSQL databases without modifying the core system.
 		- ## Key points about PostgreSQL extensions
 			- **Installation and Management**
