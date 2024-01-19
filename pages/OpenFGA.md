@@ -1,4 +1,4 @@
-tags:: [[Authorization Database]], [[Go]]
+tags:: [[Authorization Database]], [[Go]], [[PostgreSQL]], [[MySQL]], [[CockroachDB]]
 
 - # OpenFGA
 	- ![openfga.png](../assets/openfga_1705663146867_0.png)
