@@ -15,5 +15,5 @@ tags:: [[Database]]
 		- **Scalability**
 			- Many vector databases are designed to scale horizontally, allowing for the storage and processing of large volumes of spatial data across distributed systems.
 			  id:: 65a9ec49-a25b-478a-a0e8-6398ed2f2a5f
-	- Examples of vector databases include [[Weaviate]], [[Qdrant]] and [[PostgreSQL pgvector]]
+	- Examples of vector databases include [[Weaviate]], [[Qdrant]] and [[PostgreSQL pgvector]].
 	- In summary, a vector database is a specialized database system optimized for the storage, retrieval, and analysis of vector data, especially in applications where spatial relationships and geometric properties are essential.
