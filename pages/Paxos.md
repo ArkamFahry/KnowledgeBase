@@ -1,0 +1,4 @@
+tags:: [[Consensus Algorithms]]
+
+- # Paxos
+	-

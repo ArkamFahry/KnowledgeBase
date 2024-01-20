@@ -1,4 +1,4 @@
-tags:: [[Algorithms]]
+tags:: [[Consensus Algorithms]]
 
 - # Raft
 	- Raft is a consensus algorithm designed to achieve fault tolerance in distributed systems. It was introduced by Diego Ongaro and John Ousterhout in a 2014 paper titled "In Search of an Understandable Consensus Algorithm." Consensus is a fundamental problem in distributed computing, where a group of nodes must agree on a single value or decision even if some nodes fail or behave incorrectly.
@@ -11,4 +11,8 @@ tags:: [[Algorithms]]
 			- Raft ensures that logs are consistent across nodes through a mechanism called log replication. Nodes replicate log entries from the leader and apply them to their state machines in the same order, guaranteeing consistency.
 		- **Safety**
 			- Raft ensures safety properties, such as ensuring that once a log entry is committed by a leader, it is guaranteed to be present in the logs of a majority of the nodes. This prevents the system from losing committed data even in the presence of node failures.
+	- ## Raft Resources
+		- [Raft Consensus Algorithm](https://raft.github.io/)
+		- https://raft.github.io/raft.pdf
+		- [Raft consensus algorithm website · GitHub](https://github.com/raft)
 	- Raft provides a straightforward and understandable approach to distributed consensus, making it easier to reason about and implement. It has been used in various distributed systems to provide fault tolerance and consistency, such as in distributed databases and distributed storage systems.
