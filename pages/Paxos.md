@@ -1,4 +1,22 @@
 tags:: [[Consensus Algorithms]]
 
 - # Paxos
-	-
+	- The Paxos consensus algorithm, introduced by Leslie Lamport in 1998, is designed to achieve consensus in a distributed system where nodes may fail or behave arbitrarily. Paxos is widely used in distributed computing to ensure that a group of nodes agree on a single value or decide on a sequence of operations.
+	- The basic idea behind Paxos is to allow a group of nodes, called acceptors, to agree on a single value, known as the consensus value. The algorithm is characterized by its ability to work even when nodes fail, messages are lost, and the system experiences network partitions. Paxos ensures that as long as a majority of acceptors are functioning correctly, the system can make progress and reach consensus.
+	- ## key components of the Paxos algorithm
+		- **Acceptor Nodes**
+			- Nodes in the Paxos algorithm are categorized as acceptors. Acceptors are responsible for accepting or rejecting proposed values.
+			- In a typical configuration, a quorum (a majority) of acceptors is required for the system to make progress.
+		- **Proposer Nodes**
+			- Proposers are nodes that suggest values to the acceptors. They initiate the process of reaching consensus by proposing values.
+			- Each proposer can make multiple attempts to propose a value, and it must handle responses from acceptors.
+		- **Learner Nodes**
+			- Learners are nodes that observe the decisions made by the acceptors. They learn the consensus value once it has been accepted by a quorum of acceptors.
+		- **Phases of Paxos**
+			- **Prepare Phase**
+				- A proposer sends a prepare message to the acceptors, asking them to promise not to accept any value numbered less than a certain number (proposal number). Acceptors reply with a promise not to accept lower-numbered values.
+			- **Accept Phase**
+				- Once a proposer has received promises from a majority of acceptors, it can send an accept message with a specific value. Acceptors, upon receiving this message, accept the value if they have not made a promise to reject it.
+		- **Quorum**
+			- A quorum is a majority of acceptors. In a distributed system, it is essential that at least a quorum of nodes is functioning correctly for the system to make progress.
+	- Paxos ensures safety, liveness, and consistency in the face of node failures or message loss. While the original Paxos algorithm can be complex to understand and implement, it forms the basis for various optimizations and practical variants used in real-world distributed systems.
