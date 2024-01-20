@@ -1,7 +1,7 @@
 tags:: [[Consensus Algorithms]]
 
 - # Paxos
-	- The Paxos consensus algorithm, introduced by Leslie Lamport in 1998, is designed to achieve consensus in a distributed system where nodes may fail or behave arbitrarily. Paxos is widely used in distributed computing to ensure that a group of nodes agree on a single value or decide on a sequence of operations.
+	- The [Paxos](https://en.wikipedia.org/wiki/Paxos_(computer_science))  consensus algorithm, introduced by Leslie Lamport in 1998, is designed to achieve consensus in a distributed system where nodes may fail or behave arbitrarily. Paxos is widely used in distributed computing to ensure that a group of nodes agree on a single value or decide on a sequence of operations.
 	- The basic idea behind Paxos is to allow a group of nodes, called acceptors, to agree on a single value, known as the consensus value. The algorithm is characterized by its ability to work even when nodes fail, messages are lost, and the system experiences network partitions. Paxos ensures that as long as a majority of acceptors are functioning correctly, the system can make progress and reach consensus.
 	- ## key components of the Paxos algorithm
 		- **Acceptor Nodes**
