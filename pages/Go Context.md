@@ -25,36 +25,40 @@ tags:: [[Go]]
 			   ```
 				- These create contexts with associated deadlines. If the deadline reached, the context is automatically canceled.
 		- **WithValue**
-		   ```go
-		   ctx := context.WithValue(parent, key, value)
-		   ```
-		   This creates a new context with an associated key-value pair. It's important to note that the values should be small and of types that don't change frequently, as they are intended for communication between different parts of the application.
-	- 5. **Context Methods:**
-	   The `Context` interface includes methods like `Deadline()`, `Done()`, and `Err()` that allow you to query information about the context.
-	- Here's a simple example illustrating the use of a `context` with a timeout:
-	- ```go
-	  package main
-	  - import (
-	  "context"
-	  "fmt"
-	  "time"
-	  )
-	  - func main() {
-	  // Create a context with a timeout of 2 seconds
-	  ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
-	  defer cancel() // Cancel the context to release resources when done
-	  - // Simulate some work that may take more than 2 seconds
-	  go func() {
-	  time.Sleep(3 * time.Second)
-	  cancel() // Cancel the context after 3 seconds
-	  }()
-	  - select {
-	  case <-ctx.Done():
-	  fmt.Println("Operation canceled or timed out:", ctx.Err())
-	  case <-time.After(4 * time.Second):
-	  fmt.Println("Operation completed successfully")
-	  }
-	  }
-	  ```
-	- In this example, the program creates a context with a 2-second timeout. It then simulates a task that takes 3 seconds to complete. The select statement waits for either the context to be canceled or the 4-second timer to expire.
+			- ```go
+			   ctx := context.WithValue(parent, key, value)
+			   ```
+				- This creates a new context with an associated key-value pair. It's important to note that the values should be small and of types that don't change frequently, as they are intended for communication between different parts of the application.
+		- **Context Methods**
+			- The `Context` interface includes methods like `Deadline()`, `Done()`, and `Err()` that allow you to query information about the context.
+	- ## Simple example illustrating the use of a `context` with a timeout
+		- ```go
+		  package main
+		  
+		  import (
+		  	"context"
+		  	"fmt"
+		  	"time"
+		  )
+		  
+		  func main() {
+		  	// Create a context with a timeout of 2 seconds
+		  	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
+		  	defer cancel() // Cancel the context to release resources when done
+		  
+		  	// Simulate some work that may take more than 2 seconds
+		  	go func() {
+		  		time.Sleep(3 * time.Second)
+		  		cancel() // Cancel the context after 3 seconds
+		  	}()
+		  
+		  	select {
+		  	case <-ctx.Done():
+		  		fmt.Println("Operation canceled or timed out:", ctx.Err())
+		  	case <-time.After(4 * time.Second):
+		  		fmt.Println("Operation completed successfully")
+		  	}
+		  }
+		  ```
+			- In this example, the program creates a context with a 2-second timeout. It then simulates a task that takes 3 seconds to complete. The select statement waits for either the context to be canceled or the 4-second timer to expire.
 	- Using `context` helps manage the lifecycle of operations, especially in scenarios where you want to propagate cancellation signals or deadlines across different parts of your application.
