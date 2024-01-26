@@ -1,4 +1,4 @@
-tags:: [[PostgreSQL]], [[Serverless Database]]
+tags:: [[PostgreSQL]], [[Serverless Database]], [[Distributed Database]]
 
 - # Neon
 	- ![neon.png](../assets/neon_1703999070036_0.png)

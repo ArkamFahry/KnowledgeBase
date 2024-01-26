@@ -1,4 +1,4 @@
-tags:: [[MySQL]]
+tags:: [[MySQL]], [[Go]], [[Distributed Database]]
 
 - # Vitess
 	- ![vitess.png](../assets/vitess_1703865270532_0.png){:height 419, :width 753}

@@ -1,4 +1,4 @@
-tags:: [[libSQL]], [[SQLite]], [[Serverless Database]]
+tags:: [[libSQL]], [[SQLite]], [[Serverless Database]], [[Distributed Database]]
 
 - # Turso
 	- ![turso.png](../assets/turso_1703923776886_0.png)
