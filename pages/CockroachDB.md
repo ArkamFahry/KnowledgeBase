@@ -1,4 +1,4 @@
-tags:: [[NewSQL]], [[PostgreSQL]], [[Go]]
+tags:: [[NewSQL]], [[PostgreSQL]], [[Go]], [[Distributed Database]]
 
 - # CockroachDB: The Hard to Kill Database
 	- ![cockroachdb.png](../assets/cockroachdb_1688133341028_0.png)

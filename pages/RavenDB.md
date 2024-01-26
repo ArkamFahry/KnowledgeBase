@@ -1,4 +1,4 @@
-tags:: [[Multi-Model Database]], [[ACID]], [[C#]]
+tags:: [[Multi-Model Database]], [[ACID]], [[C#]], [[Distributed Database]]
 
 - # RavenDB
 	- ![ravendb.png](../assets/ravendb_1705927862808_0.png)

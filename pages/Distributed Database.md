@@ -1,5 +1,7 @@
-# Distributed Database
-	- A distributed database is a database that is spread across multiple locations or nodes, where each node stores and manages a portion of the data. In contrast to a centralized database, where all data is stored in a single location, a distributed database distributes the data and processing tasks across a network of interconnected computers.
+tags:: [[Database]]
+
+- # Distributed Database
+	- A distributed database is a [[Database]] that is spread across multiple locations or nodes, where each node stores and manages a portion of the data. In contrast to a centralized database, where all data is stored in a single location, a distributed database distributes the data and processing tasks across a network of interconnected computers.
 	- ## Key characteristics of distributed databases include
 		- **Data Distribution**
 			- The database is divided into partitions or fragments, and each fragment is stored on different nodes in the network. This distribution can be based on various factors, such as data ranges, hash values, or specific criteria.

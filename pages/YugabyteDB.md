@@ -1,4 +1,4 @@
-tags:: [[NewSQL]], [[PostgreSQL]], [[Apache Cassandra]], [[Redis]]
+tags:: [[NewSQL]], [[PostgreSQL]], [[Apache Cassandra]], [[Redis]], [[Distributed Database]]
 
 - # YugabyteDB
 	- ![yugabytedb.png](../assets/yugabytedb_1703922878431_0.png)
