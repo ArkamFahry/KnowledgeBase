@@ -1,0 +1,21 @@
+# Compiler
+	- A compiler is a specialized program that translates high-level source code written in one programming language into machine code or an intermediate code that can be executed by a computer. The process of translation performed by a compiler is called compilation. The primary purpose of a compiler is to facilitate the execution of a program by a computer's hardware.
+	- ## Basic overview of the compilation process
+		- **Source Code**
+			- Programmers write high-level source code in a programming language like C, C++, Java, or Python. This source code is human-readable and is designed to be easily understood by developers.
+		- **Compilation**
+			- The source code is then passed through a compiler. The compiler analyzes the entire code and translates it into an equivalent machine code or intermediate code. This process involves several stages such as lexical analysis, syntax analysis, semantic analysis, optimization, and code generation.
+		- **Object Code**
+			- The output of the compilation process is typically an object file, which contains the translated code in a format that is not directly executable by the computer's CPU. This file may also include information about how different parts of the code should be linked together.
+		- **Linking (if necessary)**
+			- In some cases, multiple source files are compiled separately, and a linker is used to combine them into a single executable file. The linker resolves references between different parts of the code and generates a final executable file.
+		- **Execution**
+			- The generated executable file can be run on the target computer. The CPU of the computer can directly understand and execute the machine code, or in the case of intermediate code, it may be further interpreted or compiled at runtime.
+	- ## Benefits of using a compiler
+		- **Performance**
+			- Compiled code generally runs faster than interpreted code because the translation process allows for various optimizations.
+		- **Portability**
+			- Once a program is compiled, the resulting executable can be run on any system that supports the same architecture and operating system.
+		- **Code Security**
+			- Compiled code is often more difficult to reverse engineer than interpreted code, providing a level of security for intellectual property.
+	- Popular compilers include LLVM, GCC (GNU Compiler Collection), Clang, Microsoft Visual C++, and Java's javac compiler. Each programming language typically has its own set of compilers tailored to that language.
