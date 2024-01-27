@@ -1,4 +1,4 @@
-tags:: [[PostgreSQL]], [[Vector Database]]
+tags:: [[PostgreSQL]], [[Vector Database]], [[PostgreSQL Extensions]]
 
 - # PostgreSQL pgvector
 	- ## PostgreSQL pgvector Resources

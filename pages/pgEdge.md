@@ -1,4 +1,4 @@
-tags:: [[PostgreSQL]], [[Distributed Database]]
+tags:: [[PostgreSQL]], [[Distributed Database]], [[PostgreSQL Extensions]]
 
 - # pgEdge
 	- ![pgedge.png](../assets/pgedge_1706273870443_0.png)
