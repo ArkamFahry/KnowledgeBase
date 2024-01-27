@@ -1,5 +1,7 @@
 # Bookmarks
 
+[Nibm](https://lms.nibmworldwide.com/my/)
+
 [WhatsApp](https://web.whatsapp.com/)
 
 [iCloud](https://www.icloud.com/)
@@ -3773,3 +3775,113 @@
 [MotherDuck: Serverless Data Analytics with DuckDB](https://motherduck.com/)
 
 [Graphile Worker | Graphile Worker](https://worker.graphile.org/)
+
+[Fulcrum Rocks - Design & Development Agency](https://fulcrum.rocks/)
+
+[Meshtastic](https://meshtastic.org/)
+
+[Voice & Video Chat API for Real-Time Communication - Tencent RTC](https://trtc.io/)
+
+[accounts-js | accounts-js](https://www.accountsjs.com/)
+
+[Hangfire – Background jobs and workers for .NET and .NET Core](https://www.hangfire.io/)
+
+[All-in-One Page Speed Tool | Speed Kit](https://www.speedkit.com/)
+
+[ParadeDB - PostgreSQL for Search](https://www.paradedb.com/)
+
+[Trunk](https://pgt.dev/)
+
+[Polars](https://pola.rs/)
+
+[Nile Database — Serverless Postgres for modern SaaS](https://www.thenile.dev/)
+
+[Burn - Deep Learning Framework](https://burn.dev/)
+
+[Server Side Up - Quality tutorials & resources. No BS.](https://serversideup.net/)
+
+[ossu/computer-science: :mortar\_board: Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
+
+[avito-tech/go-transaction-manager: Transaction manager for GoLang](https://github.com/avito-tech/go-transaction-manager)
+
+[Quay Container Registry · Quay](https://quay.io/)
+
+[Dozer - From data chaos to real-time clarity, in minutes](https://getdozer.io/)
+
+[React Aria](https://react-spectrum.adobe.com/react-aria/)
+
+[ihippik/wal-listener: PostgreSQL WAL listener](https://github.com/ihippik/wal-listener)
+
+[raystack/frontier: Frontier is a role-based cloud-native user management, access and authorization server for your applications and API endpoints.](https://github.com/raystack/frontier)
+
+[Tork - Open Source Workflow Engine](https://www.tork.run/)
+
+[Podcasts for developers |> Changelog](https://changelog.com/)
+
+[PowerSync: Drop-in sync layer for offline-first apps](https://www.powersync.com/)
+
+[A serverless platform for caching, messaging, and vector search](https://www.gomomento.com/)
+
+[bensheldon/good\_job: Multithreaded, Postgres-based, Active Job backend for Ruby on Rails.](https://github.com/bensheldon/good_job)
+
+[Deepkit Enterprise TypeScript Framework](https://deepkit.io/)
+
+[PgTyped - Typesafe SQL in Typescript | PgTyped](https://pgtyped.dev/)
+
+[timsolov/rest-query-parser: Query Parser for REST](https://github.com/timsolov/rest-query-parser)
+
+[Grafast | Grafast](https://grafast.org/)
+
+[PGSync](https://pgsync.com/)
+
+[GitHub - xataio/pgroll: PostgreSQL zero-downtime migrations made easy](https://github.com/xataio/pgroll)
+
+[Rockset: Search and analytics database](https://rockset.com/)
+
+[Buf](https://buf.build/)
+
+[Digger](https://digger.dev/)
+
+[GitHub - postgresml/pgcat: PostgreSQL pooler with sharding, load balancing and failover support.](https://github.com/postgresml/pgcat)
+
+[GitHub - supabase/supavisor: A cloud-native, multi-tenant Postgres connection pooler.](https://github.com/supabase/supavisor)
+
+[PostgreSQL Auditing Extension | PGAudit](https://www.pgaudit.org/)
+
+[Vanna.AI - Personalized AI SQL Agent](https://vanna.ai/)
+
+[Bob | Bob](https://bob.stephenafamo.com/)
+
+[dtm-labs/rockscache: The First Redis Cache Library To Ensure Eventual Consistency And Strong Consistency With DB.](https://github.com/dtm-labs/rockscache)
+
+[Better Stack: Spot, Resolve, and Prevent Downtime.](https://betterstack.com/)
+
+[go-zero shorten the distance from demand to offline](https://go-zero.dev/en)
+
+[Goravel](https://www.goravel.dev/)
+
+[GitHub - cornucopia-rs/cornucopia: Generate type-checked Rust from your PostgreSQL.](https://github.com/cornucopia-rs/cornucopia)
+
+[AI-Powered Real-Time Recommender | Recombee](https://www.recombee.com/)
+
+[Embedly makes your content more engaging and easier to share | Embedly](https://embed.ly/)
+
+[localization & translation management platform | locize](https://locize.com/)
+
+[Build stunning D3.js-powered interactive charts with little code | Britecharts](https://britecharts.github.io/britecharts/)
+
+[Quarto](https://quarto.org/)
+
+[Goyave](https://goyave.dev/)
+
+[Portkey.ai - Control Panel for AI Apps](https://portkey.ai/)
+
+[Globally Distributed Cloud Object Storage](https://www.storj.io/)
+
+[AI-Powered Automatic PostgreSQL & MySQL Tuning | OtterTune](https://ottertune.com/)
+
+[ReshapeDB – a database designed for change](https://reshapedb.com/)
+
+[pgEdge Fully Distributed PostgreSQL](https://www.pgedge.com/)
+
+[Kubeflow](https://www.kubeflow.org/)
