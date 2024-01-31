@@ -1,1 +1,17 @@
--
+# Finite State Machine
+	- A Finite State Machine (FSM) is a mathematical model used to design and describe the behavior of systems that can exist in a finite number of states at any given time. These states are typically represented by nodes, and transitions between states are triggered by specific events or input signals.
+	- ## Components of a Finite State Machine
+		- **States**
+			- The distinct conditions or situations that a system can be in. These are represented by nodes in the FSM diagram.
+		- **Transitions**
+			- The paths or edges between states, indicating the change from one state to another. Transitions are triggered by events or input signals.
+		- **Events or Input Signals**
+			- External stimuli or triggers that cause the system to transition from one state to another. These events can be things like user inputs, sensor readings, or any other relevant signals.
+		- **Actions**
+			- The activities or behaviors associated with entering or exiting a particular state. Actions are often performed in response to an event or during a state transition.
+	- ## Finite State Machines can be classified into two main types
+		- **Deterministic Finite State Machine (DFSM)**
+			- In a deterministic FSM, for a given state and input, there is a unique next state. The transition between states is predictable and unambiguous.
+		- **Nondeterministic Finite State Machine (NFSM)**
+			- In a nondeterministic FSM, there can be multiple possible next states for a given state and input. The system may choose any of these possible transitions based on certain conditions.
+	- FSMs are widely used in various applications, including digital circuit design, control systems, communication protocols, and software engineering. They provide a structured way to model and analyze the behavior of systems with discrete states and transitions.
