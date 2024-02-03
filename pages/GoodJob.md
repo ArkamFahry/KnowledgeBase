@@ -1,4 +1,4 @@
-tags:: [[Ruby]], [[PostgreSQL]], [[Job Queue]]
+tags:: [[Ruby]], [[Ruby On Rails]], [[PostgreSQL]], [[Job Queue]]
 
 - # GoodJob
 	- ## GoodJob Resources
