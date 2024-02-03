@@ -1,4 +1,4 @@
-tags:: [[TypeScript]], [[PostgreSQL]]
+tags:: [[TypeScript]], [[PostgreSQL]], [[Job Queue]]
 
 - # Graphile Worker
 	- ![graphile_worker.png](../assets/graphile_worker_1704706632130_0.png)
