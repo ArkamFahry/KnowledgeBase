@@ -1,4 +1,4 @@
-tags:: [[Go]] , [[PostgreSQL]]
+tags:: [[Go]] , [[PostgreSQL]], [[Job Queue]]
 
 - # River
 	- ![river.png](../assets/river_1704706841796_0.png)

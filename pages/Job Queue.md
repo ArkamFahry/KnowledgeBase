@@ -1,0 +1,16 @@
+# Job Queue
+	- A job queue is a mechanism used in computing to manage and organize tasks or jobs that need to be executed by a system or application. It helps in handling asynchronous and parallel processing by allowing tasks to be scheduled and processed in an orderly manner.
+	- In a job queue system, tasks or jobs are added to a queue, and a processing system or worker then retrieves and executes these jobs one by one in the order they were added. This ensures a first-in, first-out (FIFO) execution order for the tasks.
+	- ## Job queues are commonly used in various scenarios
+		- **Background Processing**
+			- Many web applications use job queues to offload time-consuming tasks, such as sending emails, processing images, or handling data imports, to background workers. This allows the web application to remain responsive to user requests.
+		- **Task Distribution**
+			- In distributed computing environments, job queues can be used to distribute tasks among multiple nodes or workers to achieve parallel processing and efficient resource utilization.
+		- **Batch Processing**
+			- Job queues are often employed in batch processing systems where large amounts of data need to be processed in batches. Tasks are added to the queue and processed sequentially.
+		- **Decoupling Components**
+			- Job queues help decouple components in a system. For example, a web application might push tasks to a job queue, and a separate worker process or server can pull tasks from the queue for processing. This separation allows for better scalability and fault tolerance.
+		- **Prioritization**
+			- Some job queue systems allow for prioritizing tasks based on urgency or importance, ensuring critical tasks are processed promptly.
+	- Popular job queue systems or message brokers include RabbitMQ, Apache Kafka, Redis, and Celery (used with Python).
+	- Overall, job queues provide a flexible and scalable way to manage and execute tasks in a distributed and asynchronous environment, improving the overall efficiency and responsiveness of a system.
