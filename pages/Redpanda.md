@@ -1,4 +1,4 @@
-tags:: [[Message Broker]], [[Apache Kafka]], [[C++]], [[Seastar]]
+tags:: [[Message Broker]], [[Apache Kafka]], [[C++]], [[Seastar]], [[Raft]]
 
 - # Redpanda: The streaming data platform for developers
 	- ![red_panda.png](../assets/red_panda_1700993020143_0.png)
