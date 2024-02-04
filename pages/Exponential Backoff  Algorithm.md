@@ -11,4 +11,4 @@
 		- Subsequent Retries
 			- The process continues with subsequent retries, each time increasing the delay exponentially or using the maximum delay until the operation is successful, or a maximum number of retries is reached.
 	- By employing exponential backoff, the algorithm allows the system to be more conservative when resources are scarce or when there's a temporary issue, preventing excessive load and reducing the chances of creating more problems in an already congested or faulty system.
-	- Exponential backoff algorithms are widely used in various network protocols such as TCP (Transmission Control Protocol) and in systems that interact with cloud services, [[API]]s, or distributed databases, [[Webhook]]. They are essential for achieving resilience and efficiency in such systems.
+	- Exponential backoff algorithms are widely used in various network protocols such as TCP (Transmission Control Protocol) and in systems that interact with cloud services, [[API]]s, or distributed databases, [[Webhooks]]. They are essential for achieving resilience and efficiency in such systems.

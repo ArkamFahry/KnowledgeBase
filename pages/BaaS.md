@@ -13,7 +13,7 @@
 		- File Storage
 			- File storage. Just trying to use the [[Amazon S3]] is a pain and holding references to those files in Database and adding Authorization and securing those files are a whole other game. So BaaS providers often include file storage capabilities, enabling developers to store and manage files such as images, documents, and media assets associated with their applications.
 		- Real-time Functionality
-			- Real-time the on enemy to rule them all. Building and scaling Real-time systems are a almost hard as naming things. We have to build services which implement [[CDC]] and send those changes to [[Redis]] Pub/Sub or a Message Broker like [[Apache Kafka]] the we have to push those through [[WebSocket]] to the client. Then we have to scale this stateful service.
+			- Real-time the on enemy to rule them all. Building and scaling Real-time systems are a almost hard as naming things. We have to build services which implement [[CDC]] and send those changes to [[Redis]] Pub/Sub or a Message Broker like [[Apache Kafka]] the we have to push those through [[WebSockets]] to the client. Then we have to scale this stateful service.
 			- So most BaaS platforms often provide real-time communication features, such as chat, push notifications, and live updates. These features allow developers to incorporate real-time interactions into their applications. We can add Real-time with just a single line of code.
 		- APIs and SDKs
 			- A BaaS combines all the desperate infrastructure and hides it under a Façade and give the developer easy to use APIs and software development kits (SDKs) that simplify integration with various backend services. These APIs and SDKs enable developers to easily access functionalities such as data storage, user management, and third-party service integration.
@@ -25,7 +25,7 @@
 			- Many BaaS providers offer integrations with popular social media platforms, allowing developers to leverage social login, sharing, and other social features within their applications. With social login features the user will be able to do Single Sign-On which is more convenient.
 		- Backend Customization
 			- While BaaS focuses on providing prebuilt backend functionalities, it often allows developers to customize certain aspects of the backend infrastructure to meet specific application requirements.
-			- We could use feature like [[Serverless Functions]] and [[Webhook]] to implement custom business logic in the backend.
+			- We could use feature like [[Serverless Functions]] and [[Webhooks]] to implement custom business logic in the backend.
 		- Security and Compliance
 			- BaaS platforms prioritize security and data protection, implementing measures such as encryption, secure API access, and compliance with industry regulations to safeguard user data and ensure application security.
 	- ## BaaS Problems

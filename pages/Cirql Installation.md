@@ -45,7 +45,7 @@ tags:: [[Cirql]]
 					  cirql.disconnect();
 					  ```
 		- ### Stateless Connection Setup
-			- The default connection method to [[SurrealDB]] using [[Cirql]] is [[WebSocket]] which are extremally performant. This allows the application to send queries to the database and receive the results in real-time. However, this means that the connection needs to be kept open. If the application is intended to run on a Serverless environment this will no be ideal.
+			- The default connection method to [[SurrealDB]] using [[Cirql]] is [[WebSockets]] which are extremally performant. This allows the application to send queries to the database and receive the results in real-time. However, this means that the connection needs to be kept open. If the application is intended to run on a Serverless environment this will no be ideal.
 			- In this scenario [[Cirql]] will use the [[HTTP]] to communicate with the [[SurrealDB HTTP]] endpoint which is stateless and doesn't need an open connection all the time. Connection's can be created and disposed for each request.
 			- ```typescript
 			  import { CirqlStateless, select } from 'cirql';

@@ -1,4 +1,4 @@
-tags:: [[WebSocket]], [[SSE]]
+tags:: [[WebSockets]], [[SSE]]
 
 - # Centrifugo: Scalable real-time messaging server in a language-agnostic way
 	- ![centrifugo.png](../assets/centrifugo_1700994609161_0.png)

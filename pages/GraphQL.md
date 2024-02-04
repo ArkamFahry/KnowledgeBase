@@ -23,7 +23,7 @@
 		- **Versioning**
 			- In REST, changing the structure of the data returned by an endpoint often requires versioning the API. With GraphQL, changes can be managed more smoothly because clients only receive the data they ask for.
 		- **Real-time Updates**
-			- While [[REST]] can be used alongside [[WebSocket]] to get real-time updates, GraphQL has built-in support for subscriptions to push updates to the client.
+			- While [[REST]] can be used alongside [[WebSockets]] to get real-time updates, GraphQL has built-in support for subscriptions to push updates to the client.
 	- ## Downsides of GraphQL
 		- **Performance Concerns**
 			- Since GraphQL allows clients to ask for any data they need, it can lead to expensive queries hitting multiple database tables. This can be mitigated with good schema design, query complexity analysis, and setting limits on query depth and complexity.
