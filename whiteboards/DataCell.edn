@@ -153,7 +153,7 @@
 :nonce 1707046330225
 :italic false}}
 :block/updated-at 1707102318297} 
-{:block/created-at 1707102362577
+{:block/created-at 1707102377168
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -175,13 +175,13 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [1184 192]
+:point [1176 200]
 :fontSize 20
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707046567878
+:nonce 1707046567892
 :italic false}}
-:block/updated-at 1707102362577} 
-{:block/created-at 1707102362577
+:block/updated-at 1707102377168} 
+{:block/created-at 1707102377169
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -197,26 +197,26 @@
 :id "962330c0-c351-11ee-ba9b-3bf98da56992"
 :fontWeight 400
 :noFill true
-:point [1115.99 284]
+:point [1115.42 292]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 99]
+:point [0 91]
 :bindingId "962330c1-c351-11ee-ba9b-3bf98da56992"}
 :end 
 {:id "end"
 :canBind true
-:point [70.37 0]
+:point [63.54 0]
 :bindingId "26be2c91-c3d2-11ee-928a-51d070459580"}}
 :decorations 
 {:end "arrow"}
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707046567647
+:nonce 1707046567648
 :italic false}}
-:block/updated-at 1707102362577} 
-{:block/created-at 1707102314522
+:block/updated-at 1707102377169} 
+{:block/created-at 1707102375321
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -232,7 +232,7 @@
 :id "a0d767b0-c352-11ee-ba9b-3bf98da56992"
 :fontWeight 400
 :noFill true
-:point [1169 421.69]
+:point [1169 421.73]
 :fontSize 20
 :handles 
 {:start 
@@ -243,15 +243,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [163 0.77]
+:point [131 0.68]
 :bindingId "38234c91-c3d2-11ee-928a-51d070459580"}}
 :decorations 
 {:end "arrow"}
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707047015097
+:nonce 1707047015101
 :italic false}}
-:block/updated-at 1707102314522} 
-{:block/created-at 1707102314522
+:block/updated-at 1707102375321} 
+{:block/created-at 1707102375320
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -273,12 +273,12 @@
 :fontWeight 400
 :noFill false
 :isLocked false
-:point [1336 376]
+:point [1304 376]
 :fontSize 20
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707047015478
+:nonce 1707047015490
 :italic false}}
-:block/updated-at 1707102314522} 
+:block/updated-at 1707102375320} 
 {:block/created-at 1707102359273
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -307,7 +307,7 @@
 :nonce 1707046568162
 :italic false}}
 :block/updated-at 1707102359273} 
-{:block/created-at 1707102359273
+{:block/created-at 1707102373328
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -324,25 +324,25 @@
 :fontWeight 400
 :noFill true
 :isLocked false
-:point [1090.02 473]
+:point [1117.25 473]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
 :point [0 0]
-:bindingId "3aae3d31-c3d2-11ee-928a-51d070459580"}
+:bindingId "82dcd391-c3d3-11ee-928a-51d070459580"}
 :end 
 {:id "end"
 :canBind true
-:point [113.98 86.05]
+:point [93.06 83]
 :bindingId "7a267301-c3d3-11ee-928a-51d070459580"}}
 :decorations 
 {:end "arrow"}
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707047015341
+:nonce 1707047015385
 :italic false}}
-:block/updated-at 1707102359273})
+:block/updated-at 1707102373328})
 :pages (
 {:block/uuid #uuid "65bf7541-083b-4186-a4dd-9f54678d08b4"
 :block/properties 
@@ -351,7 +351,15 @@
 {:id "65bf7541-083b-4186-a4dd-9f54678d08b4"
 :name "datacell"
 :bindings 
-{:0280ad81-c3d2-11ee-928a-51d070459580 
+{:82dcd391-c3d3-11ee-928a-51d070459580 
+{:id "82dcd391-c3d3-11ee-928a-51d070459580"
+:type "line"
+:fromId "111918f0-c3d2-11ee-928a-51d070459580"
+:toId "08c24220-c351-11ee-ba9b-3bf98da56992"
+:handleId "start"
+:point [0.39 0.48]
+:distance 4}
+:0280ad81-c3d2-11ee-928a-51d070459580 
 {:id "0280ad81-c3d2-11ee-928a-51d070459580"
 :type "line"
 :fromId "962330c0-c351-11ee-ba9b-3bf98da56992"
@@ -562,7 +570,7 @@
 :nonce 1
 :assets []
 :shapes-index ("c6a29d90-c350-11ee-ba9b-3bf98da56992" "dad81ba0-c350-11ee-ba9b-3bf98da56992" "ebdb93a2-c350-11ee-ba9b-3bf98da56992" "08c24220-c351-11ee-ba9b-3bf98da56992" "08c26930-c351-11ee-ba9b-3bf98da56992" "962309b0-c351-11ee-ba9b-3bf98da56992" "962330c0-c351-11ee-ba9b-3bf98da56992" "a0d740a0-c352-11ee-ba9b-3bf98da56992" "a0d767b0-c352-11ee-ba9b-3bf98da56992" "f774eb40-c3d1-11ee-928a-51d070459580" "111918f0-c3d2-11ee-928a-51d070459580")}}
-:block/updated-at 1707102364967
+:block/updated-at 1707102377168
 :block/created-at 1707046209444
 :block/type "whiteboard"
 :block/name "datacell"
