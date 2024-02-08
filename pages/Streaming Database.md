@@ -1,0 +1,25 @@
+tags:: [[Database]]
+
+- # Streaming Database
+	- A streaming database is a specialized type of database designed to handle **continuous, real-time data flows** instead of static sets of information. Imagine it like a river of data constantly flowing in, instead of a stagnant pond. Here's what makes them unique:
+	- **Always On**
+		- Unlike traditional databases that process data in batches, streaming databases work with data **as it arrives**. This allows for immediate analysis and reaction to events.
+	- **High Velocity**
+		- They're built to handle large volumes of data flowing in at high speeds, making them ideal for applications like sensor data, social media feeds, or stock market transactions.
+	- **Real-Time Processing**
+		- Data is processed and analyzed **on the fly**, enabling real-time insights and decision-making. Think of it as getting answers while the data is still arriving, not waiting for hours or days.
+	- **Flexible Storage**
+		- Some streaming databases store all data, while others focus on recent, relevant data for faster access. This flexibility allows you to balance storage needs with query performance.
+	- **Familiar Interface**
+		- Many streaming databases use similar query languages (like [[SQL]]) and concepts as traditional databases, making them easier to learn and use for existing database users.
+	- **Use Cases**
+		- These databases shine in scenarios where immediate insights are crucial
+			- **Fraud detection**
+				- Identifying suspicious transactions in real-time.
+			- **IoT analytics**
+				- Analyzing sensor data to monitor equipment performance or optimize energy usage.
+			- **Stock market analysis**
+				- Reacting to market changes in real-time.
+			- **Recommendation engines**
+				- Providing personalized suggestions based on real-time user behavior.
+- Streaming database isn't a specific technology, but rather a category. Different types exist, each with its strengths and weaknesses depending on your needs. Some popular options include [[Apache Kafka]] , [[Redpanda]] and [[Materialize]].
