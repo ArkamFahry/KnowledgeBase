@@ -1,4 +1,5 @@
-# Timely Dataflow
+- tags: [[Dataflow]]
+- # Timely Dataflow
 	- **Timely Dataflow: Low-Latency, High-Throughput Stream Processing**
 	- Timely dataflow is a powerful computational model and software framework designed for building low-latency, high-throughput, and highly scalable data processing pipelines. It excels at handling continuous streams of data in real-time or near-real-time, making it ideal for applications like:
 		- **Sensor data analysis**
