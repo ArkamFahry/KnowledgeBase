@@ -1,4 +1,6 @@
-# Debezium
+tags:: [[CDC]]
+
+- # Debezium
 	- ![debezium.png](../assets/debezium_1703582472679_0.png)
 	- Debezium is an open-source distributed platform for change data capture (CDC) that captures and streams database changes in real-time. It's designed to monitor database changes, extract them, and then push these changes to various downstream systems or applications. It supports a wide range of databases, including MySQL, PostgreSQL, SQL Server, MongoDB, and others.
 	- ## Components and features of Debezium

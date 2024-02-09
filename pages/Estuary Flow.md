@@ -1,4 +1,4 @@
-tags:: [[CDC]], [[Real-time ETL]]
+tags:: [[CDC]], [[Real-time ETL]], [[Rust]]
 
 - # Estuary Flow
 	- ![estuary_flow.png](../assets/estuary_flow_1704170314103_0.png)
