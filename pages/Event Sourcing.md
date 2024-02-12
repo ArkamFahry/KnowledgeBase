@@ -1,0 +1,20 @@
+# Event Sourcing
+	- Event Sourcing is a software architectural pattern for storing and reconstructing the state of an application by recording the series of events that have occurred. It's particularly useful in scenarios where it's important to know not only the current state of an object but also how that state was arrived at.
+	- ## Explanation of Event Sourcing
+		- **Events**
+			- In Event Sourcing, the system maintains a history of immutable events. These events represent state changes or significant occurrences within the system. For example, in an e-commerce application, events could include "OrderPlaced", "OrderCancelled", "PaymentProcessed", etc. Each event captures what happened and when it happened.
+		- **State Reconstruction**
+			- Instead of persisting the current state of an object, Event Sourcing persists the series of events that led to the current state. The current state can then be reconstructed by replaying these events sequentially from the beginning. This allows the system to rebuild any past state by applying the events in the correct order.
+		- **Persistence**
+			- Events are persisted in an append-only manner. Once an event is stored, it cannot be modified or deleted. This ensures an accurate and auditable history of all state changes.
+		- **Separation of Concerns**
+			- Event Sourcing separates the concerns of state storage and state representation. The state itself is reconstructed from events, and different representations of that state can be derived as needed. This allows for flexibility in querying and reporting, as well as accommodating different views of the same data.
+		- **Temporal Queries and Replay**
+			- Since the entire history of events is retained, Event Sourcing allows for temporal queries, meaning you can query the state of the system at any point in time. Additionally, it enables replaying events to debug issues or to rebuild the system's state after a failure.
+		- **Scalability and Performance**
+			- Event Sourcing can be beneficial for scalability and performance. By only appending events to the event log, rather than updating a single state, it can handle high-throughput systems efficiently. However, replaying events to reconstruct state can be resource-intensive, so appropriate strategies such as snapshotting or caching may be necessary for performance optimization.
+		- **Event Versioning and Evolution**
+			- As the system evolves, so do the events. It's essential to consider event versioning and backward compatibility when making changes to event structures. New versions of events should be backward compatible to ensure that older events can still be replayed and understood by the system.
+		- **Complex Event Processing**
+			- Event Sourcing enables complex event processing, where events can be analyzed to derive insights, trigger actions, or detect patterns in real-time or through batch processing.
+	- Event Sourcing is particularly valuable in domains where auditability, traceability, and the ability to reconstruct past states are critical, such as financial systems, healthcare, and supply chain management. However, it may introduce complexity, especially in systems with high concurrency or where consistency guarantees are paramount. Therefore, careful consideration of trade-offs is necessary when deciding whether to adopt Event Sourcing in a given context.
