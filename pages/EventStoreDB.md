@@ -1,4 +1,4 @@
-tags:: [[Database]], [[C#]]
+tags:: [[Database]], [[C#]], [[Event Sourcing]]
 
 - # EventStoreDB
 	- ![eventstoredb.png](../assets/eventstoredb_1704434039095_0.png)
