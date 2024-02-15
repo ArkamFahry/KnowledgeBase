@@ -1,0 +1,8 @@
+- tags: [[Message Broker]]
+- # RabbitMQ
+	- ![rabbitmq.png](../assets/rabbitmq_1707972775988_0.png)
+	- ## RabbitMQ Resources
+		- [RabbitMQ: easy to use, flexible messaging and streaming — RabbitMQ](https://www.rabbitmq.com/)
+		- [RabbitMQ · GitHub](https://github.com/rabbitmq)
+		- [Documentation: Table of Contents — RabbitMQ](https://www.rabbitmq.com/documentation.html)
+	- {{video https://www.youtube.com/watch?v=NQ3fZtyXji0}}
