@@ -26,7 +26,7 @@
 :nonce 1707046219612
 :italic false}}
 :block/updated-at 1707102324281} 
-{:block/created-at 1707102318298
+{:block/created-at 1708320908010
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -35,7 +35,7 @@
 :borderRadius 2
 :index 1
 :scale [1 1]
-:refs ["Debezium"]
+:refs ["Conduit"]
 :scaleLevel "md"
 :fill ""
 :type "box"
@@ -43,7 +43,7 @@
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:label "Debezium"
+:label "Conduit"
 :id "dad81ba0-c350-11ee-ba9b-3bf98da56992"
 :fontWeight 400
 :noFill false
@@ -51,9 +51,9 @@
 :point [696 384]
 :fontSize 20
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707046219705
+:nonce 1707046219715
 :italic false}}
-:block/updated-at 1707102318298} 
+:block/updated-at 1708320908010} 
 {:block/created-at 1707102324282
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -343,7 +343,7 @@
 :nonce 1707047015385
 :italic false}}
 :block/updated-at 1707102373328} 
-{:block/created-at 1707404736741
+{:block/created-at 1707404748419
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -360,16 +360,16 @@
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:label ""
+:label "ReadySet"
 :id "5dc09b60-c693-11ee-a116-31fc9f261713"
 :fontWeight 400
 :noFill false
 :point [116 384]
 :fontSize 20
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707404673047
+:nonce 1707404673065
 :italic false}}
-:block/updated-at 1707404736741} 
+:block/updated-at 1707404748419} 
 {:block/created-at 1707404736740
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -649,7 +649,7 @@
 :nonce 1
 :assets []
 :shapes-index ("c6a29d90-c350-11ee-ba9b-3bf98da56992" "dad81ba0-c350-11ee-ba9b-3bf98da56992" "ebdb93a2-c350-11ee-ba9b-3bf98da56992" "08c24220-c351-11ee-ba9b-3bf98da56992" "08c26930-c351-11ee-ba9b-3bf98da56992" "962309b0-c351-11ee-ba9b-3bf98da56992" "962330c0-c351-11ee-ba9b-3bf98da56992" "a0d740a0-c352-11ee-ba9b-3bf98da56992" "a0d767b0-c352-11ee-ba9b-3bf98da56992" "f774eb40-c3d1-11ee-928a-51d070459580" "111918f0-c3d2-11ee-928a-51d070459580" "5dc09b60-c693-11ee-a116-31fc9f261713" "7d0006f2-c693-11ee-a116-31fc9f261713")}}
-:block/updated-at 1707404736807
+:block/updated-at 1708320908029
 :block/created-at 1707046209444
 :block/type "whiteboard"
 :block/name "datacell"

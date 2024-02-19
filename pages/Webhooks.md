@@ -1,6 +1,6 @@
 # Webhooks: Realtime push based [[API]] for [[Events]]
 	- Webhooks are a method of real-time communication between two web applications or services. They allow one application to send automatic, event-based notifications to another application when a specific event occurs. This way, the receiving application can take immediate action based on the event without the need for constant polling.
-	- ## To explain webhooks in detail, let's break down the process and the key components involved:
+	- ## To explain webhooks in detail, let's break down the process and the key components involved
 		- Event Occurrence
 			- A webhook is triggered when a specific event occurs in the sender application. The events can vary depending on the service, but common examples include a new user registration, a payment processed, a file uploaded, a status update, etc.
 		- Webhook Registration

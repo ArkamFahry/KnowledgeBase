@@ -1,2 +1,17 @@
 # GRPC
-	-
+	- gRPC, which stands for Remote Procedure Call, is an open-source remote procedure call (RPC) system developed by Google. It uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features such as authentication, load balancing, and connection multiplexing.
+	- In gRPC, a client application can directly call methods on a server application running on a different machine as if it were a local object, making it easier to create distributed applications and services. The use of Protocol Buffers for message serialization makes communication efficient and allows for the definition of complex data structures and services.
+	- ## Explanation on GRPC
+		- **Remote Procedure Call (RPC)**
+			- At its core, gRPC is a framework that enables remote procedure calls between clients and servers. This means that a client application can call a function or method on a server application running on a different machine, as if it were a local function call. RPC abstracts away the details of network communication, making it easier to build distributed systems.
+		- **HTTP/2**
+			- gRPC uses HTTP/2 as its underlying protocol for communication. HTTP/2 offers several advantages over HTTP/1.1, such as multiplexing, header compression, and server push. These features help improve performance and efficiency, especially in scenarios where multiple RPC calls need to be made concurrently.
+		- **Protocol Buffers ([[Protobuf]])**
+			- gRPC uses Protocol Buffers as its interface definition language (IDL). [[Protobuf]] is a language-agnostic, platform-neutral, and extensible mechanism for serializing structured data. It allows you to define the structure of your data and services in a .proto file, which can then be compiled into language-specific code for both the client and server.
+		- **Efficiency and Performance**
+			- By using HTTP/2 for transport and Protobuf for serialization, gRPC is designed to be fast and efficient. HTTP/2's multiplexing allows multiple RPC calls to be made over a single connection, reducing latency and improving throughput. Protobuf's binary format is more compact than JSON or XML, further reducing the size of messages sent over the network.
+		- **Cross-Language Support**
+			- One of the key features of gRPC is its support for multiple programming languages. gRPC provides code generation tools that can generate client and server stubs from .proto files for languages such as [[C++]], [[C#]], [[Python]], [[Go]], and many others. This makes it easy to build polyglot systems where different parts of the application are written in different languages.
+		- **Additional Features**
+			- gRPC provides a number of additional features that are useful in building distributed systems, such as authentication, load balancing, and deadline propagation. These features are built into the framework, making it easier to add them to your application without having to implement them from scratch.
+	- Overall, gRPC is a powerful framework for building distributed systems that require efficient, high-performance communication between clients and servers. Its use of modern protocols and technologies makes it a popular choice for building microservices, APIs, and other distributed applications.
