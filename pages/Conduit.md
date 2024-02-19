@@ -1,4 +1,4 @@
-tags:: [[CDC]], [[Go]]
+tags:: [[CDC]], [[Go]], [[GRPC]]
 
 - # Conduit
 	- ![conduit.png](../assets/conduit_1707483457776_0.png)
