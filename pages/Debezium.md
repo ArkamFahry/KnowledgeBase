@@ -19,6 +19,26 @@ tags:: [[CDC]]
 		- **Community Support**
 			- Debezium benefits from an active open-source community that contributes to its development, supports users, and continuously improves its functionality and compatibility with different databases.
 	- By leveraging Debezium, developers can build scalable, event-driven architectures that react to changes in databases in real-time. It's particularly useful in scenarios where applications need immediate access to updated database information without putting extra load on the database itself.
+	- ## Example Debezium Config
+		- ```json
+		  {
+		      "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+		      "database.dbname": "neondb",
+		      "database.hostname": "ep-wispy-glitter-a5zg2715.us-east-2.aws.neon.tech",
+		      "database.password": "7JbCwzMf5scd",
+		      "database.port": "5432",
+		      "database.server.name": "neon",
+		      "database.user": "ArkamFahry",
+		      "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+		      "key.converter.schemas.enable": true,
+		      "plugin.name": "pgoutput",
+		      "publication.autocreate.mode": "filtered",
+		      "publication.name": "cdc_publication",
+		      "schema.include.list": "public",
+		      "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+		      "value.converter.schemas.enable": true
+		  }
+		  ```
 	- ## Debezium Resources
 		- [Debezium](https://debezium.io/)
 		- [GitHub - debezium/debezium: Change data capture for a variety of databases. Please log issues at https://issues.redhat.com/browse/DBZ.](https://github.com/debezium/debezium)
