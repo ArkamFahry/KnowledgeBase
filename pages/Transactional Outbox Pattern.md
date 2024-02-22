@@ -64,6 +64,56 @@
 			  |1|UpdateOrderStatus|{ order_id: 123, status: 'Processing' }|Pending|2024-01-03 08:00:00|
 			  |2|UpdateInventory|{ product_id: 456, quantity: 2 }|Pending|2024-01-03 08:00:05|
 			  |3|SendConfirmationEmail|{ order_id: 123, email: 'customer@example.com' }|Pending|2024-01-03 08:00:10|
+		- ## Example Outbox Table PostgreSQL
+			- ```sql
+			  create or replace function on_events_create()
+			      returns trigger as
+			  $$
+			  begin
+			      new.id = 'event_' || gen_random_ulid(); -- gen_random_uuid() or gen_random_ulid()
+			      new.version = 0;
+			      new.status = 'pending';
+			      new.published_at = null;
+			      new.failed_at = null;
+			      new.failure_reason = null;
+			      new.retried_at = null;
+			      new.number_of_retries = 0;
+			      new.created_at = now();
+			  
+			      return new;
+			  end;
+			  $$ language plpgsql;
+			  
+			  create table if not exists events
+			  (
+			      id                         text          not null,
+			      version                    int default 0 not null,
+			      aggregate_type             text          not null,
+			      event_type                 text          not null,
+			      payload                    jsonb         not null,
+			      status                     text          not null,
+			      published_at               timestamptz   null,
+			      failed_at                  timestamptz   null,
+			      failed_reason              text[]        null,
+			      number_of_failed_attempts  int default 0 not null,
+			      retried_at                 timestamptz   null,
+			      number_of_retried_attempts int default 0 not null,
+			      created_at                 timestamptz   not null,
+			      constraint events_id_primary_key primary key (id),
+			      constraint events_id_version_unique unique (id, version),
+			      constraint events_id_check check ( trim(id) <> '' ),
+			      constraint events_version_check check ( version >= 0 ),
+			      constraint events_status_check check ( status in ('pending', 'published', 'failed') ),
+			      constraint events_aggregate_type_check check ( trim(aggregate_type) <> '' ),
+			      constraint events_event_type_check check ( trim(event_type) <> '' )
+			  );
+			  
+			  create or replace trigger on_events_create
+			      before insert
+			      on events
+			      for each row
+			  execute function on_events_create();
+			  ```
 		- Once the order is successfully placed, the system starts transactions to update the Order table and the Outbox table. It updates the Order table with the 'Processing' status and populates the Outbox table with entries corresponding to the actions needed.
 		- Another process (e.g., a background worker or [[CDC]]) periodically checks the Outbox Table for entries with a 'Pending' status, processes them by executing the intended actions, and updates their status to 'Processed' upon successful completion. If an action fails, the status might be set to 'Failed' for later retry or manual intervention.
 		- This Outbox Table allows the system to maintain a record of pending actions that need to be executed, even in the face of potential failures or inconsistencies across different parts of the system, ensuring eventual consistency.
