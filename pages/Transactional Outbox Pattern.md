@@ -64,7 +64,7 @@
 			  |1|UpdateOrderStatus|{ order_id: 123, status: 'Processing' }|Pending|2024-01-03 08:00:00|
 			  |2|UpdateInventory|{ product_id: 456, quantity: 2 }|Pending|2024-01-03 08:00:05|
 			  |3|SendConfirmationEmail|{ order_id: 123, email: 'customer@example.com' }|Pending|2024-01-03 08:00:10|
-		- ## Example Outbox Table PostgreSQL
+		- ## Example Outbox Table [[PostgreSQL]]
 			- ```sql
 			  create or replace function on_events_create()
 			      returns trigger as
