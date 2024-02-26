@@ -245,7 +245,7 @@
 :nonce 1707046567709
 :italic false}}
 :block/updated-at 1708938903241} 
-{:block/created-at 1708938909997
+{:block/created-at 1708938950855
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -266,13 +266,13 @@
 :id "5dc09b60-c693-11ee-a116-31fc9f261713"
 :fontWeight 400
 :noFill false
-:point [248 376]
+:point [248 384]
 :fontSize 20
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707404673131
+:nonce 1707404673137
 :italic false}}
-:block/updated-at 1708938909997} 
-{:block/created-at 1708938945765
+:block/updated-at 1708938950855} 
+{:block/created-at 1708938953557
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -289,25 +289,25 @@
 :id "7d0006f2-c693-11ee-a116-31fc9f261713"
 :fontWeight 400
 :noFill true
-:point [417 432.43]
+:point [417 427.44]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
 :point [0 0]
-:bindingId "9d5ec011-d487-11ee-9ff5-5fdc136e2e87"}
+:bindingId "a3a35d51-d487-11ee-9ff5-5fdc136e2e87"}
 :end 
 {:id "end"
 :canBind true
-:point [219 2.31]
+:point [219 5.84]
 :bindingId "9e6ed081-d487-11ee-9ff5-5fdc136e2e87"}}
 :decorations 
 {:end "arrow"}
 :parentId "65bf7541-083b-4186-a4dd-9f54678d08b4"
-:nonce 1707404725610
+:nonce 1707404725619
 :italic false}}
-:block/updated-at 1708938945765} 
+:block/updated-at 1708938953557} 
 {:block/created-at 1708938903241
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -631,6 +631,14 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
+:a3a35d51-d487-11ee-9ff5-5fdc136e2e87 
+{:id "a3a35d51-d487-11ee-9ff5-5fdc136e2e87"
+:type "line"
+:fromId "7d0006f2-c693-11ee-a116-31fc9f261713"
+:toId "5dc09b60-c693-11ee-a116-31fc9f261713"
+:handleId "start"
+:point [0.49 0.47]
+:distance 4}
 :91afb8f1-d487-11ee-9ff5-5fdc136e2e87 
 {:id "91afb8f1-d487-11ee-9ff5-5fdc136e2e87"
 :type "line"
@@ -650,7 +658,7 @@
 :nonce 1
 :assets []
 :shapes-index ("c6a29d90-c350-11ee-ba9b-3bf98da56992" "08c24220-c351-11ee-ba9b-3bf98da56992" "962309b0-c351-11ee-ba9b-3bf98da56992" "962330c0-c351-11ee-ba9b-3bf98da56992" "a0d740a0-c352-11ee-ba9b-3bf98da56992" "a0d767b0-c352-11ee-ba9b-3bf98da56992" "f774eb40-c3d1-11ee-928a-51d070459580" "111918f0-c3d2-11ee-928a-51d070459580" "5dc09b60-c693-11ee-a116-31fc9f261713" "7d0006f2-c693-11ee-a116-31fc9f261713" "e9861ad0-cf99-11ee-9312-e3e7194116a0" "2af53410-cf9a-11ee-9312-e3e7194116a0" "8eadc390-d487-11ee-9ff5-5fdc136e2e87")}}
-:block/updated-at 1708938945768
+:block/updated-at 1708938953561
 :block/created-at 1707046209444
 :block/type "whiteboard"
 :block/name "datacell"
