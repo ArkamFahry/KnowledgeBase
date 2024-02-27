@@ -1,0 +1,28 @@
+tags:: [[PostgreSQL]], [[WAL]]
+
+- # PostgreSQL WAL
+	- The PostgreSQL Write-Ahead Logging (WAL) is a standard method for ensuring data integrity in PostgreSQL.
+		- ## Basic of explanation of PostgreSQL WAL
+			- **Overview**
+				- The WAL is a system that logs changes to the database's data files (the heap) before the changes are applied.
+				- The WAL logs are stored in a dedicated log file separate from the actual data files.
+			- **Purpose**
+				- Provides crash recovery
+					- Since changes are first logged and then applied, in the event of a crash, PostgreSQL can use the WAL to replay the changes and bring the database to a consistent state.
+				- Enables high availability
+					- WAL can be used in conjunction with streaming replication to keep standby servers up-to-date with changes from the primary server.
+			- **How it works**
+				- When a transaction modifies data, PostgreSQL writes the changes to the WAL first.
+				- Once the changes are safely in the WAL, PostgreSQL applies them to the actual data files.
+				- The WAL records are written sequentially, which is faster than random writes to the data files.
+			- **Components**
+				- WAL Buffer
+					- A circular buffer in memory where changes are stored before being written to the WAL files.
+				- WAL Files
+					- Log files where the changes are written. These files are typically located in the pg_wal directory.
+				- WAL Writer Process
+					- A background process that writes the WAL records from the buffer to the WAL files.
+			- **Control and Maintenance**
+				- PostgreSQL automatically manages the WAL files, recycling them when they are no longer needed for crash recovery or replication.
+				- Administrators can control the size and location of the WAL files using configuration settings.
+	- Overall, the PostgreSQL WAL is a critical component for ensuring data integrity, enabling point-in-time recovery, and supporting replication for high availability setups. also on a side note PostgreSQL WAL can be used for [[CDC]] to react to changes in [[PostgreSQL]].
