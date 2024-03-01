@@ -5,6 +5,8 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 	- ## PGWarp Technical Terms
 		- Snapshot
 			- Snapshot is the process of scanning a full table in [[PostgreSQL]] to get all the data from a table which doesn't exist in the [[PostgreSQL WAL]].
+		- Incremental-Snapshot
+			- Incremental-Snapshot is the process of scanning a full table in [[PostgreSQL]] block by block without locking the whole table. This is done parallel while reading the [[PostgreSQL WAL]] log.
 		- Stream
 			- stream is used to describe a stream of event changes from a [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate` and `snapshot`.
 	- ## PGWap Requirements
