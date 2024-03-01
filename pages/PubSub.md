@@ -1,6 +1,6 @@
 # PubSub (Publish-Subscribe)
 	- The Publish-Subscribe (PubSub) pattern is a messaging pattern used in software architecture to allow communication between different parts of a system in a loosely coupled manner.
-	- ## Components of PubSub
+	- ## Features of PubSub
 		- **Publishers**
 			- Publishers are components or services that generate messages. These messages are typically related to events, updates, or notifications that other parts of the system might be interested in. Publishers do not need to know who the subscribers are; they simply publish messages to a message broker or a messaging system.
 		- **Subscribers**
