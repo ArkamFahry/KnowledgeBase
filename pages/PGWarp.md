@@ -2,8 +2,18 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 
 - # PGWarp
 	- A custom implementation of [[CDC]] which subscribes to the [[PostgreSQL WAL]] and pushes these changes into [[NATS]] building a real-time reactive event pipeline for [[PostgreSQL]].
+	- ## PGWarp Technical Terms
+		- Snapshot
+			- Snapshot is the process of scanning a full table in [[PostgreSQL]] to get all the data from a table which doesn't exist in the [[PostgreSQL WAL]].
+		- Stream
+			- stream is used to describe a stream of event changes from a [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate` and `snapshot`.
 	- ## PGWap Requirements
-		- Primary requirement is to watch the [[PostgreSQL WAL]] and publish those [[WAL]] events in to [[NATS]].
+		- Watch the [[PostgreSQL WAL]] and publish those [[WAL]] events in to [[NATS]].
+		- [[NATS Subject]] mappings for the events would look like `[database].[schema].[table]`. This can be overridden by custom event mapping or a table could get a totally custom subject name if it's manually defined.
+		- Persistent and ephemeral streams.
+			- A stream will default to being persistent but this can be modified per table marking it's  stream as persistent or ephemeral.
+			- A persistent stream would be using [[NATS JetStream]] instance.
+			- A ephemeral stream would be using [[NATS PubSub]] instance.
 	- ## PGWap Architecture
 		- [[PGWap Architecture]]
 	- ## PGWarp Resources

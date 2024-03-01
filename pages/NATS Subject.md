@@ -1,0 +1,22 @@
+tags:: [[NATS]]
+
+- # NATS Subject
+	- In NATS, subjects are a fundamental concept used for message routing and delivery. They form a hierarchical namespace for messages and allow subscribers to express interest in receiving messages based on specific subjects. Understanding subjects is key to effectively using NATS for communication in distributed systems.
+		- ## Detailed explanation of NATS subjects
+			- **Subject Structure**
+				- Subjects in NATS are represented as strings that use a dot-separated naming convention, similar to a file path. For example, `foo.bar.baz` is a subject with three levels: `foo` is the first level, `bar` is the second level, and `baz` is the third level.
+			- **Hierarchical Nature**
+				- Subjects can have a hierarchical structure with multiple levels, allowing for a flexible and expressive way to categorize messages. Each level in a subject represents a different category or topic.
+			- **Wildcard Subscriptions**
+				- NATS supports two types of wildcards for subscriptions
+					- `*` (asterisk wildcard): Matches a single token in a subject. For example, `foo.*.baz` would match `foo.bar.baz` and `foo.qux.baz`, but not `foo.bar.qux.baz`.
+					- `>` (greater than wildcard): Matches one or more tokens at the end of a subject. For example, `foo.>` would match `foo.bar`, `foo.bar.baz`, `foo.bar.qux`, and so on.
+			- **Subscription Matching**
+				- When a message is published to a subject, NATS delivers the message to all subscribers that have subscribed to that subject or a subject that matches the wildcard subscription.
+			- **Publishing Messages**
+				- Publishers in NATS publish messages to specific subjects. Messages are sent to a subject, and NATS ensures that the message is delivered to all subscribers of that subject.
+			- **Expressing Interest**
+				- Subscribers express interest in receiving messages by subscribing to specific subjects or subjects that match a wildcard subscription. Subscribers can subscribe to multiple subjects to receive messages from different categories.
+			- **Dynamic Subjects**
+				- NATS allows for dynamic subjects, where parts of the subject are dynamically generated at runtime. This can be useful for creating subjects based on variables or parameters in an application.
+		- Overall, NATS subjects provide a powerful mechanism for categorizing and routing messages in a NATS messaging system. They enable a flexible and scalable approach to message delivery in distributed systems.
