@@ -12,7 +12,7 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 		- Event
 			- The message returned for a operation in [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate`, `snapshot` and `unknown`.
 			- Event Format.
-				- ```sudo
+				- ```pseudo
 				  Event {
 				  	id: string -- unique ulid generated for each event
 				  	database: string -- database name
@@ -24,8 +24,14 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 				    		after: any -- after data value after the operation if `delete` it will be null
 				      	diff: any -- diff data value is shows the changed value in a `update` operation it will be null if no change
 				    	}
-				    	created_at: timestamptz -- timestamp when the event was created this is represented in ISO date time 
+				    	timestamp: timestamptz -- timestamp when the event was created this is represented in ISO date time 
 				  }
+				  ```
+		- Subject
+			- How a Stream of Database Events are Mapped to a [[NATS Subject]].
+			- Subject Format.
+				- ```pseudo
+				  Subject = database.schema.table.operation
 				  ```
 	- ## PGWap Requirements
 		- Watch the [[PostgreSQL WAL]] and publish those [[WAL]] events in to [[NATS]].
