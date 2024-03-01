@@ -9,9 +9,23 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 			- Incremental-Snapshot is the process of scanning a full table in [[PostgreSQL]] block by block without locking the whole table. This is done parallel while reading the [[PostgreSQL WAL]] log.
 		- Stream
 			- stream is used to describe a stream of event changes from a [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate` and `snapshot`.
+		- Event
+			- The message returned for a operation in [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate` and `snapshot`.
+			- Event Format.
+				- ```sudo
+				  Event {
+				    database: string -- database name
+				    schema: string -- schema name
+				    table: string -- table name
+				    operation: string -- operation name from (insert, update, delete, truncate, snapshot, unknown)
+				    data_before: any -- before data value before the operation if "insert" it will be null
+				    data_after: any -- after data value after the operation if "delete" it will be null
+				    created_at: timestamp -- timestamp when the event was created this is represented in ISO date time 
+				  }
+				  ```
 	- ## PGWap Requirements
 		- Watch the [[PostgreSQL WAL]] and publish those [[WAL]] events in to [[NATS]].
-		- [[NATS Subject]] mappings for the events would look like `[database].[schema].[table]`. This can be overridden by custom event mapping or a table could get a totally custom subject name if it's manually defined.
+		- [[NATS Subject]] mappings for the events would look like `[database].[schema].[table].[operation]`. This can be overridden by custom event mapping or a table could get a totally custom subject name if it's manually defined.
 		- Persistent and Ephemeral streams.
 			- A stream will default to being persistent but this can be modified per table marking it's  stream as persistent or ephemeral.
 			- A persistent stream would be using [[NATS JetStream]] instance.
