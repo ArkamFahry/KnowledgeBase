@@ -1,0 +1,18 @@
+# PubSub (Publish-Subscribe)
+	- The Publish-Subscribe (PubSub) pattern is a messaging pattern used in software architecture to allow communication between different parts of a system in a loosely coupled manner.
+	- ## Components of PubSub
+		- **Publishers**
+			- Publishers are components or services that generate messages. These messages are typically related to events, updates, or notifications that other parts of the system might be interested in. Publishers do not need to know who the subscribers are; they simply publish messages to a message broker or a messaging system.
+		- **Subscribers**
+			- Subscribers are components or services that express interest in receiving messages of a certain type or from a certain source. Subscribers subscribe to specific topics or channels where messages are published. When a message is published to a topic, the message broker delivers the message to all subscribers that have subscribed to that topic.
+		- **Message Broker**
+			- The message broker is responsible for receiving messages from publishers and delivering them to the appropriate subscribers. It maintains a registry of topics and their subscribers, ensuring that messages are delivered efficiently.
+		- **Loose Coupling**
+			- One of the key benefits of the PubSub pattern is that it promotes loose coupling between components. Publishers and subscribers are not directly aware of each other, which allows for greater flexibility and scalability in the system. Publishers can publish messages without needing to know who will receive them, and subscribers can receive messages without needing to know who sent them.
+		- **Scalability**
+			- The PubSub pattern is inherently scalable. As the number of publishers and subscribers grows, the message broker can scale horizontally to handle the increased load. This makes the pattern well-suited for large-scale distributed systems.
+		- **Asynchronous Communication**
+			- PubSub is often used for asynchronous communication, where messages are sent and received independently of each other. This can improve system responsiveness and performance, as components do not need to wait for each other to complete their tasks.
+		- **Reliability**
+			- Some PubSub implementations support features such as message persistence and delivery guarantees, ensuring that messages are not lost even in the event of system failures.
+	- Overall, the PubSub pattern provides a flexible and scalable way to enable communication between different parts of a system, making it a popular choice for building distributed and event-driven architectures.

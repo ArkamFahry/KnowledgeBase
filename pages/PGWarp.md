@@ -3,7 +3,7 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 - # PGWarp
 	- A custom implementation of [[CDC]] which subscribes to the [[PostgreSQL WAL]] and pushes these changes into [[NATS]] building a real-time reactive event pipeline for [[PostgreSQL]].
 	- ## PGWap Requirements
-		-
+		- Primary requirement is to watch the [[PostgreSQL WAL]] and publish those [[WAL]] events in to [[NA]]
 	- ## PGWap Architecture
 		- [[PGWap Architecture]]
 	- ## PGWarp Resources
