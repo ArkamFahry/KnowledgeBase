@@ -2,7 +2,7 @@ tags:: [[NATS]], [[PubSub]]
 
 - # NATS PubSub
 	- NATS PubSub is a messaging system that enables communication between different parts of a distributed system using the publish-subscribe messaging pattern. In this pattern, publishers send messages without specifying who the recipients (subscribers) are, and subscribers receive messages based on their interest in certain topics.
-	- ## [[NATS]] PubSub workings in more detail
+	- ## NATS PubSub Workings
 		- **Publishing Messages**
 			- Publishers send messages to NATS without needing to know who or how many subscribers there are. Messages are sent to a specific subject, which acts as a category or topic for the message.
 		- **Subscribing to Subjects**

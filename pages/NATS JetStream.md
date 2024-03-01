@@ -1,0 +1,22 @@
+tags:: [[NATS]]
+
+- ## NATS JetStream
+	- NATS JetStream is an advanced messaging system built on top of the NATS messaging system. It provides features for persistent storage, message replay, and high-performance message delivery. JetStream is designed to handle large volumes of messages with low latency and high reliability, making it suitable for use cases such as event sourcing, microservices communication, and IoT data processing.
+	- ## Features of NATS JetStream
+		- **Message Persistence**
+			- JetStream stores messages in a durable and persistent manner, ensuring that messages are not lost in the event of a system failure. Messages can be stored in memory, on disk, or in an external storage system such as a database.
+		- **Message Replay**
+			- JetStream allows subscribers to replay messages from a specific point in time, enabling applications to recover from failures or process messages that were missed during downtime.
+		- **Consumer Groups**
+			- JetStream supports consumer groups, which allow multiple consumers to consume messages from the same stream. Consumer groups can be used to scale message processing and ensure that messages are evenly distributed among consumers.
+		- **Message Retention Policies**
+			- JetStream allows users to configure message retention policies, such as the maximum number of messages to retain or the maximum age of messages. This allows users to control how long messages are retained in the system.
+		- **Message Acknowledgement**
+			- JetStream supports message acknowledgement, where consumers can acknowledge receipt of messages. This ensures that messages are not lost if a consumer fails before processing the message.
+		- **Message Filtering**
+			- JetStream allows users to filter messages based on specific criteria, such as message headers or content. This can be useful for routing messages to different consumers based on their content.
+		- **High Availability**
+			- JetStream supports clustering and replication, ensuring high availability and fault tolerance. Messages can be replicated across multiple servers to ensure that messages are not lost in the event of a server failure.
+	- Overall, NATS JetStream provides a robust and reliable messaging solution for building distributed systems that require high-performance message delivery, persistence, and message replay capabilities.
+	- ## NATS JetStream Resources
+		- [JetStream - NATS Docs](https://docs.nats.io/nats-concepts/jetstream)
