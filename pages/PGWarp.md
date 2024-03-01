@@ -10,10 +10,11 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 	- ## PGWap Requirements
 		- Watch the [[PostgreSQL WAL]] and publish those [[WAL]] events in to [[NATS]].
 		- [[NATS Subject]] mappings for the events would look like `[database].[schema].[table]`. This can be overridden by custom event mapping or a table could get a totally custom subject name if it's manually defined.
-		- Persistent and ephemeral streams.
+		- Persistent and Ephemeral streams.
 			- A stream will default to being persistent but this can be modified per table marking it's  stream as persistent or ephemeral.
 			- A persistent stream would be using [[NATS JetStream]] instance.
 			- A ephemeral stream would be using [[NATS PubSub]] instance.
+		- Snapshots and Incremental-Snapshots.
 	- ## PGWap Architecture
 		- [[PGWap Architecture]]
 	- ## PGWarp Resources
