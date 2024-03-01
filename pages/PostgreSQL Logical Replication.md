@@ -1,4 +1,4 @@
-tags:: [[PostgreSQL]]
+tags:: [[PostgreSQL]], [[Replication]]
 
 - # PostgreSQL Logical Replication
 	- [[PostgreSQL]] logical replication is a method of replicating data changes (`inserts`, `updates`, `deletes`) between databases at a logical level, rather than replicating the entire physical database files. It allows you to replicate only the changes made to selected tables or databases, providing more flexibility compared to physical replication, which replicates at the block level.
