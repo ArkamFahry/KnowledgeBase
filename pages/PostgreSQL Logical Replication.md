@@ -1,0 +1,22 @@
+tags:: [[PostgreSQL]]
+
+- # PostgreSQL Logical Replication
+	- [[PostgreSQL]] logical replication is a method of replicating data changes (`inserts`, `updates`, `deletes`) between databases at a logical level, rather than replicating the entire physical database files. It allows you to replicate only the changes made to selected tables or databases, providing more flexibility compared to physical replication, which replicates at the block level.
+	- ## How PostgreSQL Logical Replication Works
+		- **Publication**
+			- The process starts with creating a publication on the source database. A publication is a named collection of tables and/or databases that will be replicated. You can choose to replicate all tables in a database or only specific tables.
+		- **Subscription**
+			- On the destination database, you create a subscription. A subscription specifies the source database and publication to replicate from. You can have multiple subscriptions for a single publication, allowing you to replicate to different destinations.
+		- **Replication Slots**
+			- PostgreSQL uses replication slots to keep track of the progress of replication. When a subscription is created, a replication slot is automatically created on the source database. The slot ensures that the data is retained until all subscribers have processed it.
+		- **[[WAL]] (Write-Ahead Logging)**
+			- PostgreSQL uses its [[WAL]] to record changes to the database. In logical replication, the WAL records are used to capture the changes to the tables included in the publication.
+		- **Sending Changes**
+			- As changes are made to the tables in the publication, PostgreSQL captures these changes in the WAL. The changes are then read from the WAL and sent to the subscribers as logical changes (inserts, updates, deletes).
+		- **Applying Changes**
+			- On the subscriber side, the logical changes are applied to the tables in the subscription. This keeps the data in sync between the source and destination databases.
+		- **Conflict Resolution**
+			- PostgreSQL provides conflict resolution mechanisms for handling conflicts that may arise when applying changes. You can specify how conflicts should be resolved, such as by choosing the source or destination value.
+		- **Monitoring**
+			- PostgreSQL provides monitoring functions to track the status of replication, such as the progress of replication, whether it's caught up with the source, and any errors that may have occurred.
+	- Overall, PostgreSQL logical replication provides a flexible and efficient way to replicate data changes between databases, allowing you to build scalable and reliable replication solutions.
