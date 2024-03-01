@@ -8,19 +8,22 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 		- Incremental-Snapshot
 			- Incremental-Snapshot is the process of scanning a full table in [[PostgreSQL]] block by block without locking the whole table. This is done parallel while reading the [[PostgreSQL WAL]] log.
 		- Stream
-			- stream is used to describe a stream of event changes from a [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate` and `snapshot`.
+			- stream is used to describe a stream of event changes from a [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate`, `snapshot` and `unknown`.
 		- Event
-			- The message returned for a operation in [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate` and `snapshot`.
+			- The message returned for a operation in [[PostgreSQL]] table like `insert`, `update`, `delete`, `truncate`, `snapshot` and `unknown`.
 			- Event Format.
 				- ```sudo
 				  Event {
 				    database: string -- database name
 				    schema: string -- schema name
 				    table: string -- table name
-				    operation: string -- operation name from (insert, update, delete, truncate, snapshot, unknown)
-				    data_before: any -- before data value before the operation if "insert" it will be null
-				    data_after: any -- after data value after the operation if "delete" it will be null
-				    created_at: timestamp -- timestamp when the event was created this is represented in ISO date time 
+				    operation: string -- operation name in (insert, update, delete, truncate, snapshot, unknown)
+				    data {
+				    	before: any -- before data value before the operation if `insert` it will be null
+				    	after: any -- after data value after the operation if `delete` it will be null
+				      diff: any -- diff data value is shows the changed value in a `update` operation it will be null if no change
+				    }
+				    created_at: timestamptz -- timestamp when the event was created this is represented in ISO date time 
 				  }
 				  ```
 	- ## PGWap Requirements
