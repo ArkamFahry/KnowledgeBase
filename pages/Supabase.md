@@ -1,4 +1,4 @@
-tags:: [[BaaS]], [[GraphQL]], [[REST]], [[PostgREST]], [[PostgreSQL]]
+tags:: [[BaaS]], [[GraphQL]], [[REST]], [[PostgREST]], [[PostgreSQL]], [[Realtime Database]]
 
 - # Supabase: The Open Source Firebase Alternative
 	- ![supabase.png](../assets/supabase_1687622345462_0.png)

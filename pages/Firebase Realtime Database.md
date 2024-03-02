@@ -20,3 +20,6 @@ tags:: [[Firebase]], [[Realtime Database]]
 		- **Real-time listeners**
 			- Firebase Realtime Database provides real-time listeners that allow you to listen for changes to data at a specific location in the database. This allows you to update your app's UI in response to changes in the database.
 	- In summary, Firebase Realtime Database is a powerful and flexible database service that provides real-time synchronization, offline support, and seamless integration with other Firebase services, making it ideal for building real-time collaborative applications.
+	- ## Firebase Realtime Database Resources
+		- [Firebase Realtime Database](https://firebase.google.com/docs/database)
+	- {{video https://www.youtube.com/watch?v=U5aeM5dvUpA&list=PLl-K7zZEsYLmgdxMEHar35Wo26fLWm9BI}}

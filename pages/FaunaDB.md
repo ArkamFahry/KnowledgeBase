@@ -1,4 +1,4 @@
-tags:: [[Multi-Model Database]], [[ACID]], [[Distributed Database]]
+tags:: [[Multi-Model Database]], [[ACID]], [[Distributed Database]], [[Realtime Database]]
 
 - # FaunaDB
 	- ![faunadb.png](../assets/faunadb_1705928188310_0.png)
