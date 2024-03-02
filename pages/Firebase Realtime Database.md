@@ -1,0 +1,22 @@
+tags:: [[Firebase]], [[Realtime Database]]
+
+- # Firebase Realtime Database
+	- Firebase Realtime Database is a cloud-hosted NoSQL database provided by Google as part of the Firebase platform. It is designed to store and sync data in real-time between clients and servers.
+	- ## Detailed explanation of its key features and how it works
+		- **Real-time synchronization**
+			- Firebase Realtime Database uses WebSockets to keep data synchronized between clients and the server. When data changes on the server, it is automatically pushed to all connected clients in milliseconds, allowing for real-time updates in your app.
+		- **NoSQL database**
+			- Firebase Realtime Database is a NoSQL database, which means it stores data in a flexible, schema-less format. You can store JSON-like data, making it easy to work with in web and mobile applications.
+		- **Offline support**
+			- Firebase Realtime Database provides offline support, allowing your app to continue working even when the device is offline. When the device comes back online, the local changes are synced with the server automatically.
+		- **Security rules**
+			- Firebase Realtime Database allows you to define security rules that determine who has access to read or write data. These rules are written in a simple JSON-like format and can be customized to fit your app's needs.
+		- **Scalability**
+			- Firebase Realtime Database is designed to scale automatically to handle millions of concurrent connections and thousands of writes per second, making it suitable for high-traffic applications.
+		- **Integration with other Firebase services**
+			- Firebase Realtime Database integrates seamlessly with other Firebase services, such as Firebase Authentication, Firebase Cloud Messaging, and Firebase Analytics, allowing you to build powerful, integrated apps.
+		- **Cross-platform support**
+			- Firebase Realtime Database supports web, iOS, and Android platforms, allowing you to build cross-platform apps that share the same backend infrastructure.
+		- **Real-time listeners**
+			- Firebase Realtime Database provides real-time listeners that allow you to listen for changes to data at a specific location in the database. This allows you to update your app's UI in response to changes in the database.
+	- In summary, Firebase Realtime Database is a powerful and flexible database service that provides real-time synchronization, offline support, and seamless integration with other Firebase services, making it ideal for building real-time collaborative applications.
