@@ -34,6 +34,7 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 				  Subject = database.schema.table.operation
 				  ```
 	- ## PGWap Requirements
+		- Multi-Tenancy. A single instance should be able to interact with multiple [[PostgreSQL]] databases.
 		- Watch the [[PostgreSQL WAL]] and publish those [[WAL]] events in to [[NATS]].
 		- [[NATS Subject]] mappings for the events would look like `[database].[schema].[table].[operation]`. This can be overridden by custom event mapping or a table could get a totally custom subject name if it's manually defined.
 		- Persistent and Ephemeral streams.
