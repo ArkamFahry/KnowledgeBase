@@ -1,0 +1,23 @@
+# PCC: Pessimistic Concurrency Control
+	- Pessimistic Concurrency Control (PCC) is a method used in database management systems to control access to data during transactions. It is based on the assumption that conflicts between transactions are likely to occur, so it takes a cautious approach by locking data to prevent other transactions from modifying it until the current transaction is completed.
+	- ## How Pessimistic Concurrency Control works
+		- **Locking Mechanism**
+			- PCC uses locks to control access to data. When a transaction needs to read or modify data, it first acquires a lock on the data item. There are two types of locks used in PCC:
+				- **Read Lock (Shared Lock)**
+					- Allows multiple transactions to read the data item simultaneously but prevents any transaction from modifying it.
+				- **Write Lock (Exclusive Lock)**
+					- Allows only one transaction to write or modify the data item, and prevents other transactions from reading or writing to it.
+		- **Transaction Process**
+			- **Lock Acquisition**
+				- When a transaction needs to access a data item, it first acquires the appropriate lock (read or write) on the item.
+			- **Data Access**
+				- Once the lock is acquired, the transaction can read or modify the data item as needed.
+			- **Lock Release**
+				- After completing its operation on the data item, the transaction releases the lock, allowing other transactions to access the data.
+		- **Concurrency Control**
+			- PCC ensures that only one transaction can hold a write lock on a data item at a time, preventing conflicts that could arise if multiple transactions try to modify the same data concurrently. However, it allows multiple transactions to hold read locks simultaneously, enabling concurrent read access.
+		- **Deadlock Handling**
+			- One challenge with PCC is deadlock, which occurs when two or more transactions are waiting for locks held by each other, causing a circular dependency. To prevent deadlock, PCC implementations typically use techniques such as timeout mechanisms or deadlock detection algorithms to break the deadlock and allow the transactions to proceed.
+		- **Performance Considerations**
+			- While PCC provides strong consistency guarantees, it can also lead to performance issues, especially in highly concurrent environments. Lock contention, where transactions are waiting to acquire locks, can reduce the throughput of the system. To mitigate this, PCC implementations often use techniques such as lock escalation (convert multiple fine-grained locks into a single coarse-grained lock) or lock promotion (upgrade a read lock to a write lock) to reduce the number of locks held.
+	- In summary, Pessimistic Concurrency Control is a concurrency control mechanism used in database systems to ensure data consistency by using locks to control access to data. While it provides strong consistency guarantees, it can also lead to performance issues, especially in highly concurrent environments, and requires careful management of locks to avoid deadlocks.
