@@ -1,0 +1,21 @@
+# DOCC: Deterministic Optimistic Concurrency Control
+	- Deterministic Optimistic Concurrency Control (DOCC) is an extension of the traditional Optimistic Concurrency Control ([[OCC]]) technique, designed to handle conflicts in a deterministic manner. DOCC aims to provide more predictable outcomes when conflicts occur, which can be useful in scenarios where conflicts are frequent or where the application requires deterministic conflict resolution logic.
+	- Here's how Deterministic Optimistic Concurrency Control works:
+		- **Versioning**
+			- Similar to [[OCC]], DOCC associates each data item with a version number or timestamp to track changes.
+		- **Transaction Process**
+			- **Read Phase**
+				- When a transaction reads a data item, it records the version number or timestamp of the item.
+			- **Write Phase**
+				- When a transaction modifies a data item, it checks if the version number or timestamp of the item has changed since it was last read. If the version has not changed, the transaction proceeds with the update. If the version has changed, a conflict is detected.
+		- **Conflict Detection**
+			- DOCC detects conflicts at the time of transaction commit, similar to [[OCC]], by comparing the version number or timestamp of each data item modified by the transaction with the current version of the item in the database.
+		- **Deterministic Conflict Resolution**
+			- In DOCC, conflicts are resolved in a deterministic manner using predefined conflict resolution logic. This logic can be implemented based on application requirements and can include strategies such as "last writer wins," "merge conflicting changes," or other custom resolution strategies.
+			- The key difference from traditional [[OCC]] is that DOCC ensures that conflicts are resolved in a consistent and predictable manner, regardless of the order in which transactions are executed.
+		- **Transaction Commit**
+			- If no conflicts are detected, the transaction is committed, and the updated data is written to the database. The version numbers or timestamps of the modified data items are incremented to indicate the changes.
+		- **Performance Considerations**
+			- DOCC can provide more predictable outcomes in scenarios where conflicts are frequent, as the conflict resolution logic is deterministic.
+		- However, the deterministic nature of conflict resolution may introduce additional complexity and overhead, particularly in scenarios where conflicts are rare, as the application must implement and manage custom conflict resolution logic.
+		- In summary, Deterministic Optimistic Concurrency Control extends the traditional Optimistic Concurrency Control technique by providing a deterministic approach to conflict resolution. While it can offer more predictable outcomes in scenarios with frequent conflicts, it may introduce additional complexity and overhead compared to traditional [[OCC]].
