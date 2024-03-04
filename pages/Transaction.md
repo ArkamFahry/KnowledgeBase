@@ -1,0 +1,14 @@
+# Transaction
+	- A transaction in the context of databases is a unit of work that is performed against a database. It is a logical unit of work that must be either entirely completed or aborted, ensuring data integrity and consistency in a database system.
+	- ## key aspects of a transaction
+		- **Atomicity**
+			- Transactions are atomic, meaning that they are either completed in their entirety or completely undone. There is no partial execution. If any part of the transaction fails, the entire transaction is rolled back to its original state.
+		- **Consistency**
+			- Transactions ensure that the database remains in a consistent state before and after the transaction is executed. This means that the database's integrity constraints are not violated.
+		- **Isolation**
+			- Transactions are isolated from each other, meaning that the changes made by one transaction are not visible to other transactions until the changes are committed. This prevents interference between transactions.
+		- **Durability**
+			- Once a transaction is committed, its changes are permanent and survive system failures. This is typically achieved by writing the changes to non-volatile storage (disk).
+		- **Concurrency Control**
+			- Transactions can be executed concurrently, but the database system must ensure that the results of concurrent transactions are consistent and do not interfere with each other. This is typically achieved using locking mechanisms and transaction isolation levels.
+	- Transactions play a crucial role in ensuring data integrity and consistency in database systems, especially in multi-user environments where multiple transactions may be executed concurrently. They allow complex operations to be performed reliably and ensure that the database remains in a valid state even in the presence of failures.

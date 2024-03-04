@@ -1,4 +1,4 @@
-tags:: [[BaaS]], [[DBaaS]], [[TypeScript]], [[Realtime Database]], [[Software Defined Database]]
+tags:: [[BaaS]], [[DBaaS]], [[TypeScript]], [[Realtime Database]], [[Software Defined Database]], [[OCC]], [[DOCC]]
 
 - # Convex
 	- ![convex.png](../assets/convex_1709359068241_0.png)

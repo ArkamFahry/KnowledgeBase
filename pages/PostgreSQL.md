@@ -1,4 +1,4 @@
-tags:: [[Relational Database]], [[SQL]]
+tags:: [[Relational Database]], [[SQL]], [[MVCC]]
 
 - # PostgreSQL: The world's most advanced open source database
 	- ![postgresql.png](../assets/postgresql_1688042265287_0.png){:height 476, :width 749}

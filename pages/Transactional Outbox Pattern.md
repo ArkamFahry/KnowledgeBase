@@ -1,4 +1,6 @@
-# Transactional Outbox Pattern
+tags:: [[Transaction]]
+
+- # Transactional Outbox Pattern
 	- The Transactional Outbox Pattern is a technique used in distributed systems to ensure consistency and reliability when dealing with the coordination of multiple actions across different services or components. It's particularly helpful in scenarios where you need to maintain consistency in the face of potential failures or inconsistencies between different parts of a system.
 	- In a distributed system, various components or services often need to communicate and perform actions that are interdependent. For instance, when processing an order in an e-commerce system, you might need to update inventory, send confirmation emails, and update the order status. If any of these steps fail or encounter issues, it can lead to inconsistencies in the system.
 	- The Transactional Outbox Pattern helps in addressing these challenges by introducing a concept called an "outbox."

@@ -1,0 +1,16 @@
+# MVCC: Multi-Version Concurrency Control
+	- MVCC stands for Multi-Version Concurrency Control, which is a technique used in database management systems to provide concurrent access to data while ensuring consistency and isolation. MVCC allows multiple transactions to read and write data simultaneously without blocking each other, improving concurrency and performance.
+	- ## How MVCC works in detail
+		- **Versioning**
+			- MVCC creates a separate version of each data row for every transaction that modifies it. When a transaction reads data, it sees a version of the data that is consistent with the state of the database at the start of the transaction.
+		- **Reads**
+			- When a transaction reads data, it checks the version of the data to ensure that it is consistent with the transaction's start time. If the data has been modified by another transaction after the start of the current transaction, the database retrieves the previous version of the data.
+		- **Writes**
+			- When a transaction writes data, it creates a new version of the data rather than overwriting the existing data. This allows other transactions to continue reading the old version of the data until the writing transaction is committed.
+		- **Visibility**
+			- MVCC ensures that each transaction sees a consistent view of the database at the start of the transaction. This means that transactions are isolated from each other and do not see the effects of other transactions until they are committed.
+		- **Concurrency**
+			- MVCC allows multiple transactions to read and write data concurrently without blocking each other. This improves concurrency and performance, as transactions do not have to wait for exclusive access to data.
+		- **Garbage Collection**
+			- Old versions of data that are no longer needed are eventually removed by a process called garbage collection. This frees up space in the database and helps maintain performance over time.
+	- MVCC is widely used in modern relational database management systems (RDBMS) such as [[PostgreSQL]], Oracle, and MySQL's InnoDB storage engine. It is a key feature that enables these systems to provide high levels of concurrency, consistency, and performance in multi-user environments.
