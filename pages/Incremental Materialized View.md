@@ -1,0 +1,28 @@
+tags:: [[Materialized View]]
+
+- # Incremental Materialized View
+	- An Incremental Materialized View is a type of [[Materialized View]] that is designed to efficiently maintain its data when the underlying data changes. Traditional materialized views require a full refresh of all data, which can be expensive for large datasets. Incremental materialized views, on the other hand, use incremental view maintenance techniques to update only the changed data, making them more efficient for maintaining up-to-date views.
+	- ## How a Incremental Materialized View works
+		- **Initial Materialization**
+			- Similar to a traditional materialized view, an incremental materialized view is initially populated with data by executing a query against the base tables.
+		- **Change Tracking**
+			- The incremental materialized view keeps track of changes to the base tables. This can be done using various techniques, such as triggers, change data capture mechanisms, or by querying system logs.
+		- **Incremental Updates**
+			- When the base data changes, the incremental materialized view uses the change tracking information to determine which rows have been added, updated, or deleted. Instead of refreshing the entire view, only these incremental changes are applied to the materialized view.
+		- **Efficient Updates**
+			- Incremental updates can be more efficient than full refreshes, especially for large datasets. By only applying the changes, the incremental materialized view can stay up-to-date with less overhead.
+		- **Querying**
+			- Just like a traditional materialized view, you can query an incremental materialized view to retrieve data. The incremental updates ensure that the view reflects the current state of the base data.
+		- **Benefits**
+			- Reduced overhead
+				- Incremental materialized views reduce the overhead of maintaining materialized views, especially for large datasets or frequent changes.
+			- Faster updates
+				- Since only the incremental changes are applied, updates to incremental materialized views are typically faster than full refreshes.
+			- Real-time analytics
+				- Incremental materialized views can be used for real-time analytics, as they can quickly reflect changes to the underlying data.
+		- **Considerations**
+			- Change tracking overhead
+				- The mechanisms used to track changes to the base data can introduce some overhead. Care should be taken to minimize this overhead, especially for high-volume transactional systems.
+			- Complexity
+				- Implementing and maintaining incremental materialized views can be more complex than traditional materialized views, as it involves managing change tracking mechanisms and ensuring data consistency.
+	- Overall, incremental materialized views are a powerful tool for efficiently maintaining up-to-date views of large datasets with minimal overhead. They are particularly useful in scenarios where real-time or near-real-time analytics are required.

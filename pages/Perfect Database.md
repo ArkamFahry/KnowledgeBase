@@ -10,6 +10,8 @@ tags:: [[Database]], [[NewSQL]]
 		- Database should be reactive meaning any query to the database should be able to be turned into a subscription query which returns data in real-time.
 		- Database should have a directly usable and reliable [[CDC]] stream.
 		- Database should should have reliable event triggers which can be used by applications to listen to database changes.
+		- Database should support incrementally maintained computed fields.
+		- Database should support incrementally maintained computed .
 		- Database should be [[ACID]] compliant.
 		- Database should support strictly [[Serializable Transaction]] with [[DOCC]]. This means database supports the highest level of consistency with the highest level of concurrency.
 		- Database should support full-text search and vector search natively.

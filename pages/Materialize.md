@@ -1,4 +1,4 @@
-tags:: [[Streaming Database]], [[Timely Dataflow]], [[PostgreSQL]], [[Rust]], [[Realtime Database]]
+tags:: [[Streaming Database]], [[Timely Dataflow]], [[PostgreSQL]], [[Incremental Materialized View]], [[Realtime Database]], [[Rust]]
 
 - # Materialize
 	- ![materialize.png](../assets/materialize_1707405665012_0.png)

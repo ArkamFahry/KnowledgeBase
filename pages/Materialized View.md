@@ -1,0 +1,26 @@
+tags:: [[Database]]
+
+- # Materialized View
+	- A Materialized View is a database object that contains the results of a query. Unlike a regular view, which simply stores a query definition and re-evaluates it every time it is referenced in a query, a materialized view actually stores the results of the query in a table-like structure. This makes accessing the data much faster, especially for complex queries or when dealing with large amounts of data.
+	- ## How a Materialized View works
+		- **Definition**
+			- You create a materialized view by defining a query that selects the data you want to store in the view. This query can join multiple tables, aggregate data, or perform any other operation that regular queries can do.
+		- **Materialization**
+			- When you create the materialized view, the database engine executes the query and stores the results in a table-like structure. This means that the data is precomputed and ready to be accessed without re-evaluating the query.
+		- **Refresh**
+			- The data in a materialized view can become stale if the underlying data in the tables it depends on changes. To keep the materialized view up-to-date, you need to periodically refresh it. This can be done manually or automatically by the database system.
+		- **Querying**
+			- Once the materialized view is populated with data, you can query it just like you would query a regular table. Since the data is precomputed, queries against the materialized view can be much faster than re-evaluating the original query every time.
+		- **Benefits**
+			- Performance
+				- Materialized views can significantly improve query performance, especially for complex queries or when dealing with large datasets.
+			- Reduced load
+				- By precomputing and storing query results, materialized views can reduce the load on the database server, especially for queries that are executed frequently.
+			- Offline analysis
+				- Materialized views can be used for offline analysis or reporting, as they store a snapshot of the data at a specific point in time.
+		- **Considerations**
+			- Storage
+				- Materialized views consume storage space to store the precomputed results. You need to consider the storage requirements when creating materialized views, especially for large datasets.
+			- Refresh frequency
+				- The frequency at which you refresh the materialized view depends on the rate at which the underlying data changes and the requirements of your application. Too frequent refreshes can impact performance, while too infrequent refreshes can result in stale data.
+	- Overall, materialized views are a powerful tool for improving query performance and reducing the load on database servers, especially in scenarios where data is relatively static or changes infrequently.
