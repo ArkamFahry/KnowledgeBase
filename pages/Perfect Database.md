@@ -7,13 +7,13 @@ tags:: [[Database]], [[NewSQL]]
 		- Database should be document based with inter document relationship support meaning the database would be a document relational database.
 		- Database should support schema less, partial schemas and full schema support.
 		- Database should generate schema on the fly by smartly introspecting and detecting what data is in a table and generates a schema.
-		- Database should be reactive meaning any query to the database should be able to be turned into a subscription query which returns data in real-time.
+		- Database should be reactive meaning any query to the database should be able to turn into a subscription query which returns data in real-time.
 		- Database should have a directly usable and reliable [[CDC]] stream.
 		- Database should should have reliable event triggers which can be used by applications to listen to database changes.
-		- Database should support incrementally maintained computed fields.
+		- Database should support computed fields.
 		- Database should support [[Incremental Materialized View]]'s.
 		- Database should be [[ACID]] compliant.
-		- Database should support strictly [[Serializable Transaction]] with [[DOCC]]. This means database supports the highest level of consistency with the highest level of concurrency.
+		- Database should support strictly [[Serializable Transaction]] with [[DOCC]] with automatic transaction retries. This means database supports the highest level of consistency with the highest level of concurrency.
 		- Database should support full-text search and vector search natively.
 		- Database should support for running delayed database mutations and queries.
 		- Database should generate fully type safe clients for any language.
@@ -24,6 +24,6 @@ tags:: [[Database]], [[NewSQL]]
 		- Database should support native dataflow based caching which are automatically maintained.
 		- Database support running serverless functions literally in the database right next to the data making the functions fast as possible.
 			- Database should use the database guarantees to execute code as workflows.
-			- Database functions should have the ability to react to database changes. Add the ability to run functions on database events reacting to database changes.
+			- Database functions should have the ability to run functions on database events reacting to database changes.
 			- Database functions should have the ability to have auto retries with exponential backoff on functions without extra config.
 		- Database should have the Ability to run [[WASM]] modules directly in the database.
