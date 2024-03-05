@@ -11,16 +11,17 @@ tags:: [[Database]], [[NewSQL]]
 		- Database should have a directly usable and reliable [[CDC]] stream.
 		- Database should should have reliable event triggers which can be used by applications to listen to database changes.
 		- Database should support incrementally maintained computed fields.
-		- Database should support incrementally maintained computed .
+		- Database should support [[Incremental Materialized View]]'s.
 		- Database should be [[ACID]] compliant.
 		- Database should support strictly [[Serializable Transaction]] with [[DOCC]]. This means database supports the highest level of consistency with the highest level of concurrency.
 		- Database should support full-text search and vector search natively.
 		- Database should support for running delayed database mutations and queries.
 		- Database should generate fully type safe clients for any language.
 		- Database should have native soft deletes and ability to set when to permanent the soft delete.
-		- Database should support native versioning of data to track all changes. meaning we can get
+		- Database should support native versioning of data to track all changes. meaning we can get audit history of every change to the data.
 		- Database should support native TTL for data with permanent and soft delete.
 		- Database should support native object storage.
+		- Database should support native dataflow based caching which are automatically maintained.
 		- Database support running serverless functions literally in the database right next to the data making the functions fast as possible.
 			- Database should use the database guarantees to execute code as workflows.
 			- Database functions should have the ability to react to database changes. Add the ability to run functions on database events reacting to database changes.
