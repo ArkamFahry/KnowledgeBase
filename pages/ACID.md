@@ -1,0 +1,12 @@
+# ACID
+	- ACID is an acronym that stands for Atomicity, Consistency, Isolation, and Durability. It is a set of properties that guarantee that database transactions are processed reliably.
+	- ## Detailed explanation of components of ACID
+		- **Atomicity**
+			- Atomicity ensures that either all operations in a transaction are completed successfully, or none of them are. This means that if any part of a transaction fails, the entire transaction is rolled back, and the database is left unchanged. For example, if you transfer money from one account to another, atomicity ensures that either the full amount is transferred, or no money is transferred at all.
+		- **Consistency**
+			- Consistency ensures that a transaction brings the database from one valid state to another. This means that any constraints or rules defined in the database schema are not violated during the transaction. For example, if you have a constraint that requires all email addresses to be unique, a transaction that tries to insert a duplicate email address would be aborted to maintain consistency.
+		- **Isolation**
+			- Isolation ensures that the execution of transactions concurrently produces the same result as if they were executed serially. This means that transactions are isolated from each other, and the result of a transaction is not affected by other transactions running at the same time. Isolation is typically achieved through locking mechanisms to prevent concurrent transactions from interfering with each other.
+		- **Durability**
+			- Durability ensures that once a transaction is committed, its effects are permanent and cannot be undone, even in the event of a system failure. This means that the changes made by a transaction are stored permanently in the database and will not be lost, even if the database crashes immediately after the transaction is committed.
+	- Together, these properties ensure that database transactions are reliable, consistent, and maintain data integrity, even in the presence of failures or concurrent operations. ACID compliance is essential for applications that require high levels of data reliability and consistency, such as banking systems, e-commerce platforms, and other critical systems.

@@ -22,6 +22,7 @@ tags:: [[Database]], [[NewSQL]]
 		- Database should support native TTL for data with permanent and soft delete.
 		- Database should support native object storage.
 		- Database should support native dataflow based caching which are automatically maintained.
+		- Database should have data consistency not only on the database level. The data should be consistent up to the application level meaning the database should keep application state consistent with database state at all time.
 		- Database support running serverless functions literally in the database right next to the data making the functions fast as possible.
 			- Database should use the database guarantees to execute code as workflows.
 			- Database functions should have the ability to run functions on database events reacting to database changes.
