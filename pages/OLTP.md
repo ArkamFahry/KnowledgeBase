@@ -1,6 +1,6 @@
 # OLTP: Online Transaction Processing
 	- OLTP stands for Online Transaction Processing, is a type of computing that manages transaction-oriented applications, typically for data entry and retrieval transactions in a database.
-	- ## Key aspects of OLTP systems
+	- ## Key characteristics of OLTP systems
 		- **Transactional Nature**
 			- OLTP systems are designed to handle a large number of small, interactive transactions. These transactions are typically short-lived and involve inserting, updating, or deleting small amounts of data. For example, in a banking system, transferring money between accounts or updating a customer's information are typical OLTP transactions.
 		- **Real-Time Processing**

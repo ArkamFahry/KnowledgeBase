@@ -1,4 +1,4 @@
-tags:: [[TiKV]], [[MySQL]], [[NewSQL]], [[Go]]
+tags:: [[TiKV]], [[MySQL]], [[NewSQL]], [[Go]], [[Rust]], [[HTAP]]
 
 - # TIDB
 	- ![tidb.png](../assets/tidb_1703920081037_0.png){:height 317, :width 758}

@@ -4,6 +4,7 @@ tags:: [[Database]], [[NewSQL]]
 	- ## Features of a perfect database
 	  id:: 65e48511-2c0f-42e8-8eb3-fc305192f2ee
 		- Database should have storage and compute separated.
+		- Database should support [[OLTP]] and [[OLAP]] workloads meaning it should be a [[HTAP]] database.
 		- Database should be document based with inter document relationship support meaning the database should be a document relational database.
 		- Database should support schema less, partial schemas and full schema support.
 		- Database should generate schema on the fly by smartly introspecting and detecting what data is in a table and generates a schema.
