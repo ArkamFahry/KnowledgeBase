@@ -1,0 +1,18 @@
+# OLTP: Online Transaction Processing
+	- OLTP stands for Online Transaction Processing, is a type of computing that manages transaction-oriented applications, typically for data entry and retrieval transactions in a database.
+	- ## key aspects of OLTP systems
+		- **Transactional Nature**
+			- OLTP systems are designed to handle a large number of small, interactive transactions. These transactions are typically short-lived and involve inserting, updating, or deleting small amounts of data. For example, in a banking system, transferring money between accounts or updating a customer's information are typical OLTP transactions.
+		- **Real-Time Processing**
+			- OLTP systems are optimized for real-time processing. This means that transactions are processed immediately as they occur, and users expect quick response times. For example, when a customer makes a purchase on an e-commerce website, the system needs to update inventory and process the payment in real time.
+		- **Data Integrity**
+			- Maintaining data integrity is crucial in OLTP systems. This means ensuring that data is accurate, consistent, and reliable. OLTP systems often use techniques such as transactions and locking to prevent data corruption and ensure that transactions are processed correctly.
+		- **Concurrency Control**
+			- OLTP systems often need to support multiple users accessing the same data simultaneously. Concurrency control mechanisms, such as locking, are used to ensure that transactions are processed in a consistent and isolated manner, even when multiple users are accessing the system concurrently.
+		- **High Availability**
+			- OLTP systems are designed to be highly available, meaning that they are always accessible and responsive to users. This is achieved through techniques such as replication and clustering, which ensure that the system can continue to operate even if some components fail.
+		- **Optimized for Reads and Writes**
+			- OLTP systems are optimized for both read and write operations. This is important because in transactional applications, data is constantly being updated and accessed by multiple users. OLTP systems use indexing and other optimization techniques to ensure that read and write operations are efficient.
+		- **Examples**
+			- OLTP systems are commonly used in applications such as banking systems, airline reservations, online shopping, and order processing systems, where transactions need to be processed quickly and reliably.
+	- In summary, OLTP systems are designed to handle transaction-oriented applications that require real-time processing, data integrity, concurrency control, and high availability. They are optimized for handling a large number of small, interactive transactions and are essential for ensuring the smooth operation of many modern applications.
