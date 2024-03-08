@@ -1,0 +1,20 @@
+# FaaS: Function as a Service
+	- FaaS stands for Function as a Service. It is a cloud computing model where cloud providers manage the infrastructure required to run individual functions or pieces of code. In FaaS, developers can upload functions, which are then executed in response to events, such as HTTP requests, database updates, or messages from a queue.
+	- ## Detailed explanation of how FaaS works
+		- **Event-driven execution**
+			- FaaS platforms are event-driven, meaning functions are executed in response to specific events. For example, an HTTP request to an API endpoint can trigger the execution of a function.
+		- **Serverless architecture**
+			- FaaS is often associated with serverless computing, where developers do not have to manage the underlying servers or infrastructure. The cloud provider automatically scales the infrastructure up or down based on the number of incoming requests.
+		- **Pay-per-use pricing**
+			- FaaS platforms typically offer a pay-per-use pricing model, where developers are charged based on the number of function executions and the execution time. This can lead to cost savings, as developers only pay for the resources they use.
+		- **Stateless functions**
+			- Functions in a FaaS environment are typically stateless, meaning they do not retain any state between executions. Any required state must be stored externally, such as in a database or a file system.
+		- **Support for multiple programming languages**
+			- FaaS platforms often support multiple programming languages, allowing developers to write functions in languages like JavaScript, Python, Java, and more.
+		- **Scalability and concurrency**
+			- FaaS platforms provide automatic scalability and concurrency management. Functions can be scaled horizontally to handle a large number of concurrent requests.
+		- **Event sources**
+			- FaaS platforms support a variety of event sources, such as HTTP requests, database changes, file uploads, and messaging queues. Developers can configure functions to respond to these events.
+		- **Short-lived functions**
+			- Functions in a FaaS environment are typically short-lived, with execution times ranging from milliseconds to a few minutes. Long-running tasks are not well-suited for FaaS and are better handled by other computing models.
+	- Overall, FaaS provides a scalable, cost-effective, and easy-to-use way to deploy and run code in the cloud, making it ideal for a wide range of use cases, such as web applications, data processing, and IoT applications.
