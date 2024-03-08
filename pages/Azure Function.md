@@ -1,4 +1,4 @@
-tags:: [[Azure]] , [[Serverless Function]]
+tags:: [[Azure]] , [[Serverless Function]], [[FaaS]]
 
 - # Azure Function
 	- ## Azure Function Resources

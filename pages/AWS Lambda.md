@@ -1,4 +1,4 @@
-tags:: [[AWS]], [[Serverless Function]]
+tags:: [[AWS]], [[Serverless Function]], [[FaaS]]
 
 - # AWS Lambda
 	- ## AWS Lambda Resources

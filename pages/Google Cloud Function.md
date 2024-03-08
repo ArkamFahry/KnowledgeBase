@@ -1,4 +1,4 @@
-tags:: [[GCP]] , [[Serverless Function]]
+tags:: [[GCP]] , [[Serverless Function]], [[FaaS]]
 
 - # GCP Cloud Function
 	- ## GCP Cloud Function Resources
