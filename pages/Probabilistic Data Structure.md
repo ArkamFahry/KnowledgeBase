@@ -1,4 +1,6 @@
-# Probabilistic Data Structure
+tags:: [[Data Structure]]
+
+- # Probabilistic Data Structure
 	- A probabilistic data structure is a data structure that uses probabilistic techniques to provide approximate answers or trade accuracy for efficiency. Unlike traditional data structures that aim for exact results, probabilistic data structures are designed to handle large datasets or streaming data where exact answers are impractical or too costly to compute.
 	- ## Key characteristics of probabilistic data structures
 		- **Approximate Results**

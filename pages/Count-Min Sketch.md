@@ -4,16 +4,16 @@ tags:: [[Probabilistic Data Structure]]
 	- Count-Min Sketch is a probabilistic data structure used for estimating frequencies of elements in a data stream. It trades accuracy for efficiency, allowing for approximate counts of elements with limited space usage.
 		- ## How Count-Min Sketch works
 			- **Initialization**
-				- Start with a two-dimensional array of counters, typically represented as \( \text{counters}[i][j] \), where \( i \) ranges from 1 to \( d \) and \( j \) ranges from 1 to \( w \). \( d \) is the number of hash functions and \( w \) is the number of counters per hash function.
+				- Start with a two-dimensional array of counters, typically represented as $$ \text{counters}[i][j]$$, where $$i$$ ranges from 1 to $$d$$ and $$j$$ ranges from 1 to $$w$$. $$d$$ is the number of hash functions and $$w$$ is the number of counters per hash function.
 			- **Hash Functions**
-				- Use \( d \) different hash functions to hash each element in the data stream. These hash functions should be independent and uniformly distribute elements across the counters.
+				- Use $$d$$ different hash functions to hash each element in the data stream. These hash functions should be independent and uniformly distribute elements across the counters.
 			- **Increment Counters**
 				- For each element in the data stream, increment the counters corresponding to the hashed indices from each hash function.
 			- **Estimating Frequency**
 				- To estimate the frequency of an element, hash it with each of the \( d \) hash functions to get \( d \) indices.
 				- Return the minimum value among the counters at these \( d \) indices. This minimum value provides an estimate of the frequency of the element in the data stream.
 			- **Error Bound**
-				- The Count-Min Sketch guarantees that the estimated frequency is within \( \epsilon \cdot \sum_{i=1}^{N} f_i \) of the true frequency with a probability of \( 1 - \delta \), where \( \epsilon \) and \( \delta \) are parameters that control the error probability, and \( f_i \) is the true frequency of the \( i \)th element in the stream.
+				- The Count-Min Sketch guarantees that the estimated frequency is within $$\epsilon \cdot \sum_{i=1}^{N} f_i$$ of the true frequency with a probability of $$1 - \delta$$, where $$\epsilon$$ and $$\delta$$ are parameters that control the error probability, and $$f_i$$ is the true frequency of the $$i$$ the element in the stream.
 			- **Applications**
 				- Count-Min Sketch is used in various applications where approximate counting is acceptable, such as network traffic monitoring, frequency estimation in data streams, and approximate querying in databases.
 			- **Trade-offs**
