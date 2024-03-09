@@ -1,0 +1,23 @@
+tags:: [[B-tree]]
+
+- # Prolly Tree: Probabilistic B-tree
+	- A Prolly Tree, short for Probabilistic B-tree, is a data structure that combines the benefits of probabilistic data structures with the structure of a B-tree. It is designed to efficiently store and manage large datasets while being able to scale to handle massive amounts of data. Prolly Trees are particularly useful in scenarios where traditional B-trees may become inefficient due to their fixed structure.
+	- ## Structure of a Prolly Tree
+		- A Prolly Tree consists of multiple levels, similar to a traditional B-tree. Each level, except for the leaf level, contains nodes that act as pointers to child nodes. However, unlike a traditional B-tree, the nodes in a Prolly Tree are probabilistic in nature.
+	- ## Probabilistic Nodes
+		- The nodes in a Prolly Tree are probabilistic, meaning they do not contain fixed pointers to child nodes. Instead, each node contains a probabilistic data structure, such as a [[Bloom Filter]] or a [[Cuckoo Filter]], which stores information about the keys present in its corresponding child node. This allows for efficient lookup and traversal of the tree without requiring precise pointers to child nodes.
+	- ## Benefits of Prolly Trees
+		- **Efficient Storage**
+			- Prolly Trees can store large datasets efficiently due to their probabilistic nature, which reduces the overhead of storing precise pointers to child nodes.
+		- **Scalability**
+			- Prolly Trees can scale to handle massive amounts of data by adjusting the parameters of the probabilistic data structures used in the nodes.
+		- **Flexibility**
+			- Prolly Trees are more flexible than traditional B-trees, as they do not require strict ordering of keys and can handle variable-sized keys.
+		- **Speed**
+			- Prolly Trees can offer fast lookup and traversal times, especially for large datasets, due to the efficient nature of probabilistic data structures.
+	- ## Drawbacks of Prolly Trees
+		- **Probability of False Positives**
+			- Probabilistic data structures like Bloom filters can introduce a small probability of false positives, meaning they may incorrectly report that an element is in the set when it is not. This can be mitigated by tuning the parameters of the data structures.
+		- **Complexity**
+			- Prolly Trees can be more complex to implement and manage compared to traditional B-trees, especially when dealing with the probabilistic nature of the nodes.
+	- In summary, a Prolly Tree is a data structure that combines the efficiency of probabilistic data structures with the structure of a [[B-tree]], making it suitable for storing and managing large datasets efficiently.
