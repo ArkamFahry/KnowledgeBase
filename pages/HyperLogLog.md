@@ -1,1 +1,23 @@
 tags:: [[Probabilistic Data Structure]]
+
+- # HyperLogLog
+	- HyperLogLog is a probabilistic data structure used for estimating the cardinality (number of distinct elements) of a set. It is designed to be highly memory-efficient while providing a reasonably accurate estimate of the number of unique elements in a large dataset.
+		- ## How HyperLogLog works
+			- **Initialization**
+				- Start with an array of registers, each initially set to zero. The number of registers is determined by the desired accuracy and is typically in the range of 64 to 4096.
+			- **Hashing**
+				- Use a hash function to map each element in the dataset to a binary string of fixed length (e.g., 64 bits). The hash function should be well-distributed to minimize collisions.
+			- **Determining Register Index**
+				- Use the first $$\text{p}$$ bits of the hash value to determine the index of the register to update, where $$p$$ is chosen based on the number of registers (e.g., $$p = \log_2(\text{number of registers})$$).
+			- **Counting Leading Zeros**
+				- Count the number of leading zeros in the remaining bits of the hash value after the first $$p$$ bits. Let $$\text{z}$$ be the number of leading zeros plus one.
+			- **Updating Register**
+				- Update the register at the determined index with the maximum of its current value and \( \text{z} \).
+			- **Estimating Cardinality**
+				- To estimate the cardinality, calculate $$\text{E} = \alpha \cdot \text{m}^2 / \sum_{i=1}^{m} 2^{-\text{register}[i]}$$, where $$\alpha$$ is a constant correction factor (e.g., $$0.7213 / (1 + 1.079 / m))$$, $$m$$ is the number of registers, and $$\text{register}[i]$$ is the value in the $$i$$th register.
+				- If $$\text{E}$$ is less than $$5/2 \cdot m$$, and there are registers with value 0, then the estimate is adjusted to $$m \cdot \log(m/V)$$, where $$V$$ is the number of registers with non-zero values.
+			- **Error Rate**
+				- HyperLogLog typically provides an error rate of around $$1.04 / \sqrt{m}$$, where $$m$$ is the number of registers.
+			- **Applications**
+				- HyperLogLog is used in scenarios where memory efficiency is crucial, such as in big data processing, distributed systems, and database analytics, to estimate the cardinality of large datasets.
+	- In summary, HyperLogLog is a probabilistic data structure that provides an efficient way to estimate the number of distinct elements in a large dataset with a controlled error rate. It is widely used in practice for cardinality estimation due to its memory efficiency and reasonable accuracy.

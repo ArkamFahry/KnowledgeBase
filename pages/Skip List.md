@@ -1,4 +1,4 @@
-tags:: [[DSA]], [[Data Structure]]
+tags:: [[DSA]], [[Data Structure]], [[Probabilistic Data Structure]]
 
 - # Skip List
 	- A skip list is a [[Data Structure]] which allows for efficient searching, insertion, and deletion of elements in a sorted sequence, somewhat similar to a Linked List but with additional layers of pointers or "skips" that provide quicker access to elements.
