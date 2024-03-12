@@ -1,8 +1,8 @@
 tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 
-- # PGWarp
+- # PGStream
 	- A custom implementation of [[CDC]] which subscribes to the [[PostgreSQL WAL]] and pushes these changes into [[NATS]] building a real-time reactive event pipeline for [[PostgreSQL]].
-	- ## PGWarp Technical Terms
+	- ## PGStream Technical Terms
 		- Snapshot
 			- Snapshot is the process of scanning a full table in [[PostgreSQL]] to get all the data from a table which doesn't exist in the [[PostgreSQL WAL]].
 		- Incremental-Snapshot
@@ -33,7 +33,7 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 				- ```pseudo
 				  Subject = database.schema.table.operation
 				  ```
-	- ## PGWap Requirements
+	- ## PGStream Requirements
 		- Multi-Tenancy. A single instance should be able to interact with multiple [[PostgreSQL]] databases.
 		- Watch the [[PostgreSQL WAL]] and publish those [[WAL]] events in to [[NATS]].
 		- [[NATS Subject]] mappings for the events would look like `[database].[schema].[table].[operation]`. This can be overridden by custom event mapping or a table could get a totally custom subject name if it's manually defined.
@@ -42,7 +42,7 @@ tags:: [[PostgreSQL]], [[CDC]], [[NATS]]
 			- A persistent stream would be using [[NATS JetStream]] instance.
 			- A ephemeral stream would be using [[NATS PubSub]] instance.
 		- Snapshots and Incremental-Snapshots.
-	- ## PGWap Architecture
-		- [[PGWap Architecture]]
-	- ## PGWarp Resources
-		- [GitHub - ArkamFahry/pgwarp: A real-time event stream on Postgres powered by CDC and NATS](https://github.com/ArkamFahry/pgwarp)
+	- ## PGStream Architecture
+		- [[PGStream Architecture]]
+	- ## PGStream Resources
+		- [GitHub - ArkamFahry/pgstream: A real-time event stream on Postgres powered by CDC and NATS](https://github.com/ArkamFahry/pgstream)

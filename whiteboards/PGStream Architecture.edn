@@ -2,9 +2,9 @@
 {:block/content ""
 :block/format :markdown
 :block/left 
-{:block/uuid #uuid "65e0a0e7-7637-4345-829c-b02db4fac506"}
+{:block/uuid #uuid "65e831bc-9420-44b4-a638-cb061af2a612"}
 :block/parent 
-{:block/uuid #uuid "65e0a0e7-7637-4345-829c-b02db4fac506"}
+{:block/uuid #uuid "65e831bc-9420-44b4-a638-cb061af2a612"}
 :block/properties 
 {}
 :block/uuid #uuid "65e09f43-d9da-436b-b9ae-48e0f6b2bf38"} 
@@ -80,6 +80,36 @@
 :nonce 1709219203304
 :italic false}}
 :block/updated-at 1709285778774} 
+{:block/created-at 1710264071182
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:rotation 0
+:borderRadius 0
+:index 14
+:scale [1 1]
+:scaleLevel "lg"
+:fill ""
+:type "text"
+:size [163 49]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "cac00fd0-d7ae-11ee-ac76-dd23226db8c8"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [776 112]
+:lineHeight 1.2
+:fontSize 32
+:parentId "65e0a0e7-7637-4345-829c-b02db4fac506"
+:nonce 1709285622424
+:italic false
+:text "PGStream"}}
+:block/updated-at 1710264071182} 
 {:block/created-at 1709285767327
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -168,7 +198,7 @@
 :nonce 1709219108799
 :italic false}}
 :block/updated-at 1709285618068} 
-{:block/created-at 1709285778773
+{:block/created-at 1709957445074
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -183,16 +213,16 @@
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:label "CDC"
+:label "WAL Reader "
 :id "f9de7400-d713-11ee-9a66-e7c6900baf2e"
 :fontWeight 400
 :noFill false
 :point [400 224]
 :fontSize 20
 :parentId "65e09cf9-5dff-439f-a735-92d59d3cf2cd"
-:nonce 1709219129796
+:nonce 1709219129824
 :italic false}}
-:block/updated-at 1709285778773} 
+:block/updated-at 1709957445074} 
 {:block/created-at 1709219793545
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -219,7 +249,7 @@
 :nonce 1709219129577
 :italic false}}
 :block/updated-at 1709219793545} 
-{:block/created-at 1709285767327
+{:block/created-at 1709957452440
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -234,7 +264,7 @@
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:label "Snapshot \nand\nIncremental\nSnapshot"
+:label "Snapshoter\nand\nIncremental\nSnapshoter"
 :id "03584ba0-d714-11ee-9a66-e7c6900baf2e"
 :fontWeight 400
 :noFill false
@@ -242,9 +272,9 @@
 :point [392 512]
 :fontSize 20
 :parentId "65e09cf9-5dff-439f-a735-92d59d3cf2cd"
-:nonce 1709219129834
+:nonce 1709219129839
 :italic false}}
-:block/updated-at 1709285767327} 
+:block/updated-at 1709957452440} 
 {:block/created-at 1709285767325
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -442,44 +472,14 @@
 :parentId "65e09cf9-5dff-439f-a735-92d59d3cf2cd"
 :nonce 1709219129818
 :italic false}}
-:block/updated-at 1709260717724} 
-{:block/created-at 1709285734236
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:isSizeLocked true
-:stroke ""
-:rotation 0
-:borderRadius 0
-:index 14
-:scale [1 1]
-:scaleLevel "lg"
-:fill ""
-:type "text"
-:size [134 49]
-:fontFamily "var(--ls-font-family)"
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "cac00fd0-d7ae-11ee-ac76-dd23226db8c8"
-:padding 4
-:fontWeight 400
-:noFill true
-:point [776 112]
-:lineHeight 1.2
-:fontSize 32
-:parentId "65e0a0e7-7637-4345-829c-b02db4fac506"
-:nonce 1709285622412
-:italic false
-:text "PGWarp"}}
-:block/updated-at 1709285734236})
+:block/updated-at 1709260717724})
 :pages (
-{:block/uuid #uuid "65e0a0e7-7637-4345-829c-b02db4fac506"
+{:block/uuid #uuid "65e831bc-9420-44b4-a638-cb061af2a612"
 :block/properties 
 {:ls-type :whiteboard-page
 :logseq.tldraw.page 
-{:id "65e0a0e7-7637-4345-829c-b02db4fac506"
-:name "pgwap architecture"
+{:id "65e831bc-9420-44b4-a638-cb061af2a612"
+:name "pgstream architecture"
 :bindings 
 {:82e3d0b0-d714-11ee-9a66-e7c6900baf2e 
 {:id "82e3d0b0-d714-11ee-9a66-e7c6900baf2e"
@@ -821,9 +821,9 @@
 :assets []
 :shapes-index ("ed6e8de0-d713-11ee-9a66-e7c6900baf2e" "f9de7400-d713-11ee-9a66-e7c6900baf2e" "03584ba0-d714-11ee-9a66-e7c6900baf2e" "1af2edb0-d714-11ee-9a66-e7c6900baf2e" "25bb8c72-d714-11ee-9a66-e7c6900baf2e" "2ac25282-d714-11ee-9a66-e7c6900baf2e" "4a00fac0-d714-11ee-9a66-e7c6900baf2e" "518c21c2-d714-11ee-9a66-e7c6900baf2e" "66b68720-d714-11ee-9a66-e7c6900baf2e" "7d11a452-d714-11ee-9a66-e7c6900baf2e" "82e3d0b2-d714-11ee-9a66-e7c6900baf2e" "91f340e2-d714-11ee-9a66-e7c6900baf2e" "a6d3a4f0-d714-11ee-9a66-e7c6900baf2e" "bfdc7d00-d714-11ee-9a66-e7c6900baf2e" "cac00fd0-d7ae-11ee-ac76-dd23226db8c8")}}
 :block/journal? false
-:block/updated-at 1709285786904
+:block/updated-at 1710264071124
 :block/created-at 1709219065105
 :block/format :markdown
 :block/type "whiteboard"
-:block/name "pgwap architecture"
-:block/original-name "PGWap Architecture"})}
+:block/name "pgstream architecture"
+:block/original-name "PGStream Architecture"})}
