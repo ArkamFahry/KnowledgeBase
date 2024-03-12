@@ -1,0 +1,23 @@
+tags:: [[SurrealDB]], [[CDC]]
+
+- # SurrealDB Change Feeds
+	- SurrealDB Change Feeds function as a mechanism to capture and deliver updates happening within the database in real-time. This functionality caters to various use cases and offers significant advantages
+	- ## SurrealDB Change Feeds Core Functionality
+		- **Capturing Changes**
+			- Change Feeds act as a channel, continuously recording modifications made to the database. These modifications include insertions, updates, and deletions of data within tables.
+		- **Streaming Updates**
+			- The recorded changes are presented as a message stream, ensuring that updates are delivered in the precise order they occurred. This characteristic is crucial for maintaining data consistency, especially during replication scenarios.
+	- ## Applications of SurrealDB Change Feeds
+		- **Data Synchronization**
+			- Change Feeds enable seamless data exchange between [[SurrealDB]] and external systems. This allows applications or other databases to stay updated with the latest information in SurrealDB. This is particularly valuable in microservice architectures where data needs to be consistent across various components.
+		- **Data Auditing and Monitoring**
+			- By capturing all modifications, Change Feeds provide a historical view of data changes. This facilitates auditing purposes, enabling you to track how data has evolved over time and identify potential issues.
+		- **Triggering Actions**
+			- Change Feeds can be used to trigger specific actions based on detected modifications. This functionality paves the way for building real-time applications that respond dynamically to data updates. For instance, data changes could be used to initiate notifications or automated tasks.
+		- **Disaster Recovery**
+			- Change Feeds offer a valuable tool for disaster recovery strategies. The captured stream of modifications can be utilized to replay events and restore the database to a previous state in case of unforeseen circumstances.
+		- **Internal Usage**
+			- SurrealDB also leverages Change Feeds internally to handle long-running tasks asynchronously. This helps ensure smooth operation without interrupting other database activities.
+	- Overall, Change Feeds are a powerful feature in SurrealDB that empowers developers to build data-driven applications that react to real-time updates and maintain data consistency across various systems.
+	- ## SurrealDB Change Feed Resources
+		- [SurrealDB | CF | The ultimate multi-model database](https://surrealdb.com/products/cf)
