@@ -12,5 +12,3 @@
 	- ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical){:height 158, :width 758}
 - ## 😂 Random Dev Meme
 	- <img src='https://randommeme-five.vercel.app/' style="height: 400px; width: 750px"/>
-- ## 🆕 Recent Notes and Posts
-	-
