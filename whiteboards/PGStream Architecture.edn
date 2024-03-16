@@ -821,9 +821,9 @@
 :assets []
 :shapes-index ("ed6e8de0-d713-11ee-9a66-e7c6900baf2e" "f9de7400-d713-11ee-9a66-e7c6900baf2e" "03584ba0-d714-11ee-9a66-e7c6900baf2e" "1af2edb0-d714-11ee-9a66-e7c6900baf2e" "25bb8c72-d714-11ee-9a66-e7c6900baf2e" "2ac25282-d714-11ee-9a66-e7c6900baf2e" "4a00fac0-d714-11ee-9a66-e7c6900baf2e" "518c21c2-d714-11ee-9a66-e7c6900baf2e" "66b68720-d714-11ee-9a66-e7c6900baf2e" "7d11a452-d714-11ee-9a66-e7c6900baf2e" "82e3d0b2-d714-11ee-9a66-e7c6900baf2e" "91f340e2-d714-11ee-9a66-e7c6900baf2e" "a6d3a4f0-d714-11ee-9a66-e7c6900baf2e" "bfdc7d00-d714-11ee-9a66-e7c6900baf2e" "cac00fd0-d7ae-11ee-ac76-dd23226db8c8")}}
 :block/journal? false
-:block/updated-at 1710264071124
+:block/updated-at 1710587153022
 :block/created-at 1709219065105
 :block/format :markdown
 :block/type "whiteboard"
 :block/name "pgstream architecture"
-:block/original-name "PGStream Architecture"})}
+:block/original-name "PgStream Architecture"})}
