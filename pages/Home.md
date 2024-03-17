@@ -9,7 +9,7 @@
 - ## 🐙 My Github
 	- [ArkamFahry · GitHub](https://github.com/ArkamFahry)
 - ## 📰 Random Dev News
-	- <iframe src="https://lobste.rs/" style="width: 100%; height: 400px"></iframe>
+	- <iframe src="https://lobste.rs" style="width: 100%; height: 400px"></iframe>
 - ## ✍️ Random Dev Quote
 	- ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical){:height 158, :width 758}
 - ## 😂 Random Dev Meme
