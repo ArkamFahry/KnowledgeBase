@@ -1,3 +1,5 @@
+tags:: [[Beam]]
+
 - # Elixir: A beautiful dynamic, functional programing language for building scalable
 	- ![elixir.png](../assets/elixir_1688224138918_0.png){:height 359, :width 753}
 	- ## Elixir Resources
