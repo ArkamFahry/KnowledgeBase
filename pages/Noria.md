@@ -5,3 +5,4 @@ tags:: [[Rust]], [[Dataflow]]
 	- ## Noria Resources
 		- [GitHub - mit-pdos/noria: Fast web applications through dynamic, partially-stateful dataflow](https://github.com/mit-pdos/noria)
 		- [Noria: dynamic, partially-stateful data-flow for high-performance web applications | USENIX](https://www.usenix.org/conference/osdi18/presentation/gjengset)
+		- ![Partial State in Dataflow-Based Materialized Views.pdf](../assets/Partial_State_in_Dataflow-Based_Materialized_Views_1710658133349_0.pdf)
