@@ -1,4 +1,6 @@
-# Beam
+tags:: [[Actor Model]]
+
+- # Beam
 	- The BEAM (Bogdan/Björn's Erlang Abstract Machine) is the virtual machine at the core of the Erlang runtime system. It is responsible for executing Erlang and [[Elixir]] code, managing processes, handling memory, and providing the concurrency and fault-tolerance features that make Erlang a powerful language for building distributed, fault-tolerant systems.
 	- ## Detailed explanation of the BEAM
 		- **Concurrency and Processes**
