@@ -1,0 +1,11 @@
+# Reactive Programming
+	- Reactive Programming is a programming paradigm focused on asynchronous data streams and the propagation of change. It enables you to express the behavior of a system in terms of observable streams of data and the transformation of those streams.
+	- ## The three main concepts of reactive programming
+		- **Observable**
+			- An Observable is a representation of any set of values over time. It emits these values (or events) asynchronously, and other parts of your application can subscribe to these emissions. Observables can emit any number of values, including zero, and can also emit an error or complete signal.
+		- **Observer**
+			- An Observer is a consumer of values emitted by an Observable. It defines how to react to the emissions, whether to process them, display them, or take any other action.
+		- **Operators**
+			- Operators are functions that allow you to transform, filter, combine, or manipulate the data emitted by Observables. These operators can be used to create new Observables from existing ones, enabling you to chain operations together in a declarative and composable manner.
+	- In reactive programming, you create a data flow pipeline where data is emitted by Observables, transformed by Operators, and consumed by Observers. This approach allows you to write code that is more declarative, concise, and easier to reason about compared to traditional imperative programming.
+	- Reactive programming is particularly well-suited for building applications that require handling asynchronous events, such as web applications with real-time updates, mobile apps with responsive UIs, or systems with streaming data. Popular reactive programming libraries and frameworks include RxJava, [[RxJS]], Reactor, and Akka.
