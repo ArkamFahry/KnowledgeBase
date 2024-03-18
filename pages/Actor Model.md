@@ -1,6 +1,6 @@
 # Actor Model
 	- The [Actor Model](https://en.wikipedia.org/wiki/Actor_model) is a conceptual framework for building concurrent and distributed systems. It was first proposed by [Carl Hewitt](https://en.wikipedia.org/wiki/Carl_Hewitt) in the 1970s as a way to model concurrent computation. The key idea behind the Actor Model is to treat actors as the fundamental unit of computation, where each actor is an independent entity that can communicate with other actors by sending and receiving messages.
-	- ## The key concepts of the Actor Model:
+	- ## The key concepts of the Actor Model
 		- **Actor**
 			- An actor is a computational entity that encapsulates state, behavior, and a mailbox for receiving messages. Actors are independent of each other and can only communicate by exchanging messages. Actors can create new actors, send messages to other actors, and change their own behavior in response to messages.
 		- **Message**
