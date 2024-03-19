@@ -4,3 +4,4 @@ tags:: [[PostgreSQL]]
 	- A set of tools, services and extensions for [[PostgreSQL]].
 	- ## PgStack Services
 		- [[PgStream]]
+		- [[PgCache]]
