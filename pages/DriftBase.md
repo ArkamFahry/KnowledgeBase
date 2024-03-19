@@ -1,2 +1,4 @@
-# DriftBase
+tags:: [[BaaS]], [[FaaS]]
+
+- # DriftBase
 	-
