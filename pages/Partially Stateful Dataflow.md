@@ -1,0 +1,27 @@
+tags:: [[Dataflow]]
+
+- # Partially Stateful Dataflow
+	- Partially Stateful Dataflow (PSDF) is a computational model that combines elements of both stateless and stateful data processing. It is often used in distributed systems to manage data processing pipelines efficiently.
+	- ## Key components and concepts of Partially Stateful Dataflow
+		- **Stateless Processing**
+			- In a traditional stateless dataflow model, each processing unit (often called a worker or node) operates independently and processes data without considering the state of other nodes. This makes the system simple and scalable, as nodes can be added or removed without affecting the overall computation.
+		- **Stateful Processing**
+			- In contrast, stateful processing involves maintaining some form of state between processing operations. This state can include intermediate results, configuration parameters, or other data needed for computation. Stateful processing is useful for operations that require context or need to maintain state across multiple data items.
+		- **Partial Statefulness**
+			- PSDF combines these two approaches by allowing certain parts of the dataflow to be stateful while keeping other parts stateless. This hybrid approach provides a balance between the simplicity of stateless processing and the power of stateful processing.
+		- **Example Scenario**
+			- Consider a distributed data processing pipeline for analyzing user behavior on a website. The pipeline consists of several stages, including data collection, aggregation, and analysis.
+				- **Data Collection (Stateless)**
+					- The initial stage of the pipeline collects raw user interaction data from various sources. This stage is stateless, as each data item is processed independently without any shared state between them.
+				- **Aggregation (Partially Stateful)**
+					- The next stage aggregates the raw data to generate metrics such as page views per hour or user sessions per day. This stage is partially stateful, as it needs to maintain state (e.g., running totals) across multiple data items to compute these metrics accurately.
+				- **Analysis (Stateless)**
+					- The final stage analyzes the aggregated data to derive insights, such as identifying trends or anomalies in user behavior. This stage is stateless, as each analysis can be performed independently of previous analyses.
+		- **Benefits**
+			- **Flexibility**
+				- PSDF allows for a flexible combination of stateful and stateless processing, allowing developers to choose the right approach for each part of the dataflow.
+			- **Efficiency**
+				- By selectively applying stateful processing only where necessary, PSDF can improve the efficiency of data processing pipelines, reducing the overall computational overhead.
+			- **Scalability**
+				- PSDF can scale to handle large volumes of data by distributing processing across multiple nodes while managing state efficiently.
+	- In summary, Partially Stateful Dataflow (PSDF) combines the simplicity of stateless processing with the power of stateful processing, offering a flexible and efficient approach to managing distributed data processing pipelines.

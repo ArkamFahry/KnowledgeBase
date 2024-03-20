@@ -1,4 +1,4 @@
-tags:: [[Rust]], [[Noria]], [[Dataflow]]
+tags:: [[Rust]], [[Noria]], [[Partially Stateful Dataflow]]
 
 - # ReadySet
 	- ![readyset.png](../assets/readyset_1705635664711_0.png)
