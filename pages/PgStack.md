@@ -9,7 +9,7 @@ tags:: [[PostgreSQL]]
 		- [[PgCache]]
 		- [[PgRealtime]]
 		- [[PgSearch]]
-		- [[PgReplicate]]
+		- [[PgSync]]
 	- ## PgStack Extensions
 		- [[PgNATS]]
 		- [[PgMeilisearch]]
