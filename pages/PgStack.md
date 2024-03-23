@@ -9,3 +9,8 @@ tags:: [[PostgreSQL]]
 		- [[PgCache]]
 		- [[PgRealtime]]
 		- [[PgSearch]]
+		- [[PgReplicate]]
+	- ## PgStack Extensions
+		- [[PgNATS]]
+		- [[PgMeilisearch]]
+		- [[PgTypesense]]
