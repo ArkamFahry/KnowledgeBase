@@ -1,5 +1,7 @@
-# Relational Algebra
-	- Relational Algebra is a formal language for the relational database model, used to describe operations that can be performed on relations (tables) to manipulate and retrieve data. It provides a set of operations that can be applied to relations to produce new relations. These operations are primarily used for querying databases and forming the basis for SQL queries.
+tags:: [[Algebra]]
+
+- # Relational Algebra
+	- Relational Algebra is a formal language for the [[Relational Database]] model, used to describe operations that can be performed on relations (tables) to manipulate and retrieve data. It provides a set of operations that can be applied to relations to produce new relations. These operations are primarily used for querying databases and forming the basis for SQL queries.
 	- ## Key concepts in Relational Algebra include
 		- **Relations**
 			- In Relational Algebra, relations are similar to tables in a database. A relation consists of a set of tuples (rows), each representing a unique record, and attributes (columns), which define the characteristics of the data.
