@@ -1,0 +1,30 @@
+# Relational Algebra
+	- Relational Algebra is a formal language for the relational database model, used to describe operations that can be performed on relations (tables) to manipulate and retrieve data. It provides a set of operations that can be applied to relations to produce new relations. These operations are primarily used for querying databases and forming the basis for SQL queries.
+	- ## Key concepts in Relational Algebra include
+		- **Relations**
+			- In Relational Algebra, relations are similar to tables in a database. A relation consists of a set of tuples (rows), each representing a unique record, and attributes (columns), which define the characteristics of the data.
+		- **Operations**
+			- Relational Algebra provides a set of operations to manipulate relations. Some of the fundamental operations include
+				- **Selection (σ)**
+					- Selects rows from a relation that satisfy a specified condition.
+				- **Projection (π)**
+					- Selects a subset of columns from a relation.
+				- **Union (∪)**
+					- Combines two relations into a single relation, removing duplicate rows.
+				- **Intersection (∩)**
+					- Retrieves common rows from two relations.
+				- **Difference (−)**
+					- Retrieves rows from one relation that are not present in another relation.
+				- **Cartesian Product (×)**
+					- Combines every tuple from one relation with every tuple from another relation.
+				- **Join (⋈)**
+					- Combines columns from two relations based on a related column between them.
+		- **Closure**
+			- Relational Algebra operations are closed, meaning that the result of an operation is always another relation. This property ensures that the output of one operation can be used as input for another, allowing for complex queries to be constructed.
+		- **Set Theory**
+			- Relational Algebra is based on set theory, where relations are treated as sets of tuples. This allows for operations such as union, intersection, and difference to be applied to relations.
+		- **Expressiveness**
+			- While Relational Algebra provides a set of basic operations, it is also expressive enough to perform complex queries. By combining operations and nesting them, users can formulate queries to retrieve specific information from a database.
+		- **Formalism**
+			- Relational Algebra provides a formal framework for querying databases, making it possible to reason about the correctness and efficiency of queries.
+	- Overall, Relational Algebra serves as the foundation for querying a [[Relational Database]], providing a formal and expressive language for manipulating relations and retrieving data. Understanding Relational Algebra is essential for database developers and administrators to design efficient and effective database queries.
