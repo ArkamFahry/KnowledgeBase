@@ -1,0 +1,22 @@
+tags:: [[OS]]
+
+- # VM
+	- A VM, or Virtual Machine, is a software emulation of a physical computer. It enables you to run multiple operating systems ([[OS]]) on a single physical machine, known as the host machine. Each virtual machine operates as if it were a standalone computer, with its own virtual CPU, memory, storage, and other hardware components.
+	- ## Key components and concepts related to VMs
+		- **Hypervisor**
+			- The hypervisor is a layer of software that manages and allocates the physical resources of the host machine to the virtual machines. It creates and runs the virtual machines, ensuring they operate efficiently and securely. There are two types of hypervisors: Type 1 (bare-metal) hypervisors run directly on the host's hardware, while Type 2 (hosted) hypervisors run on a conventional operating system.
+		- **Virtual Machine Monitor (VMM)**
+			- The VMM, also known as a Virtual Machine Manager, is a software layer within the hypervisor that controls the virtual machines. It allocates physical resources, manages virtual machine execution, and provides a platform for the guest operating systems to run.
+		- **Guest Operating System**
+			- Each virtual machine runs its own guest operating system, independent of the host and other virtual machines. This allows you to run different operating systems simultaneously on the same physical hardware.
+		- **Virtual Hardware**
+			- The virtual hardware emulates the physical components of a computer, such as CPU, memory, storage, and network interfaces. The hypervisor allocates physical resources to the virtual machines as needed, ensuring efficient use of the host's resources.
+		- **Virtual Disk**
+			- Virtual machines use virtual disks, which are files on the host's storage system that act as the VM's hard drive. These virtual disks can be dynamically resized and are portable, making it easy to move virtual machines between host machines.
+		- **Snapshots**
+			- VM snapshots capture the state of a virtual machine at a specific point in time. They allow you to revert the VM to a previous state if needed, which is useful for testing, debugging, or recovering from system failures.
+		- **Migration**
+			- VM migration allows you to move a running virtual machine from one host machine to another without interrupting its operation. This can be done for load balancing, hardware maintenance, or other purposes.
+		- **Isolation**
+			- Virtual machines are isolated from each other and from the host system, providing a level of security and preventing one VM from affecting others if it crashes or becomes compromised.
+	- Overall, virtual machines provide a flexible and efficient way to utilize physical hardware, allowing for better resource management, scalability, and cost-effectiveness in computing environments.
